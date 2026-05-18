@@ -1,0 +1,55 @@
+name: stomics_0224_wilcoxon_spatial_main_native_all_features
+output_dir: results/spatial_main_native_seed0_fix3/stomics_0224_wilcoxon_spatial_main
+datasets:
+- configs/datasets/stomics_0224_wilcoxon.yaml
+feature_selection_methods:
+- name: all_features
+integration_methods:
+- name: scvi
+  params:
+    n_latent: 30
+    max_epochs: 100
+    batch_size: 2048
+- name: cellcharter
+  params:
+    n_latent: 30
+    nhood_layers: 4
+    spatial_neighbors: 6
+    max_epochs: 100
+- name: gpsa
+  params:
+    n_input_dims: 20
+    m_x_per_view: 50
+    m_g: 50
+    max_epochs: 200
+    learning_rate: 0.01
+    fixed_view_idx: 0
+- name: staligner
+  params:
+    hidden_dims:
+    - 128
+    - 30
+    n_epochs: 600
+    lr: 0.001
+    knn_neigh: 50
+    radius_cutoff: 50.0
+tasks:
+- name: integration_eval
+  params:
+    n_neighbors: 15
+    max_eval_cells: 12000
+- name: clustering_eval
+  params:
+    n_clusters: 8
+    n_neighbors: 8
+    silhouette_sample_size: 10000
+    max_eval_cells: 12000
+- name: alignment_eval
+  params:
+    n_neighbors: 10
+    max_points_per_slice: 2500
+n_features:
+- 1
+seeds:
+- 0
+save_embeddings: true

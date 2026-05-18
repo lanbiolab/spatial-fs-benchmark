@@ -1,0 +1,22 @@
+Method	Label
+TFs-N2000	Transcription factors
+all_features-Nall	All features
+anticor-N2000	Anticor
+hotspot-N2000	Hotspot
+nbumi-N2000	NBumi
+osca-N2000	OSCA
+random-N500	Random (N=500)
+scPNMF-N2000	scPNMF
+scanpy_cell_ranger-N2000	scanpy-CellRanger
+scanpy_cell_ranger_batch-N2000	scanpy-CellRanger (batch)
+scanpy_pearson-N2000	scanpy-Pearson
+scanpy_pearson_batch-N2000	scanpy-Pearson (batch)
+scanpy_seurat-N2000	scanpy-Seurat
+scanpy_seurat_batch-N2000	scanpy-Seurat (batch)
+scanpy_seurat_v3-N2000	scanpy-SeuratV3
+scanpy_seurat_v3_batch-N2000	scanpy-SeuratV3 (batch)
+scsegindex-N2000	scSEGIndex
+seurat_sct-N2000	Seurat-scTransform
+statistic_mean-N2000	Statistic mean
+statistic_variance-N2000	Statistic variance
+triku-N2000	triku

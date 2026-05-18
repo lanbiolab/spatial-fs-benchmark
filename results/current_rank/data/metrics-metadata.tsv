@@ -1,0 +1,17 @@
+Metric	Name	Included	HigherBetter	Type
+dASW	dASW	True	True	Integration
+dLISI	dLISI	True	True	Integration
+ILL	ILL	True	True	Integration
+bASW	bASW	True	True	Integration
+iLISI	iLISI	True	True	Integration
+GC	GC	True	True	Integration
+ari	ARI	True	True	Clustering
+nmi	NMI	True	True	Clustering
+CHAOS	CHAOS	True	False	Clustering
+PAS	PAS	True	False	Clustering
+Accuracy	Accuracy	True	True	Alignment
+Ratio	Ratio	True	False	Alignment
+slice_repr_ARI	ARI	True	True	SliceRepresentation
+slice_repr_NMI	NMI	True	True	SliceRepresentation
+slice_repr_distance_mean	DistanceMean	False	False	SliceRepresentation
+silhouette	Silhouette	False	True	Clustering

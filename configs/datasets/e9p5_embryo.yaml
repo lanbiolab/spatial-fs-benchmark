@@ -1,0 +1,13 @@
+name: E9p5Embryo
+path: data/raw/E9.5 embryo/e9p5_embryo_multislice_region_q30_70.h5ad
+sample_data_dir: data/raw/E9.5 embryo
+platform: Slide-seq
+species: Mouse
+slice_key: sample_id
+coord_key: spatial
+preprocess:
+  normalize_total: true
+  target_sum: 10000.0
+  log1p: true
+  scale: false
+  min_cells_per_gene: 3

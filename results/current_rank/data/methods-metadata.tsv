@@ -1,0 +1,262 @@
+Method	Name	IsBaseline	Kind
+Brennecke	Brennecke	False	selector-family
+Brennecke-N100	Brennecke (N=100)	False	selector-setting
+Brennecke-N200	Brennecke (N=200)	False	selector-setting
+Brennecke-N500	Brennecke (N=500)	False	selector-setting
+Brennecke-N1000	Brennecke (N=1000)	False	selector-setting
+Brennecke-N2000	Brennecke (N=2000)	False	selector-setting
+Brennecke-N5000	Brennecke (N=5000)	False	selector-setting
+Brennecke-N10000	Brennecke (N=10000)	False	selector-setting
+Brennecke-Nall	Brennecke (N=all)	False	selector-setting
+TFs	Transcription factors	False	selector-family
+TFs-N100	Transcription factors (N=100)	False	selector-setting
+TFs-N200	Transcription factors (N=200)	False	selector-setting
+TFs-N500	Transcription factors (N=500)	False	selector-setting
+TFs-N1000	Transcription factors (N=1000)	False	selector-setting
+TFs-N2000	Transcription factors (N=2000)	False	selector-setting
+TFs-N5000	Transcription factors (N=5000)	False	selector-setting
+TFs-N10000	Transcription factors (N=10000)	False	selector-setting
+TFs-Nall	Transcription factors (N=all)	False	selector-setting
+all_features	All features	True	selector-family
+all_features-N100	All features (N=100)	True	selector-setting
+all_features-N200	All features (N=200)	True	selector-setting
+all_features-N500	All features (N=500)	True	selector-setting
+all_features-N1000	All features (N=1000)	True	selector-setting
+all_features-N2000	All features (N=2000)	True	selector-setting
+all_features-N5000	All features (N=5000)	True	selector-setting
+all_features-N10000	All features (N=10000)	True	selector-setting
+all_features-Nall	All features (N=all)	True	selector-setting
+anticor	Anticor	False	selector-family
+anticor-N100	Anticor (N=100)	False	selector-setting
+anticor-N200	Anticor (N=200)	False	selector-setting
+anticor-N500	Anticor (N=500)	False	selector-setting
+anticor-N1000	Anticor (N=1000)	False	selector-setting
+anticor-N2000	Anticor (N=2000)	False	selector-setting
+anticor-N5000	Anticor (N=5000)	False	selector-setting
+anticor-N10000	Anticor (N=10000)	False	selector-setting
+anticor-Nall	Anticor (N=all)	False	selector-setting
+dubstepr	DUBStepR	False	selector-family
+dubstepr-N100	DUBStepR (N=100)	False	selector-setting
+dubstepr-N200	DUBStepR (N=200)	False	selector-setting
+dubstepr-N500	DUBStepR (N=500)	False	selector-setting
+dubstepr-N1000	DUBStepR (N=1000)	False	selector-setting
+dubstepr-N2000	DUBStepR (N=2000)	False	selector-setting
+dubstepr-N5000	DUBStepR (N=5000)	False	selector-setting
+dubstepr-N10000	DUBStepR (N=10000)	False	selector-setting
+dubstepr-Nall	DUBStepR (N=all)	False	selector-setting
+hotspot	Hotspot	False	selector-family
+hotspot-N100	Hotspot (N=100)	False	selector-setting
+hotspot-N200	Hotspot (N=200)	False	selector-setting
+hotspot-N500	Hotspot (N=500)	False	selector-setting
+hotspot-N1000	Hotspot (N=1000)	False	selector-setting
+hotspot-N2000	Hotspot (N=2000)	False	selector-setting
+hotspot-N5000	Hotspot (N=5000)	False	selector-setting
+hotspot-N10000	Hotspot (N=10000)	False	selector-setting
+hotspot-Nall	Hotspot (N=all)	False	selector-setting
+nbumi	NBumi	False	selector-family
+nbumi-N100	NBumi (N=100)	False	selector-setting
+nbumi-N200	NBumi (N=200)	False	selector-setting
+nbumi-N500	NBumi (N=500)	False	selector-setting
+nbumi-N1000	NBumi (N=1000)	False	selector-setting
+nbumi-N2000	NBumi (N=2000)	False	selector-setting
+nbumi-N5000	NBumi (N=5000)	False	selector-setting
+nbumi-N10000	NBumi (N=10000)	False	selector-setting
+nbumi-Nall	NBumi (N=all)	False	selector-setting
+osca	OSCA	False	selector-family
+osca-N100	OSCA (N=100)	False	selector-setting
+osca-N200	OSCA (N=200)	False	selector-setting
+osca-N500	OSCA (N=500)	False	selector-setting
+osca-N1000	OSCA (N=1000)	False	selector-setting
+osca-N2000	OSCA (N=2000)	False	selector-setting
+osca-N5000	OSCA (N=5000)	False	selector-setting
+osca-N10000	OSCA (N=10000)	False	selector-setting
+osca-Nall	OSCA (N=all)	False	selector-setting
+random	Random	True	selector-family
+random-N100	Random (N=100)	True	selector-setting
+random-N200	Random (N=200)	True	selector-setting
+random-N500	Random (N=500)	True	selector-setting
+random-N1000	Random (N=1000)	True	selector-setting
+random-N2000	Random (N=2000)	True	selector-setting
+random-N5000	Random (N=5000)	True	selector-setting
+random-N10000	Random (N=10000)	True	selector-setting
+random-Nall	Random (N=all)	True	selector-setting
+scPNMF	scPNMF	False	selector-family
+scPNMF-N100	scPNMF (N=100)	False	selector-setting
+scPNMF-N200	scPNMF (N=200)	False	selector-setting
+scPNMF-N500	scPNMF (N=500)	False	selector-setting
+scPNMF-N1000	scPNMF (N=1000)	False	selector-setting
+scPNMF-N2000	scPNMF (N=2000)	False	selector-setting
+scPNMF-N5000	scPNMF (N=5000)	False	selector-setting
+scPNMF-N10000	scPNMF (N=10000)	False	selector-setting
+scPNMF-Nall	scPNMF (N=all)	False	selector-setting
+scanpy_cell_ranger	scanpy-CellRanger	False	selector-family
+scanpy_cell_ranger-N100	scanpy-CellRanger (N=100)	False	selector-setting
+scanpy_cell_ranger-N200	scanpy-CellRanger (N=200)	False	selector-setting
+scanpy_cell_ranger-N500	scanpy-CellRanger (N=500)	False	selector-setting
+scanpy_cell_ranger-N1000	scanpy-CellRanger (N=1000)	False	selector-setting
+scanpy_cell_ranger-N2000	scanpy-CellRanger (N=2000)	False	selector-setting
+scanpy_cell_ranger-N5000	scanpy-CellRanger (N=5000)	False	selector-setting
+scanpy_cell_ranger-N10000	scanpy-CellRanger (N=10000)	False	selector-setting
+scanpy_cell_ranger-Nall	scanpy-CellRanger (N=all)	False	selector-setting
+scanpy_cell_ranger_batch	scanpy-CellRanger (batch)	False	selector-family
+scanpy_cell_ranger_batch-N100	scanpy-CellRanger (batch) (N=100)	False	selector-setting
+scanpy_cell_ranger_batch-N200	scanpy-CellRanger (batch) (N=200)	False	selector-setting
+scanpy_cell_ranger_batch-N500	scanpy-CellRanger (batch) (N=500)	False	selector-setting
+scanpy_cell_ranger_batch-N1000	scanpy-CellRanger (batch) (N=1000)	False	selector-setting
+scanpy_cell_ranger_batch-N2000	scanpy-CellRanger (batch) (N=2000)	False	selector-setting
+scanpy_cell_ranger_batch-N5000	scanpy-CellRanger (batch) (N=5000)	False	selector-setting
+scanpy_cell_ranger_batch-N10000	scanpy-CellRanger (batch) (N=10000)	False	selector-setting
+scanpy_cell_ranger_batch-Nall	scanpy-CellRanger (batch) (N=all)	False	selector-setting
+scanpy_pearson	scanpy-Pearson	False	selector-family
+scanpy_pearson-N100	scanpy-Pearson (N=100)	False	selector-setting
+scanpy_pearson-N200	scanpy-Pearson (N=200)	False	selector-setting
+scanpy_pearson-N500	scanpy-Pearson (N=500)	False	selector-setting
+scanpy_pearson-N1000	scanpy-Pearson (N=1000)	False	selector-setting
+scanpy_pearson-N2000	scanpy-Pearson (N=2000)	False	selector-setting
+scanpy_pearson-N5000	scanpy-Pearson (N=5000)	False	selector-setting
+scanpy_pearson-N10000	scanpy-Pearson (N=10000)	False	selector-setting
+scanpy_pearson-Nall	scanpy-Pearson (N=all)	False	selector-setting
+scanpy_pearson_batch	scanpy-Pearson (batch)	False	selector-family
+scanpy_pearson_batch-N100	scanpy-Pearson (batch) (N=100)	False	selector-setting
+scanpy_pearson_batch-N200	scanpy-Pearson (batch) (N=200)	False	selector-setting
+scanpy_pearson_batch-N500	scanpy-Pearson (batch) (N=500)	False	selector-setting
+scanpy_pearson_batch-N1000	scanpy-Pearson (batch) (N=1000)	False	selector-setting
+scanpy_pearson_batch-N2000	scanpy-Pearson (batch) (N=2000)	False	selector-setting
+scanpy_pearson_batch-N5000	scanpy-Pearson (batch) (N=5000)	False	selector-setting
+scanpy_pearson_batch-N10000	scanpy-Pearson (batch) (N=10000)	False	selector-setting
+scanpy_pearson_batch-Nall	scanpy-Pearson (batch) (N=all)	False	selector-setting
+scanpy_seurat	scanpy-Seurat	False	selector-family
+scanpy_seurat-N100	scanpy-Seurat (N=100)	False	selector-setting
+scanpy_seurat-N200	scanpy-Seurat (N=200)	False	selector-setting
+scanpy_seurat-N500	scanpy-Seurat (N=500)	False	selector-setting
+scanpy_seurat-N1000	scanpy-Seurat (N=1000)	False	selector-setting
+scanpy_seurat-N2000	scanpy-Seurat (N=2000)	False	selector-setting
+scanpy_seurat-N5000	scanpy-Seurat (N=5000)	False	selector-setting
+scanpy_seurat-N10000	scanpy-Seurat (N=10000)	False	selector-setting
+scanpy_seurat-Nall	scanpy-Seurat (N=all)	False	selector-setting
+scanpy_seurat_batch	scanpy-Seurat (batch)	False	selector-family
+scanpy_seurat_batch-N100	scanpy-Seurat (batch) (N=100)	False	selector-setting
+scanpy_seurat_batch-N200	scanpy-Seurat (batch) (N=200)	False	selector-setting
+scanpy_seurat_batch-N500	scanpy-Seurat (batch) (N=500)	False	selector-setting
+scanpy_seurat_batch-N1000	scanpy-Seurat (batch) (N=1000)	False	selector-setting
+scanpy_seurat_batch-N2000	scanpy-Seurat (batch) (N=2000)	False	selector-setting
+scanpy_seurat_batch-N5000	scanpy-Seurat (batch) (N=5000)	False	selector-setting
+scanpy_seurat_batch-N10000	scanpy-Seurat (batch) (N=10000)	False	selector-setting
+scanpy_seurat_batch-Nall	scanpy-Seurat (batch) (N=all)	False	selector-setting
+scanpy_seurat_v3	scanpy-SeuratV3	False	selector-family
+scanpy_seurat_v3-N100	scanpy-SeuratV3 (N=100)	False	selector-setting
+scanpy_seurat_v3-N200	scanpy-SeuratV3 (N=200)	False	selector-setting
+scanpy_seurat_v3-N500	scanpy-SeuratV3 (N=500)	False	selector-setting
+scanpy_seurat_v3-N1000	scanpy-SeuratV3 (N=1000)	False	selector-setting
+scanpy_seurat_v3-N2000	scanpy-SeuratV3 (N=2000)	False	selector-setting
+scanpy_seurat_v3-N5000	scanpy-SeuratV3 (N=5000)	False	selector-setting
+scanpy_seurat_v3-N10000	scanpy-SeuratV3 (N=10000)	False	selector-setting
+scanpy_seurat_v3-Nall	scanpy-SeuratV3 (N=all)	False	selector-setting
+scanpy_seurat_v3_batch	scanpy-SeuratV3 (batch)	False	selector-family
+scanpy_seurat_v3_batch-N100	scanpy-SeuratV3 (batch) (N=100)	False	selector-setting
+scanpy_seurat_v3_batch-N200	scanpy-SeuratV3 (batch) (N=200)	False	selector-setting
+scanpy_seurat_v3_batch-N500	scanpy-SeuratV3 (batch) (N=500)	False	selector-setting
+scanpy_seurat_v3_batch-N1000	scanpy-SeuratV3 (batch) (N=1000)	False	selector-setting
+scanpy_seurat_v3_batch-N2000	scanpy-SeuratV3 (batch) (N=2000)	False	selector-setting
+scanpy_seurat_v3_batch-N5000	scanpy-SeuratV3 (batch) (N=5000)	False	selector-setting
+scanpy_seurat_v3_batch-N10000	scanpy-SeuratV3 (batch) (N=10000)	False	selector-setting
+scanpy_seurat_v3_batch-Nall	scanpy-SeuratV3 (batch) (N=all)	False	selector-setting
+scry	scry	False	selector-family
+scry-N100	scry (N=100)	False	selector-setting
+scry-N200	scry (N=200)	False	selector-setting
+scry-N500	scry (N=500)	False	selector-setting
+scry-N1000	scry (N=1000)	False	selector-setting
+scry-N2000	scry (N=2000)	False	selector-setting
+scry-N5000	scry (N=5000)	False	selector-setting
+scry-N10000	scry (N=10000)	False	selector-setting
+scry-Nall	scry (N=all)	False	selector-setting
+scsegindex	scSEGIndex	False	selector-family
+scsegindex-N100	scSEGIndex (N=100)	False	selector-setting
+scsegindex-N200	scSEGIndex (N=200)	False	selector-setting
+scsegindex-N500	scSEGIndex (N=500)	False	selector-setting
+scsegindex-N1000	scSEGIndex (N=1000)	False	selector-setting
+scsegindex-N2000	scSEGIndex (N=2000)	False	selector-setting
+scsegindex-N5000	scSEGIndex (N=5000)	False	selector-setting
+scsegindex-N10000	scSEGIndex (N=10000)	False	selector-setting
+scsegindex-Nall	scSEGIndex (N=all)	False	selector-setting
+seurat_disp	Seurat-Dispersion	False	selector-family
+seurat_disp-N100	Seurat-Dispersion (N=100)	False	selector-setting
+seurat_disp-N200	Seurat-Dispersion (N=200)	False	selector-setting
+seurat_disp-N500	Seurat-Dispersion (N=500)	False	selector-setting
+seurat_disp-N1000	Seurat-Dispersion (N=1000)	False	selector-setting
+seurat_disp-N2000	Seurat-Dispersion (N=2000)	False	selector-setting
+seurat_disp-N5000	Seurat-Dispersion (N=5000)	False	selector-setting
+seurat_disp-N10000	Seurat-Dispersion (N=10000)	False	selector-setting
+seurat_disp-Nall	Seurat-Dispersion (N=all)	False	selector-setting
+seurat_mvp	Seurat-MVP	False	selector-family
+seurat_mvp-N100	Seurat-MVP (N=100)	False	selector-setting
+seurat_mvp-N200	Seurat-MVP (N=200)	False	selector-setting
+seurat_mvp-N500	Seurat-MVP (N=500)	False	selector-setting
+seurat_mvp-N1000	Seurat-MVP (N=1000)	False	selector-setting
+seurat_mvp-N2000	Seurat-MVP (N=2000)	False	selector-setting
+seurat_mvp-N5000	Seurat-MVP (N=5000)	False	selector-setting
+seurat_mvp-N10000	Seurat-MVP (N=10000)	False	selector-setting
+seurat_mvp-Nall	Seurat-MVP (N=all)	False	selector-setting
+seurat_sct	Seurat-scTransform	False	selector-family
+seurat_sct-N100	Seurat-scTransform (N=100)	False	selector-setting
+seurat_sct-N200	Seurat-scTransform (N=200)	False	selector-setting
+seurat_sct-N500	Seurat-scTransform (N=500)	False	selector-setting
+seurat_sct-N1000	Seurat-scTransform (N=1000)	False	selector-setting
+seurat_sct-N2000	Seurat-scTransform (N=2000)	False	selector-setting
+seurat_sct-N5000	Seurat-scTransform (N=5000)	False	selector-setting
+seurat_sct-N10000	Seurat-scTransform (N=10000)	False	selector-setting
+seurat_sct-Nall	Seurat-scTransform (N=all)	False	selector-setting
+seurat_vst	Seurat-VST	False	selector-family
+seurat_vst-N100	Seurat-VST (N=100)	False	selector-setting
+seurat_vst-N200	Seurat-VST (N=200)	False	selector-setting
+seurat_vst-N500	Seurat-VST (N=500)	False	selector-setting
+seurat_vst-N1000	Seurat-VST (N=1000)	False	selector-setting
+seurat_vst-N2000	Seurat-VST (N=2000)	False	selector-setting
+seurat_vst-N5000	Seurat-VST (N=5000)	False	selector-setting
+seurat_vst-N10000	Seurat-VST (N=10000)	False	selector-setting
+seurat_vst-Nall	Seurat-VST (N=all)	False	selector-setting
+singleCellHaystack	singleCellHaystack	False	selector-family
+singleCellHaystack-N100	singleCellHaystack (N=100)	False	selector-setting
+singleCellHaystack-N200	singleCellHaystack (N=200)	False	selector-setting
+singleCellHaystack-N500	singleCellHaystack (N=500)	False	selector-setting
+singleCellHaystack-N1000	singleCellHaystack (N=1000)	False	selector-setting
+singleCellHaystack-N2000	singleCellHaystack (N=2000)	False	selector-setting
+singleCellHaystack-N5000	singleCellHaystack (N=5000)	False	selector-setting
+singleCellHaystack-N10000	singleCellHaystack (N=10000)	False	selector-setting
+singleCellHaystack-Nall	singleCellHaystack (N=all)	False	selector-setting
+statistic_mean	Statistic mean	False	selector-family
+statistic_mean-N100	Statistic mean (N=100)	False	selector-setting
+statistic_mean-N200	Statistic mean (N=200)	False	selector-setting
+statistic_mean-N500	Statistic mean (N=500)	False	selector-setting
+statistic_mean-N1000	Statistic mean (N=1000)	False	selector-setting
+statistic_mean-N2000	Statistic mean (N=2000)	False	selector-setting
+statistic_mean-N5000	Statistic mean (N=5000)	False	selector-setting
+statistic_mean-N10000	Statistic mean (N=10000)	False	selector-setting
+statistic_mean-Nall	Statistic mean (N=all)	False	selector-setting
+statistic_variance	Statistic variance	False	selector-family
+statistic_variance-N100	Statistic variance (N=100)	False	selector-setting
+statistic_variance-N200	Statistic variance (N=200)	False	selector-setting
+statistic_variance-N500	Statistic variance (N=500)	False	selector-setting
+statistic_variance-N1000	Statistic variance (N=1000)	False	selector-setting
+statistic_variance-N2000	Statistic variance (N=2000)	False	selector-setting
+statistic_variance-N5000	Statistic variance (N=5000)	False	selector-setting
+statistic_variance-N10000	Statistic variance (N=10000)	False	selector-setting
+statistic_variance-Nall	Statistic variance (N=all)	False	selector-setting
+triku	triku	False	selector-family
+triku-N100	triku (N=100)	False	selector-setting
+triku-N200	triku (N=200)	False	selector-setting
+triku-N500	triku (N=500)	False	selector-setting
+triku-N1000	triku (N=1000)	False	selector-setting
+triku-N2000	triku (N=2000)	False	selector-setting
+triku-N5000	triku (N=5000)	False	selector-setting
+triku-N10000	triku (N=10000)	False	selector-setting
+triku-Nall	triku (N=all)	False	selector-setting
+wilcoxon	Wilcoxon	False	selector-family
+wilcoxon-N100	Wilcoxon (N=100)	False	selector-setting
+wilcoxon-N200	Wilcoxon (N=200)	False	selector-setting
+wilcoxon-N500	Wilcoxon (N=500)	False	selector-setting
+wilcoxon-N1000	Wilcoxon (N=1000)	False	selector-setting
+wilcoxon-N2000	Wilcoxon (N=2000)	False	selector-setting
+wilcoxon-N5000	Wilcoxon (N=5000)	False	selector-setting
+wilcoxon-N10000	Wilcoxon (N=10000)	False	selector-setting
+wilcoxon-Nall	Wilcoxon (N=all)	False	selector-setting

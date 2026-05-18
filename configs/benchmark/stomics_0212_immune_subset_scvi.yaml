@@ -1,0 +1,77 @@
+name: stomics_0212_immune_subset_scvi
+output_dir: results/lineage_subsets/stomics_0212_immune_subset_scvi
+datasets:
+  - configs/datasets/stomics_0212_immune_subset.yaml
+feature_selection_methods:
+  - name: TFs
+  - name: random
+  - name: scanpy_seurat
+  - name: scanpy_seurat_batch
+  - name: scanpy_seurat_v3
+  - name: scanpy_seurat_v3_batch
+  - name: scanpy_cell_ranger
+  - name: scanpy_cell_ranger_batch
+  - name: scanpy_pearson
+  - name: scanpy_pearson_batch
+  - name: seurat_vst
+  - name: seurat_mvp
+  - name: seurat_disp
+  - name: seurat_sct
+    params:
+      max_cells: 3000
+  - name: scsegindex
+  - name: dubstepr
+    params:
+      max_cells: 5000
+  - name: nbumi
+    params:
+      max_cells: 5000
+  - name: osca
+  - name: scry
+  - name: singleCellHaystack
+    params:
+      max_cells: 5000
+  - name: Brennecke
+  - name: scPNMF
+    params:
+      max_cells: 3000
+  - name: triku
+    params:
+      max_cells: 5000
+  - name: hotspot
+    params:
+      max_cells: 3000
+  - name: anticor
+    params:
+      max_cells: 3000
+  - name: statistic_mean
+  - name: statistic_variance
+  - name: wilcoxon
+integration_methods:
+  - name: scvi
+    params:
+      n_latent: 30
+      max_epochs: 100
+      batch_size: 2048
+tasks:
+  - name: integration_eval
+    params:
+      n_neighbors: 15
+      max_eval_cells: 12000
+  - name: clustering_eval
+    params:
+      n_clusters: 2
+      n_neighbors: 8
+      silhouette_sample_size: 10000
+      max_eval_cells: 12000
+  - name: alignment_eval
+    params:
+      n_neighbors: 10
+      max_points_per_slice: 2500
+n_features:
+  - 500
+  - 1000
+  - 2000
+seeds:
+  - 0
+save_embeddings: true

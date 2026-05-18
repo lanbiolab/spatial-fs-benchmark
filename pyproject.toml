@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spatial-fs-benchmark"
+version = "0.1.0"
+description = "Engineering-oriented benchmark for studying feature selection effects in multi-slice spatial transcriptomics."
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+license = { text = "MIT" }
+authors = [
+  { name = "Lanbio Lab" }
+]
+dependencies = [
+  "anndata>=0.10,<0.11",
+  "h5py>=3.10",
+  "joblib>=1.4",
+  "matplotlib>=3.8",
+  "numpy>=1.24,<2",
+  "pandas>=2.1,<2.3",
+  "pyyaml>=6.0",
+  "scanorama>=1.7.4",
+  "scanpy>=1.10,<1.11",
+  "scikit-learn>=1.4",
+  "scipy>=1.11",
+  "seaborn>=0.13",
+  "tqdm>=4.66",
+  "umap-learn>=0.5.6",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.1",
+]
+
+[project.scripts]
+spatial-fs-run = "spatial_fs_benchmark.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

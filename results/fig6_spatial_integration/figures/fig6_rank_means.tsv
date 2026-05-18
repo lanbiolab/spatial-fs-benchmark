@@ -1,0 +1,581 @@
+Method	IntegrationMethod	Type	MeanRank	SDRank	Integration
+All features	cellcharter	Alignment	12.25	7.45941399460153	Cell
+Charter
+All features	cellcharter	Clustering	9.125	5.986592162013855	Cell
+Charter
+All features	cellcharter	Integration	19.375	5.180664601601393	Cell
+Charter
+All features	cellcharter	Overall	10.875	8.609587678861281	Cell
+Charter
+All features	gpsa	Alignment	12.875	9.931012033020602	GPSA
+All features	gpsa	Clustering	14.5	7.314369419163897	GPSA
+All features	gpsa	Integration	11.25	9.498120114753535	GPSA
+All features	gpsa	Overall	14.25	9.72111104761179	GPSA
+All features	scvi	Alignment	17.625	11.325540037581305	scVI
+All features	scvi	Clustering	9.75	6.341473465550866	scVI
+All features	scvi	Integration	24	5.707138387268051	scVI
+All features	scvi	Overall	18.25	11.436158196077661	scVI
+All features	staligner	Alignment	11.75	9.662150012142373	STAligner
+All features	staligner	Clustering	10	4.20883424647321	STAligner
+All features	staligner	Integration	15.5	7.578164119928482	STAligner
+All features	staligner	Overall	11.625	7.74481393302272	STAligner
+Anticor	cellcharter	Alignment	12	10.967484410096706	Cell
+Charter
+Anticor	cellcharter	Clustering	13	8.12403840463596	Cell
+Charter
+Anticor	cellcharter	Integration	14.75	8.49789889998026	Cell
+Charter
+Anticor	cellcharter	Overall	13.5	10.515294982615968	Cell
+Charter
+Anticor	gpsa	Alignment	9.875	9.280355596635292	GPSA
+Anticor	gpsa	Clustering	18.375	7.539183358579741	GPSA
+Anticor	gpsa	Integration	14.625	9.257236551554064	GPSA
+Anticor	gpsa	Overall	16.25	10.333717350775292	GPSA
+Anticor	scvi	Alignment	13.25	9.392246042043709	scVI
+Anticor	scvi	Clustering	9.5	8.12403840463596	scVI
+Anticor	scvi	Integration	18.625	5.629958132298016	scVI
+Anticor	scvi	Overall	12.875	9.847951200993172	scVI
+Anticor	staligner	Alignment	14	8.332380897952964	STAligner
+Anticor	staligner	Clustering	14.125	4.223657859520077	STAligner
+Anticor	staligner	Integration	18.375	4.34042460069124	STAligner
+Anticor	staligner	Overall	14	7.801098823700598	STAligner
+Brennecke	cellcharter	Alignment	9.4	10.114346246792227	Cell
+Charter
+Brennecke	cellcharter	Clustering	19.4	6.4265076052238514	Cell
+Charter
+Brennecke	cellcharter	Integration	10.6	9.154233993076646	Cell
+Charter
+Brennecke	cellcharter	Overall	11.2	11.691877522451216	Cell
+Charter
+Brennecke	gpsa	Alignment	7	6.051859218455102	GPSA
+Brennecke	gpsa	Clustering	14.6	10.597169433391164	GPSA
+Brennecke	gpsa	Integration	11.6	7.469939758793239	GPSA
+Brennecke	gpsa	Overall	7.6	7.797435475847171	GPSA
+Brennecke	scvi	Alignment	11.8	9.311283477587825	scVI
+Brennecke	scvi	Clustering	23.2	2.4899799195977463	scVI
+Brennecke	scvi	Integration	12.2	8.497058314499201	scVI
+Brennecke	scvi	Overall	12.2	8.64291617453276	scVI
+Brennecke	staligner	Alignment	7	7.968688725254614	STAligner
+Brennecke	staligner	Clustering	14.6	11.588787684654509	STAligner
+Brennecke	staligner	Integration	9.8	8.67179335547152	STAligner
+Brennecke	staligner	Overall	9.4	9.736529155710468	STAligner
+DUBStepR	cellcharter	Alignment	12.666666666666666	7.916228058025278	Cell
+Charter
+DUBStepR	cellcharter	Clustering	6.833333333333333	4.9564772436345015	Cell
+Charter
+DUBStepR	cellcharter	Integration	18.5	7.314369419163897	Cell
+Charter
+DUBStepR	cellcharter	Overall	10	8.318653737234168	Cell
+Charter
+DUBStepR	gpsa	Alignment	14.166666666666666	5.69795284875776	GPSA
+DUBStepR	gpsa	Clustering	15.583333333333334	7.4860982271585685	GPSA
+DUBStepR	gpsa	Integration	16.5	10.290772565750348	GPSA
+DUBStepR	gpsa	Overall	16.333333333333332	7.659416862050705	GPSA
+DUBStepR	scvi	Alignment	15.666666666666666	8.914407813571616	scVI
+DUBStepR	scvi	Clustering	11.666666666666666	8.524474568362947	scVI
+DUBStepR	scvi	Integration	20.333333333333332	5.715476066494082	scVI
+DUBStepR	scvi	Overall	16.833333333333332	9.786044485218053	scVI
+DUBStepR	staligner	Alignment	17.5	6.473020933072903	STAligner
+DUBStepR	staligner	Clustering	13.333333333333334	8.358628276617322	STAligner
+DUBStepR	staligner	Integration	17.5	7.556454194925025	STAligner
+DUBStepR	staligner	Overall	16.333333333333332	6.947421584060281	STAligner
+Hotspot	cellcharter	Alignment	10.625	8.314144574157945	Cell
+Charter
+Hotspot	cellcharter	Clustering	5.375	4.68851179556401	Cell
+Charter
+Hotspot	cellcharter	Integration	16.125	6.311836952447814	Cell
+Charter
+Hotspot	cellcharter	Overall	7.875	3.563204817496262	Cell
+Charter
+Hotspot	gpsa	Alignment	12.875	7.543919026985528	GPSA
+Hotspot	gpsa	Clustering	18.25	6.798108980759702	GPSA
+Hotspot	gpsa	Integration	14.75	7.4785407285493495	GPSA
+Hotspot	gpsa	Overall	16.375	9.869686635639162	GPSA
+Hotspot	scvi	Alignment	10.625	7.36667205343479	scVI
+Hotspot	scvi	Clustering	5.5	5.879747322073336	scVI
+Hotspot	scvi	Integration	12.375	7.1501748230375455	scVI
+Hotspot	scvi	Overall	6.75	5.970163912561961	scVI
+Hotspot	staligner	Alignment	9.625	6.300510183423924	STAligner
+Hotspot	staligner	Clustering	9.875	5.914570386523678	STAligner
+Hotspot	staligner	Integration	12.375	6.968039281503185	STAligner
+Hotspot	staligner	Overall	7.875	7.395703385846986	STAligner
+NBumi	cellcharter	Alignment	11.625	8.105333341166702	Cell
+Charter
+NBumi	cellcharter	Clustering	12.375	10.609126798590514	Cell
+Charter
+NBumi	cellcharter	Integration	16.375	6.94750726108704	Cell
+Charter
+NBumi	cellcharter	Overall	11.875	9.833434220628547	Cell
+Charter
+NBumi	gpsa	Alignment	13.5625	8.152289336657	GPSA
+NBumi	gpsa	Clustering	13.8125	8.092931218927152	GPSA
+NBumi	gpsa	Integration	13.375	8.14050717970675	GPSA
+NBumi	gpsa	Overall	10.875	8.93528319161098	GPSA
+NBumi	scvi	Alignment	10.875	9.280355596635292	scVI
+NBumi	scvi	Clustering	13.375	8.331309278001525	scVI
+NBumi	scvi	Integration	8.625	7.347254103210454	scVI
+NBumi	scvi	Overall	11.375	8.927285621700953	scVI
+NBumi	staligner	Alignment	10	6.48074069840786	STAligner
+NBumi	staligner	Clustering	13.25	7.869470848066688	STAligner
+NBumi	staligner	Integration	12.75	8.447315719040153	STAligner
+NBumi	staligner	Overall	10.25	8.413424646700907	STAligner
+OSCA	cellcharter	Alignment	12.125	7.698562017861332	Cell
+Charter
+OSCA	cellcharter	Clustering	9.875	5.617256574927962	Cell
+Charter
+OSCA	cellcharter	Integration	13.625	5.902481318419036	Cell
+Charter
+OSCA	cellcharter	Overall	10.625	6.13974173491268	Cell
+Charter
+OSCA	gpsa	Alignment	7.6875	3.8446391248074248	GPSA
+OSCA	gpsa	Clustering	10.375	7.595816517756901	GPSA
+OSCA	gpsa	Integration	15.75	8.876131718587455	GPSA
+OSCA	gpsa	Overall	8.125	7.31803057034961	GPSA
+OSCA	scvi	Alignment	10.875	7.180081575342402	scVI
+OSCA	scvi	Clustering	9.375	4.749060057376767	scVI
+OSCA	scvi	Integration	11.875	3.090885217631258	scVI
+OSCA	scvi	Overall	8.875	5.166858675387646	scVI
+OSCA	staligner	Alignment	8.125	4.517821851923146	STAligner
+OSCA	staligner	Clustering	10.75	7.421012637870156	STAligner
+OSCA	staligner	Integration	10.5	7.030545599636733	STAligner
+OSCA	staligner	Overall	8.125	6.512350903146596	STAligner
+Random	cellcharter	Alignment	15.75	11.02918207043737	Cell
+Charter
+Random	cellcharter	Clustering	24.125	5.792544469278715	Cell
+Charter
+Random	cellcharter	Integration	17	13.114877048604	Cell
+Charter
+Random	cellcharter	Overall	19.5	10.941402365066633	Cell
+Charter
+Random	gpsa	Alignment	18.0625	8.174164439605695	GPSA
+Random	gpsa	Clustering	10.8125	6.3636102736014335	GPSA
+Random	gpsa	Integration	10.5625	7.1884704313822665	GPSA
+Random	gpsa	Overall	11.6875	7.4495325836112505	GPSA
+Random	scvi	Alignment	14.25	10.402609562714815	scVI
+Random	scvi	Clustering	26.375	2.7222627143085005	scVI
+Random	scvi	Integration	16.75	10.95119041148365	scVI
+Random	scvi	Overall	19.75	8.988087354143499	scVI
+Random	staligner	Alignment	18	10.488088481701515	STAligner
+Random	staligner	Clustering	25.125	3.2705394924123103	STAligner
+Random	staligner	Integration	19.125	10.999188281738924	STAligner
+Random	staligner	Overall	22.125	9.357006542082326	STAligner
+Seurat-Dispersion	cellcharter	Alignment	12.5	5.856620185738529	Cell
+Charter
+Seurat-Dispersion	cellcharter	Clustering	14.166666666666666	6.013872850889571	Cell
+Charter
+Seurat-Dispersion	cellcharter	Integration	12.833333333333334	10.008329864001619	Cell
+Charter
+Seurat-Dispersion	cellcharter	Overall	12.5	6.8044103344816	Cell
+Charter
+Seurat-Dispersion	gpsa	Alignment	13.833333333333334	7.061633427661525	GPSA
+Seurat-Dispersion	gpsa	Clustering	10	4.571651780264984	GPSA
+Seurat-Dispersion	gpsa	Integration	8.5	4.847679857416329	GPSA
+Seurat-Dispersion	gpsa	Overall	8.833333333333334	4.833908011812665	GPSA
+Seurat-Dispersion	scvi	Alignment	12.333333333333334	6.592925501373928	scVI
+Seurat-Dispersion	scvi	Clustering	15.5	6.8044103344816	scVI
+Seurat-Dispersion	scvi	Integration	16.833333333333332	6.6758270399005	scVI
+Seurat-Dispersion	scvi	Overall	15	7.127411872482185	scVI
+Seurat-Dispersion	staligner	Alignment	14.833333333333334	7.859177225808479	STAligner
+Seurat-Dispersion	staligner	Clustering	18.333333333333332	8.477420991472977	STAligner
+Seurat-Dispersion	staligner	Integration	18.333333333333332	6.531972647421808	STAligner
+Seurat-Dispersion	staligner	Overall	17.166666666666668	6.645800679125628	STAligner
+Seurat-MVP	cellcharter	Alignment	17.5	9.181503144910424	Cell
+Charter
+Seurat-MVP	cellcharter	Clustering	19.333333333333332	3.723797345005051	Cell
+Charter
+Seurat-MVP	cellcharter	Integration	10.166666666666666	6.013872850889571	Cell
+Charter
+Seurat-MVP	cellcharter	Overall	17.166666666666668	7.082843120291926	Cell
+Charter
+Seurat-MVP	gpsa	Alignment	18.833333333333332	5.446711546122731	GPSA
+Seurat-MVP	gpsa	Clustering	20.083333333333332	4.82096117663964	GPSA
+Seurat-MVP	gpsa	Integration	13.833333333333334	5.600595206463923	GPSA
+Seurat-MVP	gpsa	Overall	22.666666666666668	5.645056834671079	GPSA
+Seurat-MVP	scvi	Alignment	10.833333333333334	8.565434412022933	scVI
+Seurat-MVP	scvi	Clustering	14.5	7.968688725254614	scVI
+Seurat-MVP	scvi	Integration	10.333333333333334	6.153589738247641	scVI
+Seurat-MVP	scvi	Overall	10.166666666666666	5.913261931173578	scVI
+Seurat-MVP	staligner	Alignment	14.5	3.5071355833500366	STAligner
+Seurat-MVP	staligner	Clustering	13.5	5.822370651203855	STAligner
+Seurat-MVP	staligner	Integration	9.833333333333334	7.4139508136125825	STAligner
+Seurat-MVP	staligner	Overall	12.5	5.205766033928148	STAligner
+Seurat-VST	cellcharter	Alignment	10	7.6681158050723255	Cell
+Charter
+Seurat-VST	cellcharter	Clustering	11.166666666666666	5.636192568273964	Cell
+Charter
+Seurat-VST	cellcharter	Integration	9.5	7.687652437513028	Cell
+Charter
+Seurat-VST	cellcharter	Overall	9	3.794733192202055	Cell
+Charter
+Seurat-VST	gpsa	Alignment	17	8.792041856133306	GPSA
+Seurat-VST	gpsa	Clustering	11.666666666666666	6.750308634919345	GPSA
+Seurat-VST	gpsa	Integration	12.75	7.744352781220649	GPSA
+Seurat-VST	gpsa	Overall	14.166666666666666	8.424171571535487	GPSA
+Seurat-VST	scvi	Alignment	8.666666666666666	5.428320796219275	scVI
+Seurat-VST	scvi	Clustering	10.833333333333334	6.968978882638881	scVI
+Seurat-VST	scvi	Integration	5.5	2.073644135332772	scVI
+Seurat-VST	scvi	Overall	6.5	5.319774431308154	scVI
+Seurat-VST	staligner	Alignment	7.666666666666667	3.8815804341359033	STAligner
+Seurat-VST	staligner	Clustering	12.666666666666666	4.802776974487434	STAligner
+Seurat-VST	staligner	Integration	11.666666666666666	4.226897995772629	STAligner
+Seurat-VST	staligner	Overall	9	4.857983120596447	STAligner
+Seurat-scTransform	cellcharter	Alignment	11.5	6.761234037828133	Cell
+Charter
+Seurat-scTransform	cellcharter	Clustering	18.75	7.44023809142845	Cell
+Charter
+Seurat-scTransform	cellcharter	Integration	10.5	5.606119105813881	Cell
+Charter
+Seurat-scTransform	cellcharter	Overall	13.625	6.4793628434548145	Cell
+Charter
+Seurat-scTransform	gpsa	Alignment	9.75	8.892211680534183	GPSA
+Seurat-scTransform	gpsa	Clustering	12.8125	9.621172708444345	GPSA
+Seurat-scTransform	gpsa	Integration	18.75	9.09866552224634	GPSA
+Seurat-scTransform	gpsa	Overall	11	10.36477551269546	GPSA
+Seurat-scTransform	scvi	Alignment	8	4.7207747548166585	scVI
+Seurat-scTransform	scvi	Clustering	10.125	5.743008171432708	scVI
+Seurat-scTransform	scvi	Integration	11.875	5.642631098546644	scVI
+Seurat-scTransform	scvi	Overall	8.125	2.4748737341529163	scVI
+Seurat-scTransform	staligner	Alignment	8.125	4.323936698360485	STAligner
+Seurat-scTransform	staligner	Clustering	14.125	8.526220063511648	STAligner
+Seurat-scTransform	staligner	Integration	9	7.171371656006362	STAligner
+Seurat-scTransform	staligner	Overall	11.375	5.527528509973641	STAligner
+Statistic mean	cellcharter	Alignment	12.375	8.51783842465748	Cell
+Charter
+Statistic mean	cellcharter	Clustering	13.75	7.4785407285493495	Cell
+Charter
+Statistic mean	cellcharter	Integration	16.25	8.259194011178433	Cell
+Charter
+Statistic mean	cellcharter	Overall	14.375	8.450486038430824	Cell
+Charter
+Statistic mean	gpsa	Alignment	12.3125	8.41315933523192	GPSA
+Statistic mean	gpsa	Clustering	12.5625	5.602534502985489	GPSA
+Statistic mean	gpsa	Integration	17.625	8.365533028871672	GPSA
+Statistic mean	gpsa	Overall	12.375	5.950690236074659	GPSA
+Statistic mean	scvi	Alignment	16.75	7.497618669570073	scVI
+Statistic mean	scvi	Clustering	15.75	6.627863262664026	scVI
+Statistic mean	scvi	Integration	18	8.831760866327848	scVI
+Statistic mean	scvi	Overall	16.5	6.90755280213519	scVI
+Statistic mean	staligner	Alignment	16	7.406560798180411	STAligner
+Statistic mean	staligner	Clustering	15.125	4.703721930556695	STAligner
+Statistic mean	staligner	Integration	15.375	6.323143431644016	STAligner
+Statistic mean	staligner	Overall	14.25	5.8248237251071755	STAligner
+Statistic variance	cellcharter	Alignment	13.375	8.568005268772557	Cell
+Charter
+Statistic variance	cellcharter	Clustering	14.375	7.36667205343479	Cell
+Charter
+Statistic variance	cellcharter	Integration	14.5	7.653197277702214	Cell
+Charter
+Statistic variance	cellcharter	Overall	14.25	7.245688373094719	Cell
+Charter
+Statistic variance	gpsa	Alignment	10.875	7.472568883207817	GPSA
+Statistic variance	gpsa	Clustering	14.1875	9.32713973918509	GPSA
+Statistic variance	gpsa	Integration	20.125	7.845608416724061	GPSA
+Statistic variance	gpsa	Overall	13.875	9.402697181432266	GPSA
+Statistic variance	scvi	Alignment	14.75	8.18971480403491	scVI
+Statistic variance	scvi	Clustering	10	4	scVI
+Statistic variance	scvi	Integration	17.5	6.98978847012861	scVI
+Statistic variance	scvi	Overall	14.625	6.3905622377288305	scVI
+Statistic variance	staligner	Alignment	12.25	7.887603293414656	STAligner
+Statistic variance	staligner	Clustering	16.625	5.974648824109127	STAligner
+Statistic variance	staligner	Integration	11.625	6.186101934405635	STAligner
+Statistic variance	staligner	Overall	10.875	4.733995594179856	STAligner
+Transcription factors	cellcharter	Alignment	15.875	10.00624804809475	Cell
+Charter
+Transcription factors	cellcharter	Clustering	20.625	8.51783842465748	Cell
+Charter
+Transcription factors	cellcharter	Integration	15.25	12.13907504125182	Cell
+Charter
+Transcription factors	cellcharter	Overall	18.5	9.797958971132712	Cell
+Charter
+Transcription factors	gpsa	Alignment	17.125	4.860555523805895	GPSA
+Transcription factors	gpsa	Clustering	13.375	5.104269921210224	GPSA
+Transcription factors	gpsa	Integration	15.25	6.7559497587576205	GPSA
+Transcription factors	gpsa	Overall	16.375	7.763237542601485	GPSA
+Transcription factors	scvi	Alignment	14.875	7.31803057034961	scVI
+Transcription factors	scvi	Clustering	23.875	3.720119045714225	scVI
+Transcription factors	scvi	Integration	17.5	7.982122882685139	scVI
+Transcription factors	scvi	Overall	19.5	6.458659745975609	scVI
+Transcription factors	staligner	Alignment	19.75	10.194536351819607	STAligner
+Transcription factors	staligner	Clustering	21	7.634508123364221	STAligner
+Transcription factors	staligner	Integration	14.625	10.459957661755343	STAligner
+Transcription factors	staligner	Overall	19.125	8.131727983645296	STAligner
+Wilcoxon	cellcharter	Alignment	6.25	7.22841614740048	Cell
+Charter
+Wilcoxon	cellcharter	Clustering	14.25	7.88986691902975	Cell
+Charter
+Wilcoxon	cellcharter	Integration	2.25	1.5	Cell
+Charter
+Wilcoxon	cellcharter	Overall	3.25	2.217355782608345	Cell
+Charter
+Wilcoxon	gpsa	Alignment	9.125	7.792892060504025	GPSA
+Wilcoxon	gpsa	Clustering	18.5	11.32843031197762	GPSA
+Wilcoxon	gpsa	Integration	18.25	8.301606270274847	GPSA
+Wilcoxon	gpsa	Overall	16.25	9.03234926989282	GPSA
+Wilcoxon	scvi	Alignment	12	10.801234497346433	scVI
+Wilcoxon	scvi	Clustering	13	10.36018017861337	scVI
+Wilcoxon	scvi	Integration	16	9.865765724632494	scVI
+Wilcoxon	scvi	Overall	10.25	10.781929326423912	scVI
+Wilcoxon	staligner	Alignment	16.5	7.895146188218008	STAligner
+Wilcoxon	staligner	Clustering	20	10.132456102380443	STAligner
+Wilcoxon	staligner	Integration	18.25	7.973915809270458	STAligner
+Wilcoxon	staligner	Overall	20.75	7.544313531837517	STAligner
+scPNMF	cellcharter	Alignment	15.5	7.4258236676383005	Cell
+Charter
+scPNMF	cellcharter	Clustering	11.875	4.793969425970806	Cell
+Charter
+scPNMF	cellcharter	Integration	14.375	8.175529690135416	Cell
+Charter
+scPNMF	cellcharter	Overall	12.5	4.375255094603872	Cell
+Charter
+scPNMF	gpsa	Alignment	13.4375	6.726480187608205	GPSA
+scPNMF	gpsa	Clustering	14.75	9.587938851941612	GPSA
+scPNMF	gpsa	Integration	15.5	7.874007874011811	GPSA
+scPNMF	gpsa	Overall	11.625	6.843923269169937	GPSA
+scPNMF	scvi	Alignment	15.875	6.7493385919341335	scVI
+scPNMF	scvi	Clustering	12	7.892129895390362	scVI
+scPNMF	scvi	Integration	15.875	6.2206453500765155	scVI
+scPNMF	scvi	Overall	14	6.782329983125268	scVI
+scPNMF	staligner	Alignment	15.25	5.4182232195751086	STAligner
+scPNMF	staligner	Clustering	13.125	7.586407017064892	STAligner
+scPNMF	staligner	Integration	15	5.9521904731427595	STAligner
+scPNMF	staligner	Overall	13.625	6.3905622377288305	STAligner
+scSEGIndex	cellcharter	Alignment	19.125	5.792544469278715	Cell
+Charter
+scSEGIndex	cellcharter	Clustering	17.75	7.516648189186454	Cell
+Charter
+scSEGIndex	cellcharter	Integration	17.75	7.7781745930520225	Cell
+Charter
+scSEGIndex	cellcharter	Overall	19.625	6.254998001598402	Cell
+Charter
+scSEGIndex	gpsa	Alignment	11.9375	4.2210146038262275	GPSA
+scSEGIndex	gpsa	Clustering	14.3125	10.23627129378662	GPSA
+scSEGIndex	gpsa	Integration	18.3125	7.37242691190822	GPSA
+scSEGIndex	gpsa	Overall	15.25	7.146427679017578	GPSA
+scSEGIndex	scvi	Alignment	19.25	6.902380541730306	scVI
+scSEGIndex	scvi	Clustering	19.25	4.621378891320518	scVI
+scSEGIndex	scvi	Integration	21	9.426406677899212	scVI
+scSEGIndex	scvi	Overall	21.25	6.181770435262516	scVI
+scSEGIndex	staligner	Alignment	20.25	6.135377506140689	STAligner
+scSEGIndex	staligner	Clustering	20.875	6.8334785118143575	STAligner
+scSEGIndex	staligner	Integration	19.375	9.07016301633312	STAligner
+scSEGIndex	staligner	Overall	19.75	6.273527146441853	STAligner
+scanpy-CellRanger	cellcharter	Alignment	14.5	7.745966692414834	Cell
+Charter
+scanpy-CellRanger	cellcharter	Clustering	11.75	9.130013299943371	Cell
+Charter
+scanpy-CellRanger	cellcharter	Integration	13.5	6.740072064048828	Cell
+Charter
+scanpy-CellRanger	cellcharter	Overall	13.875	7.472568883207817	Cell
+Charter
+scanpy-CellRanger	gpsa	Alignment	14.5625	8.248105843161811	GPSA
+scanpy-CellRanger	gpsa	Clustering	10.25	9.133924207511875	GPSA
+scanpy-CellRanger	gpsa	Integration	10.25	5.444525428617001	GPSA
+scanpy-CellRanger	gpsa	Overall	9.5	6.2105900340811875	GPSA
+scanpy-CellRanger	scvi	Alignment	14.5	7.982122882685139	scVI
+scanpy-CellRanger	scvi	Clustering	15.25	8.564878449642054	scVI
+scanpy-CellRanger	scvi	Integration	6.875	5.436319658424385	scVI
+scanpy-CellRanger	scvi	Overall	13.75	6.041522986797286	scVI
+scanpy-CellRanger	staligner	Alignment	12.75	9.238892945431441	STAligner
+scanpy-CellRanger	staligner	Clustering	11.875	9.991961054482033	STAligner
+scanpy-CellRanger	staligner	Integration	12	8.94427190999916	STAligner
+scanpy-CellRanger	staligner	Overall	12.75	8.614771367499298	STAligner
+scanpy-CellRanger (batch)	cellcharter	Alignment	15.75	10.552589391099366	Cell
+Charter
+scanpy-CellRanger (batch)	cellcharter	Clustering	18	4.956957592256421	Cell
+Charter
+scanpy-CellRanger (batch)	cellcharter	Integration	10.625	7.707834604200734	Cell
+Charter
+scanpy-CellRanger (batch)	cellcharter	Overall	16.25	4.590362575159894	Cell
+Charter
+scanpy-CellRanger (batch)	gpsa	Alignment	14.875	6.010407640085654	GPSA
+scanpy-CellRanger (batch)	gpsa	Clustering	16	8.176621726430962	GPSA
+scanpy-CellRanger (batch)	gpsa	Integration	14.875	9.642724866817618	GPSA
+scanpy-CellRanger (batch)	gpsa	Overall	16.75	5.391792704790177	GPSA
+scanpy-CellRanger (batch)	scvi	Alignment	11.625	8.348438690643214	scVI
+scanpy-CellRanger (batch)	scvi	Clustering	13.5	6.524678426668135	scVI
+scanpy-CellRanger (batch)	scvi	Integration	8.125	5.166858675387646	scVI
+scanpy-CellRanger (batch)	scvi	Overall	10.625	7.26906360642729	scVI
+scanpy-CellRanger (batch)	staligner	Alignment	12.75	9.01981944703678	STAligner
+scanpy-CellRanger (batch)	staligner	Clustering	9.25	9.86697232473786	STAligner
+scanpy-CellRanger (batch)	staligner	Integration	11.375	9.75320460156558	STAligner
+scanpy-CellRanger (batch)	staligner	Overall	11.25	9.223417401995237	STAligner
+scanpy-Pearson	cellcharter	Alignment	18.125	8.592978861505811	Cell
+Charter
+scanpy-Pearson	cellcharter	Clustering	14.25	8.924284685220275	Cell
+Charter
+scanpy-Pearson	cellcharter	Integration	17.75	5.946187253790689	Cell
+Charter
+scanpy-Pearson	cellcharter	Overall	17.25	7.685793945418298	Cell
+Charter
+scanpy-Pearson	gpsa	Alignment	15.875	5.823290675014796	GPSA
+scanpy-Pearson	gpsa	Clustering	10.75	3.7416573867739413	GPSA
+scanpy-Pearson	gpsa	Integration	12.5625	5.23339209854783	GPSA
+scanpy-Pearson	gpsa	Overall	10.9375	4.539017357471612	GPSA
+scanpy-Pearson	scvi	Alignment	18.75	6.840008354213778	scVI
+scanpy-Pearson	scvi	Clustering	15.875	7.863795884576717	scVI
+scanpy-Pearson	scvi	Integration	15.25	8.224527776283399	scVI
+scanpy-Pearson	scvi	Overall	20.25	5.574175147179049	scVI
+scanpy-Pearson	staligner	Alignment	18	8.035634920242991	STAligner
+scanpy-Pearson	staligner	Clustering	15.625	6.523309852258394	STAligner
+scanpy-Pearson	staligner	Integration	19.25	9.779716618739888	STAligner
+scanpy-Pearson	staligner	Overall	20.5	5.732115042211108	STAligner
+scanpy-Pearson (batch)	cellcharter	Alignment	12.875	6.401729676981281	Cell
+Charter
+scanpy-Pearson (batch)	cellcharter	Clustering	15.5	10.22601723895616	Cell
+Charter
+scanpy-Pearson (batch)	cellcharter	Integration	14.125	8.025628591313847	Cell
+Charter
+scanpy-Pearson (batch)	cellcharter	Overall	16.5	8.717797887081348	Cell
+Charter
+scanpy-Pearson (batch)	gpsa	Alignment	17.25	3.625307868699863	GPSA
+scanpy-Pearson (batch)	gpsa	Clustering	14.625	8.003347513920124	GPSA
+scanpy-Pearson (batch)	gpsa	Integration	17.3125	6.496908605527049	GPSA
+scanpy-Pearson (batch)	gpsa	Overall	17.5625	6.74768478813289	GPSA
+scanpy-Pearson (batch)	scvi	Alignment	16.5	6.80336051416609	scVI
+scanpy-Pearson (batch)	scvi	Clustering	19.75	6.041522986797286	scVI
+scanpy-Pearson (batch)	scvi	Integration	12.75	6.943650748294136	scVI
+scanpy-Pearson (batch)	scvi	Overall	17.5	5.0426750270636544	scVI
+scanpy-Pearson (batch)	staligner	Alignment	17.625	6.41287766919033	STAligner
+scanpy-Pearson (batch)	staligner	Clustering	14.25	10.110108096073242	STAligner
+scanpy-Pearson (batch)	staligner	Integration	17.625	9.1641771511218	STAligner
+scanpy-Pearson (batch)	staligner	Overall	20.125	6.151364540838538	STAligner
+scanpy-Seurat	cellcharter	Alignment	15.5	5.732115042211108	Cell
+Charter
+scanpy-Seurat	cellcharter	Clustering	17.625	5.755432216610669	Cell
+Charter
+scanpy-Seurat	cellcharter	Integration	11.25	6.041522986797286	Cell
+Charter
+scanpy-Seurat	cellcharter	Overall	17.125	6.685538764484772	Cell
+Charter
+scanpy-Seurat	gpsa	Alignment	18.5	3.6351458999998494	GPSA
+scanpy-Seurat	gpsa	Clustering	13.5625	5.716126935509493	GPSA
+scanpy-Seurat	gpsa	Integration	12.625	5.50162313711664	GPSA
+scanpy-Seurat	gpsa	Overall	14	5.903993805649092	GPSA
+scanpy-Seurat	scvi	Alignment	13.875	5.841660722773962	scVI
+scanpy-Seurat	scvi	Clustering	15.875	7.059694449073962	scVI
+scanpy-Seurat	scvi	Integration	9.625	6.588680769753099	scVI
+scanpy-Seurat	scvi	Overall	13.125	6.978282637685906	scVI
+scanpy-Seurat	staligner	Alignment	15.625	3.50255009141299	STAligner
+scanpy-Seurat	staligner	Clustering	12.75	6.135377506140689	STAligner
+scanpy-Seurat	staligner	Integration	11.125	5.914570386523678	STAligner
+scanpy-Seurat	staligner	Overall	14.125	5.767829500154902	STAligner
+scanpy-Seurat (batch)	cellcharter	Alignment	17.375	2.445841952609133	Cell
+Charter
+scanpy-Seurat (batch)	cellcharter	Clustering	15.75	5.175491695067657	Cell
+Charter
+scanpy-Seurat (batch)	cellcharter	Integration	8.5	4.174754056057845	Cell
+Charter
+scanpy-Seurat (batch)	cellcharter	Overall	14.75	5.203021100421233	Cell
+Charter
+scanpy-Seurat (batch)	gpsa	Alignment	17	7.191264542087554	GPSA
+scanpy-Seurat (batch)	gpsa	Clustering	14.375	8.551315688243536	GPSA
+scanpy-Seurat (batch)	gpsa	Integration	7.875	6.577830732305077	GPSA
+scanpy-Seurat (batch)	gpsa	Overall	15.25	6.475227519444505	GPSA
+scanpy-Seurat (batch)	scvi	Alignment	14.5	5.5549205986353085	scVI
+scanpy-Seurat (batch)	scvi	Clustering	16.125	6.599512969043355	scVI
+scanpy-Seurat (batch)	scvi	Integration	10	5.903993805649092	scVI
+scanpy-Seurat (batch)	scvi	Overall	15.75	6.017830648521585	scVI
+scanpy-Seurat (batch)	staligner	Alignment	14.875	8.114141095290721	STAligner
+scanpy-Seurat (batch)	staligner	Clustering	13.125	6.334429729659964	STAligner
+scanpy-Seurat (batch)	staligner	Integration	12.375	8.846912294289863	STAligner
+scanpy-Seurat (batch)	staligner	Overall	16.75	7.887603293414656	STAligner
+scanpy-SeuratV3	cellcharter	Alignment	14.375	9.47081984684687	Cell
+Charter
+scanpy-SeuratV3	cellcharter	Clustering	9.25	7.592289321598403	Cell
+Charter
+scanpy-SeuratV3	cellcharter	Integration	12.375	7.945124291035352	Cell
+Charter
+scanpy-SeuratV3	cellcharter	Overall	12.875	8.871100753087442	Cell
+Charter
+scanpy-SeuratV3	gpsa	Alignment	17.375	7.505950020769237	GPSA
+scanpy-SeuratV3	gpsa	Clustering	11.5625	4.761733627877261	GPSA
+scanpy-SeuratV3	gpsa	Integration	11.375	7.9271234198973914	GPSA
+scanpy-SeuratV3	gpsa	Overall	15.375	7.836498853806736	GPSA
+scanpy-SeuratV3	scvi	Alignment	12.375	6.906260100186538	scVI
+scanpy-SeuratV3	scvi	Clustering	10.625	5.343554194407635	scVI
+scanpy-SeuratV3	scvi	Integration	10.5	6.740072064048828	scVI
+scanpy-SeuratV3	scvi	Overall	11.625	5.878228596147944	scVI
+scanpy-SeuratV3	staligner	Alignment	11.375	6.3905622377288305	STAligner
+scanpy-SeuratV3	staligner	Clustering	10.625	7.1501748230375455	STAligner
+scanpy-SeuratV3	staligner	Integration	13.25	6.2048368229954285	STAligner
+scanpy-SeuratV3	staligner	Overall	10.875	6.7493385919341335	STAligner
+scanpy-SeuratV3 (batch)	cellcharter	Alignment	16	5.732115042211108	Cell
+Charter
+scanpy-SeuratV3 (batch)	cellcharter	Clustering	12.375	7.74481393302272	Cell
+Charter
+scanpy-SeuratV3 (batch)	cellcharter	Integration	12.375	6.674846172652328	Cell
+Charter
+scanpy-SeuratV3 (batch)	cellcharter	Overall	15.375	6.906260100186538	Cell
+Charter
+scanpy-SeuratV3 (batch)	gpsa	Alignment	11.9375	7.485402460789934	GPSA
+scanpy-SeuratV3 (batch)	gpsa	Clustering	11.3125	8.713444046004836	GPSA
+scanpy-SeuratV3 (batch)	gpsa	Integration	10.25	8.32809359080113	GPSA
+scanpy-SeuratV3 (batch)	gpsa	Overall	13.875	8.838834764831844	GPSA
+scanpy-SeuratV3 (batch)	scvi	Alignment	16.875	6.8959097607619135	scVI
+scanpy-SeuratV3 (batch)	scvi	Clustering	13.875	7.9899490432846765	scVI
+scanpy-SeuratV3 (batch)	scvi	Integration	12.875	6.266407036161723	scVI
+scanpy-SeuratV3 (batch)	scvi	Overall	15.875	7.679983258910325	scVI
+scanpy-SeuratV3 (batch)	staligner	Alignment	14.75	7.516648189186454	STAligner
+scanpy-SeuratV3 (batch)	staligner	Clustering	10.5	10.8496214548843	STAligner
+scanpy-SeuratV3 (batch)	staligner	Integration	17.625	5.2355242608275905	STAligner
+scanpy-SeuratV3 (batch)	staligner	Overall	15.125	8.675704993996577	STAligner
+scry	cellcharter	Alignment	17.666666666666668	6.2182527020592095	Cell
+Charter
+scry	cellcharter	Clustering	17	6.418722614352485	Cell
+Charter
+scry	cellcharter	Integration	18.5	8.018728078691781	Cell
+Charter
+scry	cellcharter	Overall	18.833333333333332	6.177917664283546	Cell
+Charter
+scry	gpsa	Alignment	16.166666666666668	8.010409893798611	GPSA
+scry	gpsa	Clustering	19.666666666666668	8.547904226573124	GPSA
+scry	gpsa	Integration	17	9.316651759081692	GPSA
+scry	gpsa	Overall	19.166666666666668	8.328665359267754	GPSA
+scry	scvi	Alignment	13.666666666666666	8.406346808612328	scVI
+scry	scvi	Clustering	11.666666666666666	8.981462390204987	scVI
+scry	scvi	Integration	20.5	2.6645825188948455	scVI
+scry	scvi	Overall	13.833333333333334	8.886319072972041	scVI
+scry	staligner	Alignment	17.666666666666668	9.309493362512628	STAligner
+scry	staligner	Clustering	11.5	4.764451699828638	STAligner
+scry	staligner	Integration	11	5.932958789676531	STAligner
+scry	staligner	Overall	13.166666666666666	8.109665015687558	STAligner
+singleCellHaystack	cellcharter	Alignment	11.166666666666666	3.125166662222459	Cell
+Charter
+singleCellHaystack	cellcharter	Clustering	9.333333333333334	7.174027227901123	Cell
+Charter
+singleCellHaystack	cellcharter	Integration	14	9.549869109050658	Cell
+Charter
+singleCellHaystack	cellcharter	Overall	9.166666666666666	6.177917664283546	Cell
+Charter
+singleCellHaystack	gpsa	Alignment	10.5	6.892024376045111	GPSA
+singleCellHaystack	gpsa	Clustering	15.333333333333334	8.238122763510304	GPSA
+singleCellHaystack	gpsa	Integration	15.916666666666666	8.9242179862813	GPSA
+singleCellHaystack	gpsa	Overall	15.416666666666666	8.834119461874323	GPSA
+singleCellHaystack	scvi	Alignment	16	10.526157893552615	scVI
+singleCellHaystack	scvi	Clustering	13	9.055385138137417	scVI
+singleCellHaystack	scvi	Integration	16.5	7.286974680894672	scVI
+singleCellHaystack	scvi	Overall	15.333333333333334	8.453795991545258	scVI
+singleCellHaystack	staligner	Alignment	16.833333333333332	11.107054815146393	STAligner
+singleCellHaystack	staligner	Clustering	11	7.26636084983398	STAligner
+singleCellHaystack	staligner	Integration	9.166666666666666	9.020347369512255	STAligner
+singleCellHaystack	staligner	Overall	12	8.94427190999916	STAligner
+triku	cellcharter	Alignment	14.625	8.158037228927766	Cell
+Charter
+triku	cellcharter	Clustering	8.25	5.522680508593631	Cell
+Charter
+triku	cellcharter	Integration	14.625	6.300510183423924	Cell
+Charter
+triku	cellcharter	Overall	14.125	9.17196816392207	Cell
+Charter
+triku	gpsa	Alignment	16.8125	7.945967081302492	GPSA
+triku	gpsa	Clustering	13.1875	7.141115859183754	GPSA
+triku	gpsa	Integration	8.625	5.040904113917888	GPSA
+triku	gpsa	Overall	14.75	7.4017372478165075	GPSA
+triku	scvi	Alignment	14.125	8.54295867115971	scVI
+triku	scvi	Clustering	6.75	3.770183777256185	scVI
+triku	scvi	Integration	8.25	6.777062153217383	scVI
+triku	scvi	Overall	10	8.141603913585719	scVI
+triku	staligner	Alignment	11.125	7.972049386987729	STAligner
+triku	staligner	Clustering	10	7.329003050503235	STAligner
+triku	staligner	Integration	9.75	3.575711717366808	STAligner
+triku	staligner	Overall	10.5	8.34950811211569	STAligner

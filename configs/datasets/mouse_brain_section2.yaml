@@ -1,0 +1,12 @@
+name: MouseBrainSection2
+path: data/raw/Mouse Brain Serial Section 2 (Sagittal-Anterior)/mouse_brain_section2.h5ad
+sample_data_dir: data/raw/Mouse Brain Serial Section 2 (Sagittal-Anterior)
+platform: Visium
+slice_key: sample_id
+coord_key: spatial
+preprocess:
+  normalize_total: true
+  target_sum: 10000.0
+  log1p: true
+  scale: false
+  min_cells_per_gene: 3

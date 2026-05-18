@@ -1,0 +1,14 @@
+name: STOmics0224
+path: data/raw/wilcoxon_candidate_0224/stomics_0224_multislice.h5ad
+sample_data_dir: data/raw/wilcoxon_candidate_0224
+platform: Visium
+species: Human
+slice_key: sample_id
+label_key: clusters
+coord_key: spatial
+preprocess:
+  make_var_names_unique: false
+  filter_zero_count_genes: false
+  normalize_total: false
+  log1p: false
+  min_cells_per_gene: 0

@@ -1,0 +1,14 @@
+name: STOmicsVisium5Samples
+path: data/raw/stomics_visium_5samples/stomics_visium_5samples_multislice.h5ad
+sample_data_dir: data/raw/stomics_visium_5samples
+platform: Visium
+species: Mouse
+slice_key: sample_id
+label_key: clusters
+slice_class_key: slice
+coord_key: spatial
+preprocess:
+  normalize_total: false
+  log1p: false
+  scale: false
+  min_cells_per_gene: 0

@@ -1,0 +1,14 @@
+name: MouseBrainSerialSections
+path: data/raw/mouse_brain_serial_sections/mouse_brain_serial_sections.h5ad
+sample_data_dir: data/raw/mouse_brain_serial_sections
+platform: Visium
+species: Mouse
+slice_key: sample_id
+label_key: graphclust
+coord_key: spatial
+preprocess:
+  normalize_total: true
+  target_sum: 10000.0
+  log1p: true
+  scale: false
+  min_cells_per_gene: 3

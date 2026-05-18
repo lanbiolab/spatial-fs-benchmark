@@ -1,0 +1,13 @@
+name: BaristaSeq
+path: data/raw/baristaseq/sample_all_data/Slices_combind_data.h5ad
+sample_data_dir: data/raw/baristaseq/sample_data
+platform: BaristaSeq
+slice_key: slices
+label_key: original_domain
+coord_key: spatial
+preprocess:
+  normalize_total: true
+  target_sum: 10000.0
+  log1p: true
+  scale: false
+  min_cells_per_gene: 3

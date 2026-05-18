@@ -1,0 +1,15 @@
+name: DLPFC
+path: data/raw/dlpfc/dlpfc_multislice.h5ad
+sample_data_dir: data/raw/dlpfc
+platform: Visium
+species: Human
+slice_key: sample_id
+label_key: layer_guess_reordered
+slice_class_key: subject
+coord_key: spatial
+preprocess:
+  normalize_total: true
+  target_sum: 10000.0
+  log1p: true
+  scale: false
+  min_cells_per_gene: 3

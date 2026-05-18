@@ -1,0 +1,9 @@
+Dataset	Name	Platform	NSlices	Spots	Features	Labels	SpotsPerSlice
+DLPFC	DLPFC	Visium	4	15922	33538	7.0	3980.5
+E8p5Embryo	E8p5Embryo	Slide-seq	6	19805	18937		3300.8333333333335
+E9p5Embryo	E9p5Embryo	Slide-seq	6	24588	20605		4098.0
+MouseBrainSerialSections	MouseBrainSerialSections	Visium	2	5518	32285	9.0	2759.0
+STOmics0212	STOmics0212	Visium	10	6197	21587	7.0	619.7
+STOmics0218	STOmics0218	Visium	7	18409	32285	9.0	2629.8571428571427
+STOmics0224	STOmics0224	Visium	8	21753	36601	8.0	2719.125
+STOmicsVisium5Samples	STOmicsVisium5Samples	Visium	5	24960	31053	15.0	4992.0

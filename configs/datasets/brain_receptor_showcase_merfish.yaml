@@ -1,0 +1,14 @@
+name: BrainReceptorShowcaseMERFISH
+path: data/raw/BrainReceptorShowcase/brain_receptor_showcase.h5ad
+sample_data_dir: data/raw/BrainReceptorShowcase
+platform: MERFISH
+species: Mouse
+slice_key: sample_id
+slice_class_key: slice
+coord_key: spatial
+preprocess:
+  normalize_total: true
+  target_sum: 10000.0
+  log1p: true
+  scale: false
+  min_cells_per_gene: 3

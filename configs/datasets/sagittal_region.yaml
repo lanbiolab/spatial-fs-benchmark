@@ -1,0 +1,14 @@
+name: SagittalAtlas
+path: data/raw/sagittal/sagittal_multislice_region_q35_65.h5ad
+sample_data_dir: data/raw/sagittal
+platform: ImagingST
+species: Mouse
+slice_key: sample_id
+label_key: Main_molecular_tissue_region
+slice_class_key: slice
+coord_key: spatial
+preprocess:
+  normalize_total: false
+  log1p: false
+  scale: false
+  min_cells_per_gene: 0

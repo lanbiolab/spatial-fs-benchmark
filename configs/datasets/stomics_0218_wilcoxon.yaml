@@ -1,0 +1,13 @@
+name: STOmics0218
+path: data/raw/stomics_wilcoxon_candidate_0218/stomics_0218_multislice.h5ad
+sample_data_dir: data/raw/stomics_wilcoxon_candidate_0218
+platform: Visium
+species: Mouse
+slice_key: sample_id
+label_key: cell_type
+coord_key: spatial
+preprocess:
+  normalize_total: false
+  log1p: false
+  scale: false
+  min_cells_per_gene: 0
