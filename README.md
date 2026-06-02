@@ -20,8 +20,6 @@ configs/           Benchmark, dataset, and method configuration files
 data/              Small benchmark resources only; raw h5ad files are not tracked
 docs/              Notes on methods, metrics, plotting reuse, and reproducibility
 external/          Minimal vendored plotting helper from the reference benchmark
-Fig_Benchmark/     Final main figure PNG files
-extend_Fig/        Final extended figure PNG files
 results/           Small summary tables and final plotted outputs
 scripts/           Data conversion, benchmark execution, summarisation, and plotting scripts
 src/               Python package implementing the benchmark framework
@@ -70,8 +68,8 @@ saved benchmark tables.
 ## Results and Figures
 
 Small summary tables needed for manuscript figures are included under
-`results/`. Final figure PNGs are included under `Fig_Benchmark/` and
-`extend_Fig/`.
+`results/`. Top-level figure PNG exports are not tracked in git; figures can be
+regenerated from the saved summary tables and plotting scripts.
 
 Regenerate representative figures with scripts such as:
 
