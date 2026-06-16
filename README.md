@@ -94,12 +94,4 @@ included under `results/current_rank/`.
 See `data/README.md` and `docs/reproducibility.md` for the expected local data
 layout and known dataset sources.
 
-## Reference
 
-This repository reuses plotting helper code from:
-
-Zappia et al. _Feature selection methods affect the performance of scRNA-seq
-data integration and querying._ Nature Methods, 2025.
-
-The vendored helper is kept under `external/atlas-feature-selection-benchmark/`
-with its original license.
