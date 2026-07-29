@@ -81,6 +81,7 @@ ggsave(
     device = ragg::agg_png,
     bg = "white"
 )
+register_arial_pdf_font()
 ggsave(
     file.path(output_dir, "figure1_complete_reference_aligned.pdf"),
     figure,

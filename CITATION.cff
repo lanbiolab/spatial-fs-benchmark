@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the associated manuscript and archived software release."
+title: "Spatial Feature-Selection Benchmark"
+type: software
+version: 0.2.0
+authors:
+  - family-names: Lan
+    given-names: Wei
+    orcid: "https://orcid.org/0000-0001-5839-7504"
+  - family-names: Yan
+    given-names: Yang
+    orcid: "https://orcid.org/0009-0005-2068-9874"
+  - family-names: Yan
+    given-names: Xuhua
+    orcid: "https://orcid.org/0000-0002-3183-3342"
+  - family-names: Chen
+    given-names: Qingfeng
+    orcid: "https://orcid.org/0000-0002-5506-8913"
+  - family-names: Li
+    given-names: Min
+    orcid: "https://orcid.org/0000-0002-0188-1394"
+  - family-names: Pan
+    given-names: Yi
+    orcid: "https://orcid.org/0000-0002-2766-3096"
+repository-code: "https://github.com/lanbiolab/spatial-fs-benchmark"
+license: MIT

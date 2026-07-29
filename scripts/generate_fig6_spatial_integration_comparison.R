@@ -26,7 +26,8 @@ type_names <- c(
 
 integration_labels <- c(
     "scvi" = "scVI",
-    "cellcharter" = "Cell\nCharter"
+    "cellcharter" = "Cell\nCharter",
+    "graphst" = "GraphST"
 )
 comparison_integrations <- setdiff(names(integration_labels), "scvi")
 
@@ -38,7 +39,8 @@ score_direction <- function(metric_name) {
     ifelse(metric_name %in% lower_better, -1, 1)
 }
 
-use_frozen_scores <- grepl("representative_task_scores\\.tsv$", results_path)
+input_columns <- names(read_tsv(results_path, n_max = 0, show_col_types = FALSE))
+use_frozen_scores <- all(c("CoreOverallMean", "IntegrationMean", "ClusteringMean") %in% input_columns)
 
 if (use_frozen_scores) {
     summary_scores <- read_tsv(results_path, show_col_types = FALSE) |>
@@ -480,3 +482,18 @@ write_tsv(clean_table_labels(rank_diffs), file.path(output_dir, "fig6_rank_diffs
 saveRDS(fig, file.path(output_dir, "figure_fig6_spatial_integration.rds"))
 
 save_figure_files(fig, file.path(output_dir, "figure_fig6_spatial_integration"), width = 8.2, height = 5.7)
+
+svglite::svglite(
+    file.path(output_dir, "figure_fig6_spatial_integration.svg"),
+    width = 8.2, height = 5.7, bg = "white"
+)
+print(fig)
+grDevices::dev.off()
+
+ragg::agg_tiff(
+    file.path(output_dir, "figure_fig6_spatial_integration.tiff"),
+    width = 8.2, height = 5.7, units = "in", res = 600,
+    compression = "lzw", background = "white"
+)
+print(fig)
+grDevices::dev.off()

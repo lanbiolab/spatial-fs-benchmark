@@ -1,0 +1,15 @@
+fs_method	integration_method	MethodGroup	MeanCoreOverall	SDCoreOverall	MeanDatasetRank	NDatasets	GlobalRankWithHybrids	EffectiveFeaturesMin	EffectiveFeaturesMedian	EffectiveFeaturesMax	Method	Integrator
+hybrid_hvg_svg_intersection	cellcharter	hybrid	0.6784691372756905	0.07207333035760552	8.142857142857142	7	4	134	354	1157	Exact HVG-SVG intersection	CellCharter
+hybrid_hvg_svg_intersection	scvi	hybrid	0.6310514687489146	0.08860720452287463	11.571428571428571	7	5	134	354	1157	Exact HVG-SVG intersection	scVI
+hybrid_hvg_svg_union	cellcharter	hybrid	0.6582673392191634	0.08748859348285593	18.714285714285715	7	24	2000	2000	2000	Balanced HVG-SVG union	CellCharter
+hybrid_hvg_svg_union	scvi	hybrid	0.5912193259333506	0.08999606015065266	18.571428571428573	7	21	2000	2000	2000	Balanced HVG-SVG union	scVI
+morans_i	cellcharter	spatially_informed	0.6555499485477939	0.09154669175023952	17	7	18	NA	NA	NA	Moran's I	CellCharter
+morans_i	scvi	spatially_informed	0.5954664651928515	0.08096423370779982	15.428571428571429	7	18	NA	NA	NA	Moran's I	scVI
+scanpy_seurat_v3_batch	cellcharter	expression_driven	0.6795362495914713	0.0772047957502	7.857142857142857	7	3	NA	NA	NA	Scanpy Seurat v3, batch	CellCharter
+scanpy_seurat_v3_batch	scvi	expression_driven	0.6134500372254987	0.07573657769484408	15.285714285714286	7	16.5	NA	NA	NA	Scanpy Seurat v3, batch	scVI
+seurat_vst	cellcharter	expression_driven	0.6786383474337373	0.08062017293274937	7.142857142857143	7	1	NA	NA	NA	Seurat VST	CellCharter
+seurat_vst	scvi	expression_driven	0.628472630560216	0.08493360027977917	11.285714285714286	7	4	NA	NA	NA	Seurat VST	scVI
+somde	cellcharter	spatially_informed	0.6610569623284003	0.08907351769217224	15.714285714285714	7	13.5	NA	NA	NA	SOMDE	CellCharter
+somde	scvi	spatially_informed	0.6112166857060343	0.0893153480408955	10.142857142857142	7	2	NA	NA	NA	SOMDE	scVI
+triku	cellcharter	expression_driven	0.6688789438201601	0.08836536058907814	12.285714285714286	7	7	NA	NA	NA	triku	CellCharter
+triku	scvi	expression_driven	0.6477326340799926	0.09633939834035005	7.571428571428571	7	1	NA	NA	NA	triku	scVI

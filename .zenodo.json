@@ -1,0 +1,22 @@
+{
+  "title": "Spatial Feature-Selection Benchmark",
+  "description": "Audited code, frozen configurations, validation workflows, and figure-generation scripts for benchmarking expression-driven and spatially informed feature selection in spatial transcriptomics.",
+  "license": "MIT",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Lan, Wei", "affiliation": "Guangxi University", "orcid": "0000-0001-5839-7504"},
+    {"name": "Yan, Yang", "affiliation": "Guangxi University", "orcid": "0009-0005-2068-9874"},
+    {"name": "Yan, Xuhua", "affiliation": "Guangxi University", "orcid": "0000-0002-3183-3342"},
+    {"name": "Chen, Qingfeng", "affiliation": "Guangxi University", "orcid": "0000-0002-5506-8913"},
+    {"name": "Li, Min", "affiliation": "Central South University", "orcid": "0000-0002-0188-1394"},
+    {"name": "Pan, Yi", "affiliation": "Shenzhen University of Advanced Technology", "orcid": "0000-0002-2766-3096"}
+  ],
+  "keywords": [
+    "spatial transcriptomics",
+    "feature selection",
+    "spatially variable genes",
+    "benchmark",
+    "data integration",
+    "spatial clustering"
+  ]
+}

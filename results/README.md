@@ -1,24 +1,16 @@
-# Results Directory
+# Tracked Result Summaries
 
-This directory contains small summary tables and final figure outputs needed to
-reproduce the manuscript-level visualisations.
+The public repository tracks only compact manuscript-level tables. Raw matrices,
+selected-feature caches, embeddings, model checkpoints, and per-run task payloads
+are intentionally excluded.
 
-Included:
+`v2/frozen_scores/` contains the complete frozen primary score tables for scVI
+and CellCharter. `v2/graphst_summary/` contains the audited canonical GraphST
+sensitivity tables. `v2/source_data/` contains the plotted values, rank and
+bootstrap summaries, method/dataset inventories, held-out cross-statistic
+validation, hybrid-control comparisons, and the standardized feature-selector
+resource profile supplied with the manuscript.
 
-- `current_rank/data/`: combined benchmark metric tables and metadata
-- `current_rank/output/baseline-ranges.tsv`: scaling ranges used by ranking scripts
-- `fig4a_spatial_benchmark/figures/`: method ranking summaries
-- `fig4b_spatial_benchmark/figures/`: feature-set overlap summaries
-- `fig4e_spatial_benchmark/figures/`: batch-aware selector summaries
-- `fig5*_spatial_lineages/figures/`: lineage subset summaries
-- `fig6_spatial_integration/figures/`: integration-strategy comparison summaries
-
-Excluded:
-
-- per-run embeddings
-- selected-feature JSON files for every dataset/method/feature number
-- model checkpoints
-- full intermediate result directories
-
-Those excluded files are large and should be regenerated from `configs/` and
-`scripts/` when a full rerun is required.
+The manifest in `v2/frozen_scores/frozen_score_manifest.json` records the source
+checksum and scoring contract. Missing values remain missing and are never
+encoded as numerical zeros.

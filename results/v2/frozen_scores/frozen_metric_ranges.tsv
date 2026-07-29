@@ -29,7 +29,7 @@ E9p5Embryo	integration_eval	ILL			0		unavailable		seed-averaged setting-level or
 E9p5Embryo	integration_eval	bASW	0.8604619801	0.9999292047	424	0.13946722460000005	ok	0.13946722460000005	seed-averaged setting-level oriented metric values
 E9p5Embryo	integration_eval	dASW			0		unavailable		seed-averaged setting-level oriented metric values
 E9p5Embryo	integration_eval	dLISI			0		unavailable		seed-averaged setting-level oriented metric values
-E9p5Embryo	integration_eval	iLISI	0.0891234357	0.6306939552	424	0.5415705195	ok	0.5415705195	seed-averaged setting-level oriented metric values
+E9p5Embryo	integration_eval	iLISI	0.08890819863333332	0.6306939552	424	0.5417857565666667	ok	0.5417857565666667	seed-averaged setting-level oriented metric values
 MouseBrainSerialSections	alignment_eval	Accuracy	0.0216	0.226	438	0.2044	ok	0.2044	seed-averaged setting-level oriented metric values
 MouseBrainSerialSections	alignment_eval	Ratio	-9.4952311292	-0.796076736	438	8.6991543932	ok	8.6991543932	seed-averaged setting-level oriented metric values
 MouseBrainSerialSections	clustering_eval	CHAOS	-0.10243881	-0.0620070386	438	0.040431771400000004	ok	0.040431771400000004	seed-averaged setting-level oriented metric values

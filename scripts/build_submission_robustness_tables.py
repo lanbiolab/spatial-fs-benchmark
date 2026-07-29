@@ -31,7 +31,12 @@ LABELLED_DATASETS = {
 METHOD_DETAILS = {
     "all_features": ("Control/reference", "All genes", "Project implementation", "NA"),
     "random": ("Control/reference", "Counts-derived gene universe", "Project implementation", "NA"),
-    "TFs": ("Control/reference", "Predefined transcription-factor list", "Project resource", "NA"),
+    "TFs": (
+        "Control/reference",
+        "Species-specific GO molecular-function TF annotations",
+        "org.Hs.eg.db/org.Mm.eg.db 3.22.0",
+        "Bioconductor annotation resource",
+    ),
     "scsegindex": ("Control/reference", "Normalized expression", "scMerge 1.26.0", "lin2019scsegindex"),
     "scanpy_seurat": ("Expression-driven", "Log-normalized expression", "Scanpy 1.10.4", "wolf2018scanpy"),
     "scanpy_seurat_batch": ("Expression-driven", "Log-normalized expression + slice labels", "Scanpy 1.10.4", "wolf2018scanpy"),
@@ -67,6 +72,7 @@ METHOD_DETAILS = {
 
 CITATION_LABELS = {
     "NA": "Not applicable",
+    "Bioconductor annotation resource": "Bioconductor annotation resources",
     "lin2019scsegindex": "Lin et al. (2019)",
     "wolf2018scanpy": "Wolf et al. (2018)",
     "stuart2019seurat": "Stuart et al. (2019)",
@@ -370,7 +376,11 @@ def bootstrap_spearman(
     return len(x), observed, float(np.quantile(estimates, 0.025)), float(np.quantile(estimates, 0.975))
 
 
-def correlation_summary(n_bootstrap: int, rng: np.random.Generator) -> pd.DataFrame:
+def correlation_summary(
+    frozen_dir: Path,
+    n_bootstrap: int,
+    rng: np.random.Generator,
+) -> pd.DataFrame:
     rows = []
     held_path = ROOT / "manuscript_genome_research_spatial_omics_v2/source_data/Supplemental_Fig_S2d_association.tsv"
     held = pd.read_csv(held_path, sep="\t")
@@ -384,8 +394,11 @@ def correlation_summary(n_bootstrap: int, rng: np.random.Generator) -> pd.DataFr
     )
     rows.append(dict(zip(["Analysis", "N", "SpearmanRho", "Lower95", "Upper95"], ["Held-out Jaccard percentile vs ARI percentile", *result], strict=True)))
 
-    ranks_path = ROOT / "manuscript_genome_research_spatial_omics_v2/source_data/Supplemental_Fig_S5c_global_rank_agreement.tsv"
-    ranks = pd.read_csv(ranks_path, sep="\t").dropna(subset=["scvi", "cellcharter"])
+    ranks = (
+        pd.read_csv(frozen_dir / "global_competitive_method_ranks.tsv", sep="\t")
+        .pivot(index="fs_method", columns="integration_method", values="MeanCoreOverallRank")
+        .dropna(subset=["scvi", "cellcharter"])
+    )
     result = bootstrap_spearman(
         ranks["scvi"].to_numpy(float),
         ranks["cellcharter"].to_numpy(float),
@@ -462,18 +475,25 @@ def write_latex_tables(output_dir: Path, methods: pd.DataFrame, datasets: pd.Dat
         r"\begin{landscape}",
         r"\scriptsize",
         r"\setlength{\tabcolsep}{3pt}",
-        r"\begin{longtable}{p{0.16\linewidth}p{0.15\linewidth}p{0.29\linewidth}p{0.18\linewidth}p{0.16\linewidth}}",
+        r"\begin{longtable}{L{0.14\linewidth}L{0.13\linewidth}L{0.07\linewidth}L{0.27\linewidth}L{0.17\linewidth}L{0.15\linewidth}}",
         r"\caption{\textbf{Complete representative feature-selection panel.} Coordinate use refers to the ranking step itself; downstream integrators may separately use spatial coordinates.}\label{tab:methods}\\",
-        r"\toprule Method & Classification & Ranking input & Software/version & Primary reference \\",
+        r"\toprule Method & Classification & Selected $N$ & Ranking input & Software/version & Primary reference \\",
         r"\midrule\endfirsthead",
-        r"\toprule Method & Classification & Ranking input & Software/version & Primary reference \\",
+        r"\toprule Method & Classification & Selected $N$ & Ranking input & Software/version & Primary reference \\",
         r"\midrule\endhead",
     ]
     for row in methods.sort_values(["Category", "Method"]).itertuples(index=False):
         method_lines.append(
             " & ".join(
                 latex_escape(value)
-                for value in [row.DisplayMethod, row.Category, row.Inputs, row.SoftwareVersion, row.PrimaryReference]
+                for value in [
+                    row.DisplayMethod,
+                    row.Category,
+                    row.RepresentativeFeatureCount,
+                    row.Inputs,
+                    row.SoftwareVersion,
+                    row.PrimaryReference,
+                ]
             )
             + r" \\" 
         )
@@ -582,6 +602,7 @@ def dataset_inventory() -> pd.DataFrame:
 def main() -> None:
     args = parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    (args.output_dir / "runtime_memory_summary.tsv").unlink(missing_ok=True)
     rng = np.random.default_rng(args.seed)
 
     all_metrics, representative = representative_metrics(args.frozen_dir)
@@ -609,7 +630,7 @@ def main() -> None:
 
     weight_draws, weight_summary = weight_perturbation(competitive, args.weight_draws, rng)
     bootstrap = bootstrap_ranks(observed_scores, args.bootstrap, rng)
-    correlations = correlation_summary(args.bootstrap, rng)
+    correlations = correlation_summary(args.frozen_dir, args.bootstrap, rng)
 
     method_table = methods_inventory(representative)
     dataset_table = dataset_inventory()
@@ -621,7 +642,7 @@ def main() -> None:
         "weight_perturbation_summary.tsv": weight_summary,
         "dataset_bootstrap_rank_intervals.tsv": bootstrap,
         "spearman_correlations_with_ci.tsv": correlations,
-        "runtime_memory_summary.tsv": runtime_summary(args.frozen_dir),
+        "task_evaluation_runtime_diagnostic.tsv": runtime_summary(args.frozen_dir),
     }
     for name, frame in outputs.items():
         frame.to_csv(args.output_dir / name, sep="\t", index=False)

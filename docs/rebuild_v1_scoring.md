@@ -21,7 +21,9 @@ Scaled(x)  = (x_oriented - Lower) / (Upper - Lower)
 ```
 
 The range calculation includes both scVI and CellCharter and every completed
-method/feature-number setting. Seed-level values are not clipped. Consequently, an
+method/feature-number setting in the frozen primary matrix. GraphST and exploratory
+hybrid-control values are transformed with these existing ranges; the ranges are
+not recomputed after adding either sensitivity analysis. Seed-level values are not clipped. Consequently, an
 individual seed may lie slightly outside [0, 1], while the setting-level seed mean
 remains within the frozen range. Label-dependent ranges for unlabelled E8.5 and
 E9.5 datasets are marked unavailable and are never replaced by zero.

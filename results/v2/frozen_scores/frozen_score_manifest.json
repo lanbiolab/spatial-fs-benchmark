@@ -1,13 +1,13 @@
 {
   "alignment_eligible_overall": "equal mean of Integration, Clustering and Alignment",
   "canonical_config_roots": [
-    "configs/rebuild_v1/downstream/canonical",
-    "configs/rebuild_v1/non_spatial_downstream/canonical"
+    "/home/xd/y/Benchmark/configs/rebuild_v1/downstream/canonical",
+    "/home/xd/y/Benchmark/configs/rebuild_v1/non_spatial_downstream/canonical"
   ],
   "core_overall": "equal mean of Integration and Clustering",
-  "created_at_utc": "2026-07-26T15:36:05.930175+00:00",
-  "input_results": "results/spatial_svg_rebuild_v1/merged_results.csv",
-  "input_sha256": "d5ce1f811cd112c5ba453056c9602a290114f13295616eb15497c232eaaf6ea5",
+  "created_at_utc": "2026-07-29T14:15:32.719923+00:00",
+  "input_results": "/home/xd/y/Benchmark/results/spatial_svg_rebuild_v1/merged_primary_results.csv",
+  "input_sha256": "f50b0825aafd00e6e795bbbf8a00a302c947c902c446e465752527f5672c8435",
   "range_source": "seed-averaged setting-level oriented metric values",
   "scaling_unit": "Dataset x Metric",
   "seed_scaled_values_clipped": false,

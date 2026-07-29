@@ -1,0 +1,34 @@
+Method	Label
+Brennecke-N2000	Brennecke
+TFs-N2000	Transcription factors
+all_features-Nall	All features
+anticor-N2000	Anticor
+dubstepr-N2000	DUBStepR
+hotspot-N2000	Hotspot
+morans_i-N2000	Moran's I
+nbumi-N2000	NBumi
+nnsvg-N2000	nnSVG
+osca-N2000	OSCA
+random-N500	Random
+scPNMF-N2000	scPNMF
+scanpy_cell_ranger-N2000	scanpy-CellRanger
+scanpy_cell_ranger_batch-N2000	scanpy-CellRanger (batch)
+scanpy_pearson-N2000	scanpy-Pearson
+scanpy_pearson_batch-N2000	scanpy-Pearson (batch)
+scanpy_seurat-N2000	scanpy-Seurat
+scanpy_seurat_batch-N2000	scanpy-Seurat (batch)
+scanpy_seurat_v3-N2000	scanpy-SeuratV3
+scanpy_seurat_v3_batch-N2000	scanpy-SeuratV3 (batch)
+scry-N2000	scry
+scsegindex-N500	scSEGIndex
+seurat_disp-N2000	Seurat-Dispersion
+seurat_mvp-N2000	Seurat-MVP
+seurat_sct-N2000	Seurat-scTransform
+seurat_vst-N2000	Seurat-VST
+singleCellHaystack-N2000	singleCellHaystack
+somde-N2000	SOMDE
+sparkx-N2000	SPARK-X
+spatialde-N2000	SpatialDE
+statistic_mean-N2000	Statistic mean
+statistic_variance-N2000	Statistic variance
+triku-N2000	triku

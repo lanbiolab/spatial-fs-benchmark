@@ -1,0 +1,11 @@
+Check	Expected	Observed	Status
+GraphST embeddings	609	609	PASS
+GraphST task records	1392	1392	PASS
+GraphST metric rows	6699	6699	PASS
+duplicate metric keys	0	0	PASS
+expected label-dependent missing values	696	696	PASS
+unexpected non-finite metric values	0	0	PASS
+finite values missing frozen ranges	0	0	PASS
+GraphST setting scores	203	203	PASS
+GraphST-primary feature-hash comparisons	1218	1218	PASS
+GraphST-primary feature-hash failures	0	0	PASS

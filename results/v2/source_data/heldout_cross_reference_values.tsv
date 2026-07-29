@@ -1,0 +1,841 @@
+dataset	heldout_slice	method	n_features	seed	evaluation_role	metric	value	runtime_seconds	Reference	Metric
+DLPFC	151507	all_features	2000	0	spatial_reproducibility	heldout_topn_jaccard		0.0035533821210265	Moran's I	Jaccard
+DLPFC	151507	all_features	2000	0	spatial_reproducibility	heldout_moran_percentile		0.0035533821210265	Moran's I	MeanReferencePercentile
+DLPFC	151507	all_features	2000	0	spatial_reproducibility	heldout_rank_spearman		0.0035533821210265	Moran's I	RankSpearman
+DLPFC	151507	all_features	2000	0	heldout_clustering	heldout_ari	0.2580335713411771	0.0035533821210265	Moran's I	ARI
+DLPFC	151507	all_features	2000	0	heldout_clustering	heldout_nmi	0.388350087042038	0.0035533821210265	Moran's I	NMI
+DLPFC	151507	random	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.049317943336831	0.0020628757774829	Moran's I	Jaccard
+DLPFC	151507	random	2000	0	spatial_reproducibility	heldout_moran_percentile	0.4942646177257216	0.0020628757774829	Moran's I	MeanReferencePercentile
+DLPFC	151507	random	2000	0	spatial_reproducibility	heldout_rank_spearman	-0.0059293870227404	0.0020628757774829	Moran's I	RankSpearman
+DLPFC	151507	random	2000	0	heldout_clustering	heldout_ari	0.1460960074717224	0.0020628757774829	Moran's I	ARI
+DLPFC	151507	random	2000	0	heldout_clustering	heldout_nmi	0.2070839488682774	0.0020628757774829	Moran's I	NMI
+DLPFC	151507	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1245431543435479	1.5017099138349297	Moran's I	Jaccard
+DLPFC	151507	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5339558470902886	1.5017099138349297	Moran's I	MeanReferencePercentile
+DLPFC	151507	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.037033120256724	1.5017099138349297	Moran's I	RankSpearman
+DLPFC	151507	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.245625216991846	1.5017099138349297	Moran's I	ARI
+DLPFC	151507	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.3786579648259631	1.5017099138349297	Moran's I	NMI
+DLPFC	151507	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1019283746556473	2.4511352432891726	Moran's I	Jaccard
+DLPFC	151507	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5992781748593562	2.4511352432891726	Moran's I	MeanReferencePercentile
+DLPFC	151507	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.1161458366859259	2.4511352432891726	Moran's I	RankSpearman
+DLPFC	151507	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.1480380388715067	2.4511352432891726	Moran's I	ARI
+DLPFC	151507	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.2400305054730328	2.4511352432891726	Moran's I	NMI
+DLPFC	151507	seurat_vst	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.189767995240928	25.853271974250674	Moran's I	Jaccard
+DLPFC	151507	seurat_vst	2000	0	spatial_reproducibility	heldout_moran_percentile	0.6206541778105691	25.853271974250674	Moran's I	MeanReferencePercentile
+DLPFC	151507	seurat_vst	2000	0	spatial_reproducibility	heldout_rank_spearman	0.1356017717898219	25.853271974250674	Moran's I	RankSpearman
+DLPFC	151507	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.2580572748505843	25.853271974250674	Moran's I	ARI
+DLPFC	151507	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.3756931345438791	25.853271974250674	Moran's I	NMI
+DLPFC	151507	triku	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.2380068090374497	67.50776207447052	Moran's I	Jaccard
+DLPFC	151507	triku	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7201267638107535	67.50776207447052	Moran's I	MeanReferencePercentile
+DLPFC	151507	triku	2000	0	spatial_reproducibility	heldout_rank_spearman	0.2468006341775381	67.50776207447052	Moran's I	RankSpearman
+DLPFC	151507	triku	2000	0	heldout_clustering	heldout_ari	0.2761247367746476	67.50776207447052	Moran's I	ARI
+DLPFC	151507	triku	2000	0	heldout_clustering	heldout_nmi	0.3769863550213163	67.50776207447052	Moran's I	NMI
+DLPFC	151507	singleCellHaystack	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.4716703458425312	71.23558965604752	Moran's I	Jaccard
+DLPFC	151507	singleCellHaystack	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8893702849764825	71.23558965604752	Moran's I	MeanReferencePercentile
+DLPFC	151507	singleCellHaystack	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4313970337274604	71.23558965604752	Moran's I	RankSpearman
+DLPFC	151507	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.2432168733765697	71.23558965604752	Moran's I	ARI
+DLPFC	151507	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.3792445413405841	71.23558965604752	Moran's I	NMI
+DLPFC	151507	scsegindex	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1876484560570071	846.9530229894444	Moran's I	Jaccard
+DLPFC	151507	scsegindex	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7893192382182054	846.9530229894444	Moran's I	MeanReferencePercentile
+DLPFC	151507	scsegindex	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3189179191508541	846.9530229894444	Moran's I	RankSpearman
+DLPFC	151507	scsegindex	2000	0	heldout_clustering	heldout_ari	0.1742302732987292	846.9530229894444	Moran's I	ARI
+DLPFC	151507	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.288918919394151	846.9530229894444	Moran's I	NMI
+DLPFC	151507	morans_i	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.5420200462606014	5.118669217452407	Moran's I	Jaccard
+DLPFC	151507	morans_i	2000	0	spatial_reproducibility	heldout_moran_percentile	0.903237457345753	5.118669217452407	Moran's I	MeanReferencePercentile
+DLPFC	151507	morans_i	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4484428263412939	5.118669217452407	Moran's I	RankSpearman
+DLPFC	151507	morans_i	2000	0	heldout_clustering	heldout_ari	0.2583137432381155	5.118669217452407	Moran's I	ARI
+DLPFC	151507	morans_i	2000	0	heldout_clustering	heldout_nmi	0.3858784762878546	5.118669217452407	Moran's I	NMI
+DLPFC	151507	sparkx	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.48864905098623	135.00512962136418	Moran's I	Jaccard
+DLPFC	151507	sparkx	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8979893479664299	135.00512962136418	Moran's I	MeanReferencePercentile
+DLPFC	151507	sparkx	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4423033065669614	135.00512962136418	Moran's I	RankSpearman
+DLPFC	151507	sparkx	2000	0	heldout_clustering	heldout_ari	0.2499335453353896	135.00512962136418	Moran's I	ARI
+DLPFC	151507	sparkx	2000	0	heldout_clustering	heldout_nmi	0.381754705833939	135.00512962136418	Moran's I	NMI
+DLPFC	151507	nnsvg	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.49812734082397	7346.634869046509	Moran's I	Jaccard
+DLPFC	151507	nnsvg	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8947482016047219	7346.634869046509	Moran's I	MeanReferencePercentile
+DLPFC	151507	nnsvg	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4388298061236749	7346.634869046509	Moran's I	RankSpearman
+DLPFC	151507	nnsvg	2000	0	heldout_clustering	heldout_ari	0.2498485756312644	7346.634869046509	Moran's I	ARI
+DLPFC	151507	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.3793177755304766	7346.634869046509	Moran's I	NMI
+DLPFC	151507	spatialde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.38217000691085	784.6354217231274	Moran's I	Jaccard
+DLPFC	151507	spatialde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8185852393249101	784.6354217231274	Moran's I	MeanReferencePercentile
+DLPFC	151507	spatialde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3563299968678203	784.6354217231274	Moran's I	RankSpearman
+DLPFC	151507	spatialde	2000	0	heldout_clustering	heldout_ari	0.2710575650066728	784.6354217231274	Moran's I	ARI
+DLPFC	151507	spatialde	2000	0	heldout_clustering	heldout_nmi	0.3864644605734737	784.6354217231274	Moran's I	NMI
+DLPFC	151507	somde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.4020329477742727	986.9796756254508	Moran's I	Jaccard
+DLPFC	151507	somde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8265615835100987	986.9796756254508	Moran's I	MeanReferencePercentile
+DLPFC	151507	somde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3660074115910589	986.9796756254508	Moran's I	RankSpearman
+DLPFC	151507	somde	2000	0	heldout_clustering	heldout_ari	0.2690936829373225	986.9796756254508	Moran's I	ARI
+DLPFC	151507	somde	2000	0	heldout_clustering	heldout_nmi	0.3854999762476632	986.9796756254508	Moran's I	NMI
+DLPFC	151507	wilcoxon	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1207621182404034	157.52203697618097	Moran's I	Jaccard
+DLPFC	151507	wilcoxon	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5420807894494144	157.52203697618097	Moran's I	MeanReferencePercentile
+DLPFC	151507	wilcoxon	2000	0	spatial_reproducibility	heldout_rank_spearman	0.0430000815299659	157.52203697618097	Moran's I	RankSpearman
+DLPFC	151507	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.2516265865961452	157.52203697618097	Moran's I	ARI
+DLPFC	151507	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.39840479096607	157.52203697618097	Moran's I	NMI
+DLPFC	151673	all_features	2000	0	spatial_reproducibility	heldout_topn_jaccard		0.0020796479657292	Moran's I	Jaccard
+DLPFC	151673	all_features	2000	0	spatial_reproducibility	heldout_moran_percentile		0.0020796479657292	Moran's I	MeanReferencePercentile
+DLPFC	151673	all_features	2000	0	spatial_reproducibility	heldout_rank_spearman		0.0020796479657292	Moran's I	RankSpearman
+DLPFC	151673	all_features	2000	0	heldout_clustering	heldout_ari	0.1742227363066609	0.0020796479657292	Moran's I	ARI
+DLPFC	151673	all_features	2000	0	heldout_clustering	heldout_nmi	0.3613464984815218	0.0020796479657292	Moran's I	NMI
+DLPFC	151673	random	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.0534632604687911	0.0014407951384782	Moran's I	Jaccard
+DLPFC	151673	random	2000	0	spatial_reproducibility	heldout_moran_percentile	0.50296804389929	0.0014407951384782	Moran's I	MeanReferencePercentile
+DLPFC	151673	random	2000	0	spatial_reproducibility	heldout_rank_spearman	0.0035002239998347	0.0014407951384782	Moran's I	RankSpearman
+DLPFC	151673	random	2000	0	heldout_clustering	heldout_ari	0.1241576247351043	0.0014407951384782	Moran's I	ARI
+DLPFC	151673	random	2000	0	heldout_clustering	heldout_nmi	0.2484874912556318	0.0014407951384782	Moran's I	NMI
+DLPFC	151673	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1117287381878821	1.27003528829664	Moran's I	Jaccard
+DLPFC	151673	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5173598173937103	1.27003528829664	Moran's I	MeanReferencePercentile
+DLPFC	151673	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.016940190479366	1.27003528829664	Moran's I	RankSpearman
+DLPFC	151673	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.231755603738839	1.27003528829664	Moran's I	ARI
+DLPFC	151673	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.3826670836244095	1.27003528829664	Moran's I	NMI
+DLPFC	151673	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1418783899514701	2.163928983733058	Moran's I	Jaccard
+DLPFC	151673	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.6335331780872452	2.163928983733058	Moran's I	MeanReferencePercentile
+DLPFC	151673	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.1542902746941994	2.163928983733058	Moran's I	RankSpearman
+DLPFC	151673	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.1514051057594112	2.163928983733058	Moran's I	ARI
+DLPFC	151673	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.2876934854010053	2.163928983733058	Moran's I	NMI
+DLPFC	151673	seurat_vst	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.2292562999385372	23.94848270714283	Moran's I	Jaccard
+DLPFC	151673	seurat_vst	2000	0	spatial_reproducibility	heldout_moran_percentile	0.6305091303144886	23.94848270714283	Moran's I	MeanReferencePercentile
+DLPFC	151673	seurat_vst	2000	0	spatial_reproducibility	heldout_rank_spearman	0.1454032462936843	23.94848270714283	Moran's I	RankSpearman
+DLPFC	151673	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.2434107910957928	23.94848270714283	Moran's I	ARI
+DLPFC	151673	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.3948479180259454	23.94848270714283	Moran's I	NMI
+DLPFC	151673	triku	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.3101867016049787	63.54361620917916	Moran's I	Jaccard
+DLPFC	151673	triku	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7798062574933137	63.54361620917916	Moran's I	MeanReferencePercentile
+DLPFC	151673	triku	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3134066811163128	63.54361620917916	Moran's I	RankSpearman
+DLPFC	151673	triku	2000	0	heldout_clustering	heldout_ari	0.2033078352619569	63.54361620917916	Moran's I	ARI
+DLPFC	151673	triku	2000	0	heldout_clustering	heldout_nmi	0.3747881038379862	63.54361620917916	Moran's I	NMI
+DLPFC	151673	singleCellHaystack	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.513431706394249	69.56072771456093	Moran's I	Jaccard
+DLPFC	151673	singleCellHaystack	2000	0	spatial_reproducibility	heldout_moran_percentile	0.9061984229456792	69.56072771456093	Moran's I	MeanReferencePercentile
+DLPFC	151673	singleCellHaystack	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4500727556808411	69.56072771456093	Moran's I	RankSpearman
+DLPFC	151673	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.1781831471693461	69.56072771456093	Moran's I	ARI
+DLPFC	151673	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.3618829746722239	69.56072771456093	Moran's I	NMI
+DLPFC	151673	scsegindex	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.3527223537368955	930.7730006119236	Moran's I	Jaccard
+DLPFC	151673	scsegindex	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8574507055243014	930.7730006119236	Moran's I	MeanReferencePercentile
+DLPFC	151673	scsegindex	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3925713642425501	930.7730006119236	Moran's I	RankSpearman
+DLPFC	151673	scsegindex	2000	0	heldout_clustering	heldout_ari	0.139103665521376	930.7730006119236	Moran's I	ARI
+DLPFC	151673	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.2929583008169418	930.7730006119236	Moran's I	NMI
+DLPFC	151673	morans_i	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.5754233950374164	5.071921815164387	Moran's I	Jaccard
+DLPFC	151673	morans_i	2000	0	spatial_reproducibility	heldout_moran_percentile	0.913689177349442	5.071921815164387	Moran's I	MeanReferencePercentile
+DLPFC	151673	morans_i	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4592119419908241	5.071921815164387	Moran's I	RankSpearman
+DLPFC	151673	morans_i	2000	0	heldout_clustering	heldout_ari	0.1799649951256146	5.071921815164387	Moran's I	ARI
+DLPFC	151673	morans_i	2000	0	heldout_clustering	heldout_nmi	0.3643168123038984	5.071921815164387	Moran's I	NMI
+DLPFC	151673	sparkx	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.4754703061600885	132.1619899366051	Moran's I	Jaccard
+DLPFC	151673	sparkx	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8979123858710689	132.1619899366051	Moran's I	MeanReferencePercentile
+DLPFC	151673	sparkx	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4419588283911567	132.1619899366051	Moran's I	RankSpearman
+DLPFC	151673	sparkx	2000	0	heldout_clustering	heldout_ari	0.175830031910875	132.1619899366051	Moran's I	ARI
+DLPFC	151673	sparkx	2000	0	heldout_clustering	heldout_nmi	0.3578033510124846	132.1619899366051	Moran's I	NMI
+DLPFC	151673	nnsvg	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.5879317189360858	6201.266901453957	Moran's I	Jaccard
+DLPFC	151673	nnsvg	2000	0	spatial_reproducibility	heldout_moran_percentile	0.9206155123120908	6201.266901453957	Moran's I	MeanReferencePercentile
+DLPFC	151673	nnsvg	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4660904317385163	6201.266901453957	Moran's I	RankSpearman
+DLPFC	151673	nnsvg	2000	0	heldout_clustering	heldout_ari	0.1767524914028034	6201.266901453957	Moran's I	ARI
+DLPFC	151673	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.3626286227332987	6201.266901453957	Moran's I	NMI
+DLPFC	151673	spatialde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.3477088948787062	766.7298991819844	Moran's I	Jaccard
+DLPFC	151673	spatialde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7977982338836116	766.7298991819844	Moran's I	MeanReferencePercentile
+DLPFC	151673	spatialde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3335060213204796	766.7298991819844	Moran's I	RankSpearman
+DLPFC	151673	spatialde	2000	0	heldout_clustering	heldout_ari	0.2348267173904049	766.7298991819844	Moran's I	ARI
+DLPFC	151673	spatialde	2000	0	heldout_clustering	heldout_nmi	0.3924152069236866	766.7298991819844	Moran's I	NMI
+DLPFC	151673	somde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.4275517487508922	976.5415872503072	Moran's I	Jaccard
+DLPFC	151673	somde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8386273632758462	976.5415872503072	Moran's I	MeanReferencePercentile
+DLPFC	151673	somde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3786092959099952	976.5415872503072	Moran's I	RankSpearman
+DLPFC	151673	somde	2000	0	heldout_clustering	heldout_ari	0.193715889043566	976.5415872503072	Moran's I	ARI
+DLPFC	151673	somde	2000	0	heldout_clustering	heldout_nmi	0.376871307180268	976.5415872503072	Moran's I	NMI
+DLPFC	151673	wilcoxon	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1235955056179775	165.85778702795506	Moran's I	Jaccard
+DLPFC	151673	wilcoxon	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5512068846260261	165.85778702795506	Moran's I	MeanReferencePercentile
+DLPFC	151673	wilcoxon	2000	0	spatial_reproducibility	heldout_rank_spearman	0.0518543312075026	165.85778702795506	Moran's I	RankSpearman
+DLPFC	151673	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.2759325784686824	165.85778702795506	Moran's I	ARI
+DLPFC	151673	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.424445058570104	165.85778702795506	Moran's I	NMI
+MouseBrainSerialSections	section1	all_features	2000	0	spatial_reproducibility	heldout_topn_jaccard		0.0016512079164385	Moran's I	Jaccard
+MouseBrainSerialSections	section1	all_features	2000	0	spatial_reproducibility	heldout_moran_percentile		0.0016512079164385	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	all_features	2000	0	spatial_reproducibility	heldout_rank_spearman		0.0016512079164385	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	all_features	2000	0	heldout_clustering	heldout_ari	0.7231293047354478	0.0016512079164385	Moran's I	ARI
+MouseBrainSerialSections	section1	all_features	2000	0	heldout_clustering	heldout_nmi	0.7937635508129444	0.0016512079164385	Moran's I	NMI
+MouseBrainSerialSections	section1	random	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.0512483574244415	0.0015059653669595	Moran's I	Jaccard
+MouseBrainSerialSections	section1	random	2000	0	spatial_reproducibility	heldout_moran_percentile	0.492145816713203	0.0015059653669595	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	random	2000	0	spatial_reproducibility	heldout_rank_spearman	-0.008785474307377	0.0015059653669595	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	random	2000	0	heldout_clustering	heldout_ari	0.6011503384856579	0.0015059653669595	Moran's I	ARI
+MouseBrainSerialSections	section1	random	2000	0	heldout_clustering	heldout_nmi	0.683633750742414	0.0015059653669595	Moran's I	NMI
+MouseBrainSerialSections	section1	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.4367816091954023	0.5832616463303566	Moran's I	Jaccard
+MouseBrainSerialSections	section1	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.808431441962505	0.5832616463303566	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3596228779867396	0.5832616463303566	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.6094103658186519	0.5832616463303566	Moran's I	ARI
+MouseBrainSerialSections	section1	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.7215317296876593	0.5832616463303566	Moran's I	NMI
+MouseBrainSerialSections	section1	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.2795905310300703	1.026516777463257	Moran's I	Jaccard
+MouseBrainSerialSections	section1	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.776944380733945	1.026516777463257	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3253515809190089	1.026516777463257	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.6238755040561148	1.026516777463257	Moran's I	ARI
+MouseBrainSerialSections	section1	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.7384306010430731	1.026516777463257	Moran's I	NMI
+MouseBrainSerialSections	section1	seurat_vst	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.4367816091954023	20.548787213861942	Moran's I	Jaccard
+MouseBrainSerialSections	section1	seurat_vst	2000	0	spatial_reproducibility	heldout_moran_percentile	0.808505509573195	20.548787213861942	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	seurat_vst	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3597000513877653	20.548787213861942	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.6060092391847668	20.548787213861942	Moran's I	ARI
+MouseBrainSerialSections	section1	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.7181681682040104	20.548787213861942	Moran's I	NMI
+MouseBrainSerialSections	section1	triku	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.3540961408259986	38.79895367473364	Moran's I	Jaccard
+MouseBrainSerialSections	section1	triku	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8317724870362984	38.79895367473364	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	triku	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3832627857504526	38.79895367473364	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	triku	2000	0	heldout_clustering	heldout_ari	0.6238908825681662	38.79895367473364	Moran's I	ARI
+MouseBrainSerialSections	section1	triku	2000	0	heldout_clustering	heldout_nmi	0.7381374564184857	38.79895367473364	Moran's I	NMI
+MouseBrainSerialSections	section1	singleCellHaystack	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.4625228519195612	50.00462262891233	Moran's I	Jaccard
+MouseBrainSerialSections	section1	singleCellHaystack	2000	0	spatial_reproducibility	heldout_moran_percentile	0.9064203480255286	50.00462262891233	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	singleCellHaystack	2000	0	spatial_reproducibility	heldout_rank_spearman	0.469377875398808	50.00462262891233	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.6212610477633856	50.00462262891233	Moran's I	ARI
+MouseBrainSerialSections	section1	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.736884258915065	50.00462262891233	Moran's I	NMI
+MouseBrainSerialSections	section1	scsegindex	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.0720986330742428	345.90391749329865	Moran's I	Jaccard
+MouseBrainSerialSections	section1	scsegindex	2000	0	spatial_reproducibility	heldout_moran_percentile	0.6064525329078579	345.90391749329865	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	scsegindex	2000	0	spatial_reproducibility	heldout_rank_spearman	0.1172681255474997	345.90391749329865	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	scsegindex	2000	0	heldout_clustering	heldout_ari	0.592555689440018	345.90391749329865	Moran's I	ARI
+MouseBrainSerialSections	section1	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.6715119827499466	345.90391749329865	Moran's I	NMI
+MouseBrainSerialSections	section1	morans_i	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.8181818181818182	1.6627576211467383	Moran's I	Jaccard
+MouseBrainSerialSections	section1	morans_i	2000	0	spatial_reproducibility	heldout_moran_percentile	0.9448375299162346	1.6627576211467383	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	morans_i	2000	0	spatial_reproducibility	heldout_rank_spearman	0.5139691162405949	1.6627576211467383	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	morans_i	2000	0	heldout_clustering	heldout_ari	0.7093022654613698	1.6627576211467383	Moran's I	ARI
+MouseBrainSerialSections	section1	morans_i	2000	0	heldout_clustering	heldout_nmi	0.7750272567613442	1.6627576211467383	Moran's I	NMI
+MouseBrainSerialSections	section1	sparkx	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.4897579143389199	59.59254124294967	Moran's I	Jaccard
+MouseBrainSerialSections	section1	sparkx	2000	0	spatial_reproducibility	heldout_moran_percentile	0.911639534303949	59.59254124294967	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	sparkx	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4765747459598121	59.59254124294967	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	sparkx	2000	0	heldout_clustering	heldout_ari	0.7027840574670847	59.59254124294967	Moran's I	ARI
+MouseBrainSerialSections	section1	sparkx	2000	0	heldout_clustering	heldout_nmi	0.7765226074518532	59.59254124294967	Moran's I	NMI
+MouseBrainSerialSections	section1	nnsvg	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.7761989342806395	9523.509193881417	Moran's I	Jaccard
+MouseBrainSerialSections	section1	nnsvg	2000	0	spatial_reproducibility	heldout_moran_percentile	0.9442724870362984	9523.509193881417	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	nnsvg	2000	0	spatial_reproducibility	heldout_rank_spearman	0.513394113141371	9523.509193881417	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	nnsvg	2000	0	heldout_clustering	heldout_ari	0.6316739170726949	9523.509193881417	Moran's I	ARI
+MouseBrainSerialSections	section1	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.7512493835159856	9523.509193881417	Moran's I	NMI
+MouseBrainSerialSections	section1	spatialde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.5785319652722968	266.20023346785456	Moran's I	Jaccard
+MouseBrainSerialSections	section1	spatialde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8482743568009573	266.20023346785456	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	spatialde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3983326915681121	266.20023346785456	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	spatialde	2000	0	heldout_clustering	heldout_ari	0.7116842118734247	266.20023346785456	Moran's I	ARI
+MouseBrainSerialSections	section1	spatialde	2000	0	heldout_clustering	heldout_nmi	0.7746604235988921	266.20023346785456	Moran's I	NMI
+MouseBrainSerialSections	section1	somde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.5521924718665114	269.45996464416385	Moran's I	Jaccard
+MouseBrainSerialSections	section1	somde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8931332768248903	269.45996464416385	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	somde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4551459314957607	269.45996464416385	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	somde	2000	0	heldout_clustering	heldout_ari	0.7211975697886338	269.45996464416385	Moran's I	ARI
+MouseBrainSerialSections	section1	somde	2000	0	heldout_clustering	heldout_nmi	0.7822710739416103	269.45996464416385	Moran's I	NMI
+MouseBrainSerialSections	section1	wilcoxon	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1207621182404034	34.010841231793165	Moran's I	Jaccard
+MouseBrainSerialSections	section1	wilcoxon	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5317027074192262	34.010841231793165	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section1	wilcoxon	2000	0	spatial_reproducibility	heldout_rank_spearman	0.0289258995669627	34.010841231793165	Moran's I	RankSpearman
+MouseBrainSerialSections	section1	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.6284030402944882	34.010841231793165	Moran's I	ARI
+MouseBrainSerialSections	section1	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.7290694143493921	34.010841231793165	Moran's I	NMI
+MouseBrainSerialSections	section2	all_features	2000	0	spatial_reproducibility	heldout_topn_jaccard		0.001662771217525	Moran's I	Jaccard
+MouseBrainSerialSections	section2	all_features	2000	0	spatial_reproducibility	heldout_moran_percentile		0.001662771217525	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	all_features	2000	0	spatial_reproducibility	heldout_rank_spearman		0.001662771217525	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	all_features	2000	0	heldout_clustering	heldout_ari	0.6874175411376923	0.001662771217525	Moran's I	ARI
+MouseBrainSerialSections	section2	all_features	2000	0	heldout_clustering	heldout_nmi	0.7990469049170372	0.001662771217525	Moran's I	NMI
+MouseBrainSerialSections	section2	random	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.0520778537611783	0.0013078255578875	Moran's I	Jaccard
+MouseBrainSerialSections	section2	random	2000	0	spatial_reproducibility	heldout_moran_percentile	0.4853302253689668	0.0013078255578875	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	random	2000	0	spatial_reproducibility	heldout_rank_spearman	-0.0166266599811103	0.0013078255578875	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	random	2000	0	heldout_clustering	heldout_ari	0.6294078077995554	0.0013078255578875	Moran's I	ARI
+MouseBrainSerialSections	section2	random	2000	0	heldout_clustering	heldout_nmi	0.6967679088846356	0.0013078255578875	Moran's I	NMI
+MouseBrainSerialSections	section2	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.4275517487508922	0.6060272511094809	Moran's I	Jaccard
+MouseBrainSerialSections	section2	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8244153619864381	0.6060272511094809	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3784947574231754	0.6060272511094809	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.723838667410308	0.6060272511094809	Moran's I	ARI
+MouseBrainSerialSections	section2	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.7889525507896834	0.6060272511094809	Moran's I	NMI
+MouseBrainSerialSections	section2	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.2970168612191958	1.35791836399585	Moran's I	Jaccard
+MouseBrainSerialSections	section2	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7744326635420822	1.35791836399585	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3226666247568019	1.35791836399585	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.6790053875493031	1.35791836399585	Moran's I	ARI
+MouseBrainSerialSections	section2	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.7486288801609702	1.35791836399585	Moran's I	NMI
+MouseBrainSerialSections	section2	seurat_vst	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.4275517487508922	20.244772379286587	Moran's I	Jaccard
+MouseBrainSerialSections	section2	seurat_vst	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8244937674511368	20.244772379286587	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	seurat_vst	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3785762648877801	20.244772379286587	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.723838667410308	20.244772379286587	Moran's I	ARI
+MouseBrainSerialSections	section2	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.7889525507896834	20.244772379286587	Moran's I	NMI
+MouseBrainSerialSections	section2	triku	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.3157894736842105	43.95227229222655	Moran's I	Jaccard
+MouseBrainSerialSections	section2	triku	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8092549361786996	43.95227229222655	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	triku	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3572443522136044	43.95227229222655	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	triku	2000	0	heldout_clustering	heldout_ari	0.7161504715245784	43.95227229222655	Moran's I	ARI
+MouseBrainSerialSections	section2	triku	2000	0	heldout_clustering	heldout_nmi	0.783677607199962	43.95227229222655	Moran's I	NMI
+MouseBrainSerialSections	section2	singleCellHaystack	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.3726835964310226	49.14608493261039	Moran's I	Jaccard
+MouseBrainSerialSections	section2	singleCellHaystack	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8817510969285999	49.14608493261039	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	singleCellHaystack	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4401027322806343	49.14608493261039	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.645615247840499	49.14608493261039	Moran's I	ARI
+MouseBrainSerialSections	section2	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.7457907298608255	49.14608493261039	Moran's I	NMI
+MouseBrainSerialSections	section2	scsegindex	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.0718113612004287	415.96066134795547	Moran's I	Jaccard
+MouseBrainSerialSections	section2	scsegindex	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5937690217391305	415.96066134795547	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	scsegindex	2000	0	spatial_reproducibility	heldout_rank_spearman	0.1032305653104696	415.96066134795547	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	scsegindex	2000	0	heldout_clustering	heldout_ari	0.5089449200203777	415.96066134795547	Moran's I	ARI
+MouseBrainSerialSections	section2	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.6465107102339807	415.96066134795547	Moran's I	NMI
+MouseBrainSerialSections	section2	morans_i	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.8181818181818182	1.6735448213294148	Moran's I	Jaccard
+MouseBrainSerialSections	section2	morans_i	2000	0	spatial_reproducibility	heldout_moran_percentile	0.9447213552054248	1.6735448213294148	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	morans_i	2000	0	spatial_reproducibility	heldout_rank_spearman	0.5139543787519231	1.6735448213294148	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	morans_i	2000	0	heldout_clustering	heldout_ari	0.7032603983114087	1.6735448213294148	Moran's I	ARI
+MouseBrainSerialSections	section2	morans_i	2000	0	heldout_clustering	heldout_nmi	0.810973496456396	1.6735448213294148	Moran's I	NMI
+MouseBrainSerialSections	section2	sparkx	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.5238095238095238	66.81009337399155	Moran's I	Jaccard
+MouseBrainSerialSections	section2	sparkx	2000	0	spatial_reproducibility	heldout_moran_percentile	0.9189830973274832	66.81009337399155	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	sparkx	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4847875536901925	66.81009337399155	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	sparkx	2000	0	heldout_clustering	heldout_ari	0.6962435188940957	66.81009337399155	Moran's I	ARI
+MouseBrainSerialSections	section2	sparkx	2000	0	heldout_clustering	heldout_nmi	0.8048263484362844	66.81009337399155	Moran's I	NMI
+MouseBrainSerialSections	section2	nnsvg	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.7613386173491854	10999.72357568238	Moran's I	Jaccard
+MouseBrainSerialSections	section2	nnsvg	2000	0	spatial_reproducibility	heldout_moran_percentile	0.9437240476665336	10999.72357568238	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	nnsvg	2000	0	spatial_reproducibility	heldout_rank_spearman	0.5127890135922356	10999.72357568238	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	nnsvg	2000	0	heldout_clustering	heldout_ari	0.7079001885113916	10999.72357568238	Moran's I	ARI
+MouseBrainSerialSections	section2	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.8133380252678455	10999.72357568238	Moran's I	NMI
+MouseBrainSerialSections	section2	spatialde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.6025641025641025	273.2938136830926	Moran's I	Jaccard
+MouseBrainSerialSections	section2	spatialde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8617946001196649	273.2938136830926	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	spatialde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4153723346770002	273.2938136830926	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	spatialde	2000	0	heldout_clustering	heldout_ari	0.7007140074464339	273.2938136830926	Moran's I	ARI
+MouseBrainSerialSections	section2	spatialde	2000	0	heldout_clustering	heldout_nmi	0.8067141957462148	273.2938136830926	Moran's I	NMI
+MouseBrainSerialSections	section2	somde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.5408320493066255	270.9901908878237	Moran's I	Jaccard
+MouseBrainSerialSections	section2	somde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8974676655364977	270.9901908878237	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	somde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4602016303273773	270.9901908878237	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	somde	2000	0	heldout_clustering	heldout_ari	0.704464950904976	270.9901908878237	Moran's I	ARI
+MouseBrainSerialSections	section2	somde	2000	0	heldout_clustering	heldout_nmi	0.8028983317344415	270.9901908878237	Moran's I	NMI
+MouseBrainSerialSections	section2	wilcoxon	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.122334455667789	35.18799910042435	Moran's I	Jaccard
+MouseBrainSerialSections	section2	wilcoxon	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5228683187076186	35.18799910042435	Moran's I	MeanReferencePercentile
+MouseBrainSerialSections	section2	wilcoxon	2000	0	spatial_reproducibility	heldout_rank_spearman	0.0195049224780685	35.18799910042435	Moran's I	RankSpearman
+MouseBrainSerialSections	section2	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.6933972330512995	35.18799910042435	Moran's I	ARI
+MouseBrainSerialSections	section2	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.7652949308574414	35.18799910042435	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	all_features	2000	0	spatial_reproducibility	heldout_topn_jaccard		0.0020099272951483	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	all_features	2000	0	spatial_reproducibility	heldout_moran_percentile		0.0020099272951483	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	all_features	2000	0	spatial_reproducibility	heldout_rank_spearman		0.0020099272951483	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	all_features	2000	0	heldout_clustering	heldout_ari	0.1798113438030908	0.0020099272951483	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	all_features	2000	0	heldout_clustering	heldout_nmi	0.2404719693404045	0.0020099272951483	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	random	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.0582010582010582	0.0018823128193616	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	random	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5153509056376523	0.0018823128193616	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	random	2000	0	spatial_reproducibility	heldout_rank_spearman	0.0172968853992839	0.0018823128193616	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	random	2000	0	heldout_clustering	heldout_ari	0.1049261822085874	0.0018823128193616	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	random	2000	0	heldout_clustering	heldout_nmi	0.1812058556501153	0.0018823128193616	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1682242990654205	0.7381784087046981	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.6923841200722658	0.7381784087046981	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.214701284325897	0.7381784087046981	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.1876381558429804	0.7381784087046981	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.2421941773007798	0.7381784087046981	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.119194180190263	1.2169416146352887	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.6617757678232269	1.2169416146352887	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.1828656527880306	1.2169416146352887	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.1042712165302065	1.2169416146352887	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.19213636258719	1.2169416146352887	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	seurat_vst	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.2364760432766615	17.042715630494058	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	seurat_vst	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7232980265900774	17.042715630494058	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	seurat_vst	2000	0	spatial_reproducibility	heldout_rank_spearman	0.2495672945403642	17.042715630494058	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.1763894791882495	17.042715630494058	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.2270297916115785	17.042715630494058	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	triku	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.2638230647709321	65.11575154680759	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	triku	2000	0	spatial_reproducibility	heldout_moran_percentile	0.77350488720063	65.11575154680759	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	triku	2000	0	spatial_reproducibility	heldout_rank_spearman	0.302942520602479	65.11575154680759	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	triku	2000	0	heldout_clustering	heldout_ari	0.2000070858931374	65.11575154680759	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	triku	2000	0	heldout_clustering	heldout_nmi	0.2582257174899406	65.11575154680759	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	singleCellHaystack	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.2554927809165097	65.94043320044875	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	singleCellHaystack	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8317034789456618	65.94043320044875	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	singleCellHaystack	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3645766280395456	65.94043320044875	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.1125630883823596	65.94043320044875	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.1800361727493183	65.94043320044875	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	scsegindex	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1689070718877849	188.9926537424326	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	scsegindex	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7942743317737527	188.9926537424326	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	scsegindex	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3211239134549185	188.9926537424326	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	scsegindex	2000	0	heldout_clustering	heldout_ari	0.1223053830573404	188.9926537424326	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.1777982535671945	188.9926537424326	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	morans_i	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.3986013986013986	1.7235243124887347	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	morans_i	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8762678000648538	1.7235243124887347	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	morans_i	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4193581965087988	1.7235243124887347	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	morans_i	2000	0	heldout_clustering	heldout_ari	0.1913565297951608	1.7235243124887347	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	morans_i	2000	0	heldout_clustering	heldout_nmi	0.2421433802816254	1.7235243124887347	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	sparkx	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.3071895424836601	132.50187830161303	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	sparkx	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8552939963867143	132.50187830161303	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	sparkx	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3961580631817412	132.50187830161303	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	sparkx	2000	0	heldout_clustering	heldout_ari	0.1443249575047762	132.50187830161303	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	sparkx	2000	0	heldout_clustering	heldout_nmi	0.1985453084859411	132.50187830161303	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	nnsvg	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.3855213023900242	10280.545144095086	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	nnsvg	2000	0	spatial_reproducibility	heldout_moran_percentile	0.879120350210775	10280.545144095086	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	nnsvg	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4224894885486208	10280.545144095086	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	nnsvg	2000	0	heldout_clustering	heldout_ari	0.2021630283249838	10280.545144095086	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.2470690091029537	10280.545144095086	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	spatialde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.3831258644536653	2160.090603022836	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	spatialde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8733043266780933	2160.090603022836	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	spatialde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.4157914224137126	2160.090603022836	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	spatialde	2000	0	heldout_clustering	heldout_ari	0.1837042542196204	2160.090603022836	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	spatialde	2000	0	heldout_clustering	heldout_nmi	0.2366375323831348	2160.090603022836	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	somde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1976047904191616	2395.1542932325974	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	somde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7398165562607124	2395.1542932325974	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	somde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.2676617582624208	2395.1542932325974	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	somde	2000	0	heldout_clustering	heldout_ari	0.2132980039091615	2395.1542932325974	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	somde	2000	0	heldout_clustering	heldout_nmi	0.2586371234894085	2395.1542932325974	Moran's I	NMI
+STOmics0212	GSM5907080_AD_4_LS	wilcoxon	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1074197120708748	54.76505677867681	Moran's I	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	wilcoxon	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5654209014684763	54.76505677867681	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	wilcoxon	2000	0	spatial_reproducibility	heldout_rank_spearman	0.0683281402467834	54.76505677867681	Moran's I	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.1994486873516295	54.76505677867681	Moran's I	ARI
+STOmics0212	GSM5907080_AD_4_LS	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.260328487943368	54.76505677867681	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	all_features	2000	0	spatial_reproducibility	heldout_topn_jaccard		0.0018045790493488	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	all_features	2000	0	spatial_reproducibility	heldout_moran_percentile		0.0018045790493488	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	all_features	2000	0	spatial_reproducibility	heldout_rank_spearman		0.0018045790493488	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	all_features	2000	0	heldout_clustering	heldout_ari	0.1972910559092218	0.0018045790493488	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	all_features	2000	0	heldout_clustering	heldout_nmi	0.275240106452456	0.0018045790493488	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	random	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.0520778537611783	0.0013945130631327	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	random	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5093799277342845	0.0013945130631327	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	random	2000	0	spatial_reproducibility	heldout_rank_spearman	0.0106626093748878	0.0013945130631327	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	random	2000	0	heldout_clustering	heldout_ari	0.1098873128319989	0.0013945130631327	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	random	2000	0	heldout_clustering	heldout_nmi	0.169930061314594	0.0013945130631327	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1232799775344004	0.7860076129436493	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.6619392226803168	0.7860076129436493	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.1797488777116258	0.7860076129436493	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.2331046382855319	0.7860076129436493	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.3518749079989564	0.7860076129436493	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1123470522803114	1.4025378059595823	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_moran_percentile	0.6549950433131052	1.4025378059595823	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_rank_spearman	0.174850803543719	1.4025378059595823	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.1882387216295044	1.4025378059595823	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.281913846548842	1.4025378059595823	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	seurat_vst	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.136040897472309	18.268975565209985	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	seurat_vst	2000	0	spatial_reproducibility	heldout_moran_percentile	0.6439414925649696	18.268975565209985	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	seurat_vst	2000	0	spatial_reproducibility	heldout_rank_spearman	0.16102627229198	18.268975565209985	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.2006543227654414	18.268975565209985	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.3296298819642155	18.268975565209985	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	triku	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1747430249632892	64.55911168083549	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	triku	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7062081808495855	64.55911168083549	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	triku	2000	0	spatial_reproducibility	heldout_rank_spearman	0.2267116593091071	64.55911168083549	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	triku	2000	0	heldout_clustering	heldout_ari	0.2596262884027043	64.55911168083549	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	triku	2000	0	heldout_clustering	heldout_nmi	0.3223572654821871	64.55911168083549	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	singleCellHaystack	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.154068090017311	66.93111700285226	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	singleCellHaystack	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7367151294760735	66.93111700285226	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	singleCellHaystack	2000	0	spatial_reproducibility	heldout_rank_spearman	0.2605419964204475	66.93111700285226	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.1167606064435625	66.93111700285226	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.1750160486509124	66.93111700285226	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	scsegindex	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1120378092855157	215.71891674026847	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	scsegindex	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7050380321489785	215.71891674026847	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	scsegindex	2000	0	spatial_reproducibility	heldout_rank_spearman	0.2243973830756005	215.71891674026847	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	scsegindex	2000	0	heldout_clustering	heldout_ari	0.1214858442442482	215.71891674026847	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.1599241562404777	215.71891674026847	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	morans_i	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.2706480304955527	1.975658935494721	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	morans_i	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8100999907351647	1.975658935494721	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	morans_i	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3472035809344617	1.975658935494721	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	morans_i	2000	0	heldout_clustering	heldout_ari	0.2017229484644456	1.975658935494721	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	morans_i	2000	0	heldout_clustering	heldout_nmi	0.2478316420015497	1.975658935494721	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	sparkx	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1965300628178283	129.4022580832243	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	sparkx	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7721211145596888	129.4022580832243	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	sparkx	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3042134931368618	129.4022580832243	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	sparkx	2000	0	heldout_clustering	heldout_ari	0.12680197294097	129.4022580832243	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	sparkx	2000	0	heldout_clustering	heldout_nmi	0.1795513201898562	129.4022580832243	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	nnsvg	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.260239445494644	11368.83927425556	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	nnsvg	2000	0	spatial_reproducibility	heldout_moran_percentile	0.8033034696808264	11368.83927425556	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	nnsvg	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3396638246853097	11368.83927425556	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	nnsvg	2000	0	heldout_clustering	heldout_ari	0.1822655752076541	11368.83927425556	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.2194087966967184	11368.83927425556	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	spatialde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.2449424214130096	2114.024495037273	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	spatialde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7946603742993468	2114.024495037273	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	spatialde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.3294564892661507	2114.024495037273	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	spatialde	2000	0	heldout_clustering	heldout_ari	0.1999278936680533	2114.024495037273	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	spatialde	2000	0	heldout_clustering	heldout_nmi	0.269059319539589	2114.024495037273	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	somde	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.1806375442739079	2377.822502294556	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	somde	2000	0	spatial_reproducibility	heldout_moran_percentile	0.7242135776161579	2377.822502294556	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	somde	2000	0	spatial_reproducibility	heldout_rank_spearman	0.2506183146518231	2377.822502294556	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	somde	2000	0	heldout_clustering	heldout_ari	0.2535316688061601	2377.822502294556	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	somde	2000	0	heldout_clustering	heldout_nmi	0.3282721525987452	2377.822502294556	Moran's I	NMI
+STOmics0212	GSM5907093_HE_3	wilcoxon	2000	0	spatial_reproducibility	heldout_topn_jaccard	0.0925976509150505	65.17157870531082	Moran's I	Jaccard
+STOmics0212	GSM5907093_HE_3	wilcoxon	2000	0	spatial_reproducibility	heldout_moran_percentile	0.5499503636447862	65.17157870531082	Moran's I	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	wilcoxon	2000	0	spatial_reproducibility	heldout_rank_spearman	0.0513429145522342	65.17157870531082	Moran's I	RankSpearman
+STOmics0212	GSM5907093_HE_3	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.2481828211981773	65.17157870531082	Moran's I	ARI
+STOmics0212	GSM5907093_HE_3	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.3204768970624947	65.17157870531082	Moran's I	NMI
+DLPFC	151507	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard		0.0	nnSVG	Jaccard
+DLPFC	151507	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_percentile		0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman		0.0	nnSVG	RankSpearman
+DLPFC	151507	all_features	2000	0	heldout_clustering	heldout_ari	0.2580335713411771	0.0	nnSVG	ARI
+DLPFC	151507	all_features	2000	0	heldout_clustering	heldout_nmi	0.388350087042038	0.0	nnSVG	NMI
+DLPFC	151507	random	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0482914430951708	0.0	nnSVG	Jaccard
+DLPFC	151507	random	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5033815710596697	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	random	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0090258378282631	0.0	nnSVG	RankSpearman
+DLPFC	151507	random	2000	0	heldout_clustering	heldout_ari	0.1460960074717224	0.0	nnSVG	ARI
+DLPFC	151507	random	2000	0	heldout_clustering	heldout_nmi	0.2070839488682774	0.0	nnSVG	NMI
+DLPFC	151507	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0719029742997401	0.0	nnSVG	Jaccard
+DLPFC	151507	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5257998824126164	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.061211387566609	0.0	nnSVG	RankSpearman
+DLPFC	151507	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.245625216991846	0.0	nnSVG	ARI
+DLPFC	151507	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.3786579648259631	0.0	nnSVG	NMI
+DLPFC	151507	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0231532524807056	0.0	nnSVG	Jaccard
+DLPFC	151507	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.4824859586830212	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	-0.0400603035927182	0.0	nnSVG	RankSpearman
+DLPFC	151507	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.1480380388715067	0.0	nnSVG	ARI
+DLPFC	151507	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.2400305054730328	0.0	nnSVG	NMI
+DLPFC	151507	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.118409159385357	0.0	nnSVG	Jaccard
+DLPFC	151507	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5628885801899843	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.1524100615534377	0.0	nnSVG	RankSpearman
+DLPFC	151507	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.2580572748505843	0.0	nnSVG	ARI
+DLPFC	151507	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.3756931345438791	0.0	nnSVG	NMI
+DLPFC	151507	triku	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.1362105907560453	0.0	nnSVG	Jaccard
+DLPFC	151507	triku	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5760200474960805	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	triku	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.1820688977225978	0.0	nnSVG	RankSpearman
+DLPFC	151507	triku	2000	0	heldout_clustering	heldout_ari	0.2761247367746476	0.0	nnSVG	ARI
+DLPFC	151507	triku	2000	0	heldout_clustering	heldout_nmi	0.3769863550213163	0.0	nnSVG	NMI
+DLPFC	151507	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.6146150500217485	0.0	nnSVG	Jaccard
+DLPFC	151507	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8152062275200591	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.7389304218163611	0.0	nnSVG	RankSpearman
+DLPFC	151507	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.2432168733765697	0.0	nnSVG	ARI
+DLPFC	151507	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.3792445413405841	0.0	nnSVG	NMI
+DLPFC	151507	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.2643051771117166	0.0	nnSVG	Jaccard
+DLPFC	151507	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6512752005902426	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.3504580219855274	0.0	nnSVG	RankSpearman
+DLPFC	151507	scsegindex	2000	0	heldout_clustering	heldout_ari	0.1742302732987292	0.0	nnSVG	ARI
+DLPFC	151507	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.288918919394151	0.0	nnSVG	NMI
+DLPFC	151507	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.4991922455573506	0.0	nnSVG	Jaccard
+DLPFC	151507	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.7748906437332842	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.6604505720232575	0.0	nnSVG	RankSpearman
+DLPFC	151507	morans_i	2000	0	heldout_clustering	heldout_ari	0.2583137432381155	0.0	nnSVG	ARI
+DLPFC	151507	morans_i	2000	0	heldout_clustering	heldout_nmi	0.3858784762878546	0.0	nnSVG	NMI
+DLPFC	151507	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.6811594202898551	0.0	nnSVG	Jaccard
+DLPFC	151507	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8381551231209076	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.8117625643636884	0.0	nnSVG	RankSpearman
+DLPFC	151507	sparkx	2000	0	heldout_clustering	heldout_ari	0.2499335453353896	0.0	nnSVG	ARI
+DLPFC	151507	sparkx	2000	0	heldout_clustering	heldout_nmi	0.381754705833939	0.0	nnSVG	NMI
+DLPFC	151507	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.5789025946405785	0.0	nnSVG	Jaccard
+DLPFC	151507	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.805058044360417	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.733921468762353	0.0	nnSVG	RankSpearman
+DLPFC	151507	nnsvg	2000	0	heldout_clustering	heldout_ari	0.2498485756312644	0.0	nnSVG	ARI
+DLPFC	151507	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.3793177755304766	0.0	nnSVG	NMI
+DLPFC	151507	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.3186500888099467	0.0	nnSVG	Jaccard
+DLPFC	151507	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.690598692704971	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.4601314675490454	0.0	nnSVG	RankSpearman
+DLPFC	151507	spatialde	2000	0	heldout_clustering	heldout_ari	0.2710575650066728	0.0	nnSVG	ARI
+DLPFC	151507	spatialde	2000	0	heldout_clustering	heldout_nmi	0.3864644605734737	0.0	nnSVG	NMI
+DLPFC	151507	somde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.308885754583921	0.0	nnSVG	Jaccard
+DLPFC	151507	somde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6858123674259893	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	somde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.4488126646152643	0.0	nnSVG	RankSpearman
+DLPFC	151507	somde	2000	0	heldout_clustering	heldout_ari	0.2690936829373225	0.0	nnSVG	ARI
+DLPFC	151507	somde	2000	0	heldout_clustering	heldout_nmi	0.3854999762476632	0.0	nnSVG	NMI
+DLPFC	151507	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0642201834862385	0.0	nnSVG	Jaccard
+DLPFC	151507	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5194487457345752	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151507	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0430539767005591	0.0	nnSVG	RankSpearman
+DLPFC	151507	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.2516265865961452	0.0	nnSVG	ARI
+DLPFC	151507	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.39840479096607	0.0	nnSVG	NMI
+DLPFC	151673	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard		0.0	nnSVG	Jaccard
+DLPFC	151673	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_percentile		0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman		0.0	nnSVG	RankSpearman
+DLPFC	151673	all_features	2000	0	heldout_clustering	heldout_ari	0.1742227363066609	0.0	nnSVG	ARI
+DLPFC	151673	all_features	2000	0	heldout_clustering	heldout_nmi	0.3613464984815218	0.0	nnSVG	NMI
+DLPFC	151673	random	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0479434110558029	0.0	nnSVG	Jaccard
+DLPFC	151673	random	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5003459374711796	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	random	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0012293844883002	0.0	nnSVG	RankSpearman
+DLPFC	151673	random	2000	0	heldout_clustering	heldout_ari	0.1241576247351043	0.0	nnSVG	ARI
+DLPFC	151673	random	2000	0	heldout_clustering	heldout_nmi	0.2484874912556318	0.0	nnSVG	NMI
+DLPFC	151673	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.087547580206634	0.0	nnSVG	Jaccard
+DLPFC	151673	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5212826477912017	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0373942194781059	0.0	nnSVG	RankSpearman
+DLPFC	151673	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.231755603738839	0.0	nnSVG	ARI
+DLPFC	151673	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.3826670836244095	0.0	nnSVG	NMI
+DLPFC	151673	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0669511869831955	0.0	nnSVG	Jaccard
+DLPFC	151673	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5048378216360786	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0126599746292854	0.0	nnSVG	RankSpearman
+DLPFC	151673	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.1514051057594112	0.0	nnSVG	ARI
+DLPFC	151673	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.2876934854010053	0.0	nnSVG	NMI
+DLPFC	151673	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.1809861234130499	0.0	nnSVG	Jaccard
+DLPFC	151673	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6030220879830306	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.1849709621195649	0.0	nnSVG	RankSpearman
+DLPFC	151673	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.2434107910957928	0.0	nnSVG	ARI
+DLPFC	151673	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.3948479180259454	0.0	nnSVG	NMI
+DLPFC	151673	triku	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.2254901960784313	0.0	nnSVG	Jaccard
+DLPFC	151673	triku	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6434358226505581	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	triku	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.257201610694145	0.0	nnSVG	RankSpearman
+DLPFC	151673	triku	2000	0	heldout_clustering	heldout_ari	0.2033078352619569	0.0	nnSVG	ARI
+DLPFC	151673	triku	2000	0	heldout_clustering	heldout_nmi	0.3747881038379862	0.0	nnSVG	NMI
+DLPFC	151673	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.594896331738437	0.0	nnSVG	Jaccard
+DLPFC	151673	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.9116261758738357	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.7213872183333097	0.0	nnSVG	RankSpearman
+DLPFC	151673	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.1781831471693461	0.0	nnSVG	ARI
+DLPFC	151673	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.3618829746722239	0.0	nnSVG	NMI
+DLPFC	151673	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.4842300556586271	0.0	nnSVG	Jaccard
+DLPFC	151673	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.9257160264686896	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.7482430066410695	0.0	nnSVG	RankSpearman
+DLPFC	151673	scsegindex	2000	0	heldout_clustering	heldout_ari	0.139103665521376	0.0	nnSVG	ARI
+DLPFC	151673	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.2929583008169418	0.0	nnSVG	NMI
+DLPFC	151673	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.5910898965791567	0.0	nnSVG	Jaccard
+DLPFC	151673	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8647868094623259	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.6469660585115976	0.0	nnSVG	RankSpearman
+DLPFC	151673	morans_i	2000	0	heldout_clustering	heldout_ari	0.1799649951256146	0.0	nnSVG	ARI
+DLPFC	151673	morans_i	2000	0	heldout_clustering	heldout_nmi	0.3643168123038984	0.0	nnSVG	NMI
+DLPFC	151673	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.5704750687082842	0.0	nnSVG	Jaccard
+DLPFC	151673	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.9044601470995112	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.7153869686563528	0.0	nnSVG	RankSpearman
+DLPFC	151673	sparkx	2000	0	heldout_clustering	heldout_ari	0.175830031910875	0.0	nnSVG	ARI
+DLPFC	151673	sparkx	2000	0	heldout_clustering	heldout_nmi	0.3578033510124846	0.0	nnSVG	NMI
+DLPFC	151673	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.6799664006719865	0.0	nnSVG	Jaccard
+DLPFC	151673	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.9098643940791294	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.726531900301777	0.0	nnSVG	RankSpearman
+DLPFC	151673	nnsvg	2000	0	heldout_clustering	heldout_ari	0.1767524914028034	0.0	nnSVG	ARI
+DLPFC	151673	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.3626286227332987	0.0	nnSVG	NMI
+DLPFC	151673	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.3119055428009183	0.0	nnSVG	Jaccard
+DLPFC	151673	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.7167018122290879	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.3891058611800666	0.0	nnSVG	RankSpearman
+DLPFC	151673	spatialde	2000	0	heldout_clustering	heldout_ari	0.2348267173904049	0.0	nnSVG	ARI
+DLPFC	151673	spatialde	2000	0	heldout_clustering	heldout_nmi	0.3924152069236866	0.0	nnSVG	NMI
+DLPFC	151673	somde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.350438892640108	0.0	nnSVG	Jaccard
+DLPFC	151673	somde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.7215508623074796	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	somde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.3978382391735405	0.0	nnSVG	RankSpearman
+DLPFC	151673	somde	2000	0	heldout_clustering	heldout_ari	0.193715889043566	0.0	nnSVG	ARI
+DLPFC	151673	somde	2000	0	heldout_clustering	heldout_nmi	0.376871307180268	0.0	nnSVG	NMI
+DLPFC	151673	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0878433505575197	0.0	nnSVG	Jaccard
+DLPFC	151673	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5165758899750992	0.0	nnSVG	MeanReferencePercentile
+DLPFC	151673	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0249164502776405	0.0	nnSVG	RankSpearman
+DLPFC	151673	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.2759325784686824	0.0	nnSVG	ARI
+DLPFC	151673	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.424445058570104	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard		0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_percentile		0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman		0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	all_features	2000	0	heldout_clustering	heldout_ari	0.7231293047354478	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	all_features	2000	0	heldout_clustering	heldout_nmi	0.7937635508129444	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	random	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.050696086157079	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	random	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.4896379138412445	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	random	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	-0.0130220317958415	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	random	2000	0	heldout_clustering	heldout_ari	0.6011503384856579	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	random	2000	0	heldout_clustering	heldout_nmi	0.683633750742414	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.4129282938890851	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.7302695203430395	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2903871969467715	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.6094103658186519	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.7215317296876593	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.2488292226038089	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6822120313123256	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2334252872050869	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.6238755040561148	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.7384306010430731	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.4129282938890851	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.7303381781013163	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2904636624125099	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.6060092391847668	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.7181681682040104	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	triku	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.3297872340425531	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	triku	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6600868817311527	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	triku	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.195173097855703	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	triku	2000	0	heldout_clustering	heldout_ari	0.6238908825681662	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	triku	2000	0	heldout_clustering	heldout_nmi	0.7381374564184857	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.5163002274450341	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8997375099720782	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.4940177155725357	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.6212610477633856	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.736884258915065	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0663822980538523	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6958703629836459	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2385557898811573	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	scsegindex	2000	0	heldout_clustering	heldout_ari	0.592555689440018	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.6715119827499466	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.7613386173491854	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.91033920023933	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5105386192630657	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	morans_i	2000	0	heldout_clustering	heldout_ari	0.7093022654613698	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	morans_i	2000	0	heldout_clustering	heldout_nmi	0.7750272567613442	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.5355086372360844	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.9155760869565216	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5170016060519244	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	sparkx	2000	0	heldout_clustering	heldout_ari	0.7027840574670847	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	sparkx	2000	0	heldout_clustering	heldout_nmi	0.7765226074518532	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.8165304268846503	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.945681392102114	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5534915894948846	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	nnsvg	2000	0	heldout_clustering	heldout_ari	0.6316739170726949	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.7512493835159856	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.5414258188824663	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8112846529716793	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.3841359700697739	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	spatialde	2000	0	heldout_clustering	heldout_ari	0.7116842118734247	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	spatialde	2000	0	heldout_clustering	heldout_nmi	0.7746604235988921	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	somde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.5343306482546989	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	somde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.836037669525329	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	somde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.4197482148785129	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	somde	2000	0	heldout_clustering	heldout_ari	0.7211975697886338	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	somde	2000	0	heldout_clustering	heldout_nmi	0.7822710739416103	0.0	nnSVG	NMI
+MouseBrainSerialSections	section1	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.1034482758620689	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section1	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.4028071150777822	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section1	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	-0.1256625476002849	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section1	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.6284030402944882	0.0	nnSVG	ARI
+MouseBrainSerialSections	section1	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.7290694143493921	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard		0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_percentile		0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman		0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	all_features	2000	0	heldout_clustering	heldout_ari	0.6874175411376923	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	all_features	2000	0	heldout_clustering	heldout_nmi	0.7990469049170372	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	random	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0529086601737299	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	random	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.4897097626645392	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	random	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	-0.0132728476121821	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	random	2000	0	heldout_clustering	heldout_ari	0.6294078077995554	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	random	2000	0	heldout_clustering	heldout_nmi	0.6967679088846356	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.3898540653231411	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.7183108047467092	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2822500884972485	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.723838667410308	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.7889525507896834	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.2674271229404309	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6771229806541682	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2328151984346475	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.6790053875493031	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.7486288801609702	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.3898540653231411	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.7183108047467092	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2822500884972485	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.723838667410308	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.7889525507896834	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	triku	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.2816404998397949	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	triku	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6102128041483844	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	triku	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.1352977320454807	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	triku	2000	0	heldout_clustering	heldout_ari	0.7161504715245784	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	triku	2000	0	heldout_clustering	heldout_nmi	0.783677607199962	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.3981125480601188	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8698547816114879	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.467276475494278	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.645615247840499	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.7457907298608255	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0700909577314071	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6160314868368567	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.1388539777881531	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	scsegindex	2000	0	heldout_clustering	heldout_ari	0.5089449200203777	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.6465107102339807	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.7761989342806395	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8980839648982849	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5071422615328234	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	morans_i	2000	0	heldout_clustering	heldout_ari	0.7032603983114087	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	morans_i	2000	0	heldout_clustering	heldout_nmi	0.810973496456396	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.5449980687524141	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8946490825688074	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5030309428196784	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	sparkx	2000	0	heldout_clustering	heldout_ari	0.6962435188940957	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	sparkx	2000	0	heldout_clustering	heldout_nmi	0.8048263484362844	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.8165304268846503	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.9307621410051854	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5476477852557369	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	nnsvg	2000	0	heldout_clustering	heldout_ari	0.7079001885113916	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.8133380252678455	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.5625	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8020625498603908	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.3824123488257686	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	spatialde	2000	0	heldout_clustering	heldout_ari	0.7007140074464339	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	spatialde	2000	0	heldout_clustering	heldout_nmi	0.8067141957462148	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	somde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.5308075009567547	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	somde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8342368867171918	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	somde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.4273083638486292	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	somde	2000	0	heldout_clustering	heldout_ari	0.704464950904976	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	somde	2000	0	heldout_clustering	heldout_nmi	0.8028983317344415	0.0	nnSVG	NMI
+MouseBrainSerialSections	section2	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0958904109589041	0.0	nnSVG	Jaccard
+MouseBrainSerialSections	section2	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.4272435430793777	0.0	nnSVG	MeanReferencePercentile
+MouseBrainSerialSections	section2	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	-0.0976040700155281	0.0	nnSVG	RankSpearman
+MouseBrainSerialSections	section2	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.6933972330512995	0.0	nnSVG	ARI
+MouseBrainSerialSections	section2	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.7652949308574414	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard		0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_percentile		0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman		0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	all_features	2000	0	heldout_clustering	heldout_ari	0.1798113438030908	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	all_features	2000	0	heldout_clustering	heldout_nmi	0.2404719693404045	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	random	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0573618821041501	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	random	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.511271436512716	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	random	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0159462338278873	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	random	2000	0	heldout_clustering	heldout_ari	0.1049261822085874	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	random	2000	0	heldout_clustering	heldout_nmi	0.1812058556501153	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.1534025374855824	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.600511279936999	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.1435467187667324	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.1876381558429804	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.2421941773007798	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0884353741496598	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5248867837124194	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.038720077475431	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.1042712165302065	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.19213636258719	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.2198841110094541	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6505277945059526	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2132851207400274	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.1763894791882495	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.2270297916115785	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	triku	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.2445550715619166	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	triku	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6667129522397739	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	triku	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2328776142535972	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	triku	2000	0	heldout_clustering	heldout_ari	0.2000070858931374	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	triku	2000	0	heldout_clustering	heldout_nmi	0.2582257174899406	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.3499831252109349	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8643947746328808	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5023558699814605	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.1125630883823596	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.1800361727493183	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.2383900928792569	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8729648631120582	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5165715749792287	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	scsegindex	2000	0	heldout_clustering	heldout_ari	0.1223053830573404	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.1777982535671945	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.4776505356483191	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8898559781349886	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5464020060425684	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	morans_i	2000	0	heldout_clustering	heldout_ari	0.1913565297951608	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	morans_i	2000	0	heldout_clustering	heldout_nmi	0.2421433802816254	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.4209591474245115	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.9101891879371844	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.574018619262528	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	sparkx	2000	0	heldout_clustering	heldout_ari	0.1443249575047762	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	sparkx	2000	0	heldout_clustering	heldout_nmi	0.1985453084859411	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.4998125234345706	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.9175365266132396	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5842493862782437	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	nnsvg	2000	0	heldout_clustering	heldout_ari	0.2021630283249838	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.2470690091029537	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.4684287812041116	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8911320470653634	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5475263168182509	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	spatialde	2000	0	heldout_clustering	heldout_ari	0.1837042542196204	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	spatialde	2000	0	heldout_clustering	heldout_nmi	0.2366375323831348	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	somde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.1926058437686344	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	somde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6642753277435492	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	somde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2317606092959832	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	somde	2000	0	heldout_clustering	heldout_ari	0.2132980039091615	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	somde	2000	0	heldout_clustering	heldout_nmi	0.2586371234894085	0.0	nnSVG	NMI
+STOmics0212	GSM5907080_AD_4_LS	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0758472296933835	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907080_AD_4_LS	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.4802246954185389	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907080_AD_4_LS	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	-0.0298535956857385	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907080_AD_4_LS	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.1994486873516295	0.0	nnSVG	ARI
+STOmics0212	GSM5907080_AD_4_LS	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.260328487943368	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard		0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_percentile		0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	all_features	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman		0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	all_features	2000	0	heldout_clustering	heldout_ari	0.1972910559092218	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	all_features	2000	0	heldout_clustering	heldout_nmi	0.275240106452456	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	random	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0568031704095112	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	random	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5086828878491683	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	random	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0159819176291925	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	random	2000	0	heldout_clustering	heldout_ari	0.1098873128319989	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	random	2000	0	heldout_clustering	heldout_nmi	0.169930061314594	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.1052777010223818	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5498669106406633	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	scanpy_seurat_v3_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0937854463628188	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_ari	0.2331046382855319	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	scanpy_seurat_v3_batch	2000	0	heldout_clustering	heldout_nmi	0.3518749079989564	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0961907371882707	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.543473687867698	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	scanpy_cell_ranger_batch	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0856851206934506	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_ari	0.1882387216295044	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	scanpy_cell_ranger_batch	2000	0	heldout_clustering	heldout_nmi	0.281913846548842	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.1195074167366358	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5593099550655486	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	seurat_vst	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.1110753921339766	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	seurat_vst	2000	0	heldout_clustering	heldout_ari	0.2006543227654414	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	seurat_vst	2000	0	heldout_clustering	heldout_nmi	0.3296298819642155	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	triku	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.1438375750643408	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	triku	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.578383610506323	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	triku	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.1425129747959073	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	triku	2000	0	heldout_clustering	heldout_ari	0.2596262884027043	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	triku	2000	0	heldout_clustering	heldout_nmi	0.3223572654821871	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.2857602057216329	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.7570629545559827	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	singleCellHaystack	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.4589920194062358	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	singleCellHaystack	2000	0	heldout_clustering	heldout_ari	0.1167606064435625	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	singleCellHaystack	2000	0	heldout_clustering	heldout_nmi	0.1750160486509124	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.2523481527864746	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.7628936165284662	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	scsegindex	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.4725806611168721	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	scsegindex	2000	0	heldout_clustering	heldout_ari	0.1214858442442482	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	scsegindex	2000	0	heldout_clustering	heldout_nmi	0.1599241562404777	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.437297879985627	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8236924306295454	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	morans_i	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.6022998997570577	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	morans_i	2000	0	heldout_clustering	heldout_ari	0.2017229484644456	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	morans_i	2000	0	heldout_clustering	heldout_nmi	0.2478316420015497	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.4513788098693759	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8723854634733867	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	sparkx	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.6899298472474866	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	sparkx	2000	0	heldout_clustering	heldout_ari	0.12680197294097	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	sparkx	2000	0	heldout_clustering	heldout_nmi	0.1795513201898562	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.4936519790888723	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.8736496965766433	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	nnsvg	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.6918531401228657	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	nnsvg	2000	0	heldout_clustering	heldout_ari	0.1822655752076541	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	nnsvg	2000	0	heldout_clustering	heldout_nmi	0.2194087966967184	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.3947001394700139	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.801384305368972	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	spatialde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.5579504281626456	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	spatialde	2000	0	heldout_clustering	heldout_ari	0.1999278936680533	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	spatialde	2000	0	heldout_clustering	heldout_nmi	0.269059319539589	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	somde	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.1851851851851851	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	somde	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.6222688886830036	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	somde	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.2301314603228239	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	somde	2000	0	heldout_clustering	heldout_ari	0.2535316688061601	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	somde	2000	0	heldout_clustering	heldout_nmi	0.3282721525987452	0.0	nnSVG	NMI
+STOmics0212	GSM5907093_HE_3	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_topn_jaccard	0.0683760683760683	0.0	nnSVG	Jaccard
+STOmics0212	GSM5907093_HE_3	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_percentile	0.5092388474544863	0.0	nnSVG	MeanReferencePercentile
+STOmics0212	GSM5907093_HE_3	wilcoxon	2000	0	spatial_reproducibility	heldout_nnsvg_rank_spearman	0.0164346445405614	0.0	nnSVG	RankSpearman
+STOmics0212	GSM5907093_HE_3	wilcoxon	2000	0	heldout_clustering	heldout_ari	0.2481828211981773	0.0	nnSVG	ARI
+STOmics0212	GSM5907093_HE_3	wilcoxon	2000	0	heldout_clustering	heldout_nmi	0.3204768970624947	0.0	nnSVG	NMI

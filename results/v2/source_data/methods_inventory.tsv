@@ -1,6 +1,6 @@
 Method	DisplayMethod	Category	UsesSpatialCoordinates	Inputs	RepresentativeFeatureCount	SoftwareVersion	CitationKey	PrimaryReference
 Brennecke	Brennecke	Expression-driven	False	Counts	2000	scran 1.38.0	brennecke2013technical	Brennecke et al. (2013)
-TFs	Transcription factors	Control/reference	False	Predefined transcription-factor list	2000	Project resource	NA	Not applicable
+TFs	Transcription factors	Control/reference	False	Species-specific GO molecular-function TF annotations	2000	org.Hs.eg.db/org.Mm.eg.db 3.22.0	Bioconductor annotation resource	Bioconductor annotation resources
 all_features	All features	Control/reference	False	All genes	all	Project implementation	NA	Not applicable
 anticor	Anticor	Expression-driven	False	Counts/expression	2000	anticor_features 0.1.8	tyler2024anticor	Tyler et al. (2024)
 dubstepr	DUBStepR	Expression-driven	False	Normalized expression	2000	DUBStepR 1.2.0	ranjan2021dubstepr	Ranjan et al. (2021)

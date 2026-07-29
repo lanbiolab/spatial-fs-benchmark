@@ -43,6 +43,14 @@ Methods that cannot produce a requested number are recorded as unavailable. Unra
 - Random feature sets and selectors that subsample observations use seed-specific feature sets.
 - Deterministic rankings are computed once and reused across integration seeds.
 
+## Integration representations
+
+- Primary benchmark: scVI and CellCharter, each run for all seven count-valid datasets and all canonical settings.
+- Third-integrator sensitivity: GraphST on the 29 competitive methods at their canonical settings, with seeds 0, 1, and 2.
+- GraphST receives the selected count matrix, applies its official total-count normalization, log transformation, non-zero-centered scaling, three-neighbor within-slice spatial graphs, 600 training epochs, and 20-component PCA of the reconstructed expression representation.
+- Spatial graphs are built independently within slices; cross-slice coordinate proximity never creates an edge.
+- GraphST metrics use the original frozen Dataset x Metric ranges. Adding GraphST does not redefine the primary score scale.
+
 ## Evaluation tasks
 
 ### Integration
@@ -81,7 +89,19 @@ Metric direction is oriented before scaling. A single frozen Dataset x Metric ra
 - Semi-synthetic spatial datasets contain known domain, gradient, focal, and periodic SVG patterns across effect sizes and prevalence levels.
 - SVG recovery is evaluated by AUROC, AUPRC, precision/recall at fixed N, and pattern-specific recall.
 - Held-out-slice analysis selects features on training slices and evaluates spatial reproducibility and downstream performance on held-out slices.
+- Six held-out folds are evaluated first against Moran's I and then against an nnSVG Gaussian-process ranking, so conclusions do not depend on one reference statistic.
 - Marker analyses use external or original-study marker resources. Dataset-derived Wilcoxon markers are retained only as internal-consistency analyses.
+
+## Exploratory hybrid controls
+
+- The balanced HVG-SVG union combines equal contributions from batch-aware Scanpy Seurat v3 and Moran rankings and fills duplicate-induced shortfalls to exactly 2,000 genes.
+- The exact intersection retains all genes shared by the two parent top-2,000 rankings and is not padded; its effective feature count is reported for every dataset.
+- Both controls are run through scVI and CellCharter with seeds 0, 1, and 2 and are scaled with the original frozen ranges.
+- Because the intersection has a variable feature budget, it is a compact-consensus control rather than a size-matched superiority test.
+
+## Computational profile
+
+Feature-selection runtime and peak memory are measured in isolated processes on a deterministic Mouse Brain profile containing 1,000 spots from each of two slices and the 5,000 most frequently detected genes. The requested output is 2,000 genes except for references whose canonical output is 500 or all genes. Reported process wall time includes data loading and preprocessing; internal selector time is retained separately. This profile is not described as full-pipeline runtime.
 
 ## Execution phases
 

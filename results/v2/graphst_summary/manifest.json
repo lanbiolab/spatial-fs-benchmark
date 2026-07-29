@@ -1,0 +1,17 @@
+{
+  "range_source": "/home/xd/y/Benchmark/results/spatial_svg_rebuild_v1/frozen_scores/frozen_metric_ranges.tsv",
+  "ranges_recomputed": false,
+  "scaled_values_clipped": false,
+  "tables": {
+    "audit.tsv": 10,
+    "feature_hash_audit.tsv": 1218,
+    "graphst_metric_records.tsv": 6699,
+    "graphst_scaled_seed_metrics.tsv": 6699,
+    "graphst_seed_task_scores.tsv": 609,
+    "graphst_setting_task_scores.tsv": 203,
+    "integrator_mean_scores_and_differences.tsv": 5,
+    "integrator_rank_correlations.tsv": 3,
+    "three_integrator_dataset_ranks.tsv": 609,
+    "three_integrator_global_ranks.tsv": 87
+  }
+}

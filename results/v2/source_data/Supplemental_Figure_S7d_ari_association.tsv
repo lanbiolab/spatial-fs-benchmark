@@ -1,0 +1,7 @@
+Metric	NMethods	SpearmanRho	Lower95	Upper95	Reference	Measure
+Jaccard vs ARI (Moran's I reference)	78	0.4301133745179037	0.13338227012106807	0.6423189625766829	Moran's I	Top-N Jaccard
+MeanReferencePercentile vs ARI (Moran's I reference)	78	0.2804302054343883	-0.0115496849059328	0.5221340248673428	Moran's I	Mean reference percentile
+RankSpearman vs ARI (Moran's I reference)	78	0.31530694184257924	-0.01247880122509934	0.5448784036034481	Moran's I	Full-ranking agreement
+Jaccard vs ARI (nnSVG reference)	78	0.2701417605840901	-0.02259209106897014	0.4914182298492204	nnSVG	Top-N Jaccard
+MeanReferencePercentile vs ARI (nnSVG reference)	78	0.09805508485293002	-0.14395262318730542	0.35391232842051995	nnSVG	Mean reference percentile
+RankSpearman vs ARI (nnSVG reference)	78	-0.03755785427046713	-0.19917495507807556	0.1635165113773214	nnSVG	Full-ranking agreement

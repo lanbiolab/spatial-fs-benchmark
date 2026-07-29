@@ -1,0 +1,15 @@
+dataset	fs_method	requested_n_features	effective_n_features	Method	Dataset
+E8p5Embryo	hybrid_hvg_svg_union	2000	2000	Balanced HVG-SVG union	E8p5Embryo
+E8p5Embryo	hybrid_hvg_svg_intersection	2000	253	Exact HVG-SVG intersection	E8p5Embryo
+STOmics0212	hybrid_hvg_svg_union	2000	2000	Balanced HVG-SVG union	STOmics0212
+STOmics0212	hybrid_hvg_svg_intersection	2000	488	Exact HVG-SVG intersection	STOmics0212
+E9p5Embryo	hybrid_hvg_svg_union	2000	2000	Balanced HVG-SVG union	E9p5Embryo
+E9p5Embryo	hybrid_hvg_svg_intersection	2000	290	Exact HVG-SVG intersection	E9p5Embryo
+DLPFC	hybrid_hvg_svg_union	2000	2000	Balanced HVG-SVG union	DLPFC
+DLPFC	hybrid_hvg_svg_intersection	2000	354	Exact HVG-SVG intersection	DLPFC
+STOmics0218	hybrid_hvg_svg_union	2000	2000	Balanced HVG-SVG union	STOmics0218
+STOmics0218	hybrid_hvg_svg_intersection	2000	889	Exact HVG-SVG intersection	STOmics0218
+MouseBrainSerialSections	hybrid_hvg_svg_union	2000	2000	Balanced HVG-SVG union	Mouse Brain
+MouseBrainSerialSections	hybrid_hvg_svg_intersection	2000	1157	Exact HVG-SVG intersection	Mouse Brain
+STOmics0224	hybrid_hvg_svg_union	2000	2000	Balanced HVG-SVG union	STOmics0224
+STOmics0224	hybrid_hvg_svg_intersection	2000	134	Exact HVG-SVG intersection	STOmics0224
