@@ -1,0 +1,945 @@
+dataset	fs_method	n_features	integration_method	Dataset	Integrator	Comparison	Seed0	OtherSeed
+DLPFC	Brennecke	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6771480189590282	0.679762335722116
+DLPFC	Brennecke	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.5800858321023273	0.5986142268186525
+DLPFC	TFs	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6232514023772234	0.633834220787976
+DLPFC	TFs	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.4245488177982327	0.42932381373553474
+DLPFC	all_features	all	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6305055118015999	0.6474162941390614
+DLPFC	all_features	all	scvi	DLPFC	scVI	Seed 0 vs 1	0.44249199900292857	0.4235007053043299
+DLPFC	anticor	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7282006292652129	0.7036116522978071
+DLPFC	anticor	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6725456795783104	0.670946361033794
+DLPFC	dubstepr	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7390827897999782	0.7373757029289884
+DLPFC	dubstepr	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6870911955850716	0.7032851113696847
+DLPFC	hotspot	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7425886940146218	0.7272313107437465
+DLPFC	hotspot	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.7114522546430285	0.6855847491241651
+DLPFC	morans_i	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7623621408917329	0.7072046428578604
+DLPFC	morans_i	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6950572248113962	0.7047730206347415
+DLPFC	nbumi	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7130821976749759	0.7589826110515735
+DLPFC	nbumi	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.7068891578987209	0.7205338785528659
+DLPFC	nnsvg	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7253819815897808	0.6990111085099935
+DLPFC	nnsvg	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.5495937627688441	0.6614140510401851
+DLPFC	osca	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7292949367625903	0.7078527832137815
+DLPFC	osca	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6544374547490973	0.6765950613119085
+DLPFC	random	500	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.5993245923173713	0.5305457817275194
+DLPFC	random	500	scvi	DLPFC	scVI	Seed 0 vs 1	0.4029234349336613	0.3929161509081339
+DLPFC	scPNMF	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6863593692602175	0.6823556099460625
+DLPFC	scPNMF	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6536158360948763	0.5801360478310225
+DLPFC	scanpy_cell_ranger	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6533551495357899	0.6808912394690401
+DLPFC	scanpy_cell_ranger	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.581024224023171	0.5652814678479832
+DLPFC	scanpy_cell_ranger_batch	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6865503500943719	0.6907699350704505
+DLPFC	scanpy_cell_ranger_batch	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.5598434280901625	0.5512574973661191
+DLPFC	scanpy_pearson	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6929951165809194	0.6923004732324723
+DLPFC	scanpy_pearson	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6633703347959514	0.6590746766803592
+DLPFC	scanpy_pearson_batch	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7275900526181309	0.6925164053059119
+DLPFC	scanpy_pearson_batch	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6731412088113239	0.6537825164866892
+DLPFC	scanpy_seurat	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6774916496660952	0.6735710453641235
+DLPFC	scanpy_seurat	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.5961437157958969	0.5852446820940009
+DLPFC	scanpy_seurat_batch	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6974173371025071	0.6961099350419069
+DLPFC	scanpy_seurat_batch	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6398973493812324	0.6395853747261765
+DLPFC	scanpy_seurat_v3	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7906800377191183	0.7506623687862719
+DLPFC	scanpy_seurat_v3	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6442871272319932	0.6972465280375361
+DLPFC	scanpy_seurat_v3_batch	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7698093746636109	0.7682634003077375
+DLPFC	scanpy_seurat_v3_batch	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6889250267992486	0.693700208450454
+DLPFC	scry	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6957528154332875	0.7007292871615779
+DLPFC	scry	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.5397000523897564	0.646790252711934
+DLPFC	scsegindex	500	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.585590555227335	0.5866072278407491
+DLPFC	scsegindex	500	scvi	DLPFC	scVI	Seed 0 vs 1	0.5065829111292182	0.40339889420382946
+DLPFC	seurat_disp	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6436109139786192	0.689144540091813
+DLPFC	seurat_disp	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6566487044059108	0.6532428550767816
+DLPFC	seurat_mvp	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6845046274422175	0.6982628445090718
+DLPFC	seurat_mvp	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6332469184643641	0.5716105775668714
+DLPFC	seurat_sct	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7275688443793147	0.6946839202869785
+DLPFC	seurat_sct	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.674477373061606	0.7040327384990659
+DLPFC	seurat_vst	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7958704409284494	0.76087393417293
+DLPFC	seurat_vst	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6864313142026992	0.6988935965438168
+DLPFC	singleCellHaystack	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7640863625766032	0.7456045622132295
+DLPFC	singleCellHaystack	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.7045454019269694	0.7013208554386047
+DLPFC	somde	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7635548919567638	0.7356571350139794
+DLPFC	somde	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.7071407305701329	0.7133033292839529
+DLPFC	sparkx	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7175448255492134	0.7064113745525398
+DLPFC	sparkx	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6188231806416067	0.5802024477895662
+DLPFC	spatialde	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7762674650494581	0.7232969748049061
+DLPFC	spatialde	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6781101743641915	0.7057708588089378
+DLPFC	statistic_mean	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.6973294014905469	0.7173128649057212
+DLPFC	statistic_mean	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.5338945666653867	0.6522129343213237
+DLPFC	statistic_variance	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7555396876630315	0.7070161540388608
+DLPFC	statistic_variance	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6751682105276389	0.6302468181534235
+DLPFC	triku	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7837234851978898	0.7376132014782533
+DLPFC	triku	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.6955949550928537	0.6964898436813416
+DLPFC	wilcoxon	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 1	0.7429556582978643	0.7806066048339545
+DLPFC	wilcoxon	2000	scvi	DLPFC	scVI	Seed 0 vs 1	0.7330011597943112	0.7394210612668195
+E8p5Embryo	Brennecke	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.6148118282803072	0.6004894393312201
+E8p5Embryo	Brennecke	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5316994852766228	0.5444081227159644
+E8p5Embryo	TFs	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.650831711206489	0.6387202746730076
+E8p5Embryo	TFs	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5483821822182795	0.5459325041976926
+E8p5Embryo	all_features	all	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.4903444139559108	0.4965613868964171
+E8p5Embryo	all_features	all	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.4615984783314492	0.49759686011433135
+E8p5Embryo	anticor	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.6169655936679348	0.5972250734221558
+E8p5Embryo	anticor	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5694916908866027	0.5666083796411958
+E8p5Embryo	dubstepr	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5582884523269638	0.5457828186646518
+E8p5Embryo	dubstepr	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.565694032530533	0.5689411903176054
+E8p5Embryo	hotspot	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5866421232199945	0.5894040569862682
+E8p5Embryo	hotspot	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5567232987384755	0.5686412410503844
+E8p5Embryo	morans_i	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5456777063774453	0.5404720704291808
+E8p5Embryo	morans_i	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.575258838420628	0.5723717199144865
+E8p5Embryo	nbumi	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5759539288919868	0.5947384694008997
+E8p5Embryo	nbumi	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5445417137874339	0.560602076774719
+E8p5Embryo	nnsvg	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5323948888532604	0.5497943415196243
+E8p5Embryo	nnsvg	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5664009891731141	0.5765494962830896
+E8p5Embryo	osca	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.562917082937221	0.5728255932669211
+E8p5Embryo	osca	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5687210425585572	0.5709492044567623
+E8p5Embryo	random	500	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5769577495160216	0.5709886706916358
+E8p5Embryo	random	500	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.4896689291370688	0.4963225395244435
+E8p5Embryo	scPNMF	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5454760900121212	0.5413534345017996
+E8p5Embryo	scPNMF	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5414029588926782	0.5409197667746101
+E8p5Embryo	scanpy_cell_ranger	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5972516918375343	0.6202757781121506
+E8p5Embryo	scanpy_cell_ranger	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5684006202410621	0.571877320836306
+E8p5Embryo	scanpy_cell_ranger_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.6114589956848998	0.5999491742425185
+E8p5Embryo	scanpy_cell_ranger_batch	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5652073156330253	0.567247382250146
+E8p5Embryo	scanpy_pearson	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.6099432741027526	0.6110889953523968
+E8p5Embryo	scanpy_pearson	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5576408003304443	0.5732118974972804
+E8p5Embryo	scanpy_pearson_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.6253073266526776	0.6258077360766434
+E8p5Embryo	scanpy_pearson_batch	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5455453264403549	0.550199747887595
+E8p5Embryo	scanpy_seurat	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.6224714746737858	0.5988310472564388
+E8p5Embryo	scanpy_seurat	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5489547771973389	0.542087065091935
+E8p5Embryo	scanpy_seurat_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.6158404831125004	0.6173452750448423
+E8p5Embryo	scanpy_seurat_batch	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5430371134700956	0.5333949884929386
+E8p5Embryo	scanpy_seurat_v3	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5973327679694039	0.597395586297047
+E8p5Embryo	scanpy_seurat_v3	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5689064671042271	0.5788711487597745
+E8p5Embryo	scanpy_seurat_v3_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.6013043142561112	0.6061348616271163
+E8p5Embryo	scanpy_seurat_v3_batch	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5389569707553783	0.5611734439812757
+E8p5Embryo	scry	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5290531998474746	0.532551987222873
+E8p5Embryo	scry	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5534398034674126	0.5372257178003306
+E8p5Embryo	scsegindex	500	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5913955762540153	0.5790171215008191
+E8p5Embryo	scsegindex	500	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.518630664978228	0.5124240963232601
+E8p5Embryo	seurat_disp	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5978015819489517	0.6035112607220574
+E8p5Embryo	seurat_disp	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5350357299933082	0.5366285439423326
+E8p5Embryo	seurat_mvp	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5990366147138411	0.60216579739489
+E8p5Embryo	seurat_mvp	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.542951311469716	0.5545327667960227
+E8p5Embryo	seurat_sct	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.4551249115246277	0.4680387994945108
+E8p5Embryo	seurat_sct	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.430409811092524	0.4324889647389368
+E8p5Embryo	seurat_vst	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.599692205744766	0.60063396986106
+E8p5Embryo	seurat_vst	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5569807952810766	0.5770993354035167
+E8p5Embryo	singleCellHaystack	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5608245744943523	0.5597648614336832
+E8p5Embryo	singleCellHaystack	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5538962753589279	0.5811508723640026
+E8p5Embryo	somde	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.572417152772704	0.5794190685974552
+E8p5Embryo	somde	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5755013481943643	0.5605661125318159
+E8p5Embryo	sparkx	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5453786459796349	0.5426647208053046
+E8p5Embryo	sparkx	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5534458611448456	0.5633754438272913
+E8p5Embryo	spatialde	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5508612579340761	0.564361939180788
+E8p5Embryo	spatialde	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5643468735967198	0.5762569270076134
+E8p5Embryo	statistic_mean	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.543517203345006	0.5336111515548827
+E8p5Embryo	statistic_mean	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5370427470464401	0.5317855050554678
+E8p5Embryo	statistic_variance	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5169260694779831	0.5249767258402981
+E8p5Embryo	statistic_variance	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5355760045176552	0.5557929105429873
+E8p5Embryo	triku	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 1	0.5835207233023558	0.5921367792188276
+E8p5Embryo	triku	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 1	0.5533637982741543	0.5697560929374539
+E9p5Embryo	Brennecke	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5685304461922535	0.5543574633113192
+E9p5Embryo	Brennecke	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5219668259405206	0.5245928215319006
+E9p5Embryo	TFs	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.6064142923780909	0.5911243036192901
+E9p5Embryo	TFs	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5198447414855424	0.508761567624804
+E9p5Embryo	all_features	all	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5367756604250697	0.5086710266757477
+E9p5Embryo	all_features	all	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5140454134525393	0.5241109318299919
+E9p5Embryo	anticor	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5836537435892556	0.5826618666752312
+E9p5Embryo	anticor	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5285605601159458	0.5447735664207739
+E9p5Embryo	dubstepr	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5733656339048614	0.576883905030876
+E9p5Embryo	dubstepr	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5544314122043837	0.5271207303449834
+E9p5Embryo	hotspot	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5905462463350507	0.5907904858759792
+E9p5Embryo	hotspot	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5498342910016595	0.5326039501729932
+E9p5Embryo	morans_i	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.570207457472259	0.566360939212739
+E9p5Embryo	morans_i	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5468194352165465	0.5454739275765511
+E9p5Embryo	nbumi	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5868067037213741	0.5794002907413616
+E9p5Embryo	nbumi	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5594636807633241	0.5424080657071751
+E9p5Embryo	nnsvg	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.56801298986238	0.5673163669590192
+E9p5Embryo	nnsvg	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5401227871952547	0.5399751656256706
+E9p5Embryo	osca	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5679204159550524	0.5904416394197599
+E9p5Embryo	osca	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5511951308115384	0.5357908269801133
+E9p5Embryo	random	500	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.4984115372068392	0.49266658671300434
+E9p5Embryo	random	500	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.4682341467712045	0.4880589538020507
+E9p5Embryo	scPNMF	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.557891272076805	0.5635264916488292
+E9p5Embryo	scPNMF	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5305966766315504	0.5515527936965837
+E9p5Embryo	scanpy_cell_ranger	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.619181692161328	0.6210692972110025
+E9p5Embryo	scanpy_cell_ranger	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.551051040647843	0.5502768499616637
+E9p5Embryo	scanpy_cell_ranger_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.6170550860641157	0.6151685447645516
+E9p5Embryo	scanpy_cell_ranger_batch	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5435186323936587	0.5336717880491046
+E9p5Embryo	scanpy_pearson	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5932803873568573	0.6015975367694386
+E9p5Embryo	scanpy_pearson	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5489154314086754	0.5400118372750095
+E9p5Embryo	scanpy_pearson_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.603297622537184	0.5917436882114473
+E9p5Embryo	scanpy_pearson_batch	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5308962607599009	0.5054193847256704
+E9p5Embryo	scanpy_seurat	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5947227732743331	0.596174038969767
+E9p5Embryo	scanpy_seurat	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5308473305277356	0.5267938093763229
+E9p5Embryo	scanpy_seurat_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5968784818371919	0.5803425573963621
+E9p5Embryo	scanpy_seurat_batch	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5168815282910243	0.532759877644927
+E9p5Embryo	scanpy_seurat_v3	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.6216100284012525	0.6110101278934994
+E9p5Embryo	scanpy_seurat_v3	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5493946239645888	0.5544553008760531
+E9p5Embryo	scanpy_seurat_v3_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.6000162446116932	0.6082044946808152
+E9p5Embryo	scanpy_seurat_v3_batch	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5263442891647218	0.530132279456973
+E9p5Embryo	scry	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5506323672253091	0.538911166828979
+E9p5Embryo	scry	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5317341411093421	0.5449586918250937
+E9p5Embryo	scsegindex	500	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.592700715623423	0.5915824731836138
+E9p5Embryo	scsegindex	500	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5105437325642308	0.5101189093332623
+E9p5Embryo	seurat_disp	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5812367719638893	0.6031975659675235
+E9p5Embryo	seurat_disp	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5282618695346442	0.5188905462728467
+E9p5Embryo	seurat_mvp	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5750000107017756	0.621103401796298
+E9p5Embryo	seurat_mvp	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5296393297573206	0.5340592299539884
+E9p5Embryo	seurat_sct	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.474038318347048	0.4143910516400397
+E9p5Embryo	seurat_sct	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.43774215542581096	0.43766429045896293
+E9p5Embryo	seurat_vst	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.617145552133286	0.6225027081159168
+E9p5Embryo	seurat_vst	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5493537310592903	0.5501039710184995
+E9p5Embryo	singleCellHaystack	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5729668263440111	0.5686135178274154
+E9p5Embryo	singleCellHaystack	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5469519097991173	0.5297660610301275
+E9p5Embryo	somde	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5913710345751577	0.5683029702380924
+E9p5Embryo	somde	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5538567662620778	0.5632157700877946
+E9p5Embryo	sparkx	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.567369838518083	0.5694909139556268
+E9p5Embryo	sparkx	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.555472661150239	0.5345144275158322
+E9p5Embryo	spatialde	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5788584651549028	0.5892127192991476
+E9p5Embryo	spatialde	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5555295497708997	0.5559833265429832
+E9p5Embryo	statistic_mean	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5542067978128999	0.5585239035658633
+E9p5Embryo	statistic_mean	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5409280565125222	0.5297551076944802
+E9p5Embryo	statistic_variance	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.5671277314617453	0.5497770268091882
+E9p5Embryo	statistic_variance	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.5380194526854588	0.5447094090244149
+E9p5Embryo	triku	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 1	0.587143520624377	0.6108958538313918
+E9p5Embryo	triku	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 1	0.549023601288006	0.5277902252480684
+MouseBrainSerialSections	Brennecke	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7703344367265865	0.766540884535383
+MouseBrainSerialSections	Brennecke	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.4585662429067162	0.5315317975171479
+MouseBrainSerialSections	TFs	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7481273789532716	0.7616317989181156
+MouseBrainSerialSections	TFs	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.4981579774802987	0.47663505879312784
+MouseBrainSerialSections	all_features	all	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7361835292789635	0.7251120170761055
+MouseBrainSerialSections	all_features	all	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.4243713307894684	0.4706079466702462
+MouseBrainSerialSections	anticor	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7517188626757034	0.7504698483546858
+MouseBrainSerialSections	anticor	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.5361178263907274	0.4691358632262024
+MouseBrainSerialSections	dubstepr	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.761841336344808	0.761174239884492
+MouseBrainSerialSections	dubstepr	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.43860513630271675	0.5671466888857271
+MouseBrainSerialSections	hotspot	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7507626230404707	0.7577641221649106
+MouseBrainSerialSections	hotspot	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.4377552749076293	0.4407717830340028
+MouseBrainSerialSections	morans_i	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7639415154277052	0.7478776335470809
+MouseBrainSerialSections	morans_i	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.5536311063520745	0.504226701705983
+MouseBrainSerialSections	nbumi	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.75603942304176	0.760808476479371
+MouseBrainSerialSections	nbumi	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.7367944266322481	0.6301621112606371
+MouseBrainSerialSections	nnsvg	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7651470027387435	0.747318637163133
+MouseBrainSerialSections	nnsvg	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.6344201459340635	0.582257437101989
+MouseBrainSerialSections	osca	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.761533384937846	0.754260484859956
+MouseBrainSerialSections	osca	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.5898832991031802	0.5639471694383066
+MouseBrainSerialSections	random	500	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7690738743625877	0.7120656174880542
+MouseBrainSerialSections	random	500	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.5231150954608764	0.34753656697927293
+MouseBrainSerialSections	scPNMF	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7648032581432942	0.7517241416791409
+MouseBrainSerialSections	scPNMF	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.4178846527563014	0.5504818036660081
+MouseBrainSerialSections	scanpy_cell_ranger	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7623554666754231	0.7642494005818009
+MouseBrainSerialSections	scanpy_cell_ranger	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.804879764547992	0.7995604845585489
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7547574652678531	0.7710646513861747
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.7957850944054625	0.7976289029214162
+MouseBrainSerialSections	scanpy_pearson	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7564580037998034	0.7497860508614873
+MouseBrainSerialSections	scanpy_pearson	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.4663546847078277	0.5946442827268829
+MouseBrainSerialSections	scanpy_pearson_batch	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7480553995105771	0.7473336622677962
+MouseBrainSerialSections	scanpy_pearson_batch	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.4976840842359662	0.4241202631704441
+MouseBrainSerialSections	scanpy_seurat	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.754932705733836	0.7624490290846302
+MouseBrainSerialSections	scanpy_seurat	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.7779233145613461	0.7675918162323929
+MouseBrainSerialSections	scanpy_seurat_batch	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7582609030295837	0.75253219180277
+MouseBrainSerialSections	scanpy_seurat_batch	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.6578503059138576	0.7927385153250298
+MouseBrainSerialSections	scanpy_seurat_v3	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7653009975765557	0.7674553384867088
+MouseBrainSerialSections	scanpy_seurat_v3	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.7244057662357655	0.6545392988930727
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7598604425811136	0.7689076533045355
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.7115602984551833	0.4790582106891962
+MouseBrainSerialSections	scry	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7698567910761887	0.7701853863601387
+MouseBrainSerialSections	scry	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.4117537200594348	0.4993771049868512
+MouseBrainSerialSections	scsegindex	500	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7510215854687806	0.7333156628364281
+MouseBrainSerialSections	scsegindex	500	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.42947710479995993	0.3960769461216075
+MouseBrainSerialSections	seurat_disp	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7534923689452622	0.7574948705272437
+MouseBrainSerialSections	seurat_disp	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.4698662317533111	0.43982776164670945
+MouseBrainSerialSections	seurat_mvp	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7593323734414006	0.763783355607777
+MouseBrainSerialSections	seurat_mvp	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.7706254801764856	0.7614080964734866
+MouseBrainSerialSections	seurat_sct	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7527137679327851	0.7535901015447584
+MouseBrainSerialSections	seurat_sct	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.6827662885509385	0.5047328055844456
+MouseBrainSerialSections	seurat_vst	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7680741488603442	0.7647012378070888
+MouseBrainSerialSections	seurat_vst	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.7326094330981432	0.644314373516553
+MouseBrainSerialSections	singleCellHaystack	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7699336578312733	0.7447758430102798
+MouseBrainSerialSections	singleCellHaystack	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.7037308422612316	0.642762163834507
+MouseBrainSerialSections	somde	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7593598595286036	0.7630962354516984
+MouseBrainSerialSections	somde	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.578620501761966	0.4858200121516953
+MouseBrainSerialSections	sparkx	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7651040676085955	0.7580890166745116
+MouseBrainSerialSections	sparkx	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.5868335560763158	0.5167191773192454
+MouseBrainSerialSections	spatialde	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7577080072202943	0.7566338394710207
+MouseBrainSerialSections	spatialde	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.4385667999384997	0.4042129378784815
+MouseBrainSerialSections	statistic_mean	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7520954010128352	0.7733204027747168
+MouseBrainSerialSections	statistic_mean	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.3918319837830741	0.4718922455783033
+MouseBrainSerialSections	statistic_variance	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7570967671932034	0.7561852184269797
+MouseBrainSerialSections	statistic_variance	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.5333893542609602	0.4925849091162038
+MouseBrainSerialSections	triku	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7580988884620385	0.7735244888543906
+MouseBrainSerialSections	triku	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.7673026805417937	0.7949825306884009
+MouseBrainSerialSections	wilcoxon	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 1	0.7287870268715512	0.727116943651178
+MouseBrainSerialSections	wilcoxon	2000	scvi	Mouse Brain	scVI	Seed 0 vs 1	0.6415623452062529	0.5715290237480952
+STOmics0212	Brennecke	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5545621526770075	0.5708585845591766
+STOmics0212	Brennecke	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.541234385634638	0.5458330296596073
+STOmics0212	TFs	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5933094693667288	0.5739484951974274
+STOmics0212	TFs	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.45163899558321585	0.4348371068866737
+STOmics0212	all_features	all	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5538556340380054	0.5408156459206439
+STOmics0212	all_features	all	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.473479635690071	0.4736373319703665
+STOmics0212	anticor	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.6129722927066019	0.5641918090185832
+STOmics0212	anticor	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5486518868648894	0.5614959154423587
+STOmics0212	dubstepr	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.6003250136828214	0.6007330541250324
+STOmics0212	dubstepr	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5875373347758928	0.5872705765121315
+STOmics0212	hotspot	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.6013327366328433	0.6106125864517747
+STOmics0212	hotspot	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5661545805584522	0.5805807951474318
+STOmics0212	morans_i	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5741671629075163	0.5940819165608193
+STOmics0212	morans_i	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5426802627449241	0.5532814457825901
+STOmics0212	nbumi	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.6208097166453227	0.6157652804732798
+STOmics0212	nbumi	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5545245274916488	0.5669675787710584
+STOmics0212	nnsvg	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5837377575144115	0.593607334765802
+STOmics0212	nnsvg	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5420707882824886	0.5570465078450764
+STOmics0212	osca	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5910779796027901	0.5517536607755344
+STOmics0212	osca	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.548221874699137	0.546126941709953
+STOmics0212	random	500	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.6336362450290014	0.6027560505046224
+STOmics0212	random	500	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.35915491444787884	0.399060360065135
+STOmics0212	scPNMF	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5843879249315133	0.5678797155765022
+STOmics0212	scPNMF	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.566674163575863	0.5559580513925537
+STOmics0212	scanpy_cell_ranger	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5400095431470046	0.5497118013587735
+STOmics0212	scanpy_cell_ranger	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5553798201082731	0.5627911158111889
+STOmics0212	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.640687126507324	0.6055674563931703
+STOmics0212	scanpy_cell_ranger_batch	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.6030651792507027	0.5885533305542037
+STOmics0212	scanpy_pearson	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5932188487810316	0.5796405945639588
+STOmics0212	scanpy_pearson	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5757299218823104	0.5670513960016526
+STOmics0212	scanpy_pearson_batch	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5918369385654132	0.5951701457331577
+STOmics0212	scanpy_pearson_batch	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5676521485107602	0.5685024954829281
+STOmics0212	scanpy_seurat	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5939789171454641	0.5597786429133393
+STOmics0212	scanpy_seurat	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5172132458199694	0.5317571679194566
+STOmics0212	scanpy_seurat_batch	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5684657378886082	0.5935857551323469
+STOmics0212	scanpy_seurat_batch	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5853534690937501	0.5700475013059136
+STOmics0212	scanpy_seurat_v3	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.6076175189461734	0.6339758861853517
+STOmics0212	scanpy_seurat_v3	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5506455594330072	0.5703191573272293
+STOmics0212	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5878552573214529	0.6068422777190675
+STOmics0212	scanpy_seurat_v3_batch	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5519274920118561	0.5675273278532611
+STOmics0212	scry	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5841571726190018	0.5929687166273625
+STOmics0212	scry	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5631555920902618	0.5610198584381704
+STOmics0212	scsegindex	500	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5588280459500672	0.5793858377765955
+STOmics0212	scsegindex	500	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.3252292790161847	0.3018366832664323
+STOmics0212	seurat_disp	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5494076317721652	0.5900624194930748
+STOmics0212	seurat_disp	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5225917136765609	0.5389107770417879
+STOmics0212	seurat_mvp	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5669023657261314	0.5763823845352634
+STOmics0212	seurat_mvp	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5449387338628273	0.5335875100504335
+STOmics0212	seurat_sct	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5921134891121876	0.5972620808804001
+STOmics0212	seurat_sct	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5959864335352204	0.5721467560645046
+STOmics0212	seurat_vst	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.6069797997310564	0.6129199850929345
+STOmics0212	seurat_vst	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5519873932538153	0.584114928365215
+STOmics0212	singleCellHaystack	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.6363285262112344	0.6408584527165968
+STOmics0212	singleCellHaystack	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5594965739483327	0.5668838570146093
+STOmics0212	somde	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5888950785474372	0.5770508620979894
+STOmics0212	somde	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5446396810634779	0.5490148550957838
+STOmics0212	sparkx	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5772761463018179	0.5796023113368727
+STOmics0212	sparkx	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.4984503553675744	0.5350268675256477
+STOmics0212	spatialde	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5803698340118484	0.5879172958920331
+STOmics0212	spatialde	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5439570653949501	0.5877169506314763
+STOmics0212	statistic_mean	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.597758322080364	0.5715364603650628
+STOmics0212	statistic_mean	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5485404721870937	0.5555265082544881
+STOmics0212	statistic_variance	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5876431145420439	0.5638413423357718
+STOmics0212	statistic_variance	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5349782156486491	0.5255963668315209
+STOmics0212	triku	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.5735173541674796	0.5782066180644586
+STOmics0212	triku	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5903397059300186	0.5804609178605779
+STOmics0212	wilcoxon	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 1	0.6004991231074884	0.5973735377610203
+STOmics0212	wilcoxon	2000	scvi	STOmics-0212	scVI	Seed 0 vs 1	0.5757559118303761	0.5799919494524218
+STOmics0218	Brennecke	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7406487276334841	0.7476951877327237
+STOmics0218	Brennecke	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7472836929260177	0.7398654571347196
+STOmics0218	TFs	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.739674199664786	0.7625901395850054
+STOmics0218	TFs	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.6999428832948416	0.6778085522878697
+STOmics0218	all_features	all	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7394879334179494	0.7278439297813797
+STOmics0218	all_features	all	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.4304277407825136	0.5309290544289516
+STOmics0218	anticor	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.742346528564071	0.7435710761028301
+STOmics0218	anticor	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7471856542064186	0.7521386688383417
+STOmics0218	dubstepr	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7459480635913809	0.7385303011782872
+STOmics0218	dubstepr	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7429654827925511	0.7358049529303644
+STOmics0218	hotspot	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7588623060921673	0.7394486860205185
+STOmics0218	hotspot	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7331801933741664	0.7295848090888047
+STOmics0218	morans_i	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7473792078078403	0.7435355833947784
+STOmics0218	morans_i	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7360874873612029	0.738661005452441
+STOmics0218	nbumi	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7437579096028285	0.7536095574566515
+STOmics0218	nbumi	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7239174428430544	0.7463579585512224
+STOmics0218	nnsvg	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7507319468092211	0.7613500316040385
+STOmics0218	nnsvg	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7466392016054174	0.7537734514933542
+STOmics0218	osca	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7540606062712261	0.7705406418922853
+STOmics0218	osca	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7538312874993919	0.7453667804089256
+STOmics0218	random	500	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.6865648478481589	0.79563268792221
+STOmics0218	random	500	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.522488670027243	0.5627749588577426
+STOmics0218	scPNMF	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.748394194471542	0.7447809973908956
+STOmics0218	scPNMF	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7262149614999882	0.7420894344373583
+STOmics0218	scanpy_cell_ranger	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7501972506380166	0.733318629028158
+STOmics0218	scanpy_cell_ranger	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7103870803293	0.7638561795597973
+STOmics0218	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7477160368460032	0.7413864581735108
+STOmics0218	scanpy_cell_ranger_batch	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7395255534723615	0.7495465650265009
+STOmics0218	scanpy_pearson	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7348006188233326	0.749829893745471
+STOmics0218	scanpy_pearson	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7463964628200761	0.7412655387779605
+STOmics0218	scanpy_pearson_batch	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7571366380101696	0.7645525289702116
+STOmics0218	scanpy_pearson_batch	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7531702324484065	0.7462582370528408
+STOmics0218	scanpy_seurat	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7318878995902147	0.7565743570598812
+STOmics0218	scanpy_seurat	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7260360729652856	0.7539608375635769
+STOmics0218	scanpy_seurat_batch	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7520707172933856	0.76259341490578
+STOmics0218	scanpy_seurat_batch	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7374843500125468	0.7406740635216946
+STOmics0218	scanpy_seurat_v3	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7438415094844861	0.7450398784645336
+STOmics0218	scanpy_seurat_v3	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7320542904839413	0.7391211693046986
+STOmics0218	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7576751927617775	0.7377610778175094
+STOmics0218	scanpy_seurat_v3_batch	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7450551630597628	0.7528507439328352
+STOmics0218	scry	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7383942180670287	0.7564955126199335
+STOmics0218	scry	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7252909722971185	0.7370546781980154
+STOmics0218	scsegindex	500	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.6538568095648328	0.7296862870482959
+STOmics0218	scsegindex	500	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.5133896794674813	0.313358744481132
+STOmics0218	seurat_disp	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7452953605065002	0.7428409708883232
+STOmics0218	seurat_disp	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7415565420960254	0.746194673271315
+STOmics0218	seurat_mvp	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7688455117251143	0.7399407797764105
+STOmics0218	seurat_mvp	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7332123203791352	0.7385583256265065
+STOmics0218	seurat_sct	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7462618806178865	0.7397175904801547
+STOmics0218	seurat_sct	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7444934033779987	0.7467522561223401
+STOmics0218	seurat_vst	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7445816033664092	0.7563316081888342
+STOmics0218	seurat_vst	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7413562208346989	0.7649259648479525
+STOmics0218	singleCellHaystack	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7533518651641962	0.7596575975851156
+STOmics0218	singleCellHaystack	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7311970324201688	0.7588698242515619
+STOmics0218	somde	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7611670552884673	0.7604207176847262
+STOmics0218	somde	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7285895464998855	0.7446292609508635
+STOmics0218	sparkx	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7312475024125159	0.742555781230854
+STOmics0218	sparkx	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.706413522891726	0.7275357184024746
+STOmics0218	spatialde	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7628128652992782	0.7521900721544114
+STOmics0218	spatialde	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7494984392285	0.7236804879281545
+STOmics0218	statistic_mean	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7301893379440307	0.7422516074327201
+STOmics0218	statistic_mean	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7364477940364293	0.7364732895179955
+STOmics0218	statistic_variance	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7414545780119407	0.7436320538440793
+STOmics0218	statistic_variance	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7560816407544125	0.7242520756979668
+STOmics0218	triku	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7526647495899623	0.7599121484053197
+STOmics0218	triku	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.7468832552631957	0.763571339812232
+STOmics0218	wilcoxon	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 1	0.7536573099652565	0.7540235183846558
+STOmics0218	wilcoxon	2000	scvi	STOmics-0218	scVI	Seed 0 vs 1	0.739852681018222	0.7264616375805919
+STOmics0224	Brennecke	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6447668575769145	0.63605746839552
+STOmics0224	Brennecke	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5971418892226916	0.6383390876575752
+STOmics0224	TFs	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6083921412066989	0.6285637131025208
+STOmics0224	TFs	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.4276274274893592	0.44617585351036904
+STOmics0224	all_features	all	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.5838745440975067	0.6290979163366814
+STOmics0224	all_features	all	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.4081712383106631	0.4236634691575914
+STOmics0224	anticor	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6265397447067401	0.6441197381903867
+STOmics0224	anticor	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6329548402401763	0.6211623206148964
+STOmics0224	dubstepr	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6415812950154804	0.6414996510333129
+STOmics0224	dubstepr	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5412948686804133	0.5599381060830342
+STOmics0224	hotspot	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6217120183555511	0.6332800285166895
+STOmics0224	hotspot	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6601338663334233	0.686989679306077
+STOmics0224	morans_i	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6225869219271273	0.6564304032532905
+STOmics0224	morans_i	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6165228731161128	0.6742316752084139
+STOmics0224	nbumi	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.660582425791969	0.6616929291696574
+STOmics0224	nbumi	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5640255574128743	0.6086498528636171
+STOmics0224	nnsvg	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6231082936067137	0.6354245844017268
+STOmics0224	nnsvg	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5847020481724139	0.6042516913661542
+STOmics0224	osca	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6336399375006034	0.6487570763924273
+STOmics0224	osca	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6323163704069468	0.653445707461922
+STOmics0224	random	500	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.5425959290284171	0.4565149234980904
+STOmics0224	random	500	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.3681994910156505	0.36472127680862165
+STOmics0224	scPNMF	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6525927218900454	0.6167241482818568
+STOmics0224	scPNMF	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6309611413351577	0.6444101052388359
+STOmics0224	scanpy_cell_ranger	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6855170863938045	0.7067686929007948
+STOmics0224	scanpy_cell_ranger	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5338960209928423	0.515593920965632
+STOmics0224	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6558365759483831	0.6466687642494292
+STOmics0224	scanpy_cell_ranger_batch	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5527631641453118	0.5060041682152379
+STOmics0224	scanpy_pearson	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6275207124768452	0.6455590602060893
+STOmics0224	scanpy_pearson	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6429052171061727	0.6106154628154292
+STOmics0224	scanpy_pearson_batch	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6468320895258897	0.6167704171599105
+STOmics0224	scanpy_pearson_batch	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5878525653369489	0.5783651829848994
+STOmics0224	scanpy_seurat	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.673547182683093	0.658778277580788
+STOmics0224	scanpy_seurat	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.592453422609819	0.5917323863638773
+STOmics0224	scanpy_seurat_batch	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6402985170782306	0.6206683682188294
+STOmics0224	scanpy_seurat_batch	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5856052702547261	0.6020257423052368
+STOmics0224	scanpy_seurat_v3	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6221323660758646	0.6662187344373158
+STOmics0224	scanpy_seurat_v3	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5922592241867956	0.5760071663198498
+STOmics0224	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6578663915560589	0.679276924605472
+STOmics0224	scanpy_seurat_v3_batch	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5631110078732852	0.5949834919997159
+STOmics0224	scry	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6091158351043844	0.6452658460822651
+STOmics0224	scry	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.598713253035392	0.5958668768677167
+STOmics0224	scsegindex	500	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.5166083014407572	0.5129154403021298
+STOmics0224	scsegindex	500	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.3813741953850937	0.38045233433424824
+STOmics0224	seurat_disp	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6519078993573617	0.634502890228787
+STOmics0224	seurat_disp	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.639439291339557	0.6318882491353719
+STOmics0224	seurat_mvp	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6667256929670549	0.6577420510358954
+STOmics0224	seurat_mvp	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.596991480033338	0.5889210671595039
+STOmics0224	seurat_sct	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6542629260412587	0.6513300172015445
+STOmics0224	seurat_sct	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6562965600883794	0.6553702452224165
+STOmics0224	seurat_vst	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6519613247051803	0.6283165264879235
+STOmics0224	seurat_vst	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6009537537506332	0.5535893547555149
+STOmics0224	singleCellHaystack	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6313144715609291	0.6320635739931515
+STOmics0224	singleCellHaystack	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.3980942865816127	0.4340622528947057
+STOmics0224	somde	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.631301692519707	0.6322542807886233
+STOmics0224	somde	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6373315845462917	0.669267156456384
+STOmics0224	sparkx	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6320335021857337	0.6033805051984938
+STOmics0224	sparkx	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5615284135129928	0.562875712568521
+STOmics0224	spatialde	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6492353150471437	0.640279241314988
+STOmics0224	spatialde	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6009490154611918	0.633193674274029
+STOmics0224	statistic_mean	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6136537989489723	0.6418956636267834
+STOmics0224	statistic_mean	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5808585566250268	0.5866648760419728
+STOmics0224	statistic_variance	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6257318945159853	0.6313741875366952
+STOmics0224	statistic_variance	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.57339271437558	0.5496709419725867
+STOmics0224	triku	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6178926754152643	0.6252054812401601
+STOmics0224	triku	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.6189412290166436	0.5773131753919245
+STOmics0224	wilcoxon	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 1	0.6529503832498338	0.6710576243755355
+STOmics0224	wilcoxon	2000	scvi	STOmics-0224	scVI	Seed 0 vs 1	0.5987502107451032	0.6159297629349028
+DLPFC	Brennecke	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6771480189590282	0.6947609352946905
+DLPFC	Brennecke	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.5800858321023273	0.5961541579542071
+DLPFC	TFs	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6232514023772234	0.6776489691606584
+DLPFC	TFs	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.4245488177982327	0.41683663181709674
+DLPFC	all_features	all	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6305055118015999	0.6714477906633642
+DLPFC	all_features	all	scvi	DLPFC	scVI	Seed 0 vs 2	0.44249199900292857	0.43158763010072176
+DLPFC	anticor	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7282006292652129	0.7236890722328355
+DLPFC	anticor	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6725456795783104	0.6438470145172301
+DLPFC	dubstepr	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7390827897999782	0.7113096664030314
+DLPFC	dubstepr	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6870911955850716	0.6822580180596118
+DLPFC	hotspot	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7425886940146218	0.6893894200165004
+DLPFC	hotspot	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.7114522546430285	0.6995142782500484
+DLPFC	morans_i	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7623621408917329	0.7410023353867026
+DLPFC	morans_i	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6950572248113962	0.45994676931133704
+DLPFC	nbumi	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7130821976749759	0.809041336341336
+DLPFC	nbumi	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.7068891578987209	0.6774978364821368
+DLPFC	nnsvg	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7253819815897808	0.7282635516847835
+DLPFC	nnsvg	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.5495937627688441	0.7032631929400287
+DLPFC	osca	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7292949367625903	0.7331712870850138
+DLPFC	osca	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6544374547490973	0.6983639044864208
+DLPFC	random	500	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.5993245923173713	0.6876992989745149
+DLPFC	random	500	scvi	DLPFC	scVI	Seed 0 vs 2	0.4029234349336613	0.4915106820264932
+DLPFC	scPNMF	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6863593692602175	0.6919325982176823
+DLPFC	scPNMF	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6536158360948763	0.6440805172784914
+DLPFC	scanpy_cell_ranger	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6533551495357899	0.6731516774717956
+DLPFC	scanpy_cell_ranger	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.581024224023171	0.5620359211561117
+DLPFC	scanpy_cell_ranger_batch	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6865503500943719	0.710032620721498
+DLPFC	scanpy_cell_ranger_batch	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.5598434280901625	0.5857944661090634
+DLPFC	scanpy_pearson	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6929951165809194	0.6978900589229761
+DLPFC	scanpy_pearson	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6633703347959514	0.6559090501216154
+DLPFC	scanpy_pearson_batch	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7275900526181309	0.6945527879316473
+DLPFC	scanpy_pearson_batch	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6731412088113239	0.6704219888918493
+DLPFC	scanpy_seurat	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6774916496660952	0.71210341202378
+DLPFC	scanpy_seurat	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.5961437157958969	0.6284917968780239
+DLPFC	scanpy_seurat_batch	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6974173371025071	0.6838562941835433
+DLPFC	scanpy_seurat_batch	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6398973493812324	0.6453240004174575
+DLPFC	scanpy_seurat_v3	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7906800377191183	0.7775835842384509
+DLPFC	scanpy_seurat_v3	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6442871272319932	0.6861264304688122
+DLPFC	scanpy_seurat_v3_batch	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7698093746636109	0.745495730454564
+DLPFC	scanpy_seurat_v3_batch	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6889250267992486	0.6922372694833758
+DLPFC	scry	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6957528154332875	0.6828699982563883
+DLPFC	scry	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.5397000523897564	0.6354387487701298
+DLPFC	scsegindex	500	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.585590555227335	0.6106938458031916
+DLPFC	scsegindex	500	scvi	DLPFC	scVI	Seed 0 vs 2	0.5065829111292182	0.5135251051325269
+DLPFC	seurat_disp	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6436109139786192	0.6869435166280133
+DLPFC	seurat_disp	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6566487044059108	0.6450133646578834
+DLPFC	seurat_mvp	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6845046274422175	0.7174042990622834
+DLPFC	seurat_mvp	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6332469184643641	0.61200424435152
+DLPFC	seurat_sct	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7275688443793147	0.729639453941231
+DLPFC	seurat_sct	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.674477373061606	0.703653632287659
+DLPFC	seurat_vst	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7958704409284494	0.7536957309957345
+DLPFC	seurat_vst	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6864313142026992	0.6678525646916837
+DLPFC	singleCellHaystack	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7640863625766032	0.7120911971351516
+DLPFC	singleCellHaystack	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.7045454019269694	0.7073449895993991
+DLPFC	somde	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7635548919567638	0.7388043072968963
+DLPFC	somde	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.7071407305701329	0.6510070791741275
+DLPFC	sparkx	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7175448255492134	0.7235218675342779
+DLPFC	sparkx	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6188231806416067	0.6684374552751257
+DLPFC	spatialde	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7762674650494581	0.7470927274322157
+DLPFC	spatialde	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6781101743641915	0.6881947133397215
+DLPFC	statistic_mean	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.6973294014905469	0.7049247299322914
+DLPFC	statistic_mean	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.5338945666653867	0.5756098727482482
+DLPFC	statistic_variance	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7555396876630315	0.7096888923358656
+DLPFC	statistic_variance	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6751682105276389	0.6845278368642403
+DLPFC	triku	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7837234851978898	0.7529775283740215
+DLPFC	triku	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.6955949550928537	0.6732820251387057
+DLPFC	wilcoxon	2000	cellcharter	DLPFC	CellCharter	Seed 0 vs 2	0.7429556582978643	0.758561777747903
+DLPFC	wilcoxon	2000	scvi	DLPFC	scVI	Seed 0 vs 2	0.7330011597943112	0.653122529099734
+E8p5Embryo	Brennecke	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.6148118282803072	0.622228392400865
+E8p5Embryo	Brennecke	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5316994852766228	0.5395618824575257
+E8p5Embryo	TFs	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.650831711206489	0.6491724848698601
+E8p5Embryo	TFs	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5483821822182795	0.5527707593615789
+E8p5Embryo	all_features	all	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.4903444139559108	0.49431452815153754
+E8p5Embryo	all_features	all	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.4615984783314492	0.5184329187850121
+E8p5Embryo	anticor	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.6169655936679348	0.6024323230152131
+E8p5Embryo	anticor	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5694916908866027	0.5690519243034949
+E8p5Embryo	dubstepr	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5582884523269638	0.5496274544228967
+E8p5Embryo	dubstepr	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.565694032530533	0.5715280808600629
+E8p5Embryo	hotspot	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5866421232199945	0.5922526654415683
+E8p5Embryo	hotspot	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5567232987384755	0.5478123766223643
+E8p5Embryo	morans_i	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5456777063774453	0.5480548353077013
+E8p5Embryo	morans_i	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.575258838420628	0.5660104645457369
+E8p5Embryo	nbumi	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5759539288919868	0.5889972827977397
+E8p5Embryo	nbumi	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5445417137874339	0.5416940408690146
+E8p5Embryo	nnsvg	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5323948888532604	0.5272257089853167
+E8p5Embryo	nnsvg	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5664009891731141	0.5707662369815485
+E8p5Embryo	osca	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.562917082937221	0.5748241608043804
+E8p5Embryo	osca	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5687210425585572	0.5599617732047405
+E8p5Embryo	random	500	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5769577495160216	0.5453718227334958
+E8p5Embryo	random	500	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.4896689291370688	0.5035655697058725
+E8p5Embryo	scPNMF	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5454760900121212	0.5548834165330916
+E8p5Embryo	scPNMF	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5414029588926782	0.5863909199352313
+E8p5Embryo	scanpy_cell_ranger	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5972516918375343	0.5950142194333786
+E8p5Embryo	scanpy_cell_ranger	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5684006202410621	0.5683117554705668
+E8p5Embryo	scanpy_cell_ranger_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.6114589956848998	0.6170067406307864
+E8p5Embryo	scanpy_cell_ranger_batch	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5652073156330253	0.5742638397093726
+E8p5Embryo	scanpy_pearson	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.6099432741027526	0.6030761834571962
+E8p5Embryo	scanpy_pearson	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5576408003304443	0.5693126975101015
+E8p5Embryo	scanpy_pearson_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.6253073266526776	0.6229897485159119
+E8p5Embryo	scanpy_pearson_batch	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5455453264403549	0.5497244442733582
+E8p5Embryo	scanpy_seurat	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.6224714746737858	0.612835248043238
+E8p5Embryo	scanpy_seurat	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5489547771973389	0.5505661062076501
+E8p5Embryo	scanpy_seurat_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.6158404831125004	0.6082192643022456
+E8p5Embryo	scanpy_seurat_batch	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5430371134700956	0.5395041734163771
+E8p5Embryo	scanpy_seurat_v3	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5973327679694039	0.586472577900393
+E8p5Embryo	scanpy_seurat_v3	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5689064671042271	0.5636438882879637
+E8p5Embryo	scanpy_seurat_v3_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.6013043142561112	0.598203355886264
+E8p5Embryo	scanpy_seurat_v3_batch	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5389569707553783	0.5648673051210116
+E8p5Embryo	scry	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5290531998474746	0.5293502104590946
+E8p5Embryo	scry	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5534398034674126	0.5330558966661167
+E8p5Embryo	scsegindex	500	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5913955762540153	0.5882593663348612
+E8p5Embryo	scsegindex	500	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.518630664978228	0.5268950580262672
+E8p5Embryo	seurat_disp	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5978015819489517	0.5837725783707376
+E8p5Embryo	seurat_disp	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5350357299933082	0.545037388386761
+E8p5Embryo	seurat_mvp	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5990366147138411	0.6050681521824139
+E8p5Embryo	seurat_mvp	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.542951311469716	0.5330737545656361
+E8p5Embryo	seurat_sct	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.4551249115246277	0.46045426024993
+E8p5Embryo	seurat_sct	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.430409811092524	0.43195902498967226
+E8p5Embryo	seurat_vst	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.599692205744766	0.5782219784860645
+E8p5Embryo	seurat_vst	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5569807952810766	0.5546871908482585
+E8p5Embryo	singleCellHaystack	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5608245744943523	0.5618116838371023
+E8p5Embryo	singleCellHaystack	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5538962753589279	0.5566461379626586
+E8p5Embryo	somde	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.572417152772704	0.5684283600488951
+E8p5Embryo	somde	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5755013481943643	0.5737870638278493
+E8p5Embryo	sparkx	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5453786459796349	0.5504777140977029
+E8p5Embryo	sparkx	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5534458611448456	0.5738483386628724
+E8p5Embryo	spatialde	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5508612579340761	0.5525417672620492
+E8p5Embryo	spatialde	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5643468735967198	0.5541335682400195
+E8p5Embryo	statistic_mean	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.543517203345006	0.5236320078997827
+E8p5Embryo	statistic_mean	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5370427470464401	0.5217247376103356
+E8p5Embryo	statistic_variance	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5169260694779831	0.5314099514028479
+E8p5Embryo	statistic_variance	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5355760045176552	0.5310120018495343
+E8p5Embryo	triku	2000	cellcharter	E8.5 Embryo	CellCharter	Seed 0 vs 2	0.5835207233023558	0.5922196816516461
+E8p5Embryo	triku	2000	scvi	E8.5 Embryo	scVI	Seed 0 vs 2	0.5533637982741543	0.5716247564217474
+E9p5Embryo	Brennecke	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5685304461922535	0.5596321980437349
+E9p5Embryo	Brennecke	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5219668259405206	0.5135625706053021
+E9p5Embryo	TFs	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.6064142923780909	0.6136661754450585
+E9p5Embryo	TFs	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5198447414855424	0.5218109574071808
+E9p5Embryo	all_features	all	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5367756604250697	0.5023351123081881
+E9p5Embryo	all_features	all	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5140454134525393	0.5112504779592058
+E9p5Embryo	anticor	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5836537435892556	0.5880247820259217
+E9p5Embryo	anticor	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5285605601159458	0.5117421032703426
+E9p5Embryo	dubstepr	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5733656339048614	0.5590778999084299
+E9p5Embryo	dubstepr	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5544314122043837	0.5444776837087799
+E9p5Embryo	hotspot	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5905462463350507	0.5800161548490717
+E9p5Embryo	hotspot	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5498342910016595	0.5403339590993079
+E9p5Embryo	morans_i	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.570207457472259	0.5697949042478097
+E9p5Embryo	morans_i	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5468194352165465	0.5362465244791895
+E9p5Embryo	nbumi	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5868067037213741	0.5937640906237507
+E9p5Embryo	nbumi	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5594636807633241	0.5555350353344671
+E9p5Embryo	nnsvg	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.56801298986238	0.5678470455327258
+E9p5Embryo	nnsvg	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5401227871952547	0.5460024943032057
+E9p5Embryo	osca	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5679204159550524	0.5745395973088561
+E9p5Embryo	osca	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5511951308115384	0.5420357771177315
+E9p5Embryo	random	500	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.4984115372068392	0.4613906218582696
+E9p5Embryo	random	500	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.4682341467712045	0.4786170574226847
+E9p5Embryo	scPNMF	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.557891272076805	0.5552784224840237
+E9p5Embryo	scPNMF	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5305966766315504	0.5385922667666224
+E9p5Embryo	scanpy_cell_ranger	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.619181692161328	0.6251684443845451
+E9p5Embryo	scanpy_cell_ranger	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.551051040647843	0.5344405080889256
+E9p5Embryo	scanpy_cell_ranger_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.6170550860641157	0.6213711555300985
+E9p5Embryo	scanpy_cell_ranger_batch	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5435186323936587	0.5477442126477675
+E9p5Embryo	scanpy_pearson	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5932803873568573	0.5974160770084751
+E9p5Embryo	scanpy_pearson	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5489154314086754	0.5479165098392299
+E9p5Embryo	scanpy_pearson_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.603297622537184	0.5872859861327592
+E9p5Embryo	scanpy_pearson_batch	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5308962607599009	0.5277328458722197
+E9p5Embryo	scanpy_seurat	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5947227732743331	0.5912625455755345
+E9p5Embryo	scanpy_seurat	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5308473305277356	0.5169794345653894
+E9p5Embryo	scanpy_seurat_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5968784818371919	0.5639822944314857
+E9p5Embryo	scanpy_seurat_batch	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5168815282910243	0.5141009490257085
+E9p5Embryo	scanpy_seurat_v3	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.6216100284012525	0.6240680757052693
+E9p5Embryo	scanpy_seurat_v3	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5493946239645888	0.5502705292649422
+E9p5Embryo	scanpy_seurat_v3_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.6000162446116932	0.610989809833963
+E9p5Embryo	scanpy_seurat_v3_batch	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5263442891647218	0.542430285280843
+E9p5Embryo	scry	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5506323672253091	0.5678936833410306
+E9p5Embryo	scry	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5317341411093421	0.5570950924241956
+E9p5Embryo	scsegindex	500	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.592700715623423	0.5995058289829467
+E9p5Embryo	scsegindex	500	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5105437325642308	0.521284486524415
+E9p5Embryo	seurat_disp	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5812367719638893	0.6014459637327703
+E9p5Embryo	seurat_disp	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5282618695346442	0.52854754253535
+E9p5Embryo	seurat_mvp	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5750000107017756	0.5998626266103728
+E9p5Embryo	seurat_mvp	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5296393297573206	0.5345717817362918
+E9p5Embryo	seurat_sct	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.474038318347048	0.43450926491470654
+E9p5Embryo	seurat_sct	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.43774215542581096	0.44165591034068
+E9p5Embryo	seurat_vst	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.617145552133286	0.6110917348226937
+E9p5Embryo	seurat_vst	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5493537310592903	0.5400092666921386
+E9p5Embryo	singleCellHaystack	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5729668263440111	0.5734689250023012
+E9p5Embryo	singleCellHaystack	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5469519097991173	0.52795648058121325
+E9p5Embryo	somde	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5913710345751577	0.5858455668592577
+E9p5Embryo	somde	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5538567662620778	0.5624950282111392
+E9p5Embryo	sparkx	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.567369838518083	0.5574873846928311
+E9p5Embryo	sparkx	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.555472661150239	0.5519559080023876
+E9p5Embryo	spatialde	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5788584651549028	0.5780724882774805
+E9p5Embryo	spatialde	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5555295497708997	0.5576836815214369
+E9p5Embryo	statistic_mean	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5542067978128999	0.5417508732734495
+E9p5Embryo	statistic_mean	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5409280565125222	0.5459283357346905
+E9p5Embryo	statistic_variance	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.5671277314617453	0.546686032530939
+E9p5Embryo	statistic_variance	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.5380194526854588	0.5462813070366646
+E9p5Embryo	triku	2000	cellcharter	E9.5 Embryo	CellCharter	Seed 0 vs 2	0.587143520624377	0.6107915528608943
+E9p5Embryo	triku	2000	scvi	E9.5 Embryo	scVI	Seed 0 vs 2	0.549023601288006	0.555678603510167
+MouseBrainSerialSections	Brennecke	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7703344367265865	0.7620396418469266
+MouseBrainSerialSections	Brennecke	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.4585662429067162	0.6588233105962562
+MouseBrainSerialSections	TFs	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7481273789532716	0.7494190647246157
+MouseBrainSerialSections	TFs	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.4981579774802987	0.4813476661881134
+MouseBrainSerialSections	all_features	all	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7361835292789635	0.7377351154797362
+MouseBrainSerialSections	all_features	all	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.4243713307894684	0.4226654447050928
+MouseBrainSerialSections	anticor	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7517188626757034	0.7680617643107815
+MouseBrainSerialSections	anticor	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.5361178263907274	0.5022985415043063
+MouseBrainSerialSections	dubstepr	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.761841336344808	0.750566085605189
+MouseBrainSerialSections	dubstepr	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.43860513630271675	0.5946109859030737
+MouseBrainSerialSections	hotspot	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7507626230404707	0.7565278924363112
+MouseBrainSerialSections	hotspot	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.4377552749076293	0.39386036832285537
+MouseBrainSerialSections	morans_i	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7639415154277052	0.7564801830562717
+MouseBrainSerialSections	morans_i	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.5536311063520745	0.4322656450436132
+MouseBrainSerialSections	nbumi	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.75603942304176	0.7640552249885967
+MouseBrainSerialSections	nbumi	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.7367944266322481	0.6378356078502829
+MouseBrainSerialSections	nnsvg	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7651470027387435	0.7622113732750222
+MouseBrainSerialSections	nnsvg	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.6344201459340635	0.55056069939552
+MouseBrainSerialSections	osca	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.761533384937846	0.7676904082123003
+MouseBrainSerialSections	osca	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.5898832991031802	0.5419651988011192
+MouseBrainSerialSections	random	500	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7690738743625877	0.7358148541942495
+MouseBrainSerialSections	random	500	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.5231150954608764	0.3839404249381463
+MouseBrainSerialSections	scPNMF	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7648032581432942	0.7346961144150251
+MouseBrainSerialSections	scPNMF	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.4178846527563014	0.5568064699922335
+MouseBrainSerialSections	scanpy_cell_ranger	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7623554666754231	0.7628335379008847
+MouseBrainSerialSections	scanpy_cell_ranger	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.804879764547992	0.7881997140024455
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7547574652678531	0.7705098488994772
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.7957850944054625	0.768969894220056
+MouseBrainSerialSections	scanpy_pearson	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7564580037998034	0.7488464010128102
+MouseBrainSerialSections	scanpy_pearson	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.4663546847078277	0.4467284085745086
+MouseBrainSerialSections	scanpy_pearson_batch	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7480553995105771	0.7479208148816568
+MouseBrainSerialSections	scanpy_pearson_batch	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.4976840842359662	0.47541206299045896
+MouseBrainSerialSections	scanpy_seurat	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.754932705733836	0.767169866587138
+MouseBrainSerialSections	scanpy_seurat	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.7779233145613461	0.7782555639799575
+MouseBrainSerialSections	scanpy_seurat_batch	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7582609030295837	0.7324342939915737
+MouseBrainSerialSections	scanpy_seurat_batch	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.6578503059138576	0.5419232660278923
+MouseBrainSerialSections	scanpy_seurat_v3	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7653009975765557	0.7614873457504465
+MouseBrainSerialSections	scanpy_seurat_v3	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.7244057662357655	0.762374006116791
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7598604425811136	0.7635691867831351
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.7115602984551833	0.6526150855931794
+MouseBrainSerialSections	scry	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7698567910761887	0.7672115143846433
+MouseBrainSerialSections	scry	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.4117537200594348	0.4005889794422766
+MouseBrainSerialSections	scsegindex	500	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7510215854687806	0.7437295730965316
+MouseBrainSerialSections	scsegindex	500	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.42947710479995993	0.4067447111786565
+MouseBrainSerialSections	seurat_disp	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7534923689452622	0.7477291773632568
+MouseBrainSerialSections	seurat_disp	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.4698662317533111	0.6812438801653875
+MouseBrainSerialSections	seurat_mvp	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7593323734414006	0.7508085372944444
+MouseBrainSerialSections	seurat_mvp	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.7706254801764856	0.7570207965712281
+MouseBrainSerialSections	seurat_sct	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7527137679327851	0.7617150319711861
+MouseBrainSerialSections	seurat_sct	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.6827662885509385	0.667265897842967
+MouseBrainSerialSections	seurat_vst	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7680741488603442	0.7616362289729056
+MouseBrainSerialSections	seurat_vst	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.7326094330981432	0.763090858008541
+MouseBrainSerialSections	singleCellHaystack	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7699336578312733	0.7602019235173134
+MouseBrainSerialSections	singleCellHaystack	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.7037308422612316	0.6334459072374428
+MouseBrainSerialSections	somde	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7593598595286036	0.7454982097146163
+MouseBrainSerialSections	somde	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.578620501761966	0.4374209094073975
+MouseBrainSerialSections	sparkx	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7651040676085955	0.7699959779349462
+MouseBrainSerialSections	sparkx	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.5868335560763158	0.4773809211562854
+MouseBrainSerialSections	spatialde	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7577080072202943	0.7453592310116834
+MouseBrainSerialSections	spatialde	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.4385667999384997	0.7168398616617212
+MouseBrainSerialSections	statistic_mean	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7520954010128352	0.742396679290912
+MouseBrainSerialSections	statistic_mean	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.3918319837830741	0.4003037156173383
+MouseBrainSerialSections	statistic_variance	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7570967671932034	0.7579007767869628
+MouseBrainSerialSections	statistic_variance	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.5333893542609602	0.46327526654779505
+MouseBrainSerialSections	triku	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7580988884620385	0.7652447193390302
+MouseBrainSerialSections	triku	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.7673026805417937	0.8023214780130248
+MouseBrainSerialSections	wilcoxon	2000	cellcharter	Mouse Brain	CellCharter	Seed 0 vs 2	0.7287870268715512	0.7262885708062325
+MouseBrainSerialSections	wilcoxon	2000	scvi	Mouse Brain	scVI	Seed 0 vs 2	0.6415623452062529	0.5832519682588593
+STOmics0212	Brennecke	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5545621526770075	0.5680089021824541
+STOmics0212	Brennecke	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.541234385634638	0.5306910313569853
+STOmics0212	TFs	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5933094693667288	0.5717497283169883
+STOmics0212	TFs	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.45163899558321585	0.44855860414679705
+STOmics0212	all_features	all	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5538556340380054	0.5445858572726929
+STOmics0212	all_features	all	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.473479635690071	0.4546146451055682
+STOmics0212	anticor	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.6129722927066019	0.5739148064202353
+STOmics0212	anticor	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5486518868648894	0.542320695744343
+STOmics0212	dubstepr	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.6003250136828214	0.5892225190463253
+STOmics0212	dubstepr	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5875373347758928	0.5897188937062439
+STOmics0212	hotspot	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.6013327366328433	0.5949822342368328
+STOmics0212	hotspot	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5661545805584522	0.5742713954696373
+STOmics0212	morans_i	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5741671629075163	0.5975316281921894
+STOmics0212	morans_i	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5426802627449241	0.5596356991460221
+STOmics0212	nbumi	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.6208097166453227	0.6143940597699044
+STOmics0212	nbumi	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5545245274916488	0.5715399880535393
+STOmics0212	nnsvg	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5837377575144115	0.5906911978323359
+STOmics0212	nnsvg	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5420707882824886	0.5646324587934566
+STOmics0212	osca	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5910779796027901	0.5945980955875629
+STOmics0212	osca	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.548221874699137	0.5792737293644301
+STOmics0212	random	500	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.6336362450290014	0.5841761405419745
+STOmics0212	random	500	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.35915491444787884	0.4077279877002474
+STOmics0212	scPNMF	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5843879249315133	0.589270078142985
+STOmics0212	scPNMF	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.566674163575863	0.5652338331656225
+STOmics0212	scanpy_cell_ranger	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5400095431470046	0.6051280805311602
+STOmics0212	scanpy_cell_ranger	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5553798201082731	0.5506006776847618
+STOmics0212	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.640687126507324	0.6499293539631702
+STOmics0212	scanpy_cell_ranger_batch	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.6030651792507027	0.5773431109398743
+STOmics0212	scanpy_pearson	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5932188487810316	0.5927530716732279
+STOmics0212	scanpy_pearson	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5757299218823104	0.5686165087329458
+STOmics0212	scanpy_pearson_batch	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5918369385654132	0.564383948976555
+STOmics0212	scanpy_pearson_batch	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5676521485107602	0.5695730058405168
+STOmics0212	scanpy_seurat	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5939789171454641	0.5466400905942612
+STOmics0212	scanpy_seurat	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5172132458199694	0.5151685983555238
+STOmics0212	scanpy_seurat_batch	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5684657378886082	0.5915646460536684
+STOmics0212	scanpy_seurat_batch	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5853534690937501	0.5708836805262316
+STOmics0212	scanpy_seurat_v3	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.6076175189461734	0.6230171656130545
+STOmics0212	scanpy_seurat_v3	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5506455594330072	0.5814130259251432
+STOmics0212	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5878552573214529	0.612379319743817
+STOmics0212	scanpy_seurat_v3_batch	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5519274920118561	0.610353371192757
+STOmics0212	scry	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5841571726190018	0.5809240205183943
+STOmics0212	scry	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5631555920902618	0.5481756361112471
+STOmics0212	scsegindex	500	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5588280459500672	0.5724282096008277
+STOmics0212	scsegindex	500	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.3252292790161847	0.3050606706770089
+STOmics0212	seurat_disp	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5494076317721652	0.5754881455689576
+STOmics0212	seurat_disp	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5225917136765609	0.5454178330988038
+STOmics0212	seurat_mvp	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5669023657261314	0.5825108741231225
+STOmics0212	seurat_mvp	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5449387338628273	0.5226402713194196
+STOmics0212	seurat_sct	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5921134891121876	0.5904136467382785
+STOmics0212	seurat_sct	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5959864335352204	0.5886788357852027
+STOmics0212	seurat_vst	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.6069797997310564	0.6218356029437285
+STOmics0212	seurat_vst	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5519873932538153	0.5663576002023127
+STOmics0212	singleCellHaystack	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.6363285262112344	0.5957001887943383
+STOmics0212	singleCellHaystack	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5594965739483327	0.5398018212537647
+STOmics0212	somde	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5888950785474372	0.5939504417538162
+STOmics0212	somde	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5446396810634779	0.5744975388938167
+STOmics0212	sparkx	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5772761463018179	0.5706109393983686
+STOmics0212	sparkx	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.4984503553675744	0.4931683190581339
+STOmics0212	spatialde	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5803698340118484	0.5952057183311081
+STOmics0212	spatialde	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5439570653949501	0.5491007201676148
+STOmics0212	statistic_mean	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.597758322080364	0.581711614547743
+STOmics0212	statistic_mean	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5485404721870937	0.5303014971289453
+STOmics0212	statistic_variance	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5876431145420439	0.5924894933443238
+STOmics0212	statistic_variance	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5349782156486491	0.5233782096729895
+STOmics0212	triku	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.5735173541674796	0.5810106031328464
+STOmics0212	triku	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5903397059300186	0.5808840674945106
+STOmics0212	wilcoxon	2000	cellcharter	STOmics-0212	CellCharter	Seed 0 vs 2	0.6004991231074884	0.643979239594501
+STOmics0212	wilcoxon	2000	scvi	STOmics-0212	scVI	Seed 0 vs 2	0.5757559118303761	0.5790103577659416
+STOmics0218	Brennecke	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7406487276334841	0.7444260149395869
+STOmics0218	Brennecke	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7472836929260177	0.7252411039771021
+STOmics0218	TFs	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.739674199664786	0.7416259423986468
+STOmics0218	TFs	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.6999428832948416	0.6785835584555433
+STOmics0218	all_features	all	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7394879334179494	0.7437357739468681
+STOmics0218	all_features	all	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.4304277407825136	0.6961000262108427
+STOmics0218	anticor	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.742346528564071	0.7486473216434004
+STOmics0218	anticor	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7471856542064186	0.7515126186636579
+STOmics0218	dubstepr	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7459480635913809	0.75003734302226
+STOmics0218	dubstepr	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7429654827925511	0.7560698053091689
+STOmics0218	hotspot	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7588623060921673	0.7672420898272143
+STOmics0218	hotspot	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7331801933741664	0.740651165316588
+STOmics0218	morans_i	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7473792078078403	0.7622712532429559
+STOmics0218	morans_i	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7360874873612029	0.7501968573279166
+STOmics0218	nbumi	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7437579096028285	0.7592105128666321
+STOmics0218	nbumi	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7239174428430544	0.7554140044053015
+STOmics0218	nnsvg	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7507319468092211	0.7417783911458284
+STOmics0218	nnsvg	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7466392016054174	0.7517733384828902
+STOmics0218	osca	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7540606062712261	0.7678962359781623
+STOmics0218	osca	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7538312874993919	0.745496502284513
+STOmics0218	random	500	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.6865648478481589	0.7285858682729791
+STOmics0218	random	500	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.522488670027243	0.5685361008458595
+STOmics0218	scPNMF	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.748394194471542	0.7396233377773828
+STOmics0218	scPNMF	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7262149614999882	0.7367845288676564
+STOmics0218	scanpy_cell_ranger	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7501972506380166	0.763831548344517
+STOmics0218	scanpy_cell_ranger	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7103870803293	0.7512829301957124
+STOmics0218	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7477160368460032	0.7492263428983392
+STOmics0218	scanpy_cell_ranger_batch	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7395255534723615	0.7487064735302251
+STOmics0218	scanpy_pearson	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7348006188233326	0.7404754586975255
+STOmics0218	scanpy_pearson	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7463964628200761	0.7467408632463499
+STOmics0218	scanpy_pearson_batch	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7571366380101696	0.7411954931402355
+STOmics0218	scanpy_pearson_batch	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7531702324484065	0.7513903372803735
+STOmics0218	scanpy_seurat	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7318878995902147	0.7403691168187143
+STOmics0218	scanpy_seurat	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7260360729652856	0.734364540416127
+STOmics0218	scanpy_seurat_batch	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7520707172933856	0.7507562296069412
+STOmics0218	scanpy_seurat_batch	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7374843500125468	0.7402573228222935
+STOmics0218	scanpy_seurat_v3	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7438415094844861	0.7632640435469729
+STOmics0218	scanpy_seurat_v3	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7320542904839413	0.7459478030736619
+STOmics0218	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7576751927617775	0.7463043890482903
+STOmics0218	scanpy_seurat_v3_batch	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7450551630597628	0.7235117266173559
+STOmics0218	scry	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7383942180670287	0.7408347062119458
+STOmics0218	scry	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7252909722971185	0.7392784156115356
+STOmics0218	scsegindex	500	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.6538568095648328	0.7187488416774801
+STOmics0218	scsegindex	500	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.5133896794674813	0.5719400655782101
+STOmics0218	seurat_disp	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7452953605065002	0.743993031754282
+STOmics0218	seurat_disp	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7415565420960254	0.7467536484025106
+STOmics0218	seurat_mvp	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7688455117251143	0.7551761136693871
+STOmics0218	seurat_mvp	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7332123203791352	0.7460209671554059
+STOmics0218	seurat_sct	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7462618806178865	0.7370281394680473
+STOmics0218	seurat_sct	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7444934033779987	0.7406250925636749
+STOmics0218	seurat_vst	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7445816033664092	0.7674300158022045
+STOmics0218	seurat_vst	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7413562208346989	0.7484295741893721
+STOmics0218	singleCellHaystack	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7533518651641962	0.7494007660526392
+STOmics0218	singleCellHaystack	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7311970324201688	0.7725584539139612
+STOmics0218	somde	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7611670552884673	0.7432428774069527
+STOmics0218	somde	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7285895464998855	0.7594576721324495
+STOmics0218	sparkx	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7312475024125159	0.7340387682922177
+STOmics0218	sparkx	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.706413522891726	0.7230851734547052
+STOmics0218	spatialde	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7628128652992782	0.7506100846099653
+STOmics0218	spatialde	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7494984392285	0.7406718866397413
+STOmics0218	statistic_mean	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7301893379440307	0.742082745290057
+STOmics0218	statistic_mean	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7364477940364293	0.7384472555051225
+STOmics0218	statistic_variance	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7414545780119407	0.7363876984960217
+STOmics0218	statistic_variance	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7560816407544125	0.7422551626043761
+STOmics0218	triku	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7526647495899623	0.7740759901127889
+STOmics0218	triku	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.7468832552631957	0.7511684994111771
+STOmics0218	wilcoxon	2000	cellcharter	STOmics-0218	CellCharter	Seed 0 vs 2	0.7536573099652565	0.764820942779475
+STOmics0218	wilcoxon	2000	scvi	STOmics-0218	scVI	Seed 0 vs 2	0.739852681018222	0.7310951172265705
+STOmics0224	Brennecke	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6447668575769145	0.669711974409603
+STOmics0224	Brennecke	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5971418892226916	0.6221265572285928
+STOmics0224	TFs	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6083921412066989	0.6088838775116854
+STOmics0224	TFs	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.4276274274893592	0.4525974687853621
+STOmics0224	all_features	all	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.5838745440975067	0.6096642616037282
+STOmics0224	all_features	all	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.4081712383106631	0.43289319713536945
+STOmics0224	anticor	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6265397447067401	0.6235677667735678
+STOmics0224	anticor	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6329548402401763	0.6792694182586917
+STOmics0224	dubstepr	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6415812950154804	0.620535136183963
+STOmics0224	dubstepr	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5412948686804133	0.5952144978247514
+STOmics0224	hotspot	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6217120183555511	0.609221251833422
+STOmics0224	hotspot	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6601338663334233	0.6505471647852693
+STOmics0224	morans_i	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6225869219271273	0.6488375351454794
+STOmics0224	morans_i	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6165228731161128	0.6412899232860756
+STOmics0224	nbumi	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.660582425791969	0.6681296182196361
+STOmics0224	nbumi	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5640255574128743	0.5614078107142746
+STOmics0224	nnsvg	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6231082936067137	0.6366420287883273
+STOmics0224	nnsvg	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5847020481724139	0.6032998907091602
+STOmics0224	osca	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6336399375006034	0.6628540843564992
+STOmics0224	osca	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6323163704069468	0.6375148297244198
+STOmics0224	random	500	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.5425959290284171	0.5187196171813351
+STOmics0224	random	500	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.3681994910156505	0.4012737398863421
+STOmics0224	scPNMF	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6525927218900454	0.6098224986523539
+STOmics0224	scPNMF	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6309611413351577	0.6238919931394172
+STOmics0224	scanpy_cell_ranger	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6855170863938045	0.6741988839128392
+STOmics0224	scanpy_cell_ranger	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5338960209928423	0.5324041419955061
+STOmics0224	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6558365759483831	0.6672361232321775
+STOmics0224	scanpy_cell_ranger_batch	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5527631641453118	0.5321195340069278
+STOmics0224	scanpy_pearson	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6275207124768452	0.6337742739999549
+STOmics0224	scanpy_pearson	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6429052171061727	0.6207302505957666
+STOmics0224	scanpy_pearson_batch	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6468320895258897	0.6208447317963937
+STOmics0224	scanpy_pearson_batch	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5878525653369489	0.5730701241865662
+STOmics0224	scanpy_seurat	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.673547182683093	0.6602906706352616
+STOmics0224	scanpy_seurat	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.592453422609819	0.6378876253399186
+STOmics0224	scanpy_seurat_batch	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6402985170782306	0.6438061615455289
+STOmics0224	scanpy_seurat_batch	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5856052702547261	0.5929420896769018
+STOmics0224	scanpy_seurat_v3	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6221323660758646	0.6437657708820443
+STOmics0224	scanpy_seurat_v3	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5922592241867956	0.5543526961800964
+STOmics0224	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6578663915560589	0.683263728176004
+STOmics0224	scanpy_seurat_v3_batch	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5631110078732852	0.5910032878172686
+STOmics0224	scry	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6091158351043844	0.6336966511281246
+STOmics0224	scry	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.598713253035392	0.5842428346343942
+STOmics0224	scsegindex	500	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.5166083014407572	0.5043376877034644
+STOmics0224	scsegindex	500	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.3813741953850937	0.37223925287469806
+STOmics0224	seurat_disp	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6519078993573617	0.6341955616330428
+STOmics0224	seurat_disp	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.639439291339557	0.66046886962342
+STOmics0224	seurat_mvp	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6667256929670549	0.6442421085745142
+STOmics0224	seurat_mvp	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.596991480033338	0.6141229097467671
+STOmics0224	seurat_sct	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6542629260412587	0.6280062770081463
+STOmics0224	seurat_sct	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6562965600883794	0.6399406031739372
+STOmics0224	seurat_vst	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6519613247051803	0.6266196275799407
+STOmics0224	seurat_vst	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6009537537506332	0.5646389398870281
+STOmics0224	singleCellHaystack	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6313144715609291	0.6535344619784247
+STOmics0224	singleCellHaystack	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.3980942865816127	0.42850424437822854
+STOmics0224	somde	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.631301692519707	0.6005375667718977
+STOmics0224	somde	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6373315845462917	0.618291466461799
+STOmics0224	sparkx	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6320335021857337	0.6242977766081537
+STOmics0224	sparkx	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5615284135129928	0.5755775077641246
+STOmics0224	spatialde	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6492353150471437	0.6415585502798751
+STOmics0224	spatialde	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6009490154611918	0.5966705054091122
+STOmics0224	statistic_mean	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6136537989489723	0.632624377816974
+STOmics0224	statistic_mean	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5808585566250268	0.5698939394480866
+STOmics0224	statistic_variance	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6257318945159853	0.6390663611134992
+STOmics0224	statistic_variance	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.57339271437558	0.5868571889761522
+STOmics0224	triku	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6178926754152643	0.6357976319178322
+STOmics0224	triku	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.6189412290166436	0.6354747201157365
+STOmics0224	wilcoxon	2000	cellcharter	STOmics-0224	CellCharter	Seed 0 vs 2	0.6529503832498338	0.6423927312851514
+STOmics0224	wilcoxon	2000	scvi	STOmics-0224	scVI	Seed 0 vs 2	0.5987502107451032	0.6799104829463809

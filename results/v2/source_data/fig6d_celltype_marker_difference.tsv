@@ -1,0 +1,205 @@
+fs_method	Context	Label	MarkerOverlap	MarkerOverlapSD	NSeeds	FullMarkerOverlap	Difference
+Brennecke	Epithelial	Keratinocyte	0.25	NA	1	0.26	-0.010000000000000009
+Brennecke	Epithelial	Merkel Cell	0.66	NA	1	0.64	0.020000000000000018
+Brennecke	Epithelial	Progenitor Cell	0.93	NA	1	0.92	0.010000000000000009
+Brennecke	Epithelial	Stem Cell	0.3	NA	1	0.31	-0.010000000000000009
+Brennecke	Immune	Langerhans Cell	0.48	NA	1	0.9	-0.42000000000000004
+Brennecke	Immune	T Cell	0.23	NA	1	0.1	0.13
+TFs	Epithelial	Keratinocyte	0.06	NA	1	0.06	0
+TFs	Epithelial	Merkel Cell	0.01	NA	1	0.01	0
+TFs	Epithelial	Progenitor Cell	0.01	NA	1	0.01	0
+TFs	Epithelial	Stem Cell	0.07	NA	1	0.07	0
+TFs	Immune	Langerhans Cell	0.01	NA	1	0.01	0
+TFs	Immune	T Cell	0.13	NA	1	0.13	0
+all_features	Epithelial	Keratinocyte	1	NA	1	1	0
+all_features	Epithelial	Merkel Cell	1	NA	1	1	0
+all_features	Epithelial	Progenitor Cell	1	NA	1	1	0
+all_features	Epithelial	Stem Cell	1	NA	1	1	0
+all_features	Immune	Langerhans Cell	1	NA	1	1	0
+all_features	Immune	T Cell	1	NA	1	1	0
+anticor	Epithelial	Keratinocyte	1	NA	3	1	0
+anticor	Epithelial	Merkel Cell	0.39999999999999997	NA	3	0.36666666666666664	0.033333333333333326
+anticor	Epithelial	Progenitor Cell	0.7266666666666667	NA	3	0.7066666666666667	0.020000000000000018
+anticor	Epithelial	Stem Cell	0.78	NA	3	0.7433333333333333	0.036666666666666736
+anticor	Immune	Langerhans Cell	1	NA	3	0.94	0.06000000000000005
+anticor	Immune	T Cell	0.85	NA	3	0.6933333333333334	0.15666666666666662
+dubstepr	Epithelial	Keratinocyte	0.97	NA	3	0.97	0
+dubstepr	Epithelial	Merkel Cell	0.68	NA	3	0.61	0.07000000000000006
+dubstepr	Epithelial	Progenitor Cell	0.85	NA	3	0.7866666666666667	0.06333333333333324
+dubstepr	Epithelial	Stem Cell	0.88	NA	3	0.88	0
+dubstepr	Immune	Langerhans Cell	0.79	NA	3	0.8166666666666667	-0.026666666666666616
+dubstepr	Immune	T Cell	0.8	NA	3	0.7533333333333333	0.046666666666666745
+hotspot	Epithelial	Keratinocyte	0.9533333333333333	NA	3	0.95	0.0033333333333332993
+hotspot	Epithelial	Merkel Cell	0.9466666666666667	NA	3	0.8866666666666667	0.05999999999999994
+hotspot	Epithelial	Progenitor Cell	1	NA	3	1	0
+hotspot	Epithelial	Stem Cell	0.8833333333333333	NA	3	0.8666666666666667	0.016666666666666607
+hotspot	Immune	Langerhans Cell	1	NA	3	1	0
+hotspot	Immune	T Cell	0.62	NA	3	0.6633333333333333	-0.043333333333333335
+morans_i	Epithelial	Keratinocyte	0.99	NA	1	1	-0.010000000000000009
+morans_i	Epithelial	Merkel Cell	0.71	NA	1	0.75	-0.040000000000000036
+morans_i	Epithelial	Progenitor Cell	0.82	NA	1	0.88	-0.06000000000000005
+morans_i	Epithelial	Stem Cell	0.92	NA	1	0.93	-0.010000000000000009
+morans_i	Immune	Langerhans Cell	0.93	NA	1	0.99	-0.05999999999999994
+morans_i	Immune	T Cell	0.39	NA	1	0.88	-0.49
+nbumi	Epithelial	Keratinocyte	0.99	NA	3	1	-0.010000000000000009
+nbumi	Epithelial	Merkel Cell	0.75	NA	3	0.7566666666666667	-0.00666666666666671
+nbumi	Epithelial	Progenitor Cell	0.2	NA	3	0.11666666666666667	0.08333333333333334
+nbumi	Epithelial	Stem Cell	0.89	NA	3	0.9	-0.010000000000000009
+nbumi	Immune	Langerhans Cell	0.13	NA	3	0.15	-0.01999999999999999
+nbumi	Immune	T Cell	0.92	NA	3	0.8433333333333333	0.07666666666666677
+nnsvg	Epithelial	Keratinocyte	1	NA	1	1	0
+nnsvg	Epithelial	Merkel Cell	0.52	NA	1	0.5	0.020000000000000018
+nnsvg	Epithelial	Progenitor Cell	0.7	NA	1	0.83	-0.13
+nnsvg	Epithelial	Stem Cell	0.91	NA	1	0.91	0
+nnsvg	Immune	Langerhans Cell	0.88	NA	1	0.84	0.040000000000000036
+nnsvg	Immune	T Cell	0.53	NA	1	0.89	-0.36
+osca	Epithelial	Keratinocyte	0.46	NA	1	0.49	-0.02999999999999997
+osca	Epithelial	Merkel Cell	0.84	NA	1	0.79	0.04999999999999993
+osca	Epithelial	Progenitor Cell	0.93	NA	1	0.94	-0.009999999999999898
+osca	Epithelial	Stem Cell	0.49	NA	1	0.54	-0.050000000000000044
+osca	Immune	Langerhans Cell	0.83	NA	1	0.9	-0.07000000000000006
+osca	Immune	T Cell	0.42	NA	1	0.31	0.10999999999999999
+random	Epithelial	Keratinocyte	0.02	NA	3	0.02	0
+random	Epithelial	Merkel Cell	0.02666666666666667	NA	3	0.02666666666666667	0
+random	Epithelial	Progenitor Cell	0.02333333333333333	NA	3	0.02333333333333333	0
+random	Epithelial	Stem Cell	0.02666666666666667	NA	3	0.02666666666666667	0
+random	Immune	Langerhans Cell	0.016666666666666666	NA	3	0.016666666666666666	0
+random	Immune	T Cell	0.04	NA	3	0.04	0
+scPNMF	Epithelial	Keratinocyte	0.66	NA	3	0.5033333333333333	0.15666666666666673
+scPNMF	Epithelial	Merkel Cell	0.74	NA	3	0.8466666666666667	-0.10666666666666669
+scPNMF	Epithelial	Progenitor Cell	0.9033333333333333	NA	3	0.9433333333333332	-0.039999999999999925
+scPNMF	Epithelial	Stem Cell	0.7166666666666667	NA	3	0.5666666666666667	0.15000000000000002
+scPNMF	Immune	Langerhans Cell	0.99	NA	3	0.9633333333333334	0.026666666666666616
+scPNMF	Immune	T Cell	0.7	NA	3	0.2633333333333333	0.43666666666666665
+scanpy_cell_ranger	Epithelial	Keratinocyte	0.12	NA	1	0.11	0.009999999999999995
+scanpy_cell_ranger	Epithelial	Merkel Cell	0.73	NA	1	0.69	0.040000000000000036
+scanpy_cell_ranger	Epithelial	Progenitor Cell	0.77	NA	1	0.71	0.06000000000000005
+scanpy_cell_ranger	Epithelial	Stem Cell	0.26	NA	1	0.2	0.06
+scanpy_cell_ranger	Immune	Langerhans Cell	0.14	NA	1	0.52	-0.38
+scanpy_cell_ranger	Immune	T Cell	0.12	NA	1	0.18	-0.06
+scanpy_cell_ranger_batch	Epithelial	Keratinocyte	0.07	NA	1	0.06	0.010000000000000009
+scanpy_cell_ranger_batch	Epithelial	Merkel Cell	0.66	NA	1	0.62	0.040000000000000036
+scanpy_cell_ranger_batch	Epithelial	Progenitor Cell	0.74	NA	1	0.7	0.040000000000000036
+scanpy_cell_ranger_batch	Epithelial	Stem Cell	0.12	NA	1	0.11	0.009999999999999995
+scanpy_cell_ranger_batch	Immune	Langerhans Cell	0.27	NA	1	0.52	-0.25
+scanpy_cell_ranger_batch	Immune	T Cell	0.3	NA	1	0.12	0.18
+scanpy_pearson	Epithelial	Keratinocyte	0.47	NA	1	0.43	0.03999999999999998
+scanpy_pearson	Epithelial	Merkel Cell	0.88	NA	1	0.84	0.040000000000000036
+scanpy_pearson	Epithelial	Progenitor Cell	0.99	NA	1	0.97	0.020000000000000018
+scanpy_pearson	Epithelial	Stem Cell	0.61	NA	1	0.54	0.06999999999999995
+scanpy_pearson	Immune	Langerhans Cell	0.98	NA	1	0.98	0
+scanpy_pearson	Immune	T Cell	0.13	NA	1	0.28	-0.15000000000000002
+scanpy_pearson_batch	Epithelial	Keratinocyte	0.49	NA	1	0.54	-0.050000000000000044
+scanpy_pearson_batch	Epithelial	Merkel Cell	0.88	NA	1	0.85	0.030000000000000027
+scanpy_pearson_batch	Epithelial	Progenitor Cell	0.95	NA	1	0.94	0.010000000000000009
+scanpy_pearson_batch	Epithelial	Stem Cell	0.58	NA	1	0.59	-0.010000000000000009
+scanpy_pearson_batch	Immune	Langerhans Cell	0.99	NA	1	0.96	0.030000000000000027
+scanpy_pearson_batch	Immune	T Cell	0.38	NA	1	0.29	0.09000000000000002
+scanpy_seurat	Epithelial	Keratinocyte	0.07	NA	1	0.08	-0.009999999999999995
+scanpy_seurat	Epithelial	Merkel Cell	0.56	NA	1	0.5	0.06000000000000005
+scanpy_seurat	Epithelial	Progenitor Cell	0.75	NA	1	0.58	0.17000000000000004
+scanpy_seurat	Epithelial	Stem Cell	0.2	NA	1	0.17	0.03
+scanpy_seurat	Immune	Langerhans Cell	0.29	NA	1	0.42	-0.13
+scanpy_seurat	Immune	T Cell	0.22	NA	1	0.07	0.15
+scanpy_seurat_batch	Epithelial	Keratinocyte	0.13	NA	1	0.17	-0.04000000000000001
+scanpy_seurat_batch	Epithelial	Merkel Cell	0.63	NA	1	0.6	0.030000000000000027
+scanpy_seurat_batch	Epithelial	Progenitor Cell	0.82	NA	1	0.78	0.039999999999999925
+scanpy_seurat_batch	Epithelial	Stem Cell	0.15	NA	1	0.2	-0.05000000000000002
+scanpy_seurat_batch	Immune	Langerhans Cell	0.54	NA	1	0.74	-0.19999999999999996
+scanpy_seurat_batch	Immune	T Cell	0.18	NA	1	0.08	0.09999999999999999
+scanpy_seurat_v3	Epithelial	Keratinocyte	0.58	NA	1	0.81	-0.2300000000000001
+scanpy_seurat_v3	Epithelial	Merkel Cell	0.71	NA	1	0.72	-0.010000000000000009
+scanpy_seurat_v3	Epithelial	Progenitor Cell	0.25	NA	1	0.13	0.12
+scanpy_seurat_v3	Epithelial	Stem Cell	0.57	NA	1	0.65	-0.08000000000000007
+scanpy_seurat_v3	Immune	Langerhans Cell	0.05	NA	1	0.16	-0.11
+scanpy_seurat_v3	Immune	T Cell	0.81	NA	1	0.58	0.2300000000000001
+scanpy_seurat_v3_batch	Epithelial	Keratinocyte	0.54	NA	1	0.71	-0.16999999999999993
+scanpy_seurat_v3_batch	Epithelial	Merkel Cell	0.69	NA	1	0.73	-0.040000000000000036
+scanpy_seurat_v3_batch	Epithelial	Progenitor Cell	0.28	NA	1	0.26	0.020000000000000018
+scanpy_seurat_v3_batch	Epithelial	Stem Cell	0.53	NA	1	0.53	0
+scanpy_seurat_v3_batch	Immune	Langerhans Cell	0.39	NA	1	0.27	0.12
+scanpy_seurat_v3_batch	Immune	T Cell	0.29	NA	1	0.46	-0.17000000000000004
+scry	Epithelial	Keratinocyte	1	NA	1	1	0
+scry	Epithelial	Merkel Cell	0.84	NA	1	0.81	0.029999999999999916
+scry	Epithelial	Progenitor Cell	0.9	NA	1	0.94	-0.039999999999999925
+scry	Epithelial	Stem Cell	1	NA	1	1	0
+scry	Immune	Langerhans Cell	1	NA	1	1	0
+scry	Immune	T Cell	0.66	NA	1	0.73	-0.06999999999999995
+scsegindex	Epithelial	Keratinocyte	0	NA	1	0	0
+scsegindex	Epithelial	Merkel Cell	0	NA	1	0	0
+scsegindex	Epithelial	Progenitor Cell	0	NA	1	0	0
+scsegindex	Epithelial	Stem Cell	0	NA	1	0	0
+scsegindex	Immune	Langerhans Cell	0.77	NA	1	0	0.77
+scsegindex	Immune	T Cell	0.16	NA	1	0.02	0.14
+seurat_disp	Epithelial	Keratinocyte	0.29	NA	1	0.28	0.009999999999999953
+seurat_disp	Epithelial	Merkel Cell	0.67	NA	1	0.65	0.020000000000000018
+seurat_disp	Epithelial	Progenitor Cell	0.95	NA	1	0.98	-0.030000000000000027
+seurat_disp	Epithelial	Stem Cell	0.35	NA	1	0.34	0.009999999999999953
+seurat_disp	Immune	Langerhans Cell	0.86	NA	1	0.96	-0.09999999999999998
+seurat_disp	Immune	T Cell	0.25	NA	1	0.11	0.14
+seurat_mvp	Epithelial	Keratinocyte	0.07	NA	1	0.07	0
+seurat_mvp	Epithelial	Merkel Cell	0.59	NA	1	0.46	0.12999999999999995
+seurat_mvp	Epithelial	Progenitor Cell	0.74	NA	1	0.47	0.27
+seurat_mvp	Epithelial	Stem Cell	0.19	NA	1	0.17	0.01999999999999999
+seurat_mvp	Immune	Langerhans Cell	0.26	NA	1	0.34	-0.08000000000000002
+seurat_mvp	Immune	T Cell	0.21	NA	1	0.05	0.15999999999999998
+seurat_sct	Epithelial	Keratinocyte	0.6033333333333333	NA	3	0.66	-0.056666666666666754
+seurat_sct	Epithelial	Merkel Cell	0.9333333333333333	NA	3	0.9366666666666666	-0.0033333333333332993
+seurat_sct	Epithelial	Progenitor Cell	0.9466666666666667	NA	3	0.95	-0.0033333333333332993
+seurat_sct	Epithelial	Stem Cell	0.6466666666666667	NA	3	0.66	-0.013333333333333308
+seurat_sct	Immune	Langerhans Cell	0.93	NA	3	0.9366666666666666	-0.006666666666666599
+seurat_sct	Immune	T Cell	0.44	NA	3	0.5466666666666667	-0.10666666666666674
+seurat_vst	Epithelial	Keratinocyte	0.58	NA	1	0.81	-0.2300000000000001
+seurat_vst	Epithelial	Merkel Cell	0.71	NA	1	0.72	-0.010000000000000009
+seurat_vst	Epithelial	Progenitor Cell	0.25	NA	1	0.13	0.12
+seurat_vst	Epithelial	Stem Cell	0.57	NA	1	0.65	-0.08000000000000007
+seurat_vst	Immune	Langerhans Cell	0.05	NA	1	0.16	-0.11
+seurat_vst	Immune	T Cell	0.81	NA	1	0.58	0.2300000000000001
+singleCellHaystack	Epithelial	Keratinocyte	0.87	NA	3	0.5766666666666667	0.29333333333333333
+singleCellHaystack	Epithelial	Merkel Cell	0.41	NA	3	0.36	0.04999999999999999
+singleCellHaystack	Epithelial	Progenitor Cell	0.12	NA	3	0.013333333333333334	0.10666666666666666
+singleCellHaystack	Epithelial	Stem Cell	0.8	NA	3	0.41	0.39000000000000007
+singleCellHaystack	Immune	Langerhans Cell	0.16	NA	3	0.03666666666666667	0.12333333333333334
+singleCellHaystack	Immune	T Cell	0.04	NA	3	0.5233333333333333	-0.48333333333333334
+somde	Epithelial	Keratinocyte	0.6	NA	1	0.79	-0.19000000000000006
+somde	Epithelial	Merkel Cell	0.34	NA	1	0.75	-0.41
+somde	Epithelial	Progenitor Cell	0.37	NA	1	0.74	-0.37
+somde	Epithelial	Stem Cell	0.44	NA	1	0.61	-0.16999999999999998
+somde	Immune	Langerhans Cell	0.53	NA	1	0.81	-0.28
+somde	Immune	T Cell	0.27	NA	1	0.54	-0.27
+sparkx	Epithelial	Keratinocyte	0.96	NA	1	0.95	0.010000000000000009
+sparkx	Epithelial	Merkel Cell	0.12	NA	1	0.13	-0.010000000000000009
+sparkx	Epithelial	Progenitor Cell	0.27	NA	1	0.22	0.05000000000000002
+sparkx	Epithelial	Stem Cell	0.8	NA	1	0.81	-0.010000000000000009
+sparkx	Immune	Langerhans Cell	0.74	NA	1	0.28	0.45999999999999996
+sparkx	Immune	T Cell	0.53	NA	1	0.8	-0.27
+spatialde	Epithelial	Keratinocyte	1	NA	3	0.9966666666666667	0.0033333333333332993
+spatialde	Epithelial	Merkel Cell	0.6933333333333332	NA	3	0.68	0.013333333333333197
+spatialde	Epithelial	Progenitor Cell	0.7333333333333333	NA	3	0.78	-0.046666666666666745
+spatialde	Epithelial	Stem Cell	0.9166666666666667	NA	3	0.88	0.036666666666666736
+spatialde	Immune	Langerhans Cell	0.94	NA	3	0.9166666666666667	0.023333333333333206
+spatialde	Immune	T Cell	0.42	NA	3	0.8866666666666667	-0.46666666666666673
+statistic_mean	Epithelial	Keratinocyte	1	NA	1	0.99	0.010000000000000009
+statistic_mean	Epithelial	Merkel Cell	0.56	NA	1	0.57	-0.009999999999999898
+statistic_mean	Epithelial	Progenitor Cell	0.82	NA	1	0.87	-0.050000000000000044
+statistic_mean	Epithelial	Stem Cell	0.92	NA	1	0.92	0
+statistic_mean	Immune	Langerhans Cell	1	NA	1	0.96	0.040000000000000036
+statistic_mean	Immune	T Cell	0.54	NA	1	0.66	-0.12
+statistic_variance	Epithelial	Keratinocyte	1	NA	1	0.99	0.010000000000000009
+statistic_variance	Epithelial	Merkel Cell	0.67	NA	1	0.65	0.020000000000000018
+statistic_variance	Epithelial	Progenitor Cell	0.9	NA	1	0.96	-0.05999999999999994
+statistic_variance	Epithelial	Stem Cell	0.95	NA	1	0.93	0.019999999999999907
+statistic_variance	Immune	Langerhans Cell	1	NA	1	1	0
+statistic_variance	Immune	T Cell	0.54	NA	1	0.64	-0.09999999999999998
+triku	Epithelial	Keratinocyte	0.75	NA	3	0.9333333333333333	-0.18333333333333335
+triku	Epithelial	Merkel Cell	0.68	NA	3	0.6733333333333333	0.00666666666666671
+triku	Epithelial	Progenitor Cell	0.59	NA	3	0.5533333333333333	0.036666666666666625
+triku	Epithelial	Stem Cell	0.48	NA	3	0.6033333333333333	-0.1233333333333333
+triku	Immune	Langerhans Cell	0.56	NA	3	0.6466666666666667	-0.08666666666666667
+triku	Immune	T Cell	0.8	NA	3	0.6666666666666667	0.1333333333333333
+wilcoxon	Epithelial	Keratinocyte	0.25	NA	1	0.26	-0.010000000000000009
+wilcoxon	Epithelial	Merkel Cell	0.89	NA	1	0.59	0.30000000000000004
+wilcoxon	Epithelial	Progenitor Cell	0.99	NA	1	1	-0.010000000000000009
+wilcoxon	Epithelial	Stem Cell	0.41	NA	1	0.17	0.23999999999999996
+wilcoxon	Immune	Langerhans Cell	0.36	NA	1	0.88	-0.52
+wilcoxon	Immune	T Cell	0.72	NA	1	0.21	0.51

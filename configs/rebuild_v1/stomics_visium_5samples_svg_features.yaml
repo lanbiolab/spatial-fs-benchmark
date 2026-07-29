@@ -1,0 +1,24 @@
+name: stomics_visium_5samples_svg_feature_selection_rebuild_v1
+output_dir: results/spatial_svg_rebuild_v1/stomics_visium_5samples
+datasets:
+- configs/datasets/stomics_visium_5samples.yaml
+feature_selection_methods:
+- name: morans_i
+  params:
+    n_neighbors: 8
+  n_features: &id001
+  - 100
+  - 200
+  - 500
+  - 1000
+  - 2000
+  - 5000
+  - 10000
+integration_methods: []
+tasks: []
+n_features: *id001
+seeds:
+- 0
+- 1
+- 2
+save_embeddings: false

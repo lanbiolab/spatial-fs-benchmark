@@ -29,4 +29,5 @@ def load_dataset(config: DatasetConfig) -> SpatialDataset:
         platform=config.platform,
         species=config.species,
         source_path=str(path),
+        alignment_pairs=[(str(left), str(right)) for left, right in config.alignment_pairs],
     )

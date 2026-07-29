@@ -1,0 +1,199 @@
+prevalence	seed	method	summary	stratum	cutoff	metric	value	runtime_seconds	Prevalence	Method
+0.05	0	Brennecke	overall	all_svg	NA	AUPRC	0.876194466960573	7.807730739936233	5% SVGs	Brennecke
+0.05	0	all_features	overall	all_svg	NA	AUPRC	0.05	5.657467991113e-4	5% SVGs	All features
+0.05	0	anticor	overall	all_svg	NA	AUPRC	0.9933254553868356	6.037955681793392	5% SVGs	Anticor
+0.05	0	dubstepr	overall	all_svg	NA	AUPRC	0.9353679720347174	23.564140183851123	5% SVGs	DUBStepR
+0.05	0	hotspot	overall	all_svg	NA	AUPRC	0.9923172712366104	18.86949950922281	5% SVGs	Hotspot
+0.05	0	morans_i	overall	all_svg	NA	AUPRC	0.9533657947041604	0.0388868637382984	5% SVGs	Moran's I
+0.05	0	nbumi	overall	all_svg	NA	AUPRC	0.795606435725594	12.906176771968603	5% SVGs	NBumi
+0.05	0	nnsvg	overall	all_svg	NA	AUPRC	0.946915451486608	1428.6637988463044	5% SVGs	nnSVG
+0.05	0	osca	overall	all_svg	NA	AUPRC	0.8021166877940192	8.5022466275841	5% SVGs	OSCA
+0.05	0	random	overall	all_svg	NA	AUPRC	0.0477976862415945	8.99514183402e-4	5% SVGs	Random
+0.05	0	scPNMF	overall	all_svg	NA	AUPRC	0.0521390020844729	75.52711670938879	5% SVGs	scPNMF
+0.05	0	scanpy_cell_ranger	overall	all_svg	NA	AUPRC	0.8017033744647395	0.2573139341548085	5% SVGs	scanpy-CellRanger
+0.05	0	scanpy_cell_ranger_batch	overall	all_svg	NA	AUPRC	0.8104519975482686	0.177473091520369	5% SVGs	scanpy-CellRanger (batch)
+0.05	0	scanpy_pearson	overall	all_svg	NA	AUPRC	0.7121664985512255	1.805818922817707	5% SVGs	scanpy-Pearson
+0.05	0	scanpy_pearson_batch	overall	all_svg	NA	AUPRC	0.7036734299406717	0.1014837175607681	5% SVGs	scanpy-Pearson (batch)
+0.05	0	scanpy_seurat	overall	all_svg	NA	AUPRC	0.7970766826393295	0.250347820110619	5% SVGs	scanpy-Seurat
+0.05	0	scanpy_seurat_batch	overall	all_svg	NA	AUPRC	0.8448299221520222	0.1384886363521218	5% SVGs	scanpy-Seurat (batch)
+0.05	0	scanpy_seurat_v3	overall	all_svg	NA	AUPRC	0.8712785490267764	0.071371728554368	5% SVGs	scanpy-SeuratV3
+0.05	0	scanpy_seurat_v3_batch	overall	all_svg	NA	AUPRC	0.8428123892619003	0.0613170815631747	5% SVGs	scanpy-SeuratV3 (batch)
+0.05	0	scry	overall	all_svg	NA	AUPRC	0.0501366532766039	9.451208310201764	5% SVGs	scry
+0.05	0	scsegindex	overall	all_svg	NA	AUPRC	0.0324867611319464	58.233503174968064	5% SVGs	scSEGIndex
+0.05	0	seurat_disp	overall	all_svg	NA	AUPRC	0.672697566877076	10.498682539910078	5% SVGs	Seurat-Dispersion
+0.05	0	seurat_mvp	overall	all_svg	NA	AUPRC	0.7846333954996596	9.926347307860851	5% SVGs	Seurat-MVP
+0.05	0	seurat_sct	overall	all_svg	NA	AUPRC	0.7798362481547112	49.057821828871965	5% SVGs	Seurat-scTransform
+0.05	0	seurat_vst	overall	all_svg	NA	AUPRC	0.8712785490267764	11.143574426881967	5% SVGs	Seurat-VST
+0.05	0	singleCellHaystack	overall	all_svg	NA	AUPRC	0.0666501605510119	16.31900930404663	5% SVGs	singleCellHaystack
+0.05	0	somde	overall	all_svg	NA	AUPRC	0.4320974429865256	148.78591295145452	5% SVGs	SOMDE
+0.05	0	sparkx	overall	all_svg	NA	AUPRC	0.932239678520306	15.211366944015026	5% SVGs	SPARK-X
+0.05	0	spatialde	overall	all_svg	NA	AUPRC	0.9532572210232856	173.35638225730509	5% SVGs	SpatialDE
+0.05	0	statistic_mean	overall	all_svg	NA	AUPRC	0.0536664701543501	0.0302388640120625	5% SVGs	Statistic mean
+0.05	0	statistic_variance	overall	all_svg	NA	AUPRC	0.6888874447899676	0.0425843792036175	5% SVGs	Statistic variance
+0.05	0	triku	overall	all_svg	NA	AUPRC	0.8536061562552424	13.06003269739449	5% SVGs	triku
+0.05	0	wilcoxon	overall	all_svg	NA	AUPRC	0.6316828158690162	0.8445967622101307	5% SVGs	Wilcoxon (label-informed)
+0.05	1	Brennecke	overall	all_svg	NA	AUPRC	0.8407889621240261	7.839304203167558	5% SVGs	Brennecke
+0.05	1	all_features	overall	all_svg	NA	AUPRC	0.05	5.44355250895e-4	5% SVGs	All features
+0.05	1	anticor	overall	all_svg	NA	AUPRC	0.98852063758011	6.108922898769379	5% SVGs	Anticor
+0.05	1	dubstepr	overall	all_svg	NA	AUPRC	0.9360671118988948	24.36783433612436	5% SVGs	DUBStepR
+0.05	1	hotspot	overall	all_svg	NA	AUPRC	0.9854469020365988	19.678355967625976	5% SVGs	Hotspot
+0.05	1	morans_i	overall	all_svg	NA	AUPRC	0.9453891951053414	0.0373627319931983	5% SVGs	Moran's I
+0.05	1	nbumi	overall	all_svg	NA	AUPRC	0.810207138710055	12.529649819247425	5% SVGs	NBumi
+0.05	1	nnsvg	overall	all_svg	NA	AUPRC	0.960076906162078	1556.2941447496414	5% SVGs	nnSVG
+0.05	1	osca	overall	all_svg	NA	AUPRC	0.8047358896181918	9.288182475604115	5% SVGs	OSCA
+0.05	1	random	overall	all_svg	NA	AUPRC	0.044952806766146	8.742110803723e-4	5% SVGs	Random
+0.05	1	scPNMF	overall	all_svg	NA	AUPRC	0.0463870469282434	69.40972413308918	5% SVGs	scPNMF
+0.05	1	scanpy_cell_ranger	overall	all_svg	NA	AUPRC	0.76162482747281	0.2531428895890713	5% SVGs	scanpy-CellRanger
+0.05	1	scanpy_cell_ranger_batch	overall	all_svg	NA	AUPRC	0.7677239619821608	0.1787365740165114	5% SVGs	scanpy-CellRanger (batch)
+0.05	1	scanpy_pearson	overall	all_svg	NA	AUPRC	0.7190886306579272	1.7756603388115764	5% SVGs	scanpy-Pearson
+0.05	1	scanpy_pearson_batch	overall	all_svg	NA	AUPRC	0.7064380358467076	0.0894049769267439	5% SVGs	scanpy-Pearson (batch)
+0.05	1	scanpy_seurat	overall	all_svg	NA	AUPRC	0.7329167603048119	0.1926368847489357	5% SVGs	scanpy-Seurat
+0.05	1	scanpy_seurat_batch	overall	all_svg	NA	AUPRC	0.7754195678427532	0.1383560532703995	5% SVGs	scanpy-Seurat (batch)
+0.05	1	scanpy_seurat_v3	overall	all_svg	NA	AUPRC	0.8571414596700854	0.0733324121683836	5% SVGs	scanpy-SeuratV3
+0.05	1	scanpy_seurat_v3_batch	overall	all_svg	NA	AUPRC	0.8371161525138622	0.0630144262686371	5% SVGs	scanpy-SeuratV3 (batch)
+0.05	1	scry	overall	all_svg	NA	AUPRC	0.046978985534651	9.687048606574535	5% SVGs	scry
+0.05	1	scsegindex	overall	all_svg	NA	AUPRC	0.0417569223248204	52.41223004460335	5% SVGs	scSEGIndex
+0.05	1	seurat_disp	overall	all_svg	NA	AUPRC	0.6807945392959488	10.315306250937285	5% SVGs	Seurat-Dispersion
+0.05	1	seurat_mvp	overall	all_svg	NA	AUPRC	0.702110212716951	10.634428396821022	5% SVGs	Seurat-MVP
+0.05	1	seurat_sct	overall	all_svg	NA	AUPRC	0.7970481711313314	51.08661491982639	5% SVGs	Seurat-scTransform
+0.05	1	seurat_vst	overall	all_svg	NA	AUPRC	0.8571414596700854	10.982374528422952	5% SVGs	Seurat-VST
+0.05	1	singleCellHaystack	overall	all_svg	NA	AUPRC	0.0511765205685896	16.349600800313056	5% SVGs	singleCellHaystack
+0.05	1	somde	overall	all_svg	NA	AUPRC	0.4525852808602515	213.14443805161864	5% SVGs	SOMDE
+0.05	1	sparkx	overall	all_svg	NA	AUPRC	0.9393192067408364	15.427724860608578	5% SVGs	SPARK-X
+0.05	1	spatialde	overall	all_svg	NA	AUPRC	0.9617985944481002	173.49603708647192	5% SVGs	SpatialDE
+0.05	1	statistic_mean	overall	all_svg	NA	AUPRC	0.0603569469650094	0.0313742132857441	5% SVGs	Statistic mean
+0.05	1	statistic_variance	overall	all_svg	NA	AUPRC	0.6480812705822023	0.039466599933803	5% SVGs	Statistic variance
+0.05	1	triku	overall	all_svg	NA	AUPRC	0.8425016155168962	13.254458285868168	5% SVGs	triku
+0.05	1	wilcoxon	overall	all_svg	NA	AUPRC	0.6443051375023374	0.5847089365124702	5% SVGs	Wilcoxon (label-informed)
+0.05	2	Brennecke	overall	all_svg	NA	AUPRC	0.8323215097864374	8.830055803060532	5% SVGs	Brennecke
+0.05	2	all_features	overall	all_svg	NA	AUPRC	0.05	5.546016618609e-4	5% SVGs	All features
+0.05	2	anticor	overall	all_svg	NA	AUPRC	0.975572269119918	6.045271352864802	5% SVGs	Anticor
+0.05	2	dubstepr	overall	all_svg	NA	AUPRC	0.9172263264981264	23.757679680362344	5% SVGs	DUBStepR
+0.05	2	hotspot	overall	all_svg	NA	AUPRC	0.9900097615447933	20.704854105599225	5% SVGs	Hotspot
+0.05	2	morans_i	overall	all_svg	NA	AUPRC	0.951212787017794	0.0373742813244462	5% SVGs	Moran's I
+0.05	2	nbumi	overall	all_svg	NA	AUPRC	0.7993943876073228	12.430026547983289	5% SVGs	NBumi
+0.05	2	nnsvg	overall	all_svg	NA	AUPRC	0.940045904165648	1396.4430346703157	5% SVGs	nnSVG
+0.05	2	osca	overall	all_svg	NA	AUPRC	0.7824049863087796	9.119571754708886	5% SVGs	OSCA
+0.05	2	random	overall	all_svg	NA	AUPRC	0.0508059248481785	6.588902324438e-4	5% SVGs	Random
+0.05	2	scPNMF	overall	all_svg	NA	AUPRC	0.0444634278096308	72.91516581643373	5% SVGs	scPNMF
+0.05	2	scanpy_cell_ranger	overall	all_svg	NA	AUPRC	0.7947754389534993	0.2164927748963236	5% SVGs	scanpy-CellRanger
+0.05	2	scanpy_cell_ranger_batch	overall	all_svg	NA	AUPRC	0.8027639278680879	0.1625864524394273	5% SVGs	scanpy-CellRanger (batch)
+0.05	2	scanpy_pearson	overall	all_svg	NA	AUPRC	0.6767154798561468	1.7987228389829395	5% SVGs	scanpy-Pearson
+0.05	2	scanpy_pearson_batch	overall	all_svg	NA	AUPRC	0.6611691303594075	0.0861234236508607	5% SVGs	scanpy-Pearson (batch)
+0.05	2	scanpy_seurat	overall	all_svg	NA	AUPRC	0.754818519048537	0.2331464327871799	5% SVGs	scanpy-Seurat
+0.05	2	scanpy_seurat_batch	overall	all_svg	NA	AUPRC	0.7950389591309497	0.1360595403239131	5% SVGs	scanpy-Seurat (batch)
+0.05	2	scanpy_seurat_v3	overall	all_svg	NA	AUPRC	0.8388259516204867	0.061039381660521	5% SVGs	scanpy-SeuratV3
+0.05	2	scanpy_seurat_v3_batch	overall	all_svg	NA	AUPRC	0.7966243145378101	0.0566692063584923	5% SVGs	scanpy-SeuratV3 (batch)
+0.05	2	scry	overall	all_svg	NA	AUPRC	0.0458187932312969	9.930594651959836	5% SVGs	scry
+0.05	2	scsegindex	overall	all_svg	NA	AUPRC	0.033015695786065	53.51965602766722	5% SVGs	scSEGIndex
+0.05	2	seurat_disp	overall	all_svg	NA	AUPRC	0.6324182004738099	10.159592660143971	5% SVGs	Seurat-Dispersion
+0.05	2	seurat_mvp	overall	all_svg	NA	AUPRC	0.7064913361581956	10.421315361745656	5% SVGs	Seurat-MVP
+0.05	2	seurat_sct	overall	all_svg	NA	AUPRC	0.7549629964363588	51.15663447789848	5% SVGs	Seurat-scTransform
+0.05	2	seurat_vst	overall	all_svg	NA	AUPRC	0.8388246866730241	10.25047932099551	5% SVGs	Seurat-VST
+0.05	2	singleCellHaystack	overall	all_svg	NA	AUPRC	0.0562941471263455	16.514811981469393	5% SVGs	singleCellHaystack
+0.05	2	somde	overall	all_svg	NA	AUPRC	0.05	361.7344976235181	5% SVGs	SOMDE
+0.05	2	sparkx	overall	all_svg	NA	AUPRC	0.9251884092249324	15.259375462308526	5% SVGs	SPARK-X
+0.05	2	spatialde	overall	all_svg	NA	AUPRC	0.9579402356369467	197.35064263176173	5% SVGs	SpatialDE
+0.05	2	statistic_mean	overall	all_svg	NA	AUPRC	0.0518993078465764	0.0312670497223734	5% SVGs	Statistic mean
+0.05	2	statistic_variance	overall	all_svg	NA	AUPRC	0.6620437370573925	0.0382981207221746	5% SVGs	Statistic variance
+0.05	2	triku	overall	all_svg	NA	AUPRC	0.8228406119610792	13.474321582354603	5% SVGs	triku
+0.05	2	wilcoxon	overall	all_svg	NA	AUPRC	0.6183663200139861	0.6243174187839031	5% SVGs	Wilcoxon (label-informed)
+0.15	0	Brennecke	overall	all_svg	NA	AUPRC	0.8894245228734188	8.629347867332399	15% SVGs	Brennecke
+0.15	0	all_features	overall	all_svg	NA	AUPRC	0.15	5.523432046175e-4	15% SVGs	All features
+0.15	0	anticor	overall	all_svg	NA	AUPRC	0.9905725202670173	4.968974173069	15% SVGs	Anticor
+0.15	0	dubstepr	overall	all_svg	NA	AUPRC	0.8792630191792303	25.244418052956465	15% SVGs	DUBStepR
+0.15	0	hotspot	overall	all_svg	NA	AUPRC	0.9925291753962346	19.41616928204894	15% SVGs	Hotspot
+0.15	0	morans_i	overall	all_svg	NA	AUPRC	0.9698811339159356	0.0524384910240769	15% SVGs	Moran's I
+0.15	0	nbumi	overall	all_svg	NA	AUPRC	0.8760859591032104	12.656310240738094	15% SVGs	NBumi
+0.15	0	nnsvg	overall	all_svg	NA	AUPRC	0.959801043925595	1466.9613682357594	15% SVGs	nnSVG
+0.15	0	osca	overall	all_svg	NA	AUPRC	0.8669890567274336	9.348741833120584	15% SVGs	OSCA
+0.15	0	random	overall	all_svg	NA	AUPRC	0.1505081099575436	6.580464541912e-4	15% SVGs	Random
+0.15	0	scPNMF	overall	all_svg	NA	AUPRC	0.1463453768357512	75.91761264298111	15% SVGs	scPNMF
+0.15	0	scanpy_cell_ranger	overall	all_svg	NA	AUPRC	0.8546874931369618	0.2328583700582385	15% SVGs	scanpy-CellRanger
+0.15	0	scanpy_cell_ranger_batch	overall	all_svg	NA	AUPRC	0.8696178962431409	0.1645022798329591	15% SVGs	scanpy-CellRanger (batch)
+0.15	0	scanpy_pearson	overall	all_svg	NA	AUPRC	0.7991040382484055	1.771053190343082	15% SVGs	scanpy-Pearson
+0.15	0	scanpy_pearson_batch	overall	all_svg	NA	AUPRC	0.7918198305393731	0.0963389975950121	15% SVGs	scanpy-Pearson (batch)
+0.15	0	scanpy_seurat	overall	all_svg	NA	AUPRC	0.8260817503609971	0.2479307176545262	15% SVGs	scanpy-Seurat
+0.15	0	scanpy_seurat_batch	overall	all_svg	NA	AUPRC	0.850017602610873	0.1265571266412735	15% SVGs	scanpy-Seurat (batch)
+0.15	0	scanpy_seurat_v3	overall	all_svg	NA	AUPRC	0.8860904066788348	0.0647517526522278	15% SVGs	scanpy-SeuratV3
+0.15	0	scanpy_seurat_v3_batch	overall	all_svg	NA	AUPRC	0.869701182361943	0.0564251607283949	15% SVGs	scanpy-SeuratV3 (batch)
+0.15	0	scry	overall	all_svg	NA	AUPRC	0.1562933172567522	9.632450108416378	15% SVGs	scry
+0.15	0	scsegindex	overall	all_svg	NA	AUPRC	0.1105845584252953	58.92204075027257	15% SVGs	scSEGIndex
+0.15	0	seurat_disp	overall	all_svg	NA	AUPRC	0.7740990483516448	9.712083840742707	15% SVGs	Seurat-Dispersion
+0.15	0	seurat_mvp	overall	all_svg	NA	AUPRC	0.6615194071785474	10.888146211393178	15% SVGs	Seurat-MVP
+0.15	0	seurat_sct	overall	all_svg	NA	AUPRC	0.8349135406995098	50.146563997492194	15% SVGs	Seurat-scTransform
+0.15	0	seurat_vst	overall	all_svg	NA	AUPRC	0.8860918543432575	10.752005847170947	15% SVGs	Seurat-VST
+0.15	0	singleCellHaystack	overall	all_svg	NA	AUPRC	0.1770364416692061	16.34648342896253	15% SVGs	singleCellHaystack
+0.15	0	somde	overall	all_svg	NA	AUPRC	0.6613567749423324	160.2510453592986	15% SVGs	SOMDE
+0.15	0	sparkx	overall	all_svg	NA	AUPRC	0.9553743421218376	15.129406744614244	15% SVGs	SPARK-X
+0.15	0	spatialde	overall	all_svg	NA	AUPRC	0.97972598205168	153.87416633218527	15% SVGs	SpatialDE
+0.15	0	statistic_mean	overall	all_svg	NA	AUPRC	0.1607104517519068	0.026355059817433302	15% SVGs	Statistic mean
+0.15	0	statistic_variance	overall	all_svg	NA	AUPRC	0.7474933867503057	0.0406888527795672	15% SVGs	Statistic variance
+0.15	0	triku	overall	all_svg	NA	AUPRC	0.8967910920592599	12.401361882686617	15% SVGs	triku
+0.15	0	wilcoxon	overall	all_svg	NA	AUPRC	0.7254207243087896	0.5997361596673727	15% SVGs	Wilcoxon (label-informed)
+0.15	1	Brennecke	overall	all_svg	NA	AUPRC	0.9164476089021336	8.280104977078736	15% SVGs	Brennecke
+0.15	1	all_features	overall	all_svg	NA	AUPRC	0.15	3.945734351873e-4	15% SVGs	All features
+0.15	1	anticor	overall	all_svg	NA	AUPRC	0.9956653536426308	6.461231869645417	15% SVGs	Anticor
+0.15	1	dubstepr	overall	all_svg	NA	AUPRC	0.8896360463154149	24.02077082637697	15% SVGs	DUBStepR
+0.15	1	hotspot	overall	all_svg	NA	AUPRC	0.9976193244646788	20.95634933840483	15% SVGs	Hotspot
+0.15	1	morans_i	overall	all_svg	NA	AUPRC	0.976363566122974	0.0361958378925919	15% SVGs	Moran's I
+0.15	1	nbumi	overall	all_svg	NA	AUPRC	0.9016922076226856	11.086231278255582	15% SVGs	NBumi
+0.15	1	nnsvg	overall	all_svg	NA	AUPRC	0.9716577552410924	1289.2319027520716	15% SVGs	nnSVG
+0.15	1	osca	overall	all_svg	NA	AUPRC	0.8858601759679885	8.826469991356134	15% SVGs	OSCA
+0.15	1	random	overall	all_svg	NA	AUPRC	0.1584719544743195	4.604030400514e-4	15% SVGs	Random
+0.15	1	scPNMF	overall	all_svg	NA	AUPRC	0.1458315128144096	65.66145896539092	15% SVGs	scPNMF
+0.15	1	scanpy_cell_ranger	overall	all_svg	NA	AUPRC	0.862778198641389	0.236347853206098	15% SVGs	scanpy-CellRanger
+0.15	1	scanpy_cell_ranger_batch	overall	all_svg	NA	AUPRC	0.8731898722726865	0.1679583443328738	15% SVGs	scanpy-CellRanger (batch)
+0.15	1	scanpy_pearson	overall	all_svg	NA	AUPRC	0.8214191096572607	1.7231979835778477	15% SVGs	scanpy-Pearson
+0.15	1	scanpy_pearson_batch	overall	all_svg	NA	AUPRC	0.8093996270438893	0.0837702602148056	15% SVGs	scanpy-Pearson (batch)
+0.15	1	scanpy_seurat	overall	all_svg	NA	AUPRC	0.8515171989250552	0.1786503782495856	15% SVGs	scanpy-Seurat
+0.15	1	scanpy_seurat_batch	overall	all_svg	NA	AUPRC	0.8718510757199301	0.1287318086251616	15% SVGs	scanpy-Seurat (batch)
+0.15	1	scanpy_seurat_v3	overall	all_svg	NA	AUPRC	0.9115424700274376	0.0602580970153212	15% SVGs	scanpy-SeuratV3
+0.15	1	scanpy_seurat_v3_batch	overall	all_svg	NA	AUPRC	0.8938577511305905	0.0614553336054086	15% SVGs	scanpy-SeuratV3 (batch)
+0.15	1	scry	overall	all_svg	NA	AUPRC	0.1444849655221335	9.258024436421692	15% SVGs	scry
+0.15	1	scsegindex	overall	all_svg	NA	AUPRC	0.1065909915353879	52.46092658583075	15% SVGs	scSEGIndex
+0.15	1	seurat_disp	overall	all_svg	NA	AUPRC	0.7917354976456331	9.273223087191582	15% SVGs	Seurat-Dispersion
+0.15	1	seurat_mvp	overall	all_svg	NA	AUPRC	0.666915734922456	10.31796786095947	15% SVGs	Seurat-MVP
+0.15	1	seurat_sct	overall	all_svg	NA	AUPRC	0.8791446314364967	49.34794309362769	15% SVGs	Seurat-scTransform
+0.15	1	seurat_vst	overall	all_svg	NA	AUPRC	0.9115424700274376	9.660007569938898	15% SVGs	Seurat-VST
+0.15	1	singleCellHaystack	overall	all_svg	NA	AUPRC	0.1865772274263183	14.654594630002975	15% SVGs	singleCellHaystack
+0.15	1	somde	overall	all_svg	NA	AUPRC	0.609884327397178	177.86550296843052	15% SVGs	SOMDE
+0.15	1	sparkx	overall	all_svg	NA	AUPRC	0.9550103086659564	14.58315617311746	15% SVGs	SPARK-X
+0.15	1	spatialde	overall	all_svg	NA	AUPRC	0.9795867630545316	163.64985712990165	15% SVGs	SpatialDE
+0.15	1	statistic_mean	overall	all_svg	NA	AUPRC	0.1678921303832745	0.0287001291289925	15% SVGs	Statistic mean
+0.15	1	statistic_variance	overall	all_svg	NA	AUPRC	0.751224820261881	0.0323752053081989	15% SVGs	Statistic variance
+0.15	1	triku	overall	all_svg	NA	AUPRC	0.9072249077513962	12.954469811171291	15% SVGs	triku
+0.15	1	wilcoxon	overall	all_svg	NA	AUPRC	0.7137638018883056	0.6376286298036575	15% SVGs	Wilcoxon (label-informed)
+0.15	2	Brennecke	overall	all_svg	NA	AUPRC	0.8964702591885121	7.783412949182093	15% SVGs	Brennecke
+0.15	2	all_features	overall	all_svg	NA	AUPRC	0.15	8.414722979068e-4	15% SVGs	All features
+0.15	2	anticor	overall	all_svg	NA	AUPRC	0.9968017279250844	5.981963004916906	15% SVGs	Anticor
+0.15	2	dubstepr	overall	all_svg	NA	AUPRC	0.9031358374594048	24.899623076431453	15% SVGs	DUBStepR
+0.15	2	hotspot	overall	all_svg	NA	AUPRC	0.996423706246384	19.50799536332488	15% SVGs	Hotspot
+0.15	2	morans_i	overall	all_svg	NA	AUPRC	0.9749798345231688	0.0402706824243068	15% SVGs	Moran's I
+0.15	2	nbumi	overall	all_svg	NA	AUPRC	0.8924385422627191	12.115491554141045	15% SVGs	NBumi
+0.15	2	nnsvg	overall	all_svg	NA	AUPRC	0.9653951190924448	1427.0453825732693	15% SVGs	nnSVG
+0.15	2	osca	overall	all_svg	NA	AUPRC	0.8750886136527903	8.730500399135053	15% SVGs	OSCA
+0.15	2	random	overall	all_svg	NA	AUPRC	0.1442672592059796	8.260365575551e-4	15% SVGs	Random
+0.15	2	scPNMF	overall	all_svg	NA	AUPRC	0.1465492036047152	68.22827256191522	15% SVGs	scPNMF
+0.15	2	scanpy_cell_ranger	overall	all_svg	NA	AUPRC	0.8650769158541465	0.2502913028001785	15% SVGs	scanpy-CellRanger
+0.15	2	scanpy_cell_ranger_batch	overall	all_svg	NA	AUPRC	0.8742715439152686	0.1711478671059012	15% SVGs	scanpy-CellRanger (batch)
+0.15	2	scanpy_pearson	overall	all_svg	NA	AUPRC	0.8179585146995912	1.800958146341145	15% SVGs	scanpy-Pearson
+0.15	2	scanpy_pearson_batch	overall	all_svg	NA	AUPRC	0.808939928700005	0.0920952158048749	15% SVGs	scanpy-Pearson (batch)
+0.15	2	scanpy_seurat	overall	all_svg	NA	AUPRC	0.8256149029809126	0.2122572781518101	15% SVGs	scanpy-Seurat
+0.15	2	scanpy_seurat_batch	overall	all_svg	NA	AUPRC	0.8530485989378166	0.1411010064184665	15% SVGs	scanpy-Seurat (batch)
+0.15	2	scanpy_seurat_v3	overall	all_svg	NA	AUPRC	0.9031233087732042	0.0690941559150815	15% SVGs	scanpy-SeuratV3
+0.15	2	scanpy_seurat_v3_batch	overall	all_svg	NA	AUPRC	0.8861763909790835	0.0697617903351783	15% SVGs	scanpy-SeuratV3 (batch)
+0.15	2	scry	overall	all_svg	NA	AUPRC	0.1400519695903235	9.13471156731248	15% SVGs	scry
+0.15	2	scsegindex	overall	all_svg	NA	AUPRC	0.1069779147650376	54.94082851987332	15% SVGs	scSEGIndex
+0.15	2	seurat_disp	overall	all_svg	NA	AUPRC	0.7867193227756735	10.453707619570196	15% SVGs	Seurat-Dispersion
+0.15	2	seurat_mvp	overall	all_svg	NA	AUPRC	0.6525900396854594	10.697410193271937	15% SVGs	Seurat-MVP
+0.15	2	seurat_sct	overall	all_svg	NA	AUPRC	0.8746433470770525	48.28430614527315	15% SVGs	Seurat-scTransform
+0.15	2	seurat_vst	overall	all_svg	NA	AUPRC	0.903123341301622	10.859921991825104	15% SVGs	Seurat-VST
+0.15	2	singleCellHaystack	overall	all_svg	NA	AUPRC	0.178467352329203	16.011790316551924	15% SVGs	singleCellHaystack
+0.15	2	somde	overall	all_svg	NA	AUPRC	0.655849971435228	159.6433817539364	15% SVGs	SOMDE
+0.15	2	sparkx	overall	all_svg	NA	AUPRC	0.9679892676127744	15.270084595307708	15% SVGs	SPARK-X
+0.15	2	spatialde	overall	all_svg	NA	AUPRC	0.9836846465515916	168.21494289394468	15% SVGs	SpatialDE
+0.15	2	statistic_mean	overall	all_svg	NA	AUPRC	0.1707312201519226	0.0299936104565858	15% SVGs	Statistic mean
+0.15	2	statistic_variance	overall	all_svg	NA	AUPRC	0.7302890165790459	0.0391705362126231	15% SVGs	Statistic variance
+0.15	2	triku	overall	all_svg	NA	AUPRC	0.903965667155605	13.634725540876389	15% SVGs	triku
+0.15	2	wilcoxon	overall	all_svg	NA	AUPRC	0.7097646044572693	0.8548599453642964	15% SVGs	Wilcoxon (label-informed)

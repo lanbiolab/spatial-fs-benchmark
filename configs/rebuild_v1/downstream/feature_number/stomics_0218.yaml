@@ -1,0 +1,59 @@
+name: stomics_0218_svg_feature_number_downstream
+output_dir: results/spatial_svg_rebuild_v1/stomics_0218
+datasets:
+- configs/datasets/stomics_0218_wilcoxon.yaml
+feature_selection_methods:
+- name: morans_i
+  params:
+    n_neighbors: 8
+  n_features: &id001
+  - 100
+  - 200
+  - 500
+  - 1000
+  - 5000
+  - 10000
+- name: nnsvg
+  params:
+    n_threads: 4
+  n_features: *id001
+- name: spatialde
+  params:
+    max_cells_per_slice: 800
+  n_features: *id001
+- name: sparkx
+  params:
+    n_threads: 4
+  n_features: *id001
+- name: somde
+  params:
+    spots_per_node: 20
+  n_features: *id001
+integration_methods:
+- name: scvi
+  params:
+    n_latent: 30
+    max_epochs: 100
+    batch_size: 2048
+- name: cellcharter
+  params:
+    n_latent: 30
+    nhood_layers: 4
+    spatial_neighbors: 6
+    max_epochs: 100
+    batch_size: 2048
+tasks:
+- name: integration_eval
+  params:
+    n_neighbors: 15
+    max_eval_cells: 12000
+- name: clustering_eval
+  params:
+    n_clusters: 9
+    n_neighbors: 8
+    silhouette_sample_size: 10000
+    max_eval_cells: 12000
+n_features: *id001
+seeds:
+- 0
+save_embeddings: true

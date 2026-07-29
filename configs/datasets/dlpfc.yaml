@@ -7,6 +7,9 @@ slice_key: sample_id
 label_key: layer_guess_reordered
 slice_class_key: subject
 coord_key: spatial
+alignment_pairs:
+  - ["151507", "151508"]
+  - ["151673", "151674"]
 preprocess:
   normalize_total: true
   target_sum: 10000.0

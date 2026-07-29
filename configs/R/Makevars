@@ -1,0 +1,6 @@
+CC = gcc
+CXX = g++
+CXX11 = g++
+CXX14 = g++
+CXX17 = g++
+CXX20 = g++

@@ -8,16 +8,22 @@ def alignment_accuracy_ratio(
     representation: np.ndarray,
     labels: np.ndarray,
     slice_ids: np.ndarray,
+    alignment_pairs: list[tuple[str, str]] | None = None,
     max_points_per_slice: int | None = None,
     random_seed: int = 0,
 ) -> tuple[float, float]:
-    unique_slices = np.unique(slice_ids)
-    if len(unique_slices) < 2:
+    pairs = list(alignment_pairs or [])
+    if not pairs:
         return float("nan"), float("nan")
+    available_slices = set(np.unique(slice_ids).astype(str))
+    missing = sorted({slice_id for pair in pairs for slice_id in pair} - available_slices)
+    if missing:
+        raise ValueError(f"Configured alignment slices are absent from the dataset: {missing}")
     rng = np.random.default_rng(random_seed)
     accuracies = []
     ratios = []
-    for left, right in zip(unique_slices[:-1], unique_slices[1:], strict=True):
+    slice_ids = slice_ids.astype(str)
+    for left, right in pairs:
         left_mask = slice_ids == left
         right_mask = slice_ids == right
         left_repr = representation[left_mask]
@@ -38,6 +44,8 @@ def alignment_accuracy_ratio(
         same_rate_lr = np.mean(left_labels == right_labels[left_to_right])
         same_rate_rl = np.mean(left_labels[right_to_left] == right_labels)
         accuracies.append(float(np.mean([same_rate_lr, same_rate_rl])))
-        unique_matches = len(np.unique(left_to_right))
-        ratios.append(float(abs(np.log2(min(len(left_labels), len(right_labels)) / max(1, unique_matches)))))
+        denominator = min(len(left_labels), len(right_labels))
+        ratio_lr = abs(np.log2(denominator / max(1, len(np.unique(left_to_right)))))
+        ratio_rl = abs(np.log2(denominator / max(1, len(np.unique(right_to_left)))))
+        ratios.append(float(np.mean([ratio_lr, ratio_rl])))
     return float(np.mean(accuracies)), float(np.mean(ratios))

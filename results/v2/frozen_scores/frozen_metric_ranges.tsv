@@ -1,0 +1,78 @@
+dataset	task	metric_name	Lower	Upper	NFiniteSettings	Range	RangeStatus	FrozenScaleDenominator	RangeSource
+DLPFC	alignment_eval	Accuracy	0.1911	0.7779333333333334	438	0.5868333333333333	ok	0.5868333333333333	seed-averaged setting-level oriented metric values
+DLPFC	alignment_eval	Ratio	-6.5600224227	-0.7340294017333333	438	5.825993020966667	ok	5.825993020966667	seed-averaged setting-level oriented metric values
+DLPFC	clustering_eval	CHAOS	-0.0892011679	-0.0581763831	438	0.031024784800000003	ok	0.031024784800000003	seed-averaged setting-level oriented metric values
+DLPFC	clustering_eval	PAS	-0.8281666667	-0.026944444433333336	438	0.8012222222666667	ok	0.8012222222666667	seed-averaged setting-level oriented metric values
+DLPFC	clustering_eval	ari	0.0102727844	0.3847598367	438	0.3744870523	ok	0.3744870523	seed-averaged setting-level oriented metric values
+DLPFC	clustering_eval	nmi	0.0183960378	0.5333746913	438	0.5149786535	ok	0.5149786535	seed-averaged setting-level oriented metric values
+DLPFC	clustering_eval	silhouette	0.029338402066666668	0.8794011474	438	0.8500627453333333	ok	0.8500627453333333	seed-averaged setting-level oriented metric values
+DLPFC	integration_eval	GC	0.2342750748	0.993962209	438	0.7596871342	ok	0.7596871342	seed-averaged setting-level oriented metric values
+DLPFC	integration_eval	ILL	0.2138871761	0.7071418377	438	0.4932546616000001	ok	0.4932546616000001	seed-averaged setting-level oriented metric values
+DLPFC	integration_eval	bASW	0.2491534837	0.996775472	438	0.7476219883	ok	0.7476219883	seed-averaged setting-level oriented metric values
+DLPFC	integration_eval	dASW	0.4023712054	0.535358496	438	0.13298729059999997	ok	0.13298729059999997	seed-averaged setting-level oriented metric values
+DLPFC	integration_eval	dLISI	0.4844990385	0.9507964562	438	0.4662974177	ok	0.4662974177	seed-averaged setting-level oriented metric values
+DLPFC	integration_eval	iLISI	0.0012992992	0.7221799351000001	438	0.7208806359000001	ok	0.7208806359000001	seed-averaged setting-level oriented metric values
+E8p5Embryo	clustering_eval	CHAOS	-0.1368430974	-0.0532607287	424	0.08358236869999999	ok	0.08358236869999999	seed-averaged setting-level oriented metric values
+E8p5Embryo	clustering_eval	PAS	-0.981	-0.0909166667	424	0.8900833333	ok	0.8900833333	seed-averaged setting-level oriented metric values
+E8p5Embryo	clustering_eval	silhouette	-0.1284756213	0.6791920066	424	0.8076676279	ok	0.8076676279	seed-averaged setting-level oriented metric values
+E8p5Embryo	integration_eval	GC			0		unavailable		seed-averaged setting-level oriented metric values
+E8p5Embryo	integration_eval	ILL			0		unavailable		seed-averaged setting-level oriented metric values
+E8p5Embryo	integration_eval	bASW	0.8819584101	0.9997620521	424	0.11780364200000004	ok	0.11780364200000004	seed-averaged setting-level oriented metric values
+E8p5Embryo	integration_eval	dASW			0		unavailable		seed-averaged setting-level oriented metric values
+E8p5Embryo	integration_eval	dLISI			0		unavailable		seed-averaged setting-level oriented metric values
+E8p5Embryo	integration_eval	iLISI	0.1295350299	0.6596340276	424	0.5300989977	ok	0.5300989977	seed-averaged setting-level oriented metric values
+E9p5Embryo	clustering_eval	CHAOS	-0.1356938325	-0.0502401742	424	0.0854536583	ok	0.0854536583	seed-averaged setting-level oriented metric values
+E9p5Embryo	clustering_eval	PAS	-0.9751666667	-0.0728333333	424	0.9023333334	ok	0.9023333334	seed-averaged setting-level oriented metric values
+E9p5Embryo	clustering_eval	silhouette	-0.0883996114	0.7082412839	424	0.7966408952999999	ok	0.7966408952999999	seed-averaged setting-level oriented metric values
+E9p5Embryo	integration_eval	GC			0		unavailable		seed-averaged setting-level oriented metric values
+E9p5Embryo	integration_eval	ILL			0		unavailable		seed-averaged setting-level oriented metric values
+E9p5Embryo	integration_eval	bASW	0.8604619801	0.9999292047	424	0.13946722460000005	ok	0.13946722460000005	seed-averaged setting-level oriented metric values
+E9p5Embryo	integration_eval	dASW			0		unavailable		seed-averaged setting-level oriented metric values
+E9p5Embryo	integration_eval	dLISI			0		unavailable		seed-averaged setting-level oriented metric values
+E9p5Embryo	integration_eval	iLISI	0.0891234357	0.6306939552	424	0.5415705195	ok	0.5415705195	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	alignment_eval	Accuracy	0.0216	0.226	438	0.2044	ok	0.2044	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	alignment_eval	Ratio	-9.4952311292	-0.796076736	438	8.6991543932	ok	8.6991543932	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	clustering_eval	CHAOS	-0.10243881	-0.0620070386	438	0.040431771400000004	ok	0.040431771400000004	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	clustering_eval	PAS	-0.9762004657	-0.0226779495	438	0.9535225162	ok	0.9535225162	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	clustering_eval	ari	0.0012709551	0.4013912207	438	0.40012026559999997	ok	0.40012026559999997	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	clustering_eval	nmi	0.0225759272	0.5184147746	438	0.49583884739999995	ok	0.49583884739999995	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	clustering_eval	silhouette	0.0036862821	0.859418869	438	0.8557325869	ok	0.8557325869	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	integration_eval	GC	0.3598446367	0.9682639717666667	438	0.6084193350666667	ok	0.6084193350666667	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	integration_eval	ILL	0.0529482551	0.4750430293	438	0.42209477419999997	ok	0.42209477419999997	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	integration_eval	bASW	0.0654689148	0.9842992541	438	0.9188303392999999	ok	0.9188303392999999	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	integration_eval	dASW	0.2939853966	0.4960020958	438	0.20201669919999998	ok	0.20201669919999998	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	integration_eval	dLISI	0.4308970575	0.9526374718	438	0.5217404143	ok	0.5217404143	seed-averaged setting-level oriented metric values
+MouseBrainSerialSections	integration_eval	iLISI	0.0	0.8848293675	438	0.8848293675	ok	0.8848293675	seed-averaged setting-level oriented metric values
+STOmics0212	clustering_eval	CHAOS	-0.1751944338	-0.1118312248	438	0.06336320899999999	ok	0.06336320899999999	seed-averaged setting-level oriented metric values
+STOmics0212	clustering_eval	PAS	-0.8910629844	-0.00850812	438	0.8825548644	ok	0.8825548644	seed-averaged setting-level oriented metric values
+STOmics0212	clustering_eval	ari	0.0076496369	0.16880999330000002	438	0.1611603564	ok	0.1611603564	seed-averaged setting-level oriented metric values
+STOmics0212	clustering_eval	nmi	0.0147818701	0.3051013896	438	0.2903195195	ok	0.2903195195	seed-averaged setting-level oriented metric values
+STOmics0212	clustering_eval	silhouette	0.0385055691	0.7208960056	438	0.6823904365	ok	0.6823904365	seed-averaged setting-level oriented metric values
+STOmics0212	integration_eval	GC	0.4446001872	0.9779866342	438	0.533386447	ok	0.533386447	seed-averaged setting-level oriented metric values
+STOmics0212	integration_eval	ILL	0.0396478794	0.5673981191	438	0.5277502397	ok	0.5277502397	seed-averaged setting-level oriented metric values
+STOmics0212	integration_eval	bASW	0.7068503737	0.9739813784	438	0.26713100469999995	ok	0.26713100469999995	seed-averaged setting-level oriented metric values
+STOmics0212	integration_eval	dASW	0.3437324315	0.4827909749	438	0.1390585434	ok	0.1390585434	seed-averaged setting-level oriented metric values
+STOmics0212	integration_eval	dLISI	0.687384244	0.9384981886	438	0.2511139446	ok	0.2511139446	seed-averaged setting-level oriented metric values
+STOmics0212	integration_eval	iLISI	0.0014062527	0.4076922063	438	0.4062859536	ok	0.4062859536	seed-averaged setting-level oriented metric values
+STOmics0218	clustering_eval	CHAOS	-0.1319056764	-0.0695042012	438	0.0624014752	ok	0.0624014752	seed-averaged setting-level oriented metric values
+STOmics0218	clustering_eval	PAS	-0.9626604434	-0.0273378896	438	0.9353225538	ok	0.9353225538	seed-averaged setting-level oriented metric values
+STOmics0218	clustering_eval	ari	-0.0974905756	0.3044317262	438	0.4019223018	ok	0.4019223018	seed-averaged setting-level oriented metric values
+STOmics0218	clustering_eval	nmi	0.0389249396	0.3903573009	438	0.3514323613	ok	0.3514323613	seed-averaged setting-level oriented metric values
+STOmics0218	clustering_eval	silhouette	-0.0131755173	0.9114953279	438	0.9246708452	ok	0.9246708452	seed-averaged setting-level oriented metric values
+STOmics0218	integration_eval	GC	0.3507730146	0.9588739417	438	0.6081009271	ok	0.6081009271	seed-averaged setting-level oriented metric values
+STOmics0218	integration_eval	ILL	0.0187654182	0.5862423569	438	0.5674769387	ok	0.5674769387	seed-averaged setting-level oriented metric values
+STOmics0218	integration_eval	bASW	0.2294717183	0.9820746967	438	0.7526029784	ok	0.7526029784	seed-averaged setting-level oriented metric values
+STOmics0218	integration_eval	dASW	0.3357064426	0.5507691577	438	0.21506271510000002	ok	0.21506271510000002	seed-averaged setting-level oriented metric values
+STOmics0218	integration_eval	dLISI	0.8510269188	0.973819228	438	0.12279230919999995	ok	0.12279230919999995	seed-averaged setting-level oriented metric values
+STOmics0218	integration_eval	iLISI	0.0072132686	0.6533330692	438	0.6461198006	ok	0.6461198006	seed-averaged setting-level oriented metric values
+STOmics0224	clustering_eval	CHAOS	-0.1318392451	-0.0726271142	438	0.05921213090000001	ok	0.05921213090000001	seed-averaged setting-level oriented metric values
+STOmics0224	clustering_eval	PAS	-0.9725833333	-0.06725	438	0.9053333333	ok	0.9053333333	seed-averaged setting-level oriented metric values
+STOmics0224	clustering_eval	ari	0.0047920156	0.0801896449	438	0.07539762929999999	ok	0.07539762929999999	seed-averaged setting-level oriented metric values
+STOmics0224	clustering_eval	nmi	0.0061898033	0.1129254461	438	0.10673564279999999	ok	0.10673564279999999	seed-averaged setting-level oriented metric values
+STOmics0224	clustering_eval	silhouette	-0.0102415066	0.4495570362	438	0.4597985428	ok	0.4597985428	seed-averaged setting-level oriented metric values
+STOmics0224	integration_eval	GC	0.37765927186666665	0.9255524114	438	0.5478931395333333	ok	0.5478931395333333	seed-averaged setting-level oriented metric values
+STOmics0224	integration_eval	ILL	0.0	0.2352941176	438	0.2352941176	ok	0.2352941176	seed-averaged setting-level oriented metric values
+STOmics0224	integration_eval	bASW	0.8545520338	0.9956572162	438	0.14110518240000003	ok	0.14110518240000003	seed-averaged setting-level oriented metric values
+STOmics0224	integration_eval	dASW	0.3916968753	0.4969716542	438	0.10527477889999998	ok	0.10527477889999998	seed-averaged setting-level oriented metric values
+STOmics0224	integration_eval	dLISI	0.5420381727	0.7748628095	438	0.23282463679999998	ok	0.23282463679999998	seed-averaged setting-level oriented metric values
+STOmics0224	integration_eval	iLISI	0.0349506773	0.62555076	438	0.5906000827	ok	0.5906000827	seed-averaged setting-level oriented metric values

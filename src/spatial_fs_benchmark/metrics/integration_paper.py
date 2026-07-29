@@ -25,7 +25,13 @@ def scaled_silhouette_labels(embedding: np.ndarray, labels: np.ndarray) -> float
     return float((silhouette_score(embedding, labels, **kwargs) + 1.0) / 2.0)
 
 
-def scaled_silhouette_batch(embedding: np.ndarray, batch_ids: np.ndarray, labels: np.ndarray) -> float:
+def scaled_silhouette_batch(
+    embedding: np.ndarray,
+    batch_ids: np.ndarray,
+    labels: np.ndarray | None = None,
+) -> float:
+    if labels is None:
+        labels = np.repeat("__all__", embedding.shape[0])
     unique_labels = np.unique(labels)
     scores = []
     for label in unique_labels:

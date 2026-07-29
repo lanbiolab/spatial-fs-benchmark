@@ -1,0 +1,35 @@
+Method	DisplayMethod	Category	UsesSpatialCoordinates	Inputs	RepresentativeFeatureCount	SoftwareVersion	CitationKey	PrimaryReference
+Brennecke	Brennecke	Expression-driven	False	Counts	2000	scran 1.38.0	brennecke2013technical	Brennecke et al. (2013)
+TFs	Transcription factors	Control/reference	False	Predefined transcription-factor list	2000	Project resource	NA	Not applicable
+all_features	All features	Control/reference	False	All genes	all	Project implementation	NA	Not applicable
+anticor	Anticor	Expression-driven	False	Counts/expression	2000	anticor_features 0.1.8	tyler2024anticor	Tyler et al. (2024)
+dubstepr	DUBStepR	Expression-driven	False	Normalized expression	2000	DUBStepR 1.2.0	ranjan2021dubstepr	Ranjan et al. (2021)
+hotspot	Hotspot	Expression-driven	False	Counts; PCA expression-neighbor graph (30-NN)	2000	Hotspot 1.0.0	detomaso2021hotspot	DeTomaso and Yosef (2021)
+morans_i	Moran's I	Spatially informed	True	Expression + spatial coordinates (8-NN)	2000	Project implementation	moran1950notes	Moran (1950)
+nbumi	NBumi	Expression-driven	False	Integer counts	2000	M3Drop 1.36.0	andrews2019m3drop	Andrews and Hemberg (2019)
+nnsvg	nnSVG	Spatially informed	True	Counts + spatial coordinates	2000	nnSVG 1.14.0	weber2023nnsvg	Weber et al. (2023)
+osca	OSCA	Expression-driven	False	Counts + slice labels	2000	scran 1.38.0	amezquita2020osca	Amezquita et al. (2020)
+random	Random	Control/reference	False	Counts-derived gene universe	500	Project implementation	NA	Not applicable
+scPNMF	scPNMF	Expression-driven	False	Log-normalized expression	2000	scPNMF 1.0.1	song2021scpnmf	Song et al. (2021)
+scanpy_cell_ranger	Scanpy Cell Ranger	Expression-driven	False	Log-normalized expression	2000	Scanpy 1.10.4	wolf2018scanpy	Wolf et al. (2018)
+scanpy_cell_ranger_batch	Scanpy Cell Ranger, batch	Expression-driven	False	Log-normalized expression + slice labels	2000	Scanpy 1.10.4	wolf2018scanpy	Wolf et al. (2018)
+scanpy_pearson	Scanpy Pearson	Expression-driven	False	Integer counts	2000	Scanpy 1.10.4	lause2021pearson	Lause et al. (2021)
+scanpy_pearson_batch	Scanpy Pearson, batch	Expression-driven	False	Integer counts + slice labels	2000	Scanpy 1.10.4	lause2021pearson	Lause et al. (2021)
+scanpy_seurat	Scanpy Seurat	Expression-driven	False	Log-normalized expression	2000	Scanpy 1.10.4	wolf2018scanpy	Wolf et al. (2018)
+scanpy_seurat_batch	Scanpy Seurat, batch	Expression-driven	False	Log-normalized expression + slice labels	2000	Scanpy 1.10.4	wolf2018scanpy	Wolf et al. (2018)
+scanpy_seurat_v3	Scanpy Seurat v3	Expression-driven	False	Integer counts	2000	Scanpy 1.10.4	stuart2019seurat	Stuart et al. (2019)
+scanpy_seurat_v3_batch	Scanpy Seurat v3, batch	Expression-driven	False	Integer counts + slice labels	2000	Scanpy 1.10.4	stuart2019seurat	Stuart et al. (2019)
+scry	scry	Expression-driven	False	Counts	2000	scry 1.22.0	townes2019scry	Townes et al. (2019)
+scsegindex	scSEGIndex	Control/reference	False	Normalized expression	500	scMerge 1.26.0	lin2019scsegindex	Lin et al. (2019)
+seurat_disp	Seurat Dispersion	Expression-driven	False	Counts	2000	Seurat 5.4.0	stuart2019seurat	Stuart et al. (2019)
+seurat_mvp	Seurat MVP	Expression-driven	False	Counts	2000	Seurat 5.4.0	stuart2019seurat	Stuart et al. (2019)
+seurat_sct	Seurat sctransform	Expression-driven	False	Counts	2000	Seurat 5.4.0; sctransform 0.4.3	hafemeister2019sctransform	Hafemeister and Satija (2019)
+seurat_vst	Seurat VST	Expression-driven	False	Counts	2000	Seurat 5.4.0	stuart2019seurat	Stuart et al. (2019)
+singleCellHaystack	singleCellHaystack	Expression-driven	False	Detection matrix + PCA expression coordinates	2000	singleCellHaystack 0.3.4	vandenbon2020singlecellhaystack	Vandenbon and Diez (2020)
+somde	SOMDE	Spatially informed	True	Counts + spatial coordinates	2000	SOMDE 0.1.8	hao2021somde	Hao et al. (2021)
+sparkx	SPARK-X	Spatially informed	True	Counts + spatial coordinates	2000	SPARK 1.1.1	zhu2021sparkx	Zhu et al. (2021)
+spatialde	SpatialDE	Spatially informed	True	Counts + spatial coordinates	2000	SpatialDE 1.1.3	svensson2018spatialde	Svensson et al. (2018)
+statistic_mean	Mean expression	Expression-driven	False	Expression	2000	Project implementation	NA	Not applicable
+statistic_variance	Expression variance	Expression-driven	False	Expression	2000	Project implementation	NA	Not applicable
+triku	triku	Expression-driven	False	Counts; expression-neighbor graph	2000	triku 2.1.4	ascension2022triku	Ascensión et al. (2022)
+wilcoxon	Wilcoxon	Label-informed oracle	False	Expression + benchmark labels	2000	Scanpy 1.10.4	wilcoxon1945individual	Wilcoxon (1945)

@@ -17,11 +17,12 @@ from spatial_fs_benchmark.feature_selection.base import FeatureSelectionResult, 
 
 class RMethodSelector(FeatureSelector):
     name = "r_method"
-    implementation_version = "v2_matrix_io"
+    implementation_version = "v3_count_matrix_io_seeded_subsampling"
 
     def __init__(self, method: str, max_cells: int | None = None) -> None:
         self.method = method
         self.max_cells = max_cells
+        self.stochastic_selection = max_cells is not None
 
     @staticmethod
     def _project_root() -> Path:

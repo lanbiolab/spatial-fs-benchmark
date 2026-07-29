@@ -6,6 +6,7 @@ from spatial_fs_benchmark.feature_selection.base import FeatureSelectionResult, 
 from spatial_fs_benchmark.feature_selection.conserved import CrossSliceConservedSelector
 from spatial_fs_benchmark.feature_selection.highly_expressed import HighlyExpressedSelector
 from spatial_fs_benchmark.feature_selection.hotspot_selector import HotspotSelector
+from spatial_fs_benchmark.feature_selection.hybrid import HybridHVGSVGSelector
 from spatial_fs_benchmark.feature_selection.hvg import HVGSelector
 from spatial_fs_benchmark.feature_selection.random_baseline import RandomSelector
 from spatial_fs_benchmark.feature_selection.r_method import RMethodSelector
@@ -14,6 +15,9 @@ from spatial_fs_benchmark.feature_selection.statistic import StatisticSelector
 from spatial_fs_benchmark.feature_selection.tfs import TFSelector
 from spatial_fs_benchmark.feature_selection.triku_selector import TrikuSelector
 from spatial_fs_benchmark.feature_selection.svg import SVGSelector
+from spatial_fs_benchmark.feature_selection.spatial_r_method import SpatialRMethodSelector
+from spatial_fs_benchmark.feature_selection.spatial_python_methods import SOMDESelector, SpatialDESelector
+from spatial_fs_benchmark.feature_selection.scgco_selector import ScGCOSelector
 from spatial_fs_benchmark.feature_selection.wilcoxon import WilcoxonSelector
 
 SELECTOR_REGISTRY = {
@@ -24,6 +28,7 @@ SELECTOR_REGISTRY = {
     "cross_slice_conserved": CrossSliceConservedSelector,
     "highly_expressed": HighlyExpressedSelector,
     "hotspot": HotspotSelector,
+    "hybrid_hvg_svg": HybridHVGSVGSelector,
     "hvg": HVGSelector,
     "random": RandomSelector,
     "r_method": RMethodSelector,
@@ -33,6 +38,11 @@ SELECTOR_REGISTRY = {
     "tfs": TFSelector,
     "triku": TrikuSelector,
     "svg": SVGSelector,
+    "morans_i": SVGSelector,
+    "spatial_r_method": SpatialRMethodSelector,
+    "spatialde": SpatialDESelector,
+    "somde": SOMDESelector,
+    "scgco": ScGCOSelector,
     "wilcoxon": WilcoxonSelector,
 }
 
@@ -69,6 +79,14 @@ def _selector_alias(name: str, params: dict[str, object]) -> tuple[str, dict[str
         "scPNMF": {"method": "scPNMF"},
         "scpnmf": {"method": "scPNMF"},
     }
+    spatial_r_method_aliases = {
+        "sparkx": {"method": "sparkx"},
+        "nnsvg": {"method": "nnsvg"},
+    }
+    hybrid_aliases = {
+        "hybrid_hvg_svg_union": {"mode": "balanced_union"},
+        "hybrid_hvg_svg_intersection": {"mode": "intersection"},
+    }
     if name in scanpy_aliases:
         resolved.update(scanpy_aliases[name])
         return "scanpy_hvg", resolved
@@ -78,6 +96,12 @@ def _selector_alias(name: str, params: dict[str, object]) -> tuple[str, dict[str
     if name in r_method_aliases:
         resolved.update(r_method_aliases[name])
         return "r_method", resolved
+    if name in spatial_r_method_aliases:
+        resolved.update(spatial_r_method_aliases[name])
+        return "spatial_r_method", resolved
+    if name in hybrid_aliases:
+        resolved.update(hybrid_aliases[name])
+        return "hybrid_hvg_svg", resolved
     return name, resolved
 
 

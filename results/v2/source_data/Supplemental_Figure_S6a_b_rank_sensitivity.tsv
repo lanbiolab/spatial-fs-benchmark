@@ -1,0 +1,697 @@
+fs_method	integration_method	MeanDatasetRank	MeanScore	NDatasets	GlobalRank	Scenario	Method
+Brennecke	cellcharter	16.285714285714285	0.6546367567024237	7	20	Observed
+range	Brennecke
+Brennecke	scvi	22	0.5851106433914797	7	28	Observed
+range	Brennecke
+anticor	cellcharter	15.857142857142858	0.6607898236028168	7	17.5	Observed
+range	Anticor
+anticor	scvi	14	0.6010386442744142	7	15	Observed
+range	Anticor
+dubstepr	cellcharter	16.142857142857142	0.6548946839097157	7	19	Observed
+range	DUBStepR
+dubstepr	scvi	11.571428571428571	0.6048097516517517	7	7.5	Observed
+range	DUBStepR
+hotspot	cellcharter	14.428571428571429	0.6614576063376908	7	12	Observed
+range	Hotspot
+hotspot	scvi	14.142857142857142	0.5993800702069888	7	16	Observed
+range	Hotspot
+morans_i	cellcharter	15.571428571428571	0.6555360941260231	7	15	Observed
+range	Moran's I
+morans_i	scvi	14.571428571428571	0.5954604098779992	7	17.5	Observed
+range	Moran's I
+nbumi	cellcharter	9.142857142857142	0.6752200974166955	7	5	Observed
+range	NBumi
+nbumi	scvi	11.285714285714286	0.6222267787152198	7	5.5	Observed
+range	NBumi
+nnsvg	cellcharter	16.857142857142858	0.6503331696734376	7	22	Observed
+range	nnSVG
+nnsvg	scvi	12.285714285714286	0.6061674207377583	7	9	Observed
+range	nnSVG
+osca	cellcharter	12.857142857142858	0.6605928615771794	7	8.5	Observed
+range	OSCA
+osca	scvi	10.714285714285714	0.6140685650751959	7	4	Observed
+range	OSCA
+scPNMF	cellcharter	23.857142857142858	0.6420836112396747	7	29	Observed
+range	scPNMF
+scPNMF	scvi	17.428571428571427	0.5945085201413648	7	21	Observed
+range	scPNMF
+scanpy_cell_ranger	cellcharter	13	0.665879957668083	7	10	Observed
+range	Scanpy Cell Ranger
+scanpy_cell_ranger	scvi	14.571428571428571	0.6153110266202683	7	17.5	Observed
+range	Scanpy Cell Ranger
+scanpy_cell_ranger_batch	cellcharter	8	0.6747594669794429	7	4	Observed
+range	Scanpy Cell Ranger, batch
+scanpy_cell_ranger_batch	scvi	12.857142857142858	0.6185028349017475	7	11	Observed
+range	Scanpy Cell Ranger, batch
+scanpy_pearson	cellcharter	16.428571428571427	0.6596310043535725	7	21	Observed
+range	Scanpy Pearson
+scanpy_pearson	scvi	11.571428571428571	0.6020543920688833	7	7.5	Observed
+range	Scanpy Pearson
+scanpy_pearson_batch	cellcharter	15.428571428571429	0.6625297220247752	7	14	Observed
+range	Scanpy Pearson, batch
+scanpy_pearson_batch	scvi	17	0.5857102125557176	7	19	Observed
+range	Scanpy Pearson, batch
+scanpy_seurat	cellcharter	14.857142857142858	0.6612314281558913	7	13	Observed
+range	Scanpy Seurat
+scanpy_seurat	scvi	19.714285714285715	0.6166882528505496	7	24	Observed
+range	Scanpy Seurat
+scanpy_seurat_batch	cellcharter	15.857142857142858	0.6584299456666587	7	17.5	Observed
+range	Scanpy Seurat, batch
+scanpy_seurat_batch	scvi	17.285714285714285	0.6105843300786672	7	20	Observed
+range	Scanpy Seurat, batch
+scanpy_seurat_v3	cellcharter	6.857142857142857	0.6809491290647721	7	2	Observed
+range	Scanpy Seurat v3
+scanpy_seurat_v3	scvi	11.285714285714286	0.6274591051179021	7	5.5	Observed
+range	Scanpy Seurat v3
+scanpy_seurat_v3_batch	cellcharter	7.142857142857143	0.6795230203685766	7	3	Observed
+range	Scanpy Seurat v3, batch
+scanpy_seurat_v3_batch	scvi	13.857142857142858	0.6134440135994732	7	14	Observed
+range	Scanpy Seurat v3, batch
+scry	cellcharter	19.142857142857142	0.6436595755512108	7	23	Observed
+range	scry
+scry	scvi	20.428571428571427	0.5735217294731775	7	26.5	Observed
+range	scry
+seurat_disp	cellcharter	19.285714285714285	0.6531940486401252	7	24	Observed
+range	Seurat Dispersion
+seurat_disp	scvi	17.571428571428573	0.5957840960026942	7	22	Observed
+range	Seurat Dispersion
+seurat_mvp	cellcharter	12.857142857142858	0.6635619296614133	7	8.5	Observed
+range	Seurat MVP
+seurat_mvp	scvi	19	0.6168446606293462	7	23	Observed
+range	Seurat MVP
+seurat_sct	cellcharter	19.714285714285715	0.6220411320845247	7	25	Observed
+range	Seurat sctransform
+seurat_sct	scvi	13	0.5947209085146163	7	12	Observed
+range	Seurat sctransform
+seurat_vst	cellcharter	6.714285714285714	0.6786245697523547	7	1	Observed
+range	Seurat VST
+seurat_vst	scvi	10.571428571428571	0.6284657219262266	7	3	Observed
+range	Seurat VST
+singleCellHaystack	cellcharter	12.142857142857142	0.6641120875847306	7	7	Observed
+range	singleCellHaystack
+singleCellHaystack	scvi	13.285714285714286	0.5989993449548165	7	13	Observed
+range	singleCellHaystack
+somde	cellcharter	15.714285714285714	0.6600273983292256	7	16	Observed
+range	SOMDE
+somde	scvi	10.285714285714286	0.608973972074527	7	2	Observed
+range	SOMDE
+sparkx	cellcharter	21.714285714285715	0.6461228371842046	7	27	Observed
+range	SPARK-X
+sparkx	scvi	20.142857142857142	0.5792700461479768	7	25	Observed
+range	SPARK-X
+spatialde	cellcharter	13.285714285714286	0.6609736123351749	7	11	Observed
+range	SpatialDE
+spatialde	scvi	12.714285714285714	0.6057651437050474	7	10	Observed
+range	SpatialDE
+statistic_mean	cellcharter	23.285714285714285	0.6426821592815054	7	28	Observed
+range	Mean expression
+statistic_mean	scvi	24.428571428571427	0.5626697141482272	7	29	Observed
+range	Mean expression
+statistic_variance	cellcharter	21.142857142857142	0.6448548456051555	7	26	Observed
+range	Expression variance
+statistic_variance	scvi	20.428571428571427	0.5831926665552958	7	26.5	Observed
+range	Expression variance
+triku	cellcharter	11.428571428571429	0.6688654131067252	7	6	Observed
+range	triku
+triku	scvi	7	0.6477260714824636	7	1	Observed
+range	triku
+Brennecke	cellcharter	16.714285714285715	0.5548792064445213	7	18	Percentile
+scaling	Brennecke
+Brennecke	scvi	22.285714285714285	0.4200199948684538	7	28	Percentile
+scaling	Brennecke
+anticor	cellcharter	14.357142857142858	0.571676760381785	7	15	Percentile
+scaling	Anticor
+anticor	scvi	12.142857142857142	0.4922336902746124	7	10	Percentile
+scaling	Anticor
+dubstepr	cellcharter	14.571428571428571	0.5746535626763486	7	16	Percentile
+scaling	DUBStepR
+dubstepr	scvi	11	0.4934551373551569	7	4.5	Percentile
+scaling	DUBStepR
+hotspot	cellcharter	11.571428571428571	0.5858434953145017	7	7	Percentile
+scaling	Hotspot
+hotspot	scvi	11.857142857142858	0.5038385484731461	7	9	Percentile
+scaling	Hotspot
+morans_i	cellcharter	17.428571428571427	0.5646254570283247	7	20	Percentile
+scaling	Moran's I
+morans_i	scvi	14.857142857142858	0.46812448816562935	7	16	Percentile
+scaling	Moran's I
+nbumi	cellcharter	8.5	0.6132307075634404	7	4	Percentile
+scaling	NBumi
+nbumi	scvi	13	0.4878677060623602	7	12	Percentile
+scaling	NBumi
+nnsvg	cellcharter	18.357142857142858	0.5557724934702879	7	21	Percentile
+scaling	nnSVG
+nnsvg	scvi	11	0.4881171991547375	7	4.5	Percentile
+scaling	nnSVG
+osca	cellcharter	11	0.5895512595601451	7	6	Percentile
+scaling	OSCA
+osca	scvi	11	0.49956267866706544	7	4.5	Percentile
+scaling	OSCA
+scPNMF	cellcharter	22.142857142857142	0.5421402945899026	7	29	Percentile
+scaling	scPNMF
+scPNMF	scvi	17	0.4615244974652687	7	19	Percentile
+scaling	scPNMF
+scanpy_cell_ranger	cellcharter	13.285714285714286	0.5813404476861802	7	10	Percentile
+scaling	Scanpy Cell Ranger
+scanpy_cell_ranger	scvi	16.142857142857142	0.4910341398516334	7	18	Percentile
+scaling	Scanpy Cell Ranger
+scanpy_cell_ranger_batch	cellcharter	11.857142857142858	0.5867040339568214	7	8	Percentile
+scaling	Scanpy Cell Ranger, batch
+scanpy_cell_ranger_batch	scvi	13.285714285714286	0.49918227254331743	7	13	Percentile
+scaling	Scanpy Cell Ranger, batch
+scanpy_pearson	cellcharter	13.428571428571429	0.5810571435784445	7	11	Percentile
+scaling	Scanpy Pearson
+scanpy_pearson	scvi	11.428571428571429	0.4937234680132338	7	7	Percentile
+scaling	Scanpy Pearson
+scanpy_pearson_batch	cellcharter	14.142857142857142	0.5747642051989877	7	14	Percentile
+scaling	Scanpy Pearson, batch
+scanpy_pearson_batch	scvi	18.142857142857142	0.4467972241993616	7	21	Percentile
+scaling	Scanpy Pearson, batch
+scanpy_seurat	cellcharter	16.857142857142858	0.5592167572029055	7	19	Percentile
+scaling	Scanpy Seurat
+scanpy_seurat	scvi	19	0.47456493917494935	7	23.5	Percentile
+scaling	Scanpy Seurat
+scanpy_seurat_batch	cellcharter	19.857142857142858	0.5466370952306246	7	22.5	Percentile
+scaling	Scanpy Seurat, batch
+scanpy_seurat_batch	scvi	19	0.4475398268000147	7	23.5	Percentile
+scaling	Scanpy Seurat, batch
+scanpy_seurat_v3	cellcharter	7	0.6145130466725968	7	1	Percentile
+scaling	Scanpy Seurat v3
+scanpy_seurat_v3	scvi	12.714285714285714	0.5023245717078183	7	11	Percentile
+scaling	Scanpy Seurat v3
+scanpy_seurat_v3_batch	cellcharter	7.142857142857143	0.6194362203174706	7	2	Percentile
+scaling	Scanpy Seurat v3, batch
+scanpy_seurat_v3_batch	scvi	14.571428571428571	0.4783886430023048	7	15	Percentile
+scaling	Scanpy Seurat v3, batch
+scry	cellcharter	21.285714285714285	0.5409917021972136	7	28	Percentile
+scaling	scry
+scry	scvi	19.285714285714285	0.437638238751365	7	25	Percentile
+scaling	scry
+seurat_disp	cellcharter	20.642857142857142	0.5461783763551133	7	25	Percentile
+scaling	Seurat Dispersion
+seurat_disp	scvi	17.142857142857142	0.45687646498299406	7	20	Percentile
+scaling	Seurat Dispersion
+seurat_mvp	cellcharter	13	0.580638257299122	7	9	Percentile
+scaling	Seurat MVP
+seurat_mvp	scvi	19.857142857142858	0.46513279292382465	7	27	Percentile
+scaling	Seurat MVP
+seurat_sct	cellcharter	19.857142857142858	0.48614054279495633	7	22.5	Percentile
+scaling	Seurat sctransform
+seurat_sct	scvi	14.142857142857142	0.4591393235375415	7	14	Percentile
+scaling	Seurat sctransform
+seurat_vst	cellcharter	7.357142857142857	0.6101718411044571	7	3	Percentile
+scaling	Seurat VST
+seurat_vst	scvi	10.428571428571429	0.5116207815767191	7	2	Percentile
+scaling	Seurat VST
+singleCellHaystack	cellcharter	13.857142857142858	0.5893589714856573	7	13	Percentile
+scaling	singleCellHaystack
+singleCellHaystack	scvi	11	0.4768386816563456	7	4.5	Percentile
+scaling	singleCellHaystack
+somde	cellcharter	13.571428571428571	0.5787245860308083	7	12	Percentile
+scaling	SOMDE
+somde	scvi	11.714285714285714	0.49986795993478406	7	8	Percentile
+scaling	SOMDE
+sparkx	cellcharter	21.142857142857142	0.5441264341344676	7	27	Percentile
+scaling	SPARK-X
+sparkx	scvi	18.857142857142858	0.43008139631636394	7	22	Percentile
+scaling	SPARK-X
+spatialde	cellcharter	15.214285714285714	0.5776637251727325	7	17	Percentile
+scaling	SpatialDE
+spatialde	scvi	15	0.4789255458257114	7	17	Percentile
+scaling	SpatialDE
+statistic_mean	cellcharter	21	0.5439737210484326	7	26	Percentile
+scaling	Mean expression
+statistic_mean	scvi	22.571428571428573	0.41200015082932945	7	29	Percentile
+scaling	Mean expression
+statistic_variance	cellcharter	20.285714285714285	0.5533266207197508	7	24	Percentile
+scaling	Expression variance
+statistic_variance	scvi	19.571428571428573	0.4416955766948464	7	26	Percentile
+scaling	Expression variance
+triku	cellcharter	9.571428571428571	0.5995719106843066	7	5	Percentile
+scaling	triku
+triku	scvi	7	0.5586871639990098	7	1	Percentile
+scaling	triku
+Brennecke	cellcharter	18.571428571428573	0.16666741112628708	7	20.5	z-score
+scaling	Brennecke
+Brennecke	scvi	22.285714285714285	-0.18389388906686857	7	28	z-score
+scaling	Brennecke
+anticor	cellcharter	14.714285714285714	0.2497608720691906	7	14	z-score
+scaling	Anticor
+anticor	scvi	12.857142857142858	-0.04582831445379511	7	11.5	z-score
+scaling	Anticor
+dubstepr	cellcharter	13.571428571428571	0.25803851188248855	7	12	z-score
+scaling	DUBStepR
+dubstepr	scvi	11	-0.032617111616222307	7	4	z-score
+scaling	DUBStepR
+hotspot	cellcharter	10.714285714285714	0.27466558412481806	7	5	z-score
+scaling	Hotspot
+hotspot	scvi	11.571428571428571	-0.054657785198147	7	5.5	z-score
+scaling	Hotspot
+morans_i	cellcharter	14.142857142857142	0.23974961886533633	7	13	z-score
+scaling	Moran's I
+morans_i	scvi	14.142857142857142	-0.09268112443778229	7	15.5	z-score
+scaling	Moran's I
+nbumi	cellcharter	8.285714285714286	0.3570319816525302	7	4	z-score
+scaling	NBumi
+nbumi	scvi	12.285714285714286	0.03714620941027639	7	9.5	z-score
+scaling	NBumi
+nnsvg	cellcharter	16.571428571428573	0.21480077003165712	7	19	z-score
+scaling	nnSVG
+nnsvg	scvi	11.571428571428571	-0.02123299146117937	7	5.5	z-score
+scaling	nnSVG
+osca	cellcharter	11.142857142857142	0.2667336311385854	7	6	z-score
+scaling	OSCA
+osca	scvi	10	0.01155836287383929	7	2	z-score
+scaling	OSCA
+scPNMF	cellcharter	22.571428571428573	0.1701288522638124	7	29	z-score
+scaling	scPNMF
+scPNMF	scvi	16.428571428571427	-0.08475749584193368	7	18	z-score
+scaling	scPNMF
+scanpy_cell_ranger	cellcharter	15.714285714285714	0.2536620726521046	7	17	z-score
+scaling	Scanpy Cell Ranger
+scanpy_cell_ranger	scvi	16.571428571428573	-0.02512903610148066	7	19	z-score
+scaling	Scanpy Cell Ranger
+scanpy_cell_ranger_batch	cellcharter	12.857142857142858	0.301721349937929	7	10	z-score
+scaling	Scanpy Cell Ranger, batch
+scanpy_cell_ranger_batch	scvi	14.857142857142858	-0.0119201067156842	7	17	z-score
+scaling	Scanpy Cell Ranger, batch
+scanpy_pearson	cellcharter	16	0.24212692112540948	7	18	z-score
+scaling	Scanpy Pearson
+scanpy_pearson	scvi	12	-0.03820581142935048	7	8	z-score
+scaling	Scanpy Pearson
+scanpy_pearson_batch	cellcharter	15.285714285714286	0.24360358861955184	7	16	z-score
+scaling	Scanpy Pearson, batch
+scanpy_pearson_batch	scvi	17.428571428571427	-0.14461138991914793	7	21	z-score
+scaling	Scanpy Pearson, batch
+scanpy_seurat	cellcharter	19	0.2031560894369326	7	22	z-score
+scaling	Scanpy Seurat
+scanpy_seurat	scvi	19.285714285714285	-0.02560931273189681	7	24.5	z-score
+scaling	Scanpy Seurat
+scanpy_seurat_batch	cellcharter	19.571428571428573	0.18102716886828624	7	23.5	z-score
+scaling	Scanpy Seurat, batch
+scanpy_seurat_batch	scvi	19.285714285714285	-0.04347792074659385	7	24.5	z-score
+scaling	Scanpy Seurat, batch
+scanpy_seurat_v3	cellcharter	7.285714285714286	0.37547287791833345	7	2.5	z-score
+scaling	Scanpy Seurat v3
+scanpy_seurat_v3	scvi	12.857142857142858	0.06105498693052645	7	11.5	z-score
+scaling	Scanpy Seurat v3
+scanpy_seurat_v3_batch	cellcharter	7.142857142857143	0.35936812527729317	7	1	z-score
+scaling	Scanpy Seurat v3, batch
+scanpy_seurat_v3_batch	scvi	14.142857142857142	0.00568002574741905	7	15.5	z-score
+scaling	Scanpy Seurat v3, batch
+scry	cellcharter	19.571428571428573	0.18033018758303956	7	23.5	z-score
+scaling	scry
+scry	scvi	19.714285714285715	-0.1998549692191169	7	26	z-score
+scaling	scry
+seurat_disp	cellcharter	21.714285714285715	0.17307382670560414	7	28	z-score
+scaling	Seurat Dispersion
+seurat_disp	scvi	17.142857142857142	-0.08904745834585483	7	20	z-score
+scaling	Seurat Dispersion
+seurat_mvp	cellcharter	15.142857142857142	0.2421370376483652	7	15	z-score
+scaling	Seurat MVP
+seurat_mvp	scvi	20	-0.02784665930497948	7	27	z-score
+scaling	Seurat MVP
+seurat_sct	cellcharter	20.142857142857142	-0.01797714016194451	7	26.5	z-score
+scaling	Seurat sctransform
+seurat_sct	scvi	13.428571428571429	-0.11127808423602102	7	13	z-score
+scaling	Seurat sctransform
+seurat_vst	cellcharter	7.285714285714286	0.3652946913098882	7	2.5	z-score
+scaling	Seurat VST
+seurat_vst	scvi	10.428571428571429	0.0745638203096801	7	3	z-score
+scaling	Seurat VST
+singleCellHaystack	cellcharter	12.857142857142858	0.29567691983451316	7	10	z-score
+scaling	singleCellHaystack
+singleCellHaystack	scvi	12.285714285714286	-0.07122867841218213	7	9.5	z-score
+scaling	singleCellHaystack
+somde	cellcharter	12.571428571428571	0.26726626667021247	7	8	z-score
+scaling	SOMDE
+somde	scvi	11.857142857142858	-0.02489217307454599	7	7	z-score
+scaling	SOMDE
+sparkx	cellcharter	19.714285714285715	0.1986025945948444	7	25	z-score
+scaling	SPARK-X
+sparkx	scvi	19	-0.16734409747787254	7	23	z-score
+scaling	SPARK-X
+spatialde	cellcharter	12.857142857142858	0.2735314319634929	7	10	z-score
+scaling	SpatialDE
+spatialde	scvi	13.571428571428571	-0.0511983226670046	7	14	z-score
+scaling	SpatialDE
+statistic_mean	cellcharter	20.142857142857142	0.18303291430976024	7	26.5	z-score
+scaling	Mean expression
+statistic_mean	scvi	22.571428571428573	-0.2643845642250068	7	29	z-score
+scaling	Mean expression
+statistic_variance	cellcharter	18.571428571428573	0.1959402596050037	7	20.5	z-score
+scaling	Expression variance
+statistic_variance	scvi	18.857142857142858	-0.15931482559632282	7	22	z-score
+scaling	Expression variance
+triku	cellcharter	11.285714285714286	0.2918257128027859	7	7	z-score
+scaling	triku
+triku	scvi	7.571428571428571	0.16275312533997324	7	1	z-score
+scaling	triku
+Brennecke	cellcharter	15.571428571428571	0.6488683513963489	7	15	Integration
+weight 0.6	Brennecke
+Brennecke	scvi	15.714285714285714	0.6087337098382554	7	20	Integration
+weight 0.6	Brennecke
+anticor	cellcharter	16.285714285714285	0.6507730774828164	7	21	Integration
+weight 0.6	Anticor
+anticor	scvi	15.571428571428571	0.6100273337369478	7	19	Integration
+weight 0.6	Anticor
+dubstepr	cellcharter	16	0.646929290046405	7	18.5	Integration
+weight 0.6	DUBStepR
+dubstepr	scvi	11	0.6156506455272946	7	3	Integration
+weight 0.6	DUBStepR
+hotspot	cellcharter	16	0.6483338749325795	7	18.5	Integration
+weight 0.6	Hotspot
+hotspot	scvi	16	0.6081397693523847	7	21.5	Integration
+weight 0.6	Hotspot
+morans_i	cellcharter	15.285714285714286	0.6469971052910256	7	14	Integration
+weight 0.6	Moran's I
+morans_i	scvi	16.285714285714285	0.6040935190285419	7	24	Integration
+weight 0.6	Moran's I
+nbumi	cellcharter	9.428571428571429	0.6629108472230243	7	5	Integration
+weight 0.6	NBumi
+nbumi	scvi	15.285714285714286	0.6304518577083096	7	17.5	Integration
+weight 0.6	NBumi
+nnsvg	cellcharter	15.857142857142858	0.6439224446061794	7	16	Integration
+weight 0.6	nnSVG
+nnsvg	scvi	13.285714285714286	0.6161632228622586	7	10	Integration
+weight 0.6	nnSVG
+osca	cellcharter	13.428571428571429	0.6506520734870156	7	11	Integration
+weight 0.6	OSCA
+osca	scvi	10.571428571428571	0.6246360598104967	7	2	Integration
+weight 0.6	OSCA
+scPNMF	cellcharter	24.142857142857142	0.6334663367490931	7	29	Integration
+weight 0.6	scPNMF
+scPNMF	scvi	16.142857142857142	0.6056401030030043	7	23	Integration
+weight 0.6	scPNMF
+scanpy_cell_ranger	cellcharter	12.142857142857142	0.6552099625885619	7	9	Integration
+weight 0.6	Scanpy Cell Ranger
+scanpy_cell_ranger	scvi	13.142857142857142	0.6375240364627313	7	8.5	Integration
+weight 0.6	Scanpy Cell Ranger
+scanpy_cell_ranger_batch	cellcharter	7.857142857142857	0.6656613619698779	7	2	Integration
+weight 0.6	Scanpy Cell Ranger, batch
+scanpy_cell_ranger_batch	scvi	11.428571428571429	0.6407758068414919	7	4	Integration
+weight 0.6	Scanpy Cell Ranger, batch
+scanpy_pearson	cellcharter	20.428571428571427	0.6447924650110001	7	25.5	Integration
+weight 0.6	Scanpy Pearson
+scanpy_pearson	scvi	13	0.6111094698564565	7	7	Integration
+weight 0.6	Scanpy Pearson
+scanpy_pearson_batch	cellcharter	16	0.6532545286186516	7	18.5	Integration
+weight 0.6	Scanpy Pearson, batch
+scanpy_pearson_batch	scvi	16.571428571428573	0.5997558927304345	7	25	Integration
+weight 0.6	Scanpy Pearson, batch
+scanpy_seurat	cellcharter	13.142857142857142	0.6565019205094108	7	10	Integration
+weight 0.6	Scanpy Seurat
+scanpy_seurat	scvi	12.714285714285714	0.639414923596273	7	5	Integration
+weight 0.6	Scanpy Seurat
+scanpy_seurat_batch	cellcharter	14.714285714285714	0.6535051125209836	7	13	Integration
+weight 0.6	Scanpy Seurat, batch
+scanpy_seurat_batch	scvi	14.857142857142858	0.6304796386524829	7	14	Integration
+weight 0.6	Scanpy Seurat, batch
+scanpy_seurat_v3	cellcharter	7	0.6648350908538649	7	1	Integration
+weight 0.6	Scanpy Seurat v3
+scanpy_seurat_v3	scvi	15.285714285714286	0.6352930400139553	7	17.5	Integration
+weight 0.6	Scanpy Seurat v3
+scanpy_seurat_v3_batch	cellcharter	8.857142857142858	0.6653716292418385	7	4	Integration
+weight 0.6	Scanpy Seurat v3, batch
+scanpy_seurat_v3_batch	scvi	15.142857142857142	0.6254862420953126	7	16	Integration
+weight 0.6	Scanpy Seurat v3, batch
+scry	cellcharter	18.714285714285715	0.6386547368821607	7	23	Integration
+weight 0.6	scry
+scry	scvi	20.285714285714285	0.5845728042069583	7	27	Integration
+weight 0.6	scry
+seurat_disp	cellcharter	17.857142857142858	0.6469618262812611	7	22	Integration
+weight 0.6	Seurat Dispersion
+seurat_disp	scvi	16	0.6114317503745073	7	21.5	Integration
+weight 0.6	Seurat Dispersion
+seurat_mvp	cellcharter	11.857142857142858	0.6566015524074447	7	8	Integration
+weight 0.6	Seurat MVP
+seurat_mvp	scvi	13.142857142857142	0.6389153778453354	7	8.5	Integration
+weight 0.6	Seurat MVP
+seurat_sct	cellcharter	20.428571428571427	0.627755228011002	7	25.5	Integration
+weight 0.6	Seurat sctransform
+seurat_sct	scvi	12.857142857142858	0.6132255114110554	7	6	Integration
+weight 0.6	Seurat sctransform
+seurat_vst	cellcharter	8	0.6631614977049559	7	3	Integration
+weight 0.6	Seurat VST
+seurat_vst	scvi	13.428571428571429	0.6365833997289256	7	11	Integration
+weight 0.6	Seurat VST
+singleCellHaystack	cellcharter	11.714285714285714	0.6541508078471002	7	6.5	Integration
+weight 0.6	singleCellHaystack
+singleCellHaystack	scvi	13.714285714285714	0.6041834080671828	7	12	Integration
+weight 0.6	singleCellHaystack
+somde	cellcharter	16	0.6483012999159657	7	18.5	Integration
+weight 0.6	SOMDE
+somde	scvi	13.857142857142858	0.6170022690708684	7	13	Integration
+weight 0.6	SOMDE
+sparkx	cellcharter	20.714285714285715	0.6393674264063446	7	27	Integration
+weight 0.6	SPARK-X
+sparkx	scvi	22	0.5846231275201345	7	28	Integration
+weight 0.6	SPARK-X
+spatialde	cellcharter	13.714285714285714	0.6506417715438977	7	12	Integration
+weight 0.6	SpatialDE
+spatialde	scvi	15	0.6141354022983755	7	15	Integration
+weight 0.6	SpatialDE
+statistic_mean	cellcharter	21.857142857142858	0.6383090264706899	7	28	Integration
+weight 0.6	Mean expression
+statistic_mean	scvi	22.857142857142858	0.5760271996604459	7	29	Integration
+weight 0.6	Mean expression
+statistic_variance	cellcharter	20.285714285714285	0.640127840445331	7	24	Integration
+weight 0.6	Expression variance
+statistic_variance	scvi	20	0.5929571632164697	7	26	Integration
+weight 0.6	Expression variance
+triku	cellcharter	11.714285714285714	0.6558883972263077	7	6.5	Integration
+weight 0.6	triku
+triku	scvi	9.857142857142858	0.6570685000385968	7	1	Integration
+weight 0.6	triku
+Brennecke	cellcharter	17.857142857142858	0.6604051620084986	7	21	Integration
+weight 0.4	Brennecke
+Brennecke	scvi	22.428571428571427	0.561487576944704	7	28	Integration
+weight 0.4	Brennecke
+anticor	cellcharter	15.285714285714286	0.6708065697228173	7	17	Integration
+weight 0.4	Anticor
+anticor	scvi	13.285714285714286	0.5920499548118807	7	13.5	Integration
+weight 0.4	Anticor
+dubstepr	cellcharter	15.142857142857142	0.6628600777730264	7	16	Integration
+weight 0.4	DUBStepR
+dubstepr	scvi	12.142857142857142	0.5939688577762086	7	9	Integration
+weight 0.4	DUBStepR
+hotspot	cellcharter	12.714285714285714	0.6745813377428019	7	8.5	Integration
+weight 0.4	Hotspot
+hotspot	scvi	12.285714285714286	0.590620371061593	7	10.5	Integration
+weight 0.4	Hotspot
+morans_i	cellcharter	15.428571428571429	0.6640750829610206	7	18	Integration
+weight 0.4	Moran's I
+morans_i	scvi	13.714285714285714	0.5868273007274566	7	15	Integration
+weight 0.4	Moran's I
+nbumi	cellcharter	8	0.6875293476103669	7	4	Integration
+weight 0.4	NBumi
+nbumi	scvi	11.285714285714286	0.61400169972213	7	6	Integration
+weight 0.4	NBumi
+nnsvg	cellcharter	18.285714285714285	0.6567438947406956	7	22	Integration
+weight 0.4	nnSVG
+nnsvg	scvi	12.285714285714286	0.5961716186132581	7	10.5	Integration
+weight 0.4	nnSVG
+osca	cellcharter	11.428571428571429	0.6705336496673434	7	7	Integration
+weight 0.4	OSCA
+osca	scvi	11.428571428571429	0.6035010703398952	7	7	Integration
+weight 0.4	OSCA
+scPNMF	cellcharter	22.571428571428573	0.6507008857302564	7	28	Integration
+weight 0.4	scPNMF
+scPNMF	scvi	17.857142857142858	0.5833769372797253	7	19.5	Integration
+weight 0.4	scPNMF
+scanpy_cell_ranger	cellcharter	13	0.676549952747604	7	10	Integration
+weight 0.4	Scanpy Cell Ranger
+scanpy_cell_ranger	scvi	16.428571428571427	0.5930980167778053	7	18	Integration
+weight 0.4	Scanpy Cell Ranger
+scanpy_cell_ranger_batch	cellcharter	10.142857142857142	0.6838575719890081	7	6	Integration
+weight 0.4	Scanpy Cell Ranger, batch
+scanpy_cell_ranger_batch	scvi	14.142857142857142	0.5962298629620032	7	16	Integration
+weight 0.4	Scanpy Cell Ranger, batch
+scanpy_pearson	cellcharter	14.285714285714286	0.6744695436961449	7	12.5	Integration
+weight 0.4	Scanpy Pearson
+scanpy_pearson	scvi	11.714285714285714	0.5929993142813103	7	8	Integration
+weight 0.4	Scanpy Pearson
+scanpy_pearson_batch	cellcharter	14.571428571428571	0.6718049154308988	7	14.5	Integration
+weight 0.4	Scanpy Pearson, batch
+scanpy_pearson_batch	scvi	18	0.5716645323810008	7	21	Integration
+weight 0.4	Scanpy Pearson, batch
+scanpy_seurat	cellcharter	17.571428571428573	0.6659609358023718	7	20	Integration
+weight 0.4	Scanpy Seurat
+scanpy_seurat	scvi	21.428571428571427	0.5939615821048264	7	27	Integration
+weight 0.4	Scanpy Seurat
+scanpy_seurat_batch	cellcharter	17.142857142857142	0.6633547788123337	7	19	Integration
+weight 0.4	Scanpy Seurat, batch
+scanpy_seurat_batch	scvi	19	0.5906890215048516	7	23	Integration
+weight 0.4	Scanpy Seurat, batch
+scanpy_seurat_v3	cellcharter	6.428571428571429	0.6970631672756793	7	2	Integration
+weight 0.4	Scanpy Seurat v3
+scanpy_seurat_v3	scvi	10.285714285714286	0.619625170221849	7	4	Integration
+weight 0.4	Scanpy Seurat v3
+scanpy_seurat_v3_batch	cellcharter	5.857142857142857	0.6936744114953147	7	1	Integration
+weight 0.4	Scanpy Seurat v3, batch
+scanpy_seurat_v3_batch	scvi	14.857142857142858	0.601401785103634	7	17	Integration
+weight 0.4	Scanpy Seurat v3, batch
+scry	cellcharter	20.142857142857142	0.6486644142202608	7	24.5	Integration
+weight 0.4	scry
+scry	scvi	19.857142857142858	0.5624706547393966	7	24	Integration
+weight 0.4	scry
+seurat_disp	cellcharter	20.142857142857142	0.6594262709989895	7	24.5	Integration
+weight 0.4	Seurat Dispersion
+seurat_disp	scvi	17.857142857142858	0.5801364416308811	7	19.5	Integration
+weight 0.4	Seurat Dispersion
+seurat_mvp	cellcharter	13.142857142857142	0.670522306915382	7	11	Integration
+weight 0.4	Seurat MVP
+seurat_mvp	scvi	21.285714285714285	0.5947739434133569	7	26	Integration
+weight 0.4	Seurat MVP
+seurat_sct	cellcharter	19.857142857142858	0.6163270361580474	7	23	Integration
+weight 0.4	Seurat sctransform
+seurat_sct	scvi	13.285714285714286	0.5762163056181774	7	13.5	Integration
+weight 0.4	Seurat sctransform
+seurat_vst	cellcharter	7.142857142857143	0.6940876417997537	7	3	Integration
+weight 0.4	Seurat VST
+seurat_vst	scvi	9.714285714285714	0.6203480441235276	7	2.5	Integration
+weight 0.4	Seurat VST
+singleCellHaystack	cellcharter	12.714285714285714	0.6740733673223609	7	8.5	Integration
+weight 0.4	singleCellHaystack
+singleCellHaystack	scvi	12.714285714285714	0.5938152818424501	7	12	Integration
+weight 0.4	singleCellHaystack
+somde	cellcharter	14.571428571428571	0.6717534967424853	7	14.5	Integration
+weight 0.4	SOMDE
+somde	scvi	9.714285714285714	0.6009456750781854	7	2.5	Integration
+weight 0.4	SOMDE
+sparkx	cellcharter	21.714285714285715	0.6528782479620646	7	26	Integration
+weight 0.4	SPARK-X
+sparkx	scvi	18.285714285714285	0.5739169647758191	7	22	Integration
+weight 0.4	SPARK-X
+spatialde	cellcharter	14.285714285714286	0.6713054531264521	7	12.5	Integration
+weight 0.4	SpatialDE
+spatialde	scvi	10.714285714285714	0.5973948851117193	7	5	Integration
+weight 0.4	SpatialDE
+statistic_mean	cellcharter	23.428571428571427	0.6470552920923209	7	29	Integration
+weight 0.4	Mean expression
+statistic_mean	scvi	23.428571428571427	0.5493122286360085	7	29	Integration
+weight 0.4	Mean expression
+statistic_variance	cellcharter	22.285714285714285	0.6495818507649801	7	27	Integration
+weight 0.4	Expression variance
+statistic_variance	scvi	20	0.5734281698941217	7	25	Integration
+weight 0.4	Expression variance
+triku	cellcharter	9.857142857142858	0.6818424289871426	7	5	Integration
+weight 0.4	triku
+triku	scvi	5.571428571428571	0.6383836429263302	7	1	Integration
+weight 0.4	triku
+Brennecke	cellcharter	17.4	0.6818214748794134	5	19	Annotated
+datasets	Brennecke
+Brennecke	scvi	19.8	0.6074354535128824	5	25	Annotated
+datasets	Brennecke
+anticor	cellcharter	18	0.6870415275508962	5	21	Annotated
+datasets	Anticor
+anticor	scvi	13.4	0.6221055536749562	5	11.5	Annotated
+datasets	Anticor
+dubstepr	cellcharter	14.4	0.69265081318969	5	12	Annotated
+datasets	DUBStepR
+dubstepr	scvi	11.8	0.6245874436480291	5	7	Annotated
+datasets	DUBStepR
+hotspot	cellcharter	15	0.690730533358905	5	14	Annotated
+datasets	Hotspot
+hotspot	scvi	13.2	0.6194021571774387	5	10	Annotated
+datasets	Hotspot
+morans_i	cellcharter	12.8	0.6950460042399567	5	10	Annotated
+datasets	Moran's I
+morans_i	scvi	17.4	0.610832513152323	5	20.5	Annotated
+datasets	Moran's I
+nbumi	cellcharter	7	0.7106640853048996	5	3.5	Annotated
+datasets	NBumi
+nbumi	scvi	11.4	0.6508345159855655	5	5	Annotated
+datasets	NBumi
+nnsvg	cellcharter	14.2	0.6896270147619907	5	11	Annotated
+datasets	nnSVG
+nnsvg	scvi	14.2	0.6259799110620695	5	15	Annotated
+datasets	nnSVG
+osca	cellcharter	10.8	0.6952654402285718	5	7	Annotated
+datasets	OSCA
+osca	scvi	10.8	0.6377857407633114	5	4	Annotated
+datasets	OSCA
+scPNMF	cellcharter	24	0.6776897805851	5	29	Annotated
+datasets	scPNMF
+scPNMF	scvi	17.4	0.613014902684759	5	20.5	Annotated
+datasets	scPNMF
+scanpy_cell_ranger	cellcharter	16.4	0.6870345325259869	5	18	Annotated
+datasets	Scanpy Cell Ranger
+scanpy_cell_ranger	scvi	17.8	0.6384782309186178	5	22.5	Annotated
+datasets	Scanpy Cell Ranger
+scanpy_cell_ranger_batch	cellcharter	9.6	0.699195940643422	5	6	Annotated
+datasets	Scanpy Cell Ranger, batch
+scanpy_cell_ranger_batch	scvi	13.6	0.6437937574835749	5	13.5	Annotated
+datasets	Scanpy Cell Ranger, batch
+scanpy_pearson	cellcharter	20.2	0.682389909158527	5	25	Annotated
+datasets	Scanpy Pearson
+scanpy_pearson	scvi	13	0.6204088706390539	5	9	Annotated
+datasets	Scanpy Pearson
+scanpy_pearson_batch	cellcharter	19.4	0.6837794702929104	5	24	Annotated
+datasets	Scanpy Pearson, batch
+scanpy_pearson_batch	scvi	14.6	0.6060264302473981	5	17	Annotated
+datasets	Scanpy Pearson, batch
+scanpy_seurat	cellcharter	17.8	0.6846375242320415	5	20	Annotated
+datasets	Scanpy Seurat
+scanpy_seurat	scvi	18.4	0.6489483191263448	5	24	Annotated
+datasets	Scanpy Seurat
+scanpy_seurat_batch	cellcharter	18.4	0.6829613668583469	5	22	Annotated
+datasets	Scanpy Seurat, batch
+scanpy_seurat_batch	scvi	13.6	0.6428394867540628	5	13.5	Annotated
+datasets	Scanpy Seurat, batch
+scanpy_seurat_v3	cellcharter	6.8	0.71080283641289	5	2	Annotated
+datasets	Scanpy Seurat v3
+scanpy_seurat_v3	scvi	14.4	0.6540732832812263	5	16	Annotated
+datasets	Scanpy Seurat v3
+scanpy_seurat_v3_batch	cellcharter	7	0.7096753564562764	5	3.5	Annotated
+datasets	Scanpy Seurat v3, batch
+scanpy_seurat_v3_batch	scvi	11.6	0.6412279807885823	5	6	Annotated
+datasets	Scanpy Seurat v3, batch
+scry	cellcharter	16	0.6845638981100444	5	16.5	Annotated
+datasets	scry
+scry	scvi	22.2	0.5857631317096157	5	27	Annotated
+datasets	scry
+seurat_disp	cellcharter	23	0.6764072865824468	5	28	Annotated
+datasets	Seurat Dispersion
+seurat_disp	scvi	14.8	0.6212709596927557	5	18	Annotated
+datasets	Seurat Dispersion
+seurat_mvp	cellcharter	14.8	0.6888375946326726	5	13	Annotated
+datasets	Seurat MVP
+seurat_mvp	scvi	17.8	0.6483273132624863	5	22.5	Annotated
+datasets	Seurat MVP
+seurat_sct	cellcharter	16	0.6904204778402772	5	16.5	Annotated
+datasets	Seurat sctransform
+seurat_sct	scvi	6.6	0.6584812614506904	5	2	Annotated
+datasets	Seurat sctransform
+seurat_vst	cellcharter	6	0.708121854375711	5	1	Annotated
+datasets	Seurat VST
+seurat_vst	scvi	10.6	0.6579697246765319	5	3	Annotated
+datasets	Seurat VST
+singleCellHaystack	cellcharter	9.4	0.7032602300226986	5	5	Annotated
+datasets	singleCellHaystack
+singleCellHaystack	scvi	12	0.6188412337970066	5	8	Annotated
+datasets	singleCellHaystack
+somde	cellcharter	15.4	0.6929860807881449	5	15	Annotated
+datasets	SOMDE
+somde	scvi	13.4	0.6266020882966682	5	11.5	Annotated
+datasets	SOMDE
+sparkx	cellcharter	21.2	0.6823806908546075	5	26	Annotated
+datasets	SPARK-X
+sparkx	scvi	24.4	0.5888038885869363	5	28	Annotated
+datasets	SPARK-X
+spatialde	cellcharter	11.6	0.697769148128682	5	8	Annotated
+datasets	SpatialDE
+spatialde	scvi	15	0.6238089394084215	5	19	Annotated
+datasets	SpatialDE
+statistic_mean	cellcharter	21.8	0.6827388938306487	5	27	Annotated
+datasets	Mean expression
+statistic_mean	scvi	24.8	0.573926633830589	5	29	Annotated
+datasets	Mean expression
+statistic_variance	cellcharter	18.8	0.6870032146790177	5	23	Annotated
+datasets	Expression variance
+statistic_variance	scvi	21.4	0.5997103274669664	5	26	Annotated
+datasets	Expression variance
+triku	cellcharter	11.8	0.6979643709167824	5	9	Annotated
+datasets	triku
+triku	scvi	5.6	0.6850006948968091	5	1	Annotated
+datasets	triku

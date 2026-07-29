@@ -1,0 +1,46 @@
+name: dlpfc_hybrid_controls_v1
+output_dir: results/hybrid_controls_v1/dlpfc
+datasets:
+- configs/datasets/dlpfc.yaml
+feature_selection_methods:
+- name: hybrid_hvg_svg_union
+  n_features:
+  - 2000
+- name: hybrid_hvg_svg_intersection
+  n_features:
+  - 2000
+integration_methods:
+- name: scvi
+  params:
+    n_latent: 30
+    max_epochs: 100
+    batch_size: 2048
+- name: cellcharter
+  params:
+    n_latent: 30
+    nhood_layers: 4
+    spatial_neighbors: 6
+    max_epochs: 100
+    batch_size: 2048
+tasks:
+- name: integration_eval
+  params:
+    n_neighbors: 15
+    max_eval_cells: 12000
+- name: clustering_eval
+  params:
+    n_clusters: 7
+    n_neighbors: 8
+    silhouette_sample_size: 10000
+    max_eval_cells: 12000
+- name: alignment_eval
+  params:
+    n_neighbors: 10
+    max_points_per_slice: 2500
+n_features:
+- 2000
+seeds:
+- 0
+- 1
+- 2
+save_embeddings: true

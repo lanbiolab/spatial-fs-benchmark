@@ -1,0 +1,59 @@
+integration_method	fs_method	NDataSets	ObservedMeanDatasetRank	ObservedGlobalRank	BootstrapGlobalRankMedian	BootstrapGlobalRankLowerQuartile	BootstrapGlobalRankUpperQuartile	BootstrapGlobalRankLower95	BootstrapGlobalRankUpper95	Top5Probability	Method
+cellcharter	Brennecke	7	16.285714285714285	20	18	11	23	4.5	28	0.0394	Brennecke
+cellcharter	anticor	7	15.857142857142858	17.5	17	14	19	10	22	0	Anticor
+cellcharter	dubstepr	7	16.142857142857142	19	17.5	14	20.5	8	23	0	DUBStepR
+cellcharter	hotspot	7	14.428571428571429	12	13.5	10	18	6	24	0.0224	Hotspot
+cellcharter	morans_i	7	15.571428571428571	15	16	13	20	8	23	0	Moran's I
+cellcharter	nbumi	7	9.142857142857142	5	5	4	6.5	2	12	0.5914	NBumi
+cellcharter	nnsvg	7	16.857142857142858	22	19	15.5	22	11	24	0	nnSVG
+cellcharter	osca	7	12.857142857142858	8.5	10	8	13.5	3	20	0.0846	OSCA
+cellcharter	scPNMF	7	23.857142857142858	29	28	27	29	24	29	0	scPNMF
+cellcharter	scanpy_cell_ranger	7	13	10	10	6	16	1	25	0.1928	Scanpy Cell Ranger
+cellcharter	scanpy_cell_ranger_batch	7	8	4	4	2	6	1	13	0.7288	Scanpy Cell Ranger, batch
+cellcharter	scanpy_pearson	7	16.428571428571427	21	18	14	22	7	26	0.0036	Scanpy Pearson
+cellcharter	scanpy_pearson_batch	7	15.428571428571429	14	16	12	20.5	4.487500000000004	27	0.0396	Scanpy Pearson, batch
+cellcharter	scanpy_seurat	7	14.857142857142858	13	14	9	20	4.5	25	0.049	Scanpy Seurat
+cellcharter	scanpy_seurat_batch	7	15.857142857142858	17.5	17	13	21.5	5	27	0.0286	Scanpy Seurat, batch
+cellcharter	scanpy_seurat_v3	7	6.857142857142857	2	2.5	2	3.5	1	8	0.9052	Scanpy Seurat v3
+cellcharter	scanpy_seurat_v3_batch	7	7.142857142857143	3	3	2	4	1	8	0.8964	Scanpy Seurat v3, batch
+cellcharter	scry	7	19.142857142857142	23	23	19	25	9	28	0.0022	scry
+cellcharter	seurat_disp	7	19.285714285714285	24	23	20	26	13	29	0	Seurat Dispersion
+cellcharter	seurat_mvp	7	12.857142857142858	8.5	10	8	13.5	4	20	0.0532	Seurat MVP
+cellcharter	seurat_sct	7	19.714285714285715	25	24	20	26	11	28	0	Seurat sctransform
+cellcharter	seurat_vst	7	6.714285714285714	1	2	1	4	1	8	0.911	Seurat VST
+cellcharter	singleCellHaystack	7	12.142857142857142	7	9	6.5	12	5	18	0.0554	singleCellHaystack
+cellcharter	somde	7	15.714285714285714	16	17	13	20.5	8	25	2e-4	SOMDE
+cellcharter	sparkx	7	21.714285714285715	27	26	24	28	16	29	0	SPARK-X
+cellcharter	spatialde	7	13.285714285714286	11	11	8	14.5	5	21	0.0548	SpatialDE
+cellcharter	statistic_mean	7	23.285714285714285	28	28	27	28	24	29	0	Mean expression
+cellcharter	statistic_variance	7	21.142857142857142	26	25.5	24	26.5	17.5	28	0	Expression variance
+cellcharter	triku	7	11.428571428571429	6	8	5	12	2	22	0.2872	triku
+scvi	Brennecke	7	22	28	27	25.5	28	21	29	0	Brennecke
+scvi	anticor	7	14	15	14	9.5	18	3	24	0.1	Anticor
+scvi	dubstepr	7	11.571428571428571	7.5	8	5	12	1.5	21.5	0.2852	DUBStepR
+scvi	hotspot	7	14.142857142857142	16	14	8.5	18.5	1	26	0.1562	Hotspot
+scvi	morans_i	7	14.571428571428571	17.5	15.5	11	19	3	24	0.0614	Moran's I
+scvi	nbumi	7	11.285714285714286	5.5	8	4	12	1	18.012499999999818	0.3344	NBumi
+scvi	nnsvg	7	12.285714285714286	9	10	6	14	2	19	0.1922	nnSVG
+scvi	osca	7	10.714285714285714	4	7	5	9	2.5	12	0.3552	OSCA
+scvi	scPNMF	7	17.428571428571427	21	20.5	18	22	11	25.5	0	scPNMF
+scvi	scanpy_cell_ranger	7	14.571428571428571	17.5	15	10	20	3	26.512499999999815	0.103	Scanpy Cell Ranger
+scvi	scanpy_cell_ranger_batch	7	12.857142857142858	11	11	5	17	2	25.5	0.2686	Scanpy Cell Ranger, batch
+scvi	scanpy_pearson	7	11.571428571428571	7.5	9	6	11.5	3	16.5	0.1866	Scanpy Pearson
+scvi	scanpy_pearson_batch	7	17	19	19	16.5	23	10	28	0.0012	Scanpy Pearson, batch
+scvi	scanpy_seurat	7	19.714285714285715	24	24	21	26.5	12	28	0.0018	Scanpy Seurat
+scvi	scanpy_seurat_batch	7	17.285714285714285	20	20	17	23	9	27	0.0036	Scanpy Seurat, batch
+scvi	scanpy_seurat_v3	7	11.285714285714286	5.5	8	4	12	1	19	0.3434	Scanpy Seurat v3
+scvi	scanpy_seurat_v3_batch	7	13.857142857142858	14	13.5	10	16.5	5	21	0.04	Scanpy Seurat v3, batch
+scvi	scry	7	20.428571428571427	26.5	25	22	27	16	28	0	scry
+scvi	seurat_disp	7	17.571428571428573	22	21	17	23	8.487500000000004	26.5	0.003	Seurat Dispersion
+scvi	seurat_mvp	7	19	23	23	20	24.5	12.5	26	6e-4	Seurat MVP
+scvi	seurat_sct	7	13	12	11	5	17	1	25	0.2574	Seurat sctransform
+scvi	seurat_vst	7	10.571428571428571	3	6	4	9.5	2	16.5	0.4492	Seurat VST
+scvi	singleCellHaystack	7	13.285714285714286	13	12.5	7	17	2	25	0.1844	singleCellHaystack
+scvi	somde	7	10.285714285714286	2	5.5	2	10	1	17	0.4816	SOMDE
+scvi	sparkx	7	20.142857142857142	25	25	21	27	14	29	0	SPARK-X
+scvi	spatialde	7	12.714285714285714	10	11	8	15	3	21	0.1292	SpatialDE
+scvi	statistic_mean	7	24.428571428571427	29	29	28	29	26	29	0	Mean expression
+scvi	statistic_variance	7	20.428571428571427	26.5	25	22	27	17	28	0	Expression variance
+scvi	triku	7	7	1	1	1	2	1	6.5	0.9526	triku

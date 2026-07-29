@@ -9,6 +9,7 @@ from spatial_fs_benchmark.tasks.base import BenchmarkTask, TaskOutput
 
 class AlignmentEvaluationTask(BenchmarkTask):
     name = "alignment_eval"
+    implementation_version = "v2_explicit_slice_pairs"
 
     def __init__(self, n_neighbors: int = 10, max_points_per_slice: int | None = None) -> None:
         self.n_neighbors = n_neighbors
@@ -28,8 +29,12 @@ class AlignmentEvaluationTask(BenchmarkTask):
             representation,
             dataset.labels,
             dataset.slice_ids,
+            alignment_pairs=dataset.alignment_pairs,
             max_points_per_slice=self.max_points_per_slice,
             random_seed=random_seed,
         )
         metrics = {"Accuracy": accuracy, "Ratio": ratio}
-        return TaskOutput(metrics=metrics)
+        return TaskOutput(
+            metrics=metrics,
+            artifacts={"alignment_pairs": [list(pair) for pair in dataset.alignment_pairs]},
+        )

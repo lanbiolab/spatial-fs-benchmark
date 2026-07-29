@@ -17,10 +17,59 @@ source(file.path("external", "atlas-feature-selection-benchmark", "analysis", "R
 
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
-metrics <- readr::read_tsv(file.path(data_dir, "benchmark.tsv"), show_col_types = FALSE) |>
-    dplyr::filter(.data$Type %in% c("Integration", "Clustering", "Alignment"))
+frozen_settings_path <- file.path(data_dir, "setting_metric_seed_summary.tsv")
+use_frozen_scores <- file.exists(frozen_settings_path)
 
-datasets_meta <- readr::read_tsv(file.path(data_dir, "datasets-metadata.tsv"), show_col_types = FALSE) |>
+if (use_frozen_scores) {
+    frozen_ranges <- readr::read_tsv(
+        file.path(data_dir, "frozen_metric_ranges.tsv"),
+        show_col_types = FALSE
+    )
+
+    metrics <- readr::read_tsv(frozen_settings_path, show_col_types = FALSE) |>
+        dplyr::left_join(
+            frozen_ranges |>
+                dplyr::select(
+                    .data$dataset, .data$task, .data$metric_name,
+                    .data$Lower, .data$Upper, .data$FrozenScaleDenominator,
+                    .data$RangeStatus
+                ),
+            by = c("dataset", "task", "metric_name")
+        ) |>
+        dplyr::filter(.data$RangeStatus == "ok") |>
+        dplyr::transmute(
+            Dataset = .data$dataset,
+            MethodBase = .data$fs_method,
+            Method = paste0(
+                .data$fs_method, "-N",
+                dplyr::if_else(.data$n_features == "all", "all", .data$n_features)
+            ),
+            IntegrationLabel = dplyr::recode(
+                .data$integration_method,
+                "scvi" = "scVI",
+                "cellcharter" = "CellCharter",
+                .default = .data$integration_method
+            ),
+            SelFeatures = .data$n_features,
+            Type = dplyr::recode(
+                .data$task,
+                "integration_eval" = "Integration",
+                "clustering_eval" = "Clustering",
+                "alignment_eval" = "Alignment"
+            ),
+            MetricName = .data$metric_name,
+            Value = (.data$OrientedMean - .data$Lower) / .data$FrozenScaleDenominator
+        )
+} else {
+    metrics <- readr::read_tsv(file.path(data_dir, "benchmark.tsv"), show_col_types = FALSE) |>
+        dplyr::filter(.data$Type %in% c("Integration", "Clustering", "Alignment"))
+}
+
+datasets_meta <- readr::read_tsv(
+    file.path("results", "current_rank", "data", "datasets-metadata.tsv"),
+    show_col_types = FALSE
+) |>
+    dplyr::filter(.data$Dataset %in% unique(metrics$Dataset)) |>
     dplyr::mutate(
         LogSpots = log10(.data$Spots),
         LogFeatures = log10(.data$Features),
@@ -30,6 +79,8 @@ datasets_meta <- readr::read_tsv(file.path(data_dir, "datasets-metadata.tsv"), s
     ) |>
     dplyr::select(
         .data$Dataset,
+        .data$Platform,
+        .data$NSlices,
         .data$Spots,
         .data$Features,
         .data$Labels,
@@ -97,25 +148,30 @@ metrics_nonrandom <- if (has_random_method) {
     metrics_aug
 }
 
-baseline_ranges <- metrics_aug |>
-    dplyr::filter(.data$MethodBase %in% baseline_method_bases) |>
-    dplyr::filter(!is.na(.data$Value)) |>
-    dplyr::group_by(.data$Dataset, .data$MetricDisplay, .data$Type) |>
-    dplyr::summarise(
-        Lower = min(.data$Value),
-        Upper = max(.data$Value),
-        .groups = "drop"
-    )
-
-metrics_aug <- metrics_aug |>
-    dplyr::left_join(baseline_ranges, by = c("Dataset", "MetricDisplay", "Type")) |>
-    dplyr::mutate(
-        ScaledValue = dplyr::if_else(
-            is.finite(.data$Lower) & is.finite(.data$Upper) & (.data$Upper - .data$Lower) > 0,
-            (.data$Value - .data$Lower) / (.data$Upper - .data$Lower),
-            NA_real_
+if (use_frozen_scores) {
+    metrics_aug <- metrics_aug |>
+        dplyr::mutate(ScaledValue = .data$Value)
+} else {
+    baseline_ranges <- metrics_aug |>
+        dplyr::filter(.data$MethodBase %in% baseline_method_bases) |>
+        dplyr::filter(!is.na(.data$Value)) |>
+        dplyr::group_by(.data$Dataset, .data$MetricDisplay, .data$Type) |>
+        dplyr::summarise(
+            Lower = min(.data$Value),
+            Upper = max(.data$Value),
+            .groups = "drop"
         )
-    )
+
+    metrics_aug <- metrics_aug |>
+        dplyr::left_join(baseline_ranges, by = c("Dataset", "MetricDisplay", "Type")) |>
+        dplyr::mutate(
+            ScaledValue = dplyr::if_else(
+                is.finite(.data$Lower) & is.finite(.data$Upper) & (.data$Upper - .data$Lower) > 0,
+                (.data$Value - .data$Lower) / (.data$Upper - .data$Lower),
+                NA_real_
+            )
+        )
+}
 
 metrics_random <- if (has_random_method) {
     metrics_aug |>
@@ -174,7 +230,7 @@ obs_range <- ggplot2::ggplot(
         scales = "free_y",
         space = "free_y"
     ) +
-    ggplot2::labs(title = "Observed\nvalues", x = NULL, y = NULL) +
+    ggplot2::labs(title = "Observed\nrange", x = NULL, y = NULL) +
     theme_features_pub() +
     ggplot2::theme(
         plot.title = ggplot2::element_text(hjust = 0.5, face = "bold", size = 8.2, lineheight = 0.92, margin = ggplot2::margin(b = 4)),
@@ -234,7 +290,7 @@ feature_cor_plot <- ggplot2::ggplot(
         scales = "free_y",
         space = "free_y"
     ) +
-    ggplot2::labs(title = "Correlation with\nfeature number", x = NULL, y = NULL, fill = NULL) +
+    ggplot2::labs(title = "Correlation\nwith number\nof features", x = NULL, y = NULL, fill = NULL) +
     theme_features_pub() +
     ggplot2::theme(
         plot.title = ggplot2::element_text(hjust = 0.5, face = "bold", size = 8.2, lineheight = 0.92, margin = ggplot2::margin(b = 4)),
@@ -520,7 +576,7 @@ value_gradient <- data.frame(
     fill_hex = viridisLite::magma(180)
 )
 legend_mean_value <- ggplot2::ggplot() +
-    ggplot2::annotate("text", x = 0.00, y = 0.95, hjust = 0, label = "Mean value", size = 2.5, fontface = "bold") +
+    ggplot2::annotate("text", x = 0.00, y = 0.95, hjust = 0, label = "Mean range", size = 2.5, fontface = "bold") +
     ggplot2::geom_tile(data = value_gradient, ggplot2::aes(x = .data$x, y = 0.56, fill = .data$fill_hex), width = 0.005, height = 0.22, inherit.aes = FALSE) +
     ggplot2::annotate("segment", x = c(0.14, 0.32, 0.50, 0.68, 0.86), xend = c(0.14, 0.32, 0.50, 0.68, 0.86), y = 0.45, yend = 0.42, colour = "grey40", linewidth = 0.25) +
     ggplot2::annotate("text", x = c(0.14, 0.32, 0.50, 0.68, 0.86), y = 0.30, label = c("0.0", "0.25", "0.5", "0.75", "1.0"), size = 2.0, fontface = "bold") +
@@ -598,7 +654,7 @@ figure <- patchwork::wrap_plots(
 ) &
     ggplot2::theme(
         legend.position = "none",
-        text = ggplot2::element_text(face = "bold"),
+        text = ggplot2::element_text(family = "Arial", face = "plain"),
         axis.text = ggplot2::element_text(size = 6.2),
         axis.title = ggplot2::element_text(size = 7.0),
         strip.text = ggplot2::element_text(face = "bold", size = 8.2),
@@ -609,5 +665,11 @@ figure <- figure / legend_strip + patchwork::plot_layout(heights = c(1, 0.145))
 
 png_path <- file.path(output_dir, "figure_metric_overview.png")
 pdf_path <- file.path(output_dir, "figure_metric_overview.pdf")
+saveRDS(figure, file.path(output_dir, "figure_metric_overview.rds"))
 ggplot2::ggsave(png_path, figure, width = 11.2, height = 7.5, dpi = 600)
-ggplot2::ggsave(pdf_path, figure, width = 11.2, height = 7.5, device = grDevices::cairo_pdf)
+register_arial_pdf_font()
+ggplot2::ggsave(
+    pdf_path, figure,
+    width = 11.2, height = 7.5,
+    device = grDevices::pdf, family = "Arial", useDingbats = FALSE
+)

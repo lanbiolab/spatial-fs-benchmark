@@ -7,6 +7,8 @@ slice_key: sample_id
 label_key: cell_type
 coord_key: spatial
 preprocess:
+  count_layer: raw_count
+  require_integer_counts: true
   make_var_names_unique: false
   filter_zero_count_genes: false
   normalize_total: false

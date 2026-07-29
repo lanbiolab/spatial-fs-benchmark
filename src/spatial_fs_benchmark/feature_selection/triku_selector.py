@@ -10,11 +10,13 @@ from spatial_fs_benchmark.feature_selection.base import FeatureSelectionResult, 
 
 class TrikuSelector(FeatureSelector):
     name = "triku"
+    implementation_version = "v2_seeded_subsampling"
 
     def __init__(self, min_genes: int = 50, min_cells: int = 10, max_cells: int | None = None) -> None:
         self.min_genes = min_genes
         self.min_cells = min_cells
         self.max_cells = max_cells
+        self.stochastic_selection = max_cells is not None
 
     def select(self, dataset: SpatialDataset, n_features: int, random_seed: int = 0) -> FeatureSelectionResult:
         gene_names = dataset.adata.var_names.to_numpy()

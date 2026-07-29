@@ -19,6 +19,7 @@ def _default_cellcharter_python() -> Path:
 
 class CellCharterIntegrator(SpatialIntegrator):
     name = "cellcharter"
+    implementation_version = "v2_native_scvi_spatial_aggregation_counts"
 
     def __init__(
         self,
@@ -26,12 +27,14 @@ class CellCharterIntegrator(SpatialIntegrator):
         nhood_layers: int = 4,
         spatial_neighbors: int | None = None,
         max_epochs: int = 100,
+        batch_size: int = 2048,
         cellcharter_python: str | None = None,
     ) -> None:
         self.n_latent = n_latent
         self.nhood_layers = nhood_layers
         self.spatial_neighbors = spatial_neighbors
         self.max_epochs = max_epochs
+        self.batch_size = batch_size
         self.cellcharter_python = Path(cellcharter_python) if cellcharter_python is not None else _default_cellcharter_python()
 
     def fit_transform(
@@ -77,6 +80,8 @@ class CellCharterIntegrator(SpatialIntegrator):
                 str(self.nhood_layers),
                 "--max-epochs",
                 str(self.max_epochs),
+                "--batch-size",
+                str(self.batch_size),
                 "--seed",
                 str(random_seed),
             ]
@@ -96,6 +101,7 @@ class CellCharterIntegrator(SpatialIntegrator):
                     "input_feature_hash": md5("\n".join(selected_features.feature_names).encode("utf-8")).hexdigest(),
                     "cellcharter_python": str(self.cellcharter_python),
                     "spatial_neighbors": self.spatial_neighbors,
+                    "batch_size": self.batch_size,
                 }
             )
             return IntegrationResult(

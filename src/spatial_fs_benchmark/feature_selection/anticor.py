@@ -12,10 +12,12 @@ from spatial_fs_benchmark.feature_selection.base import FeatureSelectionResult, 
 
 class AnticorSelector(FeatureSelector):
     name = "anticor"
+    implementation_version = "v2_seeded_subsampling"
 
     def __init__(self, temp_dir: str | None = None, max_cells: int | None = None) -> None:
         self.temp_dir = temp_dir
         self.max_cells = max_cells
+        self.stochastic_selection = max_cells is not None
 
     def select(self, dataset: SpatialDataset, n_features: int, random_seed: int = 0) -> FeatureSelectionResult:
         from anticor_features.anticor_features import get_anti_cor_genes

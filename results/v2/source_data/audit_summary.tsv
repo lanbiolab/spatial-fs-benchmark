@@ -1,0 +1,14 @@
+check	expected	observed	status	details
+unique embeddings	3982	3982	PASS	
+task record payloads	9112	9112	PASS	
+merged metric rows	43874	43874	PASS	
+missing metric keys	0	0	PASS	
+unexpected metric keys	0	0	PASS	
+duplicate metric keys	0	0	PASS	
+unexpected non-finite values	0	0	PASS	
+unlabelled metrics stored as NA	4448	4448	PASS	E8p5Embryo/E9p5Embryo dASW, dLISI, ILL and GC
+selected-feature payload integrity	0	0	PASS	
+embedding metadata integrity	0	0	PASS	
+task metadata linkage integrity	0	0	PASS	
+task implementation version recorded	9112	5130	WARN	Missing explicit implementation-version strings: clustering_eval=3982
+alignment dataset scope	DLPFC,MouseBrainSerialSections	DLPFC,MouseBrainSerialSections	PASS	

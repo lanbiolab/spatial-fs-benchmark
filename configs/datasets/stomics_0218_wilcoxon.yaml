@@ -7,6 +7,7 @@ slice_key: sample_id
 label_key: cell_type
 coord_key: spatial
 preprocess:
+  count_layer: raw_count
   normalize_total: false
   log1p: false
   scale: false

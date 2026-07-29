@@ -1,0 +1,40 @@
+name: mouse_brain_serial_sections_svg_feature_selection_rebuild_v1
+output_dir: results/spatial_svg_rebuild_v1/mouse_brain_serial_sections
+datasets:
+- configs/datasets/mouse_brain_serial_sections.yaml
+feature_selection_methods:
+- name: morans_i
+  params:
+    n_neighbors: 8
+  n_features: &id001
+  - 100
+  - 200
+  - 500
+  - 1000
+  - 2000
+  - 5000
+  - 10000
+- name: nnsvg
+  params:
+    n_threads: 4
+  n_features: *id001
+- name: spatialde
+  params:
+    max_cells_per_slice: 800
+  n_features: *id001
+- name: sparkx
+  params:
+    n_threads: 4
+  n_features: *id001
+- name: somde
+  params:
+    spots_per_node: 20
+  n_features: *id001
+integration_methods: []
+tasks: []
+n_features: *id001
+seeds:
+- 0
+- 1
+- 2
+save_embeddings: false

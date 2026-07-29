@@ -6,12 +6,14 @@ import numpy as np
 import scvi
 
 from spatial_fs_benchmark.data.spatial_object import SpatialDataset
+from spatial_fs_benchmark.data.preprocess import is_nonnegative_integer_matrix
 from spatial_fs_benchmark.feature_selection.base import FeatureSelectionResult
 from spatial_fs_benchmark.integration.base import IntegrationResult, SpatialIntegrator
 
 
 class SCVIIntegrator(SpatialIntegrator):
     name = "scvi"
+    implementation_version = "v2_integer_counts_batch_covariate"
 
     def __init__(
         self,
@@ -35,6 +37,13 @@ class SCVIIntegrator(SpatialIntegrator):
             adata.X = adata.layers["counts"].copy()
             adata.uns.pop("log1p", None)
 
+        if not is_nonnegative_integer_matrix(adata.X):
+            source = adata.uns.get("spatial_fs_benchmark", {}).get("counts_source", "unknown")
+            raise ValueError(
+                f"scVI requires non-negative integer counts, but dataset '{dataset.name}' "
+                f"uses non-count input from '{source}'."
+            )
+
         matrix = adata.X
         if hasattr(matrix, "toarray"):
             min_value = float(matrix.min())
@@ -47,7 +56,7 @@ class SCVIIntegrator(SpatialIntegrator):
 
         adata.obs["Batch"] = adata.obs[subset.slice_key].astype(str)
         scvi.settings.seed = random_seed
-        scvi.model.SCVI.setup_anndata(adata, batch_key="Batch")
+        scvi.model.SCVI.setup_anndata(adata, layer="counts", batch_key="Batch")
         model = scvi.model.SCVI(
             adata,
             n_latent=min(self.n_latent, max(2, adata.n_vars)),
@@ -57,7 +66,12 @@ class SCVIIntegrator(SpatialIntegrator):
             dropout_rate=0.2,
             n_layers=2,
         )
-        model.train(max_epochs=self.max_epochs, batch_size=self.batch_size, check_val_every_n_epoch=None)
+        model.train(
+            max_epochs=self.max_epochs,
+            batch_size=self.batch_size,
+            check_val_every_n_epoch=None,
+            enable_progress_bar=False,
+        )
         embedding = model.get_latent_representation()
         return IntegrationResult(
             method_name=self.name,
@@ -69,5 +83,7 @@ class SCVIIntegrator(SpatialIntegrator):
                 "n_latent": int(embedding.shape[1]),
                 "max_epochs": self.max_epochs,
                 "batch_size": self.batch_size,
+                "input_assay": "counts",
+                "counts_source": adata.uns.get("spatial_fs_benchmark", {}).get("counts_source", "unknown"),
             },
         )

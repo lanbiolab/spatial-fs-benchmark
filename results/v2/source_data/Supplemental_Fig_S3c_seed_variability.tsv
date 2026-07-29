@@ -1,0 +1,1553 @@
+dataset	fs_method	n_features	integration_method	Dataset	Integrator	Task	SeedSD	NSeeds
+DLPFC	Brennecke	2000	cellcharter	DLPFC	CellCharter	Alignment	0.006283565296151258	3
+DLPFC	Brennecke	2000	cellcharter	DLPFC	CellCharter	Clustering	0.017651522541277047	3
+DLPFC	Brennecke	2000	cellcharter	DLPFC	CellCharter	Core overall	0.009504450388486747	3
+DLPFC	Brennecke	2000	cellcharter	DLPFC	CellCharter	Integration	0.004478377450421127	3
+DLPFC	Brennecke	2000	scvi	DLPFC	scVI	Alignment	0.008928360279580522	3
+DLPFC	Brennecke	2000	scvi	DLPFC	scVI	Clustering	0.01191741525653641	3
+DLPFC	Brennecke	2000	scvi	DLPFC	scVI	Core overall	0.010062673975837207	3
+DLPFC	Brennecke	2000	scvi	DLPFC	scVI	Integration	0.011257929095653705	3
+DLPFC	TFs	2000	cellcharter	DLPFC	CellCharter	Alignment	0.0042262879738567734	3
+DLPFC	TFs	2000	cellcharter	DLPFC	CellCharter	Clustering	0.06445573489971503	3
+DLPFC	TFs	2000	cellcharter	DLPFC	CellCharter	Core overall	0.028841010998329874	3
+DLPFC	TFs	2000	cellcharter	DLPFC	CellCharter	Integration	0.006862790354250286	3
+DLPFC	TFs	2000	scvi	DLPFC	scVI	Alignment	0.0026922210044020654	3
+DLPFC	TFs	2000	scvi	DLPFC	scVI	Clustering	0.006892030971297243	3
+DLPFC	TFs	2000	scvi	DLPFC	scVI	Core overall	0.006300900875708784	3
+DLPFC	TFs	2000	scvi	DLPFC	scVI	Integration	0.00572372268702343	3
+DLPFC	all_features	all	cellcharter	DLPFC	CellCharter	Alignment	0.0103905970172602	3
+DLPFC	all_features	all	cellcharter	DLPFC	CellCharter	Clustering	0.030955286722744748	3
+DLPFC	all_features	all	cellcharter	DLPFC	CellCharter	Core overall	0.02057408395229728	3
+DLPFC	all_features	all	cellcharter	DLPFC	CellCharter	Integration	0.01043204267482381	3
+DLPFC	all_features	all	scvi	DLPFC	scVI	Alignment	0.04885515358372362	3
+DLPFC	all_features	all	scvi	DLPFC	scVI	Clustering	0.038662481070008886	3
+DLPFC	all_features	all	scvi	DLPFC	scVI	Core overall	0.009530414910208479	3
+DLPFC	all_features	all	scvi	DLPFC	scVI	Integration	0.020466578668600202	3
+DLPFC	anticor	2000	cellcharter	DLPFC	CellCharter	Alignment	0.007489692044965847	3
+DLPFC	anticor	2000	cellcharter	DLPFC	CellCharter	Clustering	0.010169569291248941	3
+DLPFC	anticor	2000	cellcharter	DLPFC	CellCharter	Core overall	0.013089911677875472	3
+DLPFC	anticor	2000	cellcharter	DLPFC	CellCharter	Integration	0.016491610635703275	3
+DLPFC	anticor	2000	scvi	DLPFC	scVI	Alignment	0.03240552300949832	3
+DLPFC	anticor	2000	scvi	DLPFC	scVI	Clustering	0.010952324682744125	3
+DLPFC	anticor	2000	scvi	DLPFC	scVI	Core overall	0.016127335891376594	3
+DLPFC	anticor	2000	scvi	DLPFC	scVI	Integration	0.038342615025003426	3
+DLPFC	dubstepr	2000	cellcharter	DLPFC	CellCharter	Alignment	0.0034904389986612724	3
+DLPFC	dubstepr	2000	cellcharter	DLPFC	CellCharter	Clustering	0.03198740308028091	3
+DLPFC	dubstepr	2000	cellcharter	DLPFC	CellCharter	Core overall	0.015565446716898636	3
+DLPFC	dubstepr	2000	cellcharter	DLPFC	CellCharter	Integration	0.0012129408840162025	3
+DLPFC	dubstepr	2000	scvi	DLPFC	scVI	Alignment	0.0036840877149621316	3
+DLPFC	dubstepr	2000	scvi	DLPFC	scVI	Clustering	0.009826647221933287	3
+DLPFC	dubstepr	2000	scvi	DLPFC	scVI	Core overall	0.011013182755999475	3
+DLPFC	dubstepr	2000	scvi	DLPFC	scVI	Integration	0.015306405048966108	3
+DLPFC	hotspot	2000	cellcharter	DLPFC	CellCharter	Alignment	0.0037376169007899405	3
+DLPFC	hotspot	2000	cellcharter	DLPFC	CellCharter	Clustering	0.04686337577261118	3
+DLPFC	hotspot	2000	cellcharter	DLPFC	CellCharter	Core overall	0.027380104299377043	3
+DLPFC	hotspot	2000	cellcharter	DLPFC	CellCharter	Integration	0.020849120874227006	3
+DLPFC	hotspot	2000	scvi	DLPFC	scVI	Alignment	0.012826093095045146	3
+DLPFC	hotspot	2000	scvi	DLPFC	scVI	Clustering	0.021116941549901916	3
+DLPFC	hotspot	2000	scvi	DLPFC	scVI	Core overall	0.012946524010949879	3
+DLPFC	hotspot	2000	scvi	DLPFC	scVI	Integration	0.0052966950399038724	3
+DLPFC	morans_i	2000	cellcharter	DLPFC	CellCharter	Alignment	0.0038586638767707637	3
+DLPFC	morans_i	2000	cellcharter	DLPFC	CellCharter	Clustering	0.05211184665368525	3
+DLPFC	morans_i	2000	cellcharter	DLPFC	CellCharter	Core overall	0.02781149313036945	3
+DLPFC	morans_i	2000	cellcharter	DLPFC	CellCharter	Integration	0.004405543999576596	3
+DLPFC	morans_i	2000	scvi	DLPFC	scVI	Alignment	0.10382952731459476	3
+DLPFC	morans_i	2000	scvi	DLPFC	scVI	Clustering	0.1143824113941415	3
+DLPFC	morans_i	2000	scvi	DLPFC	scVI	Core overall	0.13863093468570728	3
+DLPFC	morans_i	2000	scvi	DLPFC	scVI	Integration	0.16288234861334352	3
+DLPFC	nbumi	2000	cellcharter	DLPFC	CellCharter	Alignment	0.011172140074078752	3
+DLPFC	nbumi	2000	cellcharter	DLPFC	CellCharter	Clustering	0.0901085152037766	3
+DLPFC	nbumi	2000	cellcharter	DLPFC	CellCharter	Core overall	0.04799458340856144	3
+DLPFC	nbumi	2000	cellcharter	DLPFC	CellCharter	Integration	0.007059352427023517	3
+DLPFC	nbumi	2000	scvi	DLPFC	scVI	Alignment	0.0010380044360986376	3
+DLPFC	nbumi	2000	scvi	DLPFC	scVI	Clustering	0.035136107425718356	3
+DLPFC	nbumi	2000	scvi	DLPFC	scVI	Core overall	0.021992912091005474	3
+DLPFC	nbumi	2000	scvi	DLPFC	scVI	Integration	0.009307826235179367	3
+DLPFC	nnsvg	2000	cellcharter	DLPFC	CellCharter	Alignment	0.006858152206402071	3
+DLPFC	nnsvg	2000	cellcharter	DLPFC	CellCharter	Clustering	0.030437593713778303	3
+DLPFC	nnsvg	2000	cellcharter	DLPFC	CellCharter	Core overall	0.016121578835507952	3
+DLPFC	nnsvg	2000	cellcharter	DLPFC	CellCharter	Integration	0.004557239554525777	3
+DLPFC	nnsvg	2000	scvi	DLPFC	scVI	Alignment	0.05265259017654091	3
+DLPFC	nnsvg	2000	scvi	DLPFC	scVI	Clustering	0.08556481843922516	3
+DLPFC	nnsvg	2000	scvi	DLPFC	scVI	Core overall	0.07944539142914002	3
+DLPFC	nnsvg	2000	scvi	DLPFC	scVI	Integration	0.07332746674498863	3
+DLPFC	osca	2000	cellcharter	DLPFC	CellCharter	Alignment	0.005474564237516234	3
+DLPFC	osca	2000	cellcharter	DLPFC	CellCharter	Clustering	0.02967186394516323	3
+DLPFC	osca	2000	cellcharter	DLPFC	CellCharter	Core overall	0.013637073726368415	3
+DLPFC	osca	2000	cellcharter	DLPFC	CellCharter	Integration	0.005507679888875677	3
+DLPFC	osca	2000	scvi	DLPFC	scVI	Alignment	0.00678401076128411	3
+DLPFC	osca	2000	scvi	DLPFC	scVI	Clustering	0.022005320300826966	3
+DLPFC	osca	2000	scvi	DLPFC	scVI	Core overall	0.021963511590341735	3
+DLPFC	osca	2000	scvi	DLPFC	scVI	Integration	0.02222785571839232	3
+DLPFC	random	500	cellcharter	DLPFC	CellCharter	Alignment	0.0643910831627718	3
+DLPFC	random	500	cellcharter	DLPFC	CellCharter	Clustering	0.1213741395624562	3
+DLPFC	random	500	cellcharter	DLPFC	CellCharter	Core overall	0.07878011756993067	3
+DLPFC	random	500	cellcharter	DLPFC	CellCharter	Integration	0.037653482926949984	3
+DLPFC	random	500	scvi	DLPFC	scVI	Alignment	0.054153282184687256	3
+DLPFC	random	500	scvi	DLPFC	scVI	Clustering	0.0733154599185352	3
+DLPFC	random	500	scvi	DLPFC	scVI	Core overall	0.05426590035418673	3
+DLPFC	random	500	scvi	DLPFC	scVI	Integration	0.09693802654241628	3
+DLPFC	scPNMF	2000	cellcharter	DLPFC	CellCharter	Alignment	0.017146724707518355	3
+DLPFC	scPNMF	2000	cellcharter	DLPFC	CellCharter	Clustering	0.022795880439613888	3
+DLPFC	scPNMF	2000	cellcharter	DLPFC	CellCharter	Core overall	0.004809880005654162	3
+DLPFC	scPNMF	2000	cellcharter	DLPFC	CellCharter	Integration	0.013434857252392393	3
+DLPFC	scPNMF	2000	scvi	DLPFC	scVI	Alignment	0.020769865926994285	3
+DLPFC	scPNMF	2000	scvi	DLPFC	scVI	Clustering	0.0495788106099534	3
+DLPFC	scPNMF	2000	scvi	DLPFC	scVI	Core overall	0.0399564278540787	3
+DLPFC	scPNMF	2000	scvi	DLPFC	scVI	Integration	0.030513665752899377	3
+DLPFC	scanpy_cell_ranger	2000	cellcharter	DLPFC	CellCharter	Alignment	0.006592251011957782	3
+DLPFC	scanpy_cell_ranger	2000	cellcharter	DLPFC	CellCharter	Clustering	0.02865190492812607	3
+DLPFC	scanpy_cell_ranger	2000	cellcharter	DLPFC	CellCharter	Core overall	0.014201171237156744	3
+DLPFC	scanpy_cell_ranger	2000	cellcharter	DLPFC	CellCharter	Integration	0.001998077741924137	3
+DLPFC	scanpy_cell_ranger	2000	scvi	DLPFC	scVI	Alignment	0.0061508791681950175	3
+DLPFC	scanpy_cell_ranger	2000	scvi	DLPFC	scVI	Clustering	0.022431194400183617	3
+DLPFC	scanpy_cell_ranger	2000	scvi	DLPFC	scVI	Core overall	0.010156472411650498	3
+DLPFC	scanpy_cell_ranger	2000	scvi	DLPFC	scVI	Integration	0.006979583954383346	3
+DLPFC	scanpy_cell_ranger_batch	2000	cellcharter	DLPFC	CellCharter	Alignment	0.004862206277484325	3
+DLPFC	scanpy_cell_ranger_batch	2000	cellcharter	DLPFC	CellCharter	Clustering	0.02337338207855848	3
+DLPFC	scanpy_cell_ranger_batch	2000	cellcharter	DLPFC	CellCharter	Core overall	0.012518472947788038	3
+DLPFC	scanpy_cell_ranger_batch	2000	cellcharter	DLPFC	CellCharter	Integration	0.004985237787722705	3
+DLPFC	scanpy_cell_ranger_batch	2000	scvi	DLPFC	scVI	Alignment	0.012996537442936574	3
+DLPFC	scanpy_cell_ranger_batch	2000	scvi	DLPFC	scVI	Clustering	0.038509033117331844	3
+DLPFC	scanpy_cell_ranger_batch	2000	scvi	DLPFC	scVI	Core overall	0.01798136438375216	3
+DLPFC	scanpy_cell_ranger_batch	2000	scvi	DLPFC	scVI	Integration	0.002546742552234122	3
+DLPFC	scanpy_pearson	2000	cellcharter	DLPFC	CellCharter	Alignment	0.014050037009144294	3
+DLPFC	scanpy_pearson	2000	cellcharter	DLPFC	CellCharter	Clustering	0.014527494770220402	3
+DLPFC	scanpy_pearson	2000	cellcharter	DLPFC	CellCharter	Core overall	0.003046485901961059	3
+DLPFC	scanpy_pearson	2000	cellcharter	DLPFC	CellCharter	Integration	0.009420674605727264	3
+DLPFC	scanpy_pearson	2000	scvi	DLPFC	scVI	Alignment	0.0021422532408754136	3
+DLPFC	scanpy_pearson	2000	scvi	DLPFC	scVI	Clustering	0.011145086961782461	3
+DLPFC	scanpy_pearson	2000	scvi	DLPFC	scVI	Core overall	0.0037448773710888365	3
+DLPFC	scanpy_pearson	2000	scvi	DLPFC	scVI	Integration	0.018529038116146465	3
+DLPFC	scanpy_pearson_batch	2000	cellcharter	DLPFC	CellCharter	Alignment	0.004312122892998715	3
+DLPFC	scanpy_pearson_batch	2000	cellcharter	DLPFC	CellCharter	Clustering	0.033788041508094876	3
+DLPFC	scanpy_pearson_batch	2000	cellcharter	DLPFC	CellCharter	Core overall	0.01968827251582824	3
+DLPFC	scanpy_pearson_batch	2000	cellcharter	DLPFC	CellCharter	Integration	0.0060478839596720254	3
+DLPFC	scanpy_pearson_batch	2000	scvi	DLPFC	scVI	Alignment	0.0022207173891657128	3
+DLPFC	scanpy_pearson_batch	2000	scvi	DLPFC	scVI	Clustering	0.01412683516606284	3
+DLPFC	scanpy_pearson_batch	2000	scvi	DLPFC	scVI	Core overall	0.010480340066146274	3
+DLPFC	scanpy_pearson_batch	2000	scvi	DLPFC	scVI	Integration	0.013520086640144827	3
+DLPFC	scanpy_seurat	2000	cellcharter	DLPFC	CellCharter	Alignment	0.008667350094393516	3
+DLPFC	scanpy_seurat	2000	cellcharter	DLPFC	CellCharter	Clustering	0.03980891851644114	3
+DLPFC	scanpy_seurat	2000	cellcharter	DLPFC	CellCharter	Core overall	0.021205693072033342	3
+DLPFC	scanpy_seurat	2000	cellcharter	DLPFC	CellCharter	Integration	0.003668277117863615	3
+DLPFC	scanpy_seurat	2000	scvi	DLPFC	scVI	Alignment	0.009268459904816829	3
+DLPFC	scanpy_seurat	2000	scvi	DLPFC	scVI	Clustering	0.043493659573579715	3
+DLPFC	scanpy_seurat	2000	scvi	DLPFC	scVI	Core overall	0.022492592197111583	3
+DLPFC	scanpy_seurat	2000	scvi	DLPFC	scVI	Integration	0.011422720797759632	3
+DLPFC	scanpy_seurat_batch	2000	cellcharter	DLPFC	CellCharter	Alignment	0.010377366121220694	3
+DLPFC	scanpy_seurat_batch	2000	cellcharter	DLPFC	CellCharter	Clustering	0.012905049516856747	3
+DLPFC	scanpy_seurat_batch	2000	cellcharter	DLPFC	CellCharter	Core overall	0.007480673983492348	3
+DLPFC	scanpy_seurat_batch	2000	cellcharter	DLPFC	CellCharter	Integration	0.0026673274461384623	3
+DLPFC	scanpy_seurat_batch	2000	scvi	DLPFC	scVI	Alignment	0.01355087971770692	3
+DLPFC	scanpy_seurat_batch	2000	scvi	DLPFC	scVI	Clustering	0.015678854226396192	3
+DLPFC	scanpy_seurat_batch	2000	scvi	DLPFC	scVI	Core overall	0.003226910144369035	3
+DLPFC	scanpy_seurat_batch	2000	scvi	DLPFC	scVI	Integration	0.013693926478986656	3
+DLPFC	scanpy_seurat_v3	2000	cellcharter	DLPFC	CellCharter	Alignment	0.005618558117530655	3
+DLPFC	scanpy_seurat_v3	2000	cellcharter	DLPFC	CellCharter	Clustering	0.02080478885525762	3
+DLPFC	scanpy_seurat_v3	2000	cellcharter	DLPFC	CellCharter	Core overall	0.020402952245581304	3
+DLPFC	scanpy_seurat_v3	2000	cellcharter	DLPFC	CellCharter	Integration	0.02036180699338992	3
+DLPFC	scanpy_seurat_v3	2000	scvi	DLPFC	scVI	Alignment	0.008203266272808808	3
+DLPFC	scanpy_seurat_v3	2000	scvi	DLPFC	scVI	Clustering	0.049838993002507354	3
+DLPFC	scanpy_seurat_v3	2000	scvi	DLPFC	scVI	Core overall	0.027925143983402484	3
+DLPFC	scanpy_seurat_v3	2000	scvi	DLPFC	scVI	Integration	0.007217350762060086	3
+DLPFC	scanpy_seurat_v3_batch	2000	cellcharter	DLPFC	CellCharter	Alignment	0.004674837343498674	3
+DLPFC	scanpy_seurat_v3_batch	2000	cellcharter	DLPFC	CellCharter	Clustering	0.02437233633789398	3
+DLPFC	scanpy_seurat_v3_batch	2000	cellcharter	DLPFC	CellCharter	Core overall	0.013613168391770812	3
+DLPFC	scanpy_seurat_v3_batch	2000	cellcharter	DLPFC	CellCharter	Integration	0.0028708695647823583	3
+DLPFC	scanpy_seurat_v3_batch	2000	scvi	DLPFC	scVI	Alignment	0.008457694231950093	3
+DLPFC	scanpy_seurat_v3_batch	2000	scvi	DLPFC	scVI	Clustering	0.006956861842713584	3
+DLPFC	scanpy_seurat_v3_batch	2000	scvi	DLPFC	scVI	Core overall	0.0024465452452372715	3
+DLPFC	scanpy_seurat_v3_batch	2000	scvi	DLPFC	scVI	Integration	0.0040307467620869265	3
+DLPFC	scry	2000	cellcharter	DLPFC	CellCharter	Alignment	0.003803910867598416	3
+DLPFC	scry	2000	cellcharter	DLPFC	CellCharter	Clustering	0.016310964547958662	3
+DLPFC	scry	2000	cellcharter	DLPFC	CellCharter	Core overall	0.009216709910762734	3
+DLPFC	scry	2000	cellcharter	DLPFC	CellCharter	Integration	0.0024758235001879625	3
+DLPFC	scry	2000	scvi	DLPFC	scVI	Alignment	0.03134334758200759	3
+DLPFC	scry	2000	scvi	DLPFC	scVI	Clustering	0.04806316004325854	3
+DLPFC	scry	2000	scvi	DLPFC	scVI	Core overall	0.05882610762719541	3
+DLPFC	scry	2000	scvi	DLPFC	scVI	Integration	0.06977760092490917	3
+DLPFC	scsegindex	500	cellcharter	DLPFC	CellCharter	Alignment	0.01209493892862515	3
+DLPFC	scsegindex	500	cellcharter	DLPFC	CellCharter	Clustering	0.023778529176210626	3
+DLPFC	scsegindex	500	cellcharter	DLPFC	CellCharter	Core overall	0.014208999412387756	3
+DLPFC	scsegindex	500	cellcharter	DLPFC	CellCharter	Integration	0.007758944794783997	3
+DLPFC	scsegindex	500	scvi	DLPFC	scVI	Alignment	0.027678110525412882	3
+DLPFC	scsegindex	500	scvi	DLPFC	scVI	Clustering	0.05198485991753057	3
+DLPFC	scsegindex	500	scvi	DLPFC	scVI	Core overall	0.061675113484492866	3
+DLPFC	scsegindex	500	scvi	DLPFC	scVI	Integration	0.07138494606784676	3
+DLPFC	seurat_disp	2000	cellcharter	DLPFC	CellCharter	Alignment	8.674898520543493e-4	3
+DLPFC	seurat_disp	2000	cellcharter	DLPFC	CellCharter	Clustering	0.03956254292487107	3
+DLPFC	seurat_disp	2000	cellcharter	DLPFC	CellCharter	Core overall	0.0256770651998841	3
+DLPFC	seurat_disp	2000	cellcharter	DLPFC	CellCharter	Integration	0.011910544995747965	3
+DLPFC	seurat_disp	2000	scvi	DLPFC	scVI	Alignment	0.0035017305711579198	3
+DLPFC	seurat_disp	2000	scvi	DLPFC	scVI	Clustering	0.012174967579196049	3
+DLPFC	seurat_disp	2000	scvi	DLPFC	scVI	Core overall	0.005981993163646693	3
+DLPFC	seurat_disp	2000	scvi	DLPFC	scVI	Integration	0.010552038173319078	3
+DLPFC	seurat_mvp	2000	cellcharter	DLPFC	CellCharter	Alignment	0.005925366977283734	3
+DLPFC	seurat_mvp	2000	cellcharter	DLPFC	CellCharter	Clustering	0.0322757723879796	3
+DLPFC	seurat_mvp	2000	cellcharter	DLPFC	CellCharter	Core overall	0.01652307584349595	3
+DLPFC	seurat_mvp	2000	cellcharter	DLPFC	CellCharter	Integration	9.297571545157914e-4	3
+DLPFC	seurat_mvp	2000	scvi	DLPFC	scVI	Alignment	0.005074526611137785	3
+DLPFC	seurat_mvp	2000	scvi	DLPFC	scVI	Clustering	0.05991706247170674	3
+DLPFC	seurat_mvp	2000	scvi	DLPFC	scVI	Core overall	0.03131011029205969	3
+DLPFC	seurat_mvp	2000	scvi	DLPFC	scVI	Integration	0.006831602468883996	3
+DLPFC	seurat_sct	2000	cellcharter	DLPFC	CellCharter	Alignment	0.008900723941664662	3
+DLPFC	seurat_sct	2000	cellcharter	DLPFC	CellCharter	Clustering	0.03114764933898282	3
+DLPFC	seurat_sct	2000	cellcharter	DLPFC	CellCharter	Core overall	0.019611199986955565	3
+DLPFC	seurat_sct	2000	cellcharter	DLPFC	CellCharter	Integration	0.01175290190263862	3
+DLPFC	seurat_sct	2000	scvi	DLPFC	scVI	Alignment	0.007063205173168709	3
+DLPFC	seurat_sct	2000	scvi	DLPFC	scVI	Clustering	0.04403884490433714	3
+DLPFC	seurat_sct	2000	scvi	DLPFC	scVI	Core overall	0.01695541924227159	3
+DLPFC	seurat_sct	2000	scvi	DLPFC	scVI	Integration	0.011458753551351447	3
+DLPFC	seurat_vst	2000	cellcharter	DLPFC	CellCharter	Alignment	0.005892417283735374	3
+DLPFC	seurat_vst	2000	cellcharter	DLPFC	CellCharter	Clustering	0.03876923046401511	3
+DLPFC	seurat_vst	2000	cellcharter	DLPFC	CellCharter	Core overall	0.022564678311655036	3
+DLPFC	seurat_vst	2000	cellcharter	DLPFC	CellCharter	Integration	0.018731087386210585	3
+DLPFC	seurat_vst	2000	scvi	DLPFC	scVI	Alignment	0.008646218194077456	3
+DLPFC	seurat_vst	2000	scvi	DLPFC	scVI	Clustering	0.021804212560056453	3
+DLPFC	seurat_vst	2000	scvi	DLPFC	scVI	Core overall	0.0156206277775464	3
+DLPFC	seurat_vst	2000	scvi	DLPFC	scVI	Integration	0.00955409168256691	3
+DLPFC	singleCellHaystack	2000	cellcharter	DLPFC	CellCharter	Alignment	0.009163128694797084	3
+DLPFC	singleCellHaystack	2000	cellcharter	DLPFC	CellCharter	Clustering	0.05295230617502577	3
+DLPFC	singleCellHaystack	2000	cellcharter	DLPFC	CellCharter	Core overall	0.026357224856485627	3
+DLPFC	singleCellHaystack	2000	cellcharter	DLPFC	CellCharter	Integration	0.002600139462063697	3
+DLPFC	singleCellHaystack	2000	scvi	DLPFC	scVI	Alignment	0.005246156393520415	3
+DLPFC	singleCellHaystack	2000	scvi	DLPFC	scVI	Clustering	0.014708941545103549	3
+DLPFC	singleCellHaystack	2000	scvi	DLPFC	scVI	Core overall	0.0030145641912360335	3
+DLPFC	singleCellHaystack	2000	scvi	DLPFC	scVI	Integration	0.008691690853958028	3
+DLPFC	somde	2000	cellcharter	DLPFC	CellCharter	Alignment	0.007545898166222869	3
+DLPFC	somde	2000	cellcharter	DLPFC	CellCharter	Clustering	0.02280761712437188	3
+DLPFC	somde	2000	cellcharter	DLPFC	CellCharter	Core overall	0.0152795123003665	3
+DLPFC	somde	2000	cellcharter	DLPFC	CellCharter	Integration	0.00830124428099618	3
+DLPFC	somde	2000	scvi	DLPFC	scVI	Alignment	0.004082139760683446	3
+DLPFC	somde	2000	scvi	DLPFC	scVI	Clustering	0.06470405753276254	3
+DLPFC	somde	2000	scvi	DLPFC	scVI	Core overall	0.03432634367290367	3
+DLPFC	somde	2000	scvi	DLPFC	scVI	Integration	0.004776207558497481	3
+DLPFC	sparkx	2000	cellcharter	DLPFC	CellCharter	Alignment	0.0027584942794658244	3
+DLPFC	sparkx	2000	cellcharter	DLPFC	CellCharter	Clustering	0.013040967454489781	3
+DLPFC	sparkx	2000	cellcharter	DLPFC	CellCharter	Core overall	0.008683775408433327	3
+DLPFC	sparkx	2000	cellcharter	DLPFC	CellCharter	Integration	0.004388195969473502	3
+DLPFC	sparkx	2000	scvi	DLPFC	scVI	Alignment	0.0355691947463972	3
+DLPFC	sparkx	2000	scvi	DLPFC	scVI	Clustering	0.050546115104911575	3
+DLPFC	sparkx	2000	scvi	DLPFC	scVI	Core overall	0.044231500463311695	3
+DLPFC	sparkx	2000	scvi	DLPFC	scVI	Integration	0.0440765434695819	3
+DLPFC	spatialde	2000	cellcharter	DLPFC	CellCharter	Alignment	0.004412733829672275	3
+DLPFC	spatialde	2000	cellcharter	DLPFC	CellCharter	Clustering	0.048462062645237426	3
+DLPFC	spatialde	2000	cellcharter	DLPFC	CellCharter	Core overall	0.026530724311268603	3
+DLPFC	spatialde	2000	cellcharter	DLPFC	CellCharter	Integration	0.0053404239710981224	3
+DLPFC	spatialde	2000	scvi	DLPFC	scVI	Alignment	0.0061196547388903625	3
+DLPFC	spatialde	2000	scvi	DLPFC	scVI	Clustering	0.01596396540668622	3
+DLPFC	spatialde	2000	scvi	DLPFC	scVI	Core overall	0.013998406337007678	3
+DLPFC	spatialde	2000	scvi	DLPFC	scVI	Integration	0.019884864783905436	3
+DLPFC	statistic_mean	2000	cellcharter	DLPFC	CellCharter	Alignment	0.00484749285339339	3
+DLPFC	statistic_mean	2000	cellcharter	DLPFC	CellCharter	Clustering	0.025770683213624773	3
+DLPFC	statistic_mean	2000	cellcharter	DLPFC	CellCharter	Core overall	0.010087068556023421	3
+DLPFC	statistic_mean	2000	cellcharter	DLPFC	CellCharter	Integration	0.010829851833987035	3
+DLPFC	statistic_mean	2000	scvi	DLPFC	scVI	Alignment	0.05734252979727652	3
+DLPFC	statistic_mean	2000	scvi	DLPFC	scVI	Clustering	0.05238721106042807	3
+DLPFC	statistic_mean	2000	scvi	DLPFC	scVI	Core overall	0.06001032123549065	3
+DLPFC	statistic_mean	2000	scvi	DLPFC	scVI	Integration	0.06766829614075258	3
+DLPFC	statistic_variance	2000	cellcharter	DLPFC	CellCharter	Alignment	0.005281906449883533	3
+DLPFC	statistic_variance	2000	cellcharter	DLPFC	CellCharter	Clustering	0.053063774317620896	3
+DLPFC	statistic_variance	2000	cellcharter	DLPFC	CellCharter	Core overall	0.02727627869753606	3
+DLPFC	statistic_variance	2000	cellcharter	DLPFC	CellCharter	Integration	0.0015343109156359027	3
+DLPFC	statistic_variance	2000	scvi	DLPFC	scVI	Alignment	0.015856309955589894	3
+DLPFC	statistic_variance	2000	scvi	DLPFC	scVI	Clustering	0.03506980787715807	3
+DLPFC	statistic_variance	2000	scvi	DLPFC	scVI	Core overall	0.029017130257496346	3
+DLPFC	statistic_variance	2000	scvi	DLPFC	scVI	Integration	0.0285690954593806	3
+DLPFC	triku	2000	cellcharter	DLPFC	CellCharter	Alignment	0.001291107137198283	3
+DLPFC	triku	2000	cellcharter	DLPFC	CellCharter	Clustering	0.04219508739333021	3
+DLPFC	triku	2000	cellcharter	DLPFC	CellCharter	Core overall	0.023478836806368763	3
+DLPFC	triku	2000	cellcharter	DLPFC	CellCharter	Integration	0.00841012332538139	3
+DLPFC	triku	2000	scvi	DLPFC	scVI	Alignment	0.006902988269955105	3
+DLPFC	triku	2000	scvi	DLPFC	scVI	Clustering	0.03478111273032906	3
+DLPFC	triku	2000	scvi	DLPFC	scVI	Core overall	0.013148323785641748	3
+DLPFC	triku	2000	scvi	DLPFC	scVI	Integration	0.011471620171111151	3
+DLPFC	wilcoxon	2000	cellcharter	DLPFC	CellCharter	Alignment	0.006784255904112091	3
+DLPFC	wilcoxon	2000	cellcharter	DLPFC	CellCharter	Clustering	0.033679787344072606	3
+DLPFC	wilcoxon	2000	cellcharter	DLPFC	CellCharter	Core overall	0.018917007958476208	3
+DLPFC	wilcoxon	2000	cellcharter	DLPFC	CellCharter	Integration	0.008771758344788447	3
+DLPFC	wilcoxon	2000	scvi	DLPFC	scVI	Alignment	0.008022404412853238	3
+DLPFC	wilcoxon	2000	scvi	DLPFC	scVI	Clustering	0.07314075669049568	3
+DLPFC	wilcoxon	2000	scvi	DLPFC	scVI	Core overall	0.04807849039288231	3
+DLPFC	wilcoxon	2000	scvi	DLPFC	scVI	Integration	0.02666569217519436	3
+E8p5Embryo	Brennecke	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.018490532038108586	3
+E8p5Embryo	Brennecke	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.011050779226880348	3
+E8p5Embryo	Brennecke	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.0036172820678594506	3
+E8p5Embryo	Brennecke	2000	scvi	E8.5 Embryo	scVI	Clustering	0.004618608673274124	3
+E8p5Embryo	Brennecke	2000	scvi	E8.5 Embryo	scVI	Core overall	0.006413693678859011	3
+E8p5Embryo	Brennecke	2000	scvi	E8.5 Embryo	scVI	Integration	0.010674818541764273	3
+E8p5Embryo	TFs	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.004213925975247191	3
+E8p5Embryo	TFs	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.006566183885889591	3
+E8p5Embryo	TFs	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.0091311076566242	3
+E8p5Embryo	TFs	2000	scvi	E8.5 Embryo	scVI	Clustering	0.007857404078810224	3
+E8p5Embryo	TFs	2000	scvi	E8.5 Embryo	scVI	Core overall	0.0034646371968229572	3
+E8p5Embryo	TFs	2000	scvi	E8.5 Embryo	scVI	Integration	0.005687218067644357	3
+E8p5Embryo	all_features	all	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.003381903681308025	3
+E8p5Embryo	all_features	all	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.003148039958681878	3
+E8p5Embryo	all_features	all	cellcharter	E8.5 Embryo	CellCharter	Integration	0.003419909752218965	3
+E8p5Embryo	all_features	all	scvi	E8.5 Embryo	scVI	Clustering	0.0048749863240112965	3
+E8p5Embryo	all_features	all	scvi	E8.5 Embryo	scVI	Core overall	0.02875232875665256	3
+E8p5Embryo	all_features	all	scvi	E8.5 Embryo	scVI	Integration	0.058328365204429154	3
+E8p5Embryo	anticor	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.0207588314763273	3
+E8p5Embryo	anticor	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.010230832026800715	3
+E8p5Embryo	anticor	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.006112087800007483	3
+E8p5Embryo	anticor	2000	scvi	E8.5 Embryo	scVI	Clustering	0.016143760352604137	3
+E8p5Embryo	anticor	2000	scvi	E8.5 Embryo	scVI	Core overall	0.0015533720793893555	3
+E8p5Embryo	anticor	2000	scvi	E8.5 Embryo	scVI	Integration	0.014365842981425037	3
+E8p5Embryo	dubstepr	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.022219982903706855	3
+E8p5Embryo	dubstepr	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.006405531230946407	3
+E8p5Embryo	dubstepr	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.009518509612950352	3
+E8p5Embryo	dubstepr	2000	scvi	E8.5 Embryo	scVI	Clustering	0.010116347069174246	3
+E8p5Embryo	dubstepr	2000	scvi	E8.5 Embryo	scVI	Core overall	0.0029232446665789103	3
+E8p5Embryo	dubstepr	2000	scvi	E8.5 Embryo	scVI	Integration	0.007599907564226573	3
+E8p5Embryo	hotspot	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.004174231852049058	3
+E8p5Embryo	hotspot	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.002805382691688473	3
+E8p5Embryo	hotspot	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.003184997384962788	3
+E8p5Embryo	hotspot	2000	scvi	E8.5 Embryo	scVI	Clustering	0.03189679249004553	3
+E8p5Embryo	hotspot	2000	scvi	E8.5 Embryo	scVI	Core overall	0.010450546040520486	3
+E8p5Embryo	hotspot	2000	scvi	E8.5 Embryo	scVI	Integration	0.011830861694311133	3
+E8p5Embryo	morans_i	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.0049628613978440215	3
+E8p5Embryo	morans_i	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.0038783095711887954	3
+E8p5Embryo	morans_i	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.0027942983241948656	3
+E8p5Embryo	morans_i	2000	scvi	E8.5 Embryo	scVI	Clustering	0.017078958456247705	3
+E8p5Embryo	morans_i	2000	scvi	E8.5 Embryo	scVI	Core overall	0.004731691777520285	3
+E8p5Embryo	morans_i	2000	scvi	E8.5 Embryo	scVI	Integration	0.011636247570471527	3
+E8p5Embryo	nbumi	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.022405684376831138	3
+E8p5Embryo	nbumi	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.00962591352248373	3
+E8p5Embryo	nbumi	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.004017621251988261	3
+E8p5Embryo	nbumi	2000	scvi	E8.5 Embryo	scVI	Clustering	0.022419973230751847	3
+E8p5Embryo	nbumi	2000	scvi	E8.5 Embryo	scVI	Core overall	0.010194429215222232	3
+E8p5Embryo	nbumi	2000	scvi	E8.5 Embryo	scVI	Integration	0.012999217835413369	3
+E8p5Embryo	nnsvg	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.026532061526320608	3
+E8p5Embryo	nnsvg	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.011823737057749516	3
+E8p5Embryo	nnsvg	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.004722946772895263	3
+E8p5Embryo	nnsvg	2000	scvi	E8.5 Embryo	scVI	Clustering	0.001073954414977447	3
+E8p5Embryo	nnsvg	2000	scvi	E8.5 Embryo	scVI	Core overall	0.005090737882650647	3
+E8p5Embryo	nnsvg	2000	scvi	E8.5 Embryo	scVI	Integration	0.00964656422878375	3
+E8p5Embryo	osca	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.013104366979407473	3
+E8p5Embryo	osca	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.006376406413361635	3
+E8p5Embryo	osca	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.0019360627450665158	3
+E8p5Embryo	osca	2000	scvi	E8.5 Embryo	scVI	Clustering	0.0125929084335986	3
+E8p5Embryo	osca	2000	scvi	E8.5 Embryo	scVI	Core overall	0.005808229084314071	3
+E8p5Embryo	osca	2000	scvi	E8.5 Embryo	scVI	Integration	0.023653196640434034	3
+E8p5Embryo	random	500	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.06002341890218244	3
+E8p5Embryo	random	500	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.0167805620288936	3
+E8p5Embryo	random	500	cellcharter	E8.5 Embryo	CellCharter	Integration	0.04020807593281988	3
+E8p5Embryo	random	500	scvi	E8.5 Embryo	scVI	Clustering	0.01308113292378375	3
+E8p5Embryo	random	500	scvi	E8.5 Embryo	scVI	Core overall	0.006950403303581197	3
+E8p5Embryo	random	500	scvi	E8.5 Embryo	scVI	Integration	0.016911130216526217	3
+E8p5Embryo	scPNMF	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.016716924531318473	3
+E8p5Embryo	scPNMF	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.006934869555322358	3
+E8p5Embryo	scPNMF	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.0030654672871025896	3
+E8p5Embryo	scPNMF	2000	scvi	E8.5 Embryo	scVI	Clustering	0.06365811263334187	3
+E8p5Embryo	scPNMF	2000	scvi	E8.5 Embryo	scVI	Core overall	0.026114414548118543	3
+E8p5Embryo	scPNMF	2000	scvi	E8.5 Embryo	scVI	Integration	0.017380522261889252	3
+E8p5Embryo	scanpy_cell_ranger	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.02749948694431007	3
+E8p5Embryo	scanpy_cell_ranger	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.013983687987683917	3
+E8p5Embryo	scanpy_cell_ranger	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.006793988728936223	3
+E8p5Embryo	scanpy_cell_ranger	2000	scvi	E8.5 Embryo	scVI	Clustering	0.0107640186649282	3
+E8p5Embryo	scanpy_cell_ranger	2000	scvi	E8.5 Embryo	scVI	Core overall	0.002033412581260228	3
+E8p5Embryo	scanpy_cell_ranger	2000	scvi	E8.5 Embryo	scVI	Integration	0.007348310194568386	3
+E8p5Embryo	scanpy_cell_ranger_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.0187270299031718	3
+E8p5Embryo	scanpy_cell_ranger_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.008700709115835327	3
+E8p5Embryo	scanpy_cell_ranger_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.0024485427089426144	3
+E8p5Embryo	scanpy_cell_ranger_batch	2000	scvi	E8.5 Embryo	scVI	Clustering	0.012256427354639903	3
+E8p5Embryo	scanpy_cell_ranger_batch	2000	scvi	E8.5 Embryo	scVI	Core overall	0.004750669697086293	3
+E8p5Embryo	scanpy_cell_ranger_batch	2000	scvi	E8.5 Embryo	scVI	Integration	0.012795925146088644	3
+E8p5Embryo	scanpy_pearson	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.004437600706053611	3
+E8p5Embryo	scanpy_pearson	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.004333489078945591	3
+E8p5Embryo	scanpy_pearson	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.006570524656689556	3
+E8p5Embryo	scanpy_pearson	2000	scvi	E8.5 Embryo	scVI	Clustering	0.0056478738319227706	3
+E8p5Embryo	scanpy_pearson	2000	scvi	E8.5 Embryo	scVI	Core overall	0.008102427735886309	3
+E8p5Embryo	scanpy_pearson	2000	scvi	E8.5 Embryo	scVI	Integration	0.010964929817961202	3
+E8p5Embryo	scanpy_pearson_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.012816930619644304	3
+E8p5Embryo	scanpy_pearson_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.0015034755238028487	3
+E8p5Embryo	scanpy_pearson_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.013991036122471434	3
+E8p5Embryo	scanpy_pearson_batch	2000	scvi	E8.5 Embryo	scVI	Clustering	0.004794901077119733	3
+E8p5Embryo	scanpy_pearson_batch	2000	scvi	E8.5 Embryo	scVI	Core overall	0.0025610732905158046	3
+E8p5Embryo	scanpy_pearson_batch	2000	scvi	E8.5 Embryo	scVI	Integration	3.2920287792146026e-4	3
+E8p5Embryo	scanpy_seurat	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.025383672711941224	3
+E8p5Embryo	scanpy_seurat	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.011887278296755753	3
+E8p5Embryo	scanpy_seurat	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.00405413828101026	3
+E8p5Embryo	scanpy_seurat	2000	scvi	E8.5 Embryo	scVI	Clustering	0.009272436476132422	3
+E8p5Embryo	scanpy_seurat	2000	scvi	E8.5 Embryo	scVI	Core overall	0.004502887758319978	3
+E8p5Embryo	scanpy_seurat	2000	scvi	E8.5 Embryo	scVI	Integration	0.0063928803265553705	3
+E8p5Embryo	scanpy_seurat_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.013577927273473175	3
+E8p5Embryo	scanpy_seurat_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.0048927062550190034	3
+E8p5Embryo	scanpy_seurat_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.0038542742980924617	3
+E8p5Embryo	scanpy_seurat_batch	2000	scvi	E8.5 Embryo	scVI	Clustering	0.0029719068251877734	3
+E8p5Embryo	scanpy_seurat_batch	2000	scvi	E8.5 Embryo	scVI	Core overall	0.004878086713850207	3
+E8p5Embryo	scanpy_seurat_batch	2000	scvi	E8.5 Embryo	scVI	Integration	0.007218399856361543	3
+E8p5Embryo	scanpy_seurat_v3	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.010403639841960759	3
+E8p5Embryo	scanpy_seurat_v3	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.006288346191046671	3
+E8p5Embryo	scanpy_seurat_v3	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.002792156171092268	3
+E8p5Embryo	scanpy_seurat_v3	2000	scvi	E8.5 Embryo	scVI	Clustering	0.013590704560508527	3
+E8p5Embryo	scanpy_seurat_v3	2000	scvi	E8.5 Embryo	scVI	Core overall	0.007733682583027723	3
+E8p5Embryo	scanpy_seurat_v3	2000	scvi	E8.5 Embryo	scVI	Integration	0.011144949174111723	3
+E8p5Embryo	scanpy_seurat_v3_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.002715998888557245	3
+E8p5Embryo	scanpy_seurat_v3_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.0039970596282813695	3
+E8p5Embryo	scanpy_seurat_v3_batch	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.009285577548890266	3
+E8p5Embryo	scanpy_seurat_v3_batch	2000	scvi	E8.5 Embryo	scVI	Clustering	0.027761510781706626	3
+E8p5Embryo	scanpy_seurat_v3_batch	2000	scvi	E8.5 Embryo	scVI	Core overall	0.014015240036329398	3
+E8p5Embryo	scanpy_seurat_v3_batch	2000	scvi	E8.5 Embryo	scVI	Integration	0.020600585655838572	3
+E8p5Embryo	scry	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.008170491567554117	3
+E8p5Embryo	scry	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.0019399786445016085	3
+E8p5Embryo	scry	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.004327434484484204	3
+E8p5Embryo	scry	2000	scvi	E8.5 Embryo	scVI	Clustering	0.018917485493689493	3
+E8p5Embryo	scry	2000	scvi	E8.5 Embryo	scVI	Core overall	0.010768686385339113	3
+E8p5Embryo	scry	2000	scvi	E8.5 Embryo	scVI	Integration	0.027478366794749617	3
+E8p5Embryo	scsegindex	500	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.015225299110326012	3
+E8p5Embryo	scsegindex	500	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.006435332732997115	3
+E8p5Embryo	scsegindex	500	cellcharter	E8.5 Embryo	CellCharter	Integration	0.002430405153251441	3
+E8p5Embryo	scsegindex	500	scvi	E8.5 Embryo	scVI	Clustering	0.00909011133431626	3
+E8p5Embryo	scsegindex	500	scvi	E8.5 Embryo	scVI	Core overall	0.007259825750103639	3
+E8p5Embryo	scsegindex	500	scvi	E8.5 Embryo	scVI	Integration	0.009702124746988767	3
+E8p5Embryo	seurat_disp	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.018289586302286005	3
+E8p5Embryo	seurat_disp	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.010157336872559188	3
+E8p5Embryo	seurat_disp	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.002827248737665369	3
+E8p5Embryo	seurat_disp	2000	scvi	E8.5 Embryo	scVI	Clustering	0.012352835382641696	3
+E8p5Embryo	seurat_disp	2000	scvi	E8.5 Embryo	scVI	Core overall	0.005373994352219542	3
+E8p5Embryo	seurat_disp	2000	scvi	E8.5 Embryo	scVI	Integration	0.005272483755289251	3
+E8p5Embryo	seurat_mvp	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.004305525867259751	3
+E8p5Embryo	seurat_mvp	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.003016479509815989	3
+E8p5Embryo	seurat_mvp	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.005465953610641022	3
+E8p5Embryo	seurat_mvp	2000	scvi	E8.5 Embryo	scVI	Clustering	0.01277763344814183	3
+E8p5Embryo	seurat_mvp	2000	scvi	E8.5 Embryo	scVI	Core overall	0.010740774675447887	3
+E8p5Embryo	seurat_mvp	2000	scvi	E8.5 Embryo	scVI	Integration	0.009451481786690977	3
+E8p5Embryo	seurat_sct	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.02235445802727333	3
+E8p5Embryo	seurat_sct	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.006489680216661425	3
+E8p5Embryo	seurat_sct	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.009845811845211392	3
+E8p5Embryo	seurat_sct	2000	scvi	E8.5 Embryo	scVI	Clustering	9.697940495438977e-4	3
+E8p5Embryo	seurat_sct	2000	scvi	E8.5 Embryo	scVI	Core overall	0.0010804150222915295	3
+E8p5Embryo	seurat_sct	2000	scvi	E8.5 Embryo	scVI	Integration	0.001975004145894902	3
+E8p5Embryo	seurat_vst	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.022156474523952776	3
+E8p5Embryo	seurat_vst	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.012676454128185197	3
+E8p5Embryo	seurat_vst	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.004691185229073262	3
+E8p5Embryo	seurat_vst	2000	scvi	E8.5 Embryo	scVI	Clustering	0.01979356770916245	3
+E8p5Embryo	seurat_vst	2000	scvi	E8.5 Embryo	scVI	Core overall	0.012330994157800522	3
+E8p5Embryo	seurat_vst	2000	scvi	E8.5 Embryo	scVI	Integration	0.008043758265944428	3
+E8p5Embryo	singleCellHaystack	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.0026815277731426167	3
+E8p5Embryo	singleCellHaystack	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.001023625792354117	3
+E8p5Embryo	singleCellHaystack	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.004681158395352327	3
+E8p5Embryo	singleCellHaystack	2000	scvi	E8.5 Embryo	scVI	Clustering	0.03355940189926037	3
+E8p5Embryo	singleCellHaystack	2000	scvi	E8.5 Embryo	scVI	Core overall	0.01500475930235047	3
+E8p5Embryo	singleCellHaystack	2000	scvi	E8.5 Embryo	scVI	Integration	0.035285393723540046	3
+E8p5Embryo	somde	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.010884677609282996	3
+E8p5Embryo	somde	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.005563766215580415	3
+E8p5Embryo	somde	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.0016059971193321749	3
+E8p5Embryo	somde	2000	scvi	E8.5 Embryo	scVI	Clustering	0.018704565521120476	3
+E8p5Embryo	somde	2000	scvi	E8.5 Embryo	scVI	Core overall	0.008173061323205057	3
+E8p5Embryo	somde	2000	scvi	E8.5 Embryo	scVI	Integration	0.008671920536421978	3
+E8p5Embryo	sparkx	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.008981620145349296	3
+E8p5Embryo	sparkx	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.003966710427873895	3
+E8p5Embryo	sparkx	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.0012229860636980203	3
+E8p5Embryo	sparkx	2000	scvi	E8.5 Embryo	scVI	Clustering	0.02060629829767032	3
+E8p5Embryo	sparkx	2000	scvi	E8.5 Embryo	scVI	Core overall	0.010202444375068955	3
+E8p5Embryo	sparkx	2000	scvi	E8.5 Embryo	scVI	Integration	0.0029227092157337823	3
+E8p5Embryo	spatialde	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.014256654912737785	3
+E8p5Embryo	spatialde	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.007357637414225495	3
+E8p5Embryo	spatialde	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.0033858021768366207	3
+E8p5Embryo	spatialde	2000	scvi	E8.5 Embryo	scVI	Clustering	0.00833607241530787	3
+E8p5Embryo	spatialde	2000	scvi	E8.5 Embryo	scVI	Core overall	0.01107251839555347	3
+E8p5Embryo	spatialde	2000	scvi	E8.5 Embryo	scVI	Integration	0.013810661170976098	3
+E8p5Embryo	statistic_mean	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.023923105232222866	3
+E8p5Embryo	statistic_mean	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.009942620111188459	3
+E8p5Embryo	statistic_mean	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.008380923977976669	3
+E8p5Embryo	statistic_mean	2000	scvi	E8.5 Embryo	scVI	Clustering	0.007335032060520518	3
+E8p5Embryo	statistic_mean	2000	scvi	E8.5 Embryo	scVI	Core overall	0.0077835194269822655	3
+E8p5Embryo	statistic_mean	2000	scvi	E8.5 Embryo	scVI	Integration	0.009813215440865122	3
+E8p5Embryo	statistic_variance	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.011336112334180979	3
+E8p5Embryo	statistic_variance	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.007256977040707662	3
+E8p5Embryo	statistic_variance	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.005965625928900987	3
+E8p5Embryo	statistic_variance	2000	scvi	E8.5 Embryo	scVI	Clustering	0.02300230188174203	3
+E8p5Embryo	statistic_variance	2000	scvi	E8.5 Embryo	scVI	Core overall	0.01318867472028543	3
+E8p5Embryo	statistic_variance	2000	scvi	E8.5 Embryo	scVI	Integration	0.014291530331873033	3
+E8p5Embryo	triku	2000	cellcharter	E8.5 Embryo	CellCharter	Clustering	0.00555753880273139	3
+E8p5Embryo	triku	2000	cellcharter	E8.5 Embryo	CellCharter	Core overall	0.004998585945575364	3
+E8p5Embryo	triku	2000	cellcharter	E8.5 Embryo	CellCharter	Integration	0.004864365591657305	3
+E8p5Embryo	triku	2000	scvi	E8.5 Embryo	scVI	Clustering	0.014281142092733751	3
+E8p5Embryo	triku	2000	scvi	E8.5 Embryo	scVI	Core overall	0.010047071049267041	3
+E8p5Embryo	triku	2000	scvi	E8.5 Embryo	scVI	Integration	0.005849104118282606	3
+E9p5Embryo	Brennecke	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.026983605697659785	3
+E9p5Embryo	Brennecke	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.007163275442063529	3
+E9p5Embryo	Brennecke	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.016531564632350226	3
+E9p5Embryo	Brennecke	2000	scvi	E9.5 Embryo	scVI	Clustering	0.005249734116839761	3
+E9p5Embryo	Brennecke	2000	scvi	E9.5 Embryo	scVI	Core overall	0.00576185439028707	3
+E9p5Embryo	Brennecke	2000	scvi	E9.5 Embryo	scVI	Integration	0.006277582667472324	3
+E9p5Embryo	TFs	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.02262553382189629	3
+E9p5Embryo	TFs	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.011507313251946894	3
+E9p5Embryo	TFs	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.001374825778906382	3
+E9p5Embryo	TFs	2000	scvi	E9.5 Embryo	scVI	Clustering	0.01278719650722588	3
+E9p5Embryo	TFs	2000	scvi	E9.5 Embryo	scVI	Core overall	0.007035497158105456	3
+E9p5Embryo	TFs	2000	scvi	E9.5 Embryo	scVI	Integration	0.011570063327704291	3
+E9p5Embryo	all_features	all	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.023251187671664647	3
+E9p5Embryo	all_features	all	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.018331055632668035	3
+E9p5Embryo	all_features	all	cellcharter	E9.5 Embryo	CellCharter	Integration	0.016786982112269224	3
+E9p5Embryo	all_features	all	scvi	E9.5 Embryo	scVI	Clustering	0.008231985662389169	3
+E9p5Embryo	all_features	all	scvi	E9.5 Embryo	scVI	Core overall	0.006764091444056508	3
+E9p5Embryo	all_features	all	scvi	E9.5 Embryo	scVI	Integration	0.016538203197181245	3
+E9p5Embryo	anticor	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.008779270157687456	3
+E9p5Embryo	anticor	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.0028533798054838407	3
+E9p5Embryo	anticor	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.008929320215623085	3
+E9p5Embryo	anticor	2000	scvi	E9.5 Embryo	scVI	Clustering	0.01427957934641924	3
+E9p5Embryo	anticor	2000	scvi	E9.5 Embryo	scVI	Core overall	0.016516656350313512	3
+E9p5Embryo	anticor	2000	scvi	E9.5 Embryo	scVI	Integration	0.01966088193620866	3
+E9p5Embryo	dubstepr	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.018851729333054113	3
+E9p5Embryo	dubstepr	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.009430194350149147	3
+E9p5Embryo	dubstepr	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	4.6461596982657936e-5	3
+E9p5Embryo	dubstepr	2000	scvi	E9.5 Embryo	scVI	Clustering	0.019920087535317748	3
+E9p5Embryo	dubstepr	2000	scvi	E9.5 Embryo	scVI	Core overall	0.01382156458016832	3
+E9p5Embryo	dubstepr	2000	scvi	E9.5 Embryo	scVI	Integration	0.007726058612410469	3
+E9p5Embryo	hotspot	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.016167172963010797	3
+E9p5Embryo	hotspot	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.006151269364039469	3
+E9p5Embryo	hotspot	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.004393984487295288	3
+E9p5Embryo	hotspot	2000	scvi	E9.5 Embryo	scVI	Clustering	0.012104963675012017	3
+E9p5Embryo	hotspot	2000	scvi	E9.5 Embryo	scVI	Core overall	0.008630314684565361	3
+E9p5Embryo	hotspot	2000	scvi	E9.5 Embryo	scVI	Integration	0.013102281156878321	3
+E9p5Embryo	morans_i	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.0015808554772227125	3
+E9p5Embryo	morans_i	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.0021117930274970904	3
+E9p5Embryo	morans_i	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.005804254145333666	3
+E9p5Embryo	morans_i	2000	scvi	E9.5 Embryo	scVI	Clustering	0.014592980675842112	3
+E9p5Embryo	morans_i	2000	scvi	E9.5 Embryo	scVI	Core overall	0.0057553134897328165	3
+E9p5Embryo	morans_i	2000	scvi	E9.5 Embryo	scVI	Integration	0.003417964104126487	3
+E9p5Embryo	nbumi	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.009635727283275218	3
+E9p5Embryo	nbumi	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.00718306959455335	3
+E9p5Embryo	nbumi	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.0048395797553648385	3
+E9p5Embryo	nbumi	2000	scvi	E9.5 Embryo	scVI	Clustering	0.01927259020759804	3
+E9p5Embryo	nbumi	2000	scvi	E9.5 Embryo	scVI	Core overall	0.008931644039080557	3
+E9p5Embryo	nbumi	2000	scvi	E9.5 Embryo	scVI	Integration	0.0017079839408225452	3
+E9p5Embryo	nnsvg	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.008197680989254904	3
+E9p5Embryo	nnsvg	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	3.63877437841941e-4	3
+E9p5Embryo	nnsvg	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.008883154971923215	3
+E9p5Embryo	nnsvg	2000	scvi	E9.5 Embryo	scVI	Clustering	0.0051977236000126745	3
+E9p5Embryo	nnsvg	2000	scvi	E9.5 Embryo	scVI	Core overall	0.003438057561815297	3
+E9p5Embryo	nnsvg	2000	scvi	E9.5 Embryo	scVI	Integration	0.0033490241197045	3
+E9p5Embryo	osca	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.026220220249722096	3
+E9p5Embryo	osca	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.011575073876213452	3
+E9p5Embryo	osca	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.0031195672477155397	3
+E9p5Embryo	osca	2000	scvi	E9.5 Embryo	scVI	Clustering	0.013688509679757254	3
+E9p5Embryo	osca	2000	scvi	E9.5 Embryo	scVI	Core overall	0.00774796466650489	3
+E9p5Embryo	osca	2000	scvi	E9.5 Embryo	scVI	Integration	0.00608626073562908	3
+E9p5Embryo	random	500	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.044838986711262414	3
+E9p5Embryo	random	500	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.019923765570364984	3
+E9p5Embryo	random	500	cellcharter	E9.5 Embryo	CellCharter	Integration	0.011852622628668078	3
+E9p5Embryo	random	500	scvi	E9.5 Embryo	scVI	Clustering	0.01855434196360196	3
+E9p5Embryo	random	500	scvi	E9.5 Embryo	scVI	Core overall	0.009916125038252892	3
+E9p5Embryo	random	500	scvi	E9.5 Embryo	scVI	Integration	0.01108738825499368	3
+E9p5Embryo	scPNMF	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.010661721351515064	3
+E9p5Embryo	scPNMF	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.004215315875211025	3
+E9p5Embryo	scPNMF	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.004449219365041526	3
+E9p5Embryo	scPNMF	2000	scvi	E9.5 Embryo	scVI	Clustering	0.012664019289540415	3
+E9p5Embryo	scPNMF	2000	scvi	E9.5 Embryo	scVI	Core overall	0.010575628920255705	3
+E9p5Embryo	scPNMF	2000	scvi	E9.5 Embryo	scVI	Integration	0.014320750627248092	3
+E9p5Embryo	scanpy_cell_ranger	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.009846957115123862	3
+E9p5Embryo	scanpy_cell_ranger	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.0030606987915647085	3
+E9p5Embryo	scanpy_cell_ranger	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.004090827620668059	3
+E9p5Embryo	scanpy_cell_ranger	2000	scvi	E9.5 Embryo	scVI	Clustering	0.008280452476118813	3
+E9p5Embryo	scanpy_cell_ranger	2000	scvi	E9.5 Embryo	scVI	Core overall	0.009374601209470727	3
+E9p5Embryo	scanpy_cell_ranger	2000	scvi	E9.5 Embryo	scVI	Integration	0.01152118696125733	3
+E9p5Embryo	scanpy_cell_ranger_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.006476898107194754	3
+E9p5Embryo	scanpy_cell_ranger_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.003179619317335204	3
+E9p5Embryo	scanpy_cell_ranger_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.002838725975694339	3
+E9p5Embryo	scanpy_cell_ranger_batch	2000	scvi	E9.5 Embryo	scVI	Clustering	0.005417190729565176	3
+E9p5Embryo	scanpy_cell_ranger_batch	2000	scvi	E9.5 Embryo	scVI	Core overall	0.007220907215796393	3
+E9p5Embryo	scanpy_cell_ranger_batch	2000	scvi	E9.5 Embryo	scVI	Integration	0.009475808461176046	3
+E9p5Embryo	scanpy_pearson	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.01986207664630221	3
+E9p5Embryo	scanpy_pearson	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.004158595696030444	3
+E9p5Embryo	scanpy_pearson	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.012198283422081086	3
+E9p5Embryo	scanpy_pearson	2000	scvi	E9.5 Embryo	scVI	Clustering	0.01346383515375314	3
+E9p5Embryo	scanpy_pearson	2000	scvi	E9.5 Embryo	scVI	Core overall	0.004877767268373465	3
+E9p5Embryo	scanpy_pearson	2000	scvi	E9.5 Embryo	scVI	Integration	0.004579889829389225	3
+E9p5Embryo	scanpy_pearson_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.008982216538229846	3
+E9p5Embryo	scanpy_pearson_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.008263746190169842	3
+E9p5Embryo	scanpy_pearson_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.008176085656203272	3
+E9p5Embryo	scanpy_pearson_batch	2000	scvi	E9.5 Embryo	scVI	Clustering	0.014659426599803406	3
+E9p5Embryo	scanpy_pearson_batch	2000	scvi	E9.5 Embryo	scVI	Core overall	0.013886257922575347	3
+E9p5Embryo	scanpy_pearson_batch	2000	scvi	E9.5 Embryo	scVI	Integration	0.017243216099782546	3
+E9p5Embryo	scanpy_seurat	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.007763005473361323	3
+E9p5Embryo	scanpy_seurat	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.0025232953060058	3
+E9p5Embryo	scanpy_seurat	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.00326705870130451	3
+E9p5Embryo	scanpy_seurat	2000	scvi	E9.5 Embryo	scVI	Clustering	0.005730331716599534	3
+E9p5Embryo	scanpy_seurat	2000	scvi	E9.5 Embryo	scVI	Core overall	0.007130585823021988	3
+E9p5Embryo	scanpy_seurat	2000	scvi	E9.5 Embryo	scVI	Integration	0.008606794018931874	3
+E9p5Embryo	scanpy_seurat_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.03204298019761477	3
+E9p5Embryo	scanpy_seurat_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.016448171870170877	3
+E9p5Embryo	scanpy_seurat_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.002545603093435018	3
+E9p5Embryo	scanpy_seurat_batch	2000	scvi	E9.5 Embryo	scVI	Clustering	0.009204190150283566	3
+E9p5Embryo	scanpy_seurat_batch	2000	scvi	E9.5 Embryo	scVI	Core overall	0.0100665222103795	3
+E9p5Embryo	scanpy_seurat_batch	2000	scvi	E9.5 Embryo	scVI	Integration	0.024638537411798687	3
+E9p5Embryo	scanpy_seurat_v3	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.01134253907549512	3
+E9p5Embryo	scanpy_seurat_v3	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.006939138856010349	3
+E9p5Embryo	scanpy_seurat_v3	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.004621491354944413	3
+E9p5Embryo	scanpy_seurat_v3	2000	scvi	E9.5 Embryo	scVI	Clustering	0.012488948406310752	3
+E9p5Embryo	scanpy_seurat_v3	2000	scvi	E9.5 Embryo	scVI	Core overall	0.002704624876471604	3
+E9p5Embryo	scanpy_seurat_v3	2000	scvi	E9.5 Embryo	scVI	Integration	0.007354975866980265	3
+E9p5Embryo	scanpy_seurat_v3_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.016606337357216706	3
+E9p5Embryo	scanpy_seurat_v3_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.005704158620168259	3
+E9p5Embryo	scanpy_seurat_v3_batch	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.0053725567014856	3
+E9p5Embryo	scanpy_seurat_v3_batch	2000	scvi	E9.5 Embryo	scVI	Clustering	0.017795880193407915	3
+E9p5Embryo	scanpy_seurat_v3_batch	2000	scvi	E9.5 Embryo	scVI	Core overall	0.00840980666390929	3
+E9p5Embryo	scanpy_seurat_v3_batch	2000	scvi	E9.5 Embryo	scVI	Integration	0.007767456222380089	3
+E9p5Embryo	scry	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.0287249541510292	3
+E9p5Embryo	scry	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.014579242299408332	3
+E9p5Embryo	scry	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.007093891427601904	3
+E9p5Embryo	scry	2000	scvi	E9.5 Embryo	scVI	Clustering	0.014178680368778613	3
+E9p5Embryo	scry	2000	scvi	E9.5 Embryo	scVI	Core overall	0.012684365788440352	3
+E9p5Embryo	scry	2000	scvi	E9.5 Embryo	scVI	Integration	0.01367462663080362	3
+E9p5Embryo	scsegindex	500	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.009608524315365663	3
+E9p5Embryo	scsegindex	500	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.004288348577113355	3
+E9p5Embryo	scsegindex	500	cellcharter	E9.5 Embryo	CellCharter	Integration	0.0027144141717076703	3
+E9p5Embryo	scsegindex	500	scvi	E9.5 Embryo	scVI	Clustering	0.008364563736189342	3
+E9p5Embryo	scsegindex	500	scvi	E9.5 Embryo	scVI	Core overall	0.006327379452590277	3
+E9p5Embryo	scsegindex	500	scvi	E9.5 Embryo	scVI	Integration	0.015935644572813518	3
+E9p5Embryo	seurat_disp	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.018831327861495082	3
+E9p5Embryo	seurat_disp	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.012204889837071114	3
+E9p5Embryo	seurat_disp	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.006431364029286896	3
+E9p5Embryo	seurat_disp	2000	scvi	E9.5 Embryo	scVI	Clustering	0.006548352715005324	3
+E9p5Embryo	seurat_disp	2000	scvi	E9.5 Embryo	scVI	Core overall	0.00549485950009098	3
+E9p5Embryo	seurat_disp	2000	scvi	E9.5 Embryo	scVI	Integration	0.005182640317298781	3
+E9p5Embryo	seurat_mvp	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.04392868104005531	3
+E9p5Embryo	seurat_mvp	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.023075394076562464	3
+E9p5Embryo	seurat_mvp	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.003231966520285082	3
+E9p5Embryo	seurat_mvp	2000	scvi	E9.5 Embryo	scVI	Clustering	0.026069933782439023	3
+E9p5Embryo	seurat_mvp	2000	scvi	E9.5 Embryo	scVI	Core overall	0.0027119276539914845	3
+E9p5Embryo	seurat_mvp	2000	scvi	E9.5 Embryo	scVI	Integration	0.02264311594907204	3
+E9p5Embryo	seurat_sct	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.07425925627586408	3
+E9p5Embryo	seurat_sct	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.030345469173719247	3
+E9p5Embryo	seurat_sct	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.017676597099923533	3
+E9p5Embryo	seurat_sct	2000	scvi	E9.5 Embryo	scVI	Clustering	0.002688759599664551	3
+E9p5Embryo	seurat_sct	2000	scvi	E9.5 Embryo	scVI	Core overall	0.00228241720429764	3
+E9p5Embryo	seurat_sct	2000	scvi	E9.5 Embryo	scVI	Integration	0.002003756760911848	3
+E9p5Embryo	seurat_vst	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.01314850650168043	3
+E9p5Embryo	seurat_vst	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.005709029919798299	3
+E9p5Embryo	seurat_vst	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.005359609765982728	3
+E9p5Embryo	seurat_vst	2000	scvi	E9.5 Embryo	scVI	Clustering	0.014863582643573958	3
+E9p5Embryo	seurat_vst	2000	scvi	E9.5 Embryo	scVI	Core overall	0.005624128521261663	3
+E9p5Embryo	seurat_vst	2000	scvi	E9.5 Embryo	scVI	Integration	0.005630255505244737	3
+E9p5Embryo	singleCellHaystack	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.010283027470526406	3
+E9p5Embryo	singleCellHaystack	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.00267015533060198	3
+E9p5Embryo	singleCellHaystack	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.00575619116251178	3
+E9p5Embryo	singleCellHaystack	2000	scvi	E9.5 Embryo	scVI	Clustering	0.012842824563248844	3
+E9p5Embryo	singleCellHaystack	2000	scvi	E9.5 Embryo	scVI	Core overall	0.01048375179729795	3
+E9p5Embryo	singleCellHaystack	2000	scvi	E9.5 Embryo	scVI	Integration	0.008599198553423424	3
+E9p5Embryo	somde	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.02521197899999766	3
+E9p5Embryo	somde	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.012044425279988514	3
+E9p5Embryo	somde	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.0031680846498591216	3
+E9p5Embryo	somde	2000	scvi	E9.5 Embryo	scVI	Clustering	0.009236046099254304	3
+E9p5Embryo	somde	2000	scvi	E9.5 Embryo	scVI	Core overall	0.005207846499324311	3
+E9p5Embryo	somde	2000	scvi	E9.5 Embryo	scVI	Integration	0.00832105482186832	3
+E9p5Embryo	sparkx	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.010101488041907927	3
+E9p5Embryo	sparkx	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.006406332406075251	3
+E9p5Embryo	sparkx	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.004586185263119856	3
+E9p5Embryo	sparkx	2000	scvi	E9.5 Embryo	scVI	Clustering	0.019702447874375813	3
+E9p5Embryo	sparkx	2000	scvi	E9.5 Embryo	scVI	Core overall	0.01122363838319369	3
+E9p5Embryo	sparkx	2000	scvi	E9.5 Embryo	scVI	Integration	0.004092914711723001	3
+E9p5Embryo	spatialde	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.017699277977704306	3
+E9p5Embryo	spatialde	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.006217355892333032	3
+E9p5Embryo	spatialde	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.005389115070256715	3
+E9p5Embryo	spatialde	2000	scvi	E9.5 Embryo	scVI	Clustering	0.005372086620283209	3
+E9p5Embryo	spatialde	2000	scvi	E9.5 Embryo	scVI	Core overall	0.0011355911830633158	3
+E9p5Embryo	spatialde	2000	scvi	E9.5 Embryo	scVI	Integration	0.007131330074530966	3
+E9p5Embryo	statistic_mean	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.019662503650290316	3
+E9p5Embryo	statistic_mean	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.008709401083551283	3
+E9p5Embryo	statistic_mean	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.0022819677930051314	3
+E9p5Embryo	statistic_mean	2000	scvi	E9.5 Embryo	scVI	Clustering	0.025255065774660655	3
+E9p5Embryo	statistic_mean	2000	scvi	E9.5 Embryo	scVI	Core overall	0.008280608701769021	3
+E9p5Embryo	statistic_mean	2000	scvi	E9.5 Embryo	scVI	Integration	0.013970962065715003	3
+E9p5Embryo	statistic_variance	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.019017317854045857	3
+E9p5Embryo	statistic_variance	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.011018652766605734	3
+E9p5Embryo	statistic_variance	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.010045321996270425	3
+E9p5Embryo	statistic_variance	2000	scvi	E9.5 Embryo	scVI	Clustering	0.005861528465645305	3
+E9p5Embryo	statistic_variance	2000	scvi	E9.5 Embryo	scVI	Core overall	0.004387189998518231	3
+E9p5Embryo	statistic_variance	2000	scvi	E9.5 Embryo	scVI	Integration	0.007734148631670251	3
+E9p5Embryo	triku	2000	cellcharter	E9.5 Embryo	CellCharter	Clustering	0.022024860679082717	3
+E9p5Embryo	triku	2000	cellcharter	E9.5 Embryo	CellCharter	Core overall	0.013683406253128036	3
+E9p5Embryo	triku	2000	cellcharter	E9.5 Embryo	CellCharter	Integration	0.00535203800490593	3
+E9p5Embryo	triku	2000	scvi	E9.5 Embryo	scVI	Clustering	0.03313073795998033	3
+E9p5Embryo	triku	2000	scvi	E9.5 Embryo	scVI	Core overall	0.014565409679100768	3
+E9p5Embryo	triku	2000	scvi	E9.5 Embryo	scVI	Integration	0.0050395647041872335	3
+MouseBrainSerialSections	Brennecke	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.009391841917148746	3
+MouseBrainSerialSections	Brennecke	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.012724781674040833	3
+MouseBrainSerialSections	Brennecke	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.00415242591873311	3
+MouseBrainSerialSections	Brennecke	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.005817348601808043	3
+MouseBrainSerialSections	Brennecke	2000	scvi	Mouse Brain	scVI	Alignment	0.003716941379821836	3
+MouseBrainSerialSections	Brennecke	2000	scvi	Mouse Brain	scVI	Clustering	0.14869533901664633	3
+MouseBrainSerialSections	Brennecke	2000	scvi	Mouse Brain	scVI	Core overall	0.1013492267863859	3
+MouseBrainSerialSections	Brennecke	2000	scvi	Mouse Brain	scVI	Integration	0.054003592406244735	3
+MouseBrainSerialSections	TFs	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.0024603856417924085	3
+MouseBrainSerialSections	TFs	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.012071445814796525	3
+MouseBrainSerialSections	TFs	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.007451942556584944	3
+MouseBrainSerialSections	TFs	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.002842616780883775	3
+MouseBrainSerialSections	TFs	2000	scvi	Mouse Brain	scVI	Alignment	0.020594433629436887	3
+MouseBrainSerialSections	TFs	2000	scvi	Mouse Brain	scVI	Clustering	0.011064746998616157	3
+MouseBrainSerialSections	TFs	2000	scvi	Mouse Brain	scVI	Core overall	0.011313938770487305	3
+MouseBrainSerialSections	TFs	2000	scvi	Mouse Brain	scVI	Integration	0.011572543717131515	3
+MouseBrainSerialSections	all_features	all	cellcharter	Mouse Brain	CellCharter	Alignment	0.010983709596433492	3
+MouseBrainSerialSections	all_features	all	cellcharter	Mouse Brain	CellCharter	Clustering	0.006360780175665453	3
+MouseBrainSerialSections	all_features	all	cellcharter	Mouse Brain	CellCharter	Core overall	0.006883899276623752	3
+MouseBrainSerialSections	all_features	all	cellcharter	Mouse Brain	CellCharter	Integration	0.007737602309258685	3
+MouseBrainSerialSections	all_features	all	scvi	Mouse Brain	scVI	Alignment	0.13969903899254396	3
+MouseBrainSerialSections	all_features	all	scvi	Mouse Brain	scVI	Clustering	0.07737453542308075	3
+MouseBrainSerialSections	all_features	all	scvi	Mouse Brain	scVI	Core overall	0.027200545920128733	3
+MouseBrainSerialSections	all_features	all	scvi	Mouse Brain	scVI	Integration	0.024364932372924867	3
+MouseBrainSerialSections	anticor	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.01061972114837465	3
+MouseBrainSerialSections	anticor	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.006669799261565335	3
+MouseBrainSerialSections	anticor	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.009816024124140786	3
+MouseBrainSerialSections	anticor	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.012979473050991465	3
+MouseBrainSerialSections	anticor	2000	scvi	Mouse Brain	scVI	Alignment	0.1906411025248264	3
+MouseBrainSerialSections	anticor	2000	scvi	Mouse Brain	scVI	Clustering	0.09973594923069211	3
+MouseBrainSerialSections	anticor	2000	scvi	Mouse Brain	scVI	Core overall	0.033491517956490906	3
+MouseBrainSerialSections	anticor	2000	scvi	Mouse Brain	scVI	Integration	0.09137002663888391	3
+MouseBrainSerialSections	dubstepr	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.006827717609982853	3
+MouseBrainSerialSections	dubstepr	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.00844772084188522	3
+MouseBrainSerialSections	dubstepr	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.006325994442801573	3
+MouseBrainSerialSections	dubstepr	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.006433132481599201	3
+MouseBrainSerialSections	dubstepr	2000	scvi	Mouse Brain	scVI	Alignment	0.22634608251855592	3
+MouseBrainSerialSections	dubstepr	2000	scvi	Mouse Brain	scVI	Clustering	0.08592045488505028	3
+MouseBrainSerialSections	dubstepr	2000	scvi	Mouse Brain	scVI	Core overall	0.08328169412765833	3
+MouseBrainSerialSections	dubstepr	2000	scvi	Mouse Brain	scVI	Integration	0.08064377294627778	3
+MouseBrainSerialSections	hotspot	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.007102621055310565	3
+MouseBrainSerialSections	hotspot	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.007775277035053741	3
+MouseBrainSerialSections	hotspot	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.003736923537216622	3
+MouseBrainSerialSections	hotspot	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.012241115932033447	3
+MouseBrainSerialSections	hotspot	2000	scvi	Mouse Brain	scVI	Alignment	0.14837427394321556	3
+MouseBrainSerialSections	hotspot	2000	scvi	Mouse Brain	scVI	Clustering	0.04750315137351779	3
+MouseBrainSerialSections	hotspot	2000	scvi	Mouse Brain	scVI	Core overall	0.026256881560090626	3
+MouseBrainSerialSections	hotspot	2000	scvi	Mouse Brain	scVI	Integration	0.02861389880834031	3
+MouseBrainSerialSections	morans_i	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.008006756585783363	3
+MouseBrainSerialSections	morans_i	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.005198920725132064	3
+MouseBrainSerialSections	morans_i	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.008038694337284377	3
+MouseBrainSerialSections	morans_i	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.016927103475007272	3
+MouseBrainSerialSections	morans_i	2000	scvi	Mouse Brain	scVI	Alignment	0.2473494748002037	3
+MouseBrainSerialSections	morans_i	2000	scvi	Mouse Brain	scVI	Clustering	0.10776718661817684	3
+MouseBrainSerialSections	morans_i	2000	scvi	Mouse Brain	scVI	Core overall	0.061031090537276095	3
+MouseBrainSerialSections	morans_i	2000	scvi	Mouse Brain	scVI	Integration	0.09371204884111549	3
+MouseBrainSerialSections	nbumi	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.007901572036772268	3
+MouseBrainSerialSections	nbumi	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.008085405088764888	3
+MouseBrainSerialSections	nbumi	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.004031921118273106	3
+MouseBrainSerialSections	nbumi	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.007947413853285665	3
+MouseBrainSerialSections	nbumi	2000	scvi	Mouse Brain	scVI	Alignment	0.05048858424526642	3
+MouseBrainSerialSections	nbumi	2000	scvi	Mouse Brain	scVI	Clustering	0.04927517379844795	3
+MouseBrainSerialSections	nbumi	2000	scvi	Mouse Brain	scVI	Core overall	0.05947293648675259	3
+MouseBrainSerialSections	nbumi	2000	scvi	Mouse Brain	scVI	Integration	0.06974507798604682	3
+MouseBrainSerialSections	nnsvg	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.007933848020206248	3
+MouseBrainSerialSections	nnsvg	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.016180185105530397	3
+MouseBrainSerialSections	nnsvg	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.009559132878598808	3
+MouseBrainSerialSections	nnsvg	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.0029381875704983054	3
+MouseBrainSerialSections	nnsvg	2000	scvi	Mouse Brain	scVI	Alignment	0.04577221718502449	3
+MouseBrainSerialSections	nnsvg	2000	scvi	Mouse Brain	scVI	Clustering	0.055127255506925	3
+MouseBrainSerialSections	nnsvg	2000	scvi	Mouse Brain	scVI	Core overall	0.0423439057946621	3
+MouseBrainSerialSections	nnsvg	2000	scvi	Mouse Brain	scVI	Integration	0.03304356733800611	3
+MouseBrainSerialSections	osca	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.011598063101787591	3
+MouseBrainSerialSections	osca	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.025866393343448462	3
+MouseBrainSerialSections	osca	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.00672268364562578	3
+MouseBrainSerialSections	osca	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.012833745051034674	3
+MouseBrainSerialSections	osca	2000	scvi	Mouse Brain	scVI	Alignment	0.20810336931646023	3
+MouseBrainSerialSections	osca	2000	scvi	Mouse Brain	scVI	Clustering	0.03604186341170477	3
+MouseBrainSerialSections	osca	2000	scvi	Mouse Brain	scVI	Core overall	0.023986225879469813	3
+MouseBrainSerialSections	osca	2000	scvi	Mouse Brain	scVI	Integration	0.06975162047769895	3
+MouseBrainSerialSections	random	500	cellcharter	Mouse Brain	CellCharter	Alignment	0.014711113433585103	3
+MouseBrainSerialSections	random	500	cellcharter	Mouse Brain	CellCharter	Clustering	0.017936609460924208	3
+MouseBrainSerialSections	random	500	cellcharter	Mouse Brain	CellCharter	Core overall	0.02863602049446819	3
+MouseBrainSerialSections	random	500	cellcharter	Mouse Brain	CellCharter	Integration	0.045019108812610814	3
+MouseBrainSerialSections	random	500	scvi	Mouse Brain	scVI	Alignment	0.08183441297173558	3
+MouseBrainSerialSections	random	500	scvi	Mouse Brain	scVI	Clustering	0.08445602832206676	3
+MouseBrainSerialSections	random	500	scvi	Mouse Brain	scVI	Core overall	0.0926666511868982	3
+MouseBrainSerialSections	random	500	scvi	Mouse Brain	scVI	Integration	0.11661366146097255	3
+MouseBrainSerialSections	scPNMF	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.01153873382235059	3
+MouseBrainSerialSections	scPNMF	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.011921902518863837	3
+MouseBrainSerialSections	scPNMF	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.015096672389774106	3
+MouseBrainSerialSections	scPNMF	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.023555642293545773	3
+MouseBrainSerialSections	scPNMF	2000	scvi	Mouse Brain	scVI	Alignment	0.0809331483793756	3
+MouseBrainSerialSections	scPNMF	2000	scvi	Mouse Brain	scVI	Clustering	0.14895302894413537	3
+MouseBrainSerialSections	scPNMF	2000	scvi	Mouse Brain	scVI	Core overall	0.07844454212758989	3
+MouseBrainSerialSections	scPNMF	2000	scvi	Mouse Brain	scVI	Integration	0.05328966799268422	3
+MouseBrainSerialSections	scanpy_cell_ranger	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.01034406689982945	3
+MouseBrainSerialSections	scanpy_cell_ranger	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.005689106740004798	3
+MouseBrainSerialSections	scanpy_cell_ranger	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.00098490311448666025	3
+MouseBrainSerialSections	scanpy_cell_ranger	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.004977181348185452	3
+MouseBrainSerialSections	scanpy_cell_ranger	2000	scvi	Mouse Brain	scVI	Alignment	0.009779662996258338	3
+MouseBrainSerialSections	scanpy_cell_ranger	2000	scvi	Mouse Brain	scVI	Clustering	0.004220046299377624	3
+MouseBrainSerialSections	scanpy_cell_ranger	2000	scvi	Mouse Brain	scVI	Core overall	0.008520425785883632	3
+MouseBrainSerialSections	scanpy_cell_ranger	2000	scvi	Mouse Brain	scVI	Integration	0.015484397834664536	3
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.008572312972697005	3
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.015353274640590288	3
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.00925895705947024	3
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.0050308778814815765	3
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	scvi	Mouse Brain	scVI	Alignment	0.006957398706664888	3
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	scvi	Mouse Brain	scVI	Clustering	0.024732494870254963	3
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	scvi	Mouse Brain	scVI	Core overall	0.016040539114857116	3
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	scvi	Mouse Brain	scVI	Integration	0.007375171313291725	3
+MouseBrainSerialSections	scanpy_pearson	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.011066500819006512	3
+MouseBrainSerialSections	scanpy_pearson	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.001802127019179265	3
+MouseBrainSerialSections	scanpy_pearson	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.004149987848098422	3
+MouseBrainSerialSections	scanpy_pearson	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.006570271590257266	3
+MouseBrainSerialSections	scanpy_pearson	2000	scvi	Mouse Brain	scVI	Alignment	0.15133434646674745	3
+MouseBrainSerialSections	scanpy_pearson	2000	scvi	Mouse Brain	scVI	Clustering	0.15887750257666053	3
+MouseBrainSerialSections	scanpy_pearson	2000	scvi	Mouse Brain	scVI	Core overall	0.08033525326303212	3
+MouseBrainSerialSections	scanpy_pearson	2000	scvi	Mouse Brain	scVI	Integration	0.0115116237685967	3
+MouseBrainSerialSections	scanpy_pearson_batch	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.009699477406067684	3
+MouseBrainSerialSections	scanpy_pearson_batch	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.005400918264774624	3
+MouseBrainSerialSections	scanpy_pearson_batch	2000	cellcharter	Mouse Brain	CellCharter	Core overall	3.837894088172998e-4	3
+MouseBrainSerialSections	scanpy_pearson_batch	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.006090062314446965	3
+MouseBrainSerialSections	scanpy_pearson_batch	2000	scvi	Mouse Brain	scVI	Alignment	0.14915087389716314	3
+MouseBrainSerialSections	scanpy_pearson_batch	2000	scvi	Mouse Brain	scVI	Clustering	0.022971140432907773	3
+MouseBrainSerialSections	scanpy_pearson_batch	2000	scvi	Mouse Brain	scVI	Core overall	0.037723837355393204	3
+MouseBrainSerialSections	scanpy_pearson_batch	2000	scvi	Mouse Brain	scVI	Integration	0.07286060949506884	3
+MouseBrainSerialSections	scanpy_seurat	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.012474273060461939	3
+MouseBrainSerialSections	scanpy_seurat	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.004494044371678132	3
+MouseBrainSerialSections	scanpy_seurat	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.00617156826622925	3
+MouseBrainSerialSections	scanpy_seurat	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.008035742789408627	3
+MouseBrainSerialSections	scanpy_seurat	2000	scvi	Mouse Brain	scVI	Alignment	0.012160192852895914	3
+MouseBrainSerialSections	scanpy_seurat	2000	scvi	Mouse Brain	scVI	Clustering	0.008342734877028583	3
+MouseBrainSerialSections	scanpy_seurat	2000	scvi	Mouse Brain	scVI	Core overall	0.006063081771687561	3
+MouseBrainSerialSections	scanpy_seurat	2000	scvi	Mouse Brain	scVI	Integration	0.00406276290785031	3
+MouseBrainSerialSections	scanpy_seurat_batch	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.00695236332167125	3
+MouseBrainSerialSections	scanpy_seurat_batch	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.01239936891080977	3
+MouseBrainSerialSections	scanpy_seurat_batch	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.013563169265525253	3
+MouseBrainSerialSections	scanpy_seurat_batch	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.014727833333803177	3
+MouseBrainSerialSections	scanpy_seurat_batch	2000	scvi	Mouse Brain	scVI	Alignment	0.08230140820897536	3
+MouseBrainSerialSections	scanpy_seurat_batch	2000	scvi	Mouse Brain	scVI	Clustering	0.12165802080140845	3
+MouseBrainSerialSections	scanpy_seurat_batch	2000	scvi	Mouse Brain	scVI	Core overall	0.12552702026181434	3
+MouseBrainSerialSections	scanpy_seurat_batch	2000	scvi	Mouse Brain	scVI	Integration	0.13016415614307697	3
+MouseBrainSerialSections	scanpy_seurat_v3	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.008805691744599848	3
+MouseBrainSerialSections	scanpy_seurat_v3	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.0018294314890147695	3
+MouseBrainSerialSections	scanpy_seurat_v3	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.0030221973878847364	3
+MouseBrainSerialSections	scanpy_seurat_v3	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.005784672250763209	3
+MouseBrainSerialSections	scanpy_seurat_v3	2000	scvi	Mouse Brain	scVI	Alignment	0.04149930241640683	3
+MouseBrainSerialSections	scanpy_seurat_v3	2000	scvi	Mouse Brain	scVI	Clustering	0.030758784174581916	3
+MouseBrainSerialSections	scanpy_seurat_v3	2000	scvi	Mouse Brain	scVI	Core overall	0.05469801120795843	3
+MouseBrainSerialSections	scanpy_seurat_v3	2000	scvi	Mouse Brain	scVI	Integration	0.08578451255448886	3
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.006823116270267515	3
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.0015163678426826012	3
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.004548003778768215	3
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.007780774129813173	3
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	scvi	Mouse Brain	scVI	Alignment	0.09923867767500379	3
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	scvi	Mouse Brain	scVI	Clustering	0.15386234745651053	3
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	scvi	Mouse Brain	scVI	Core overall	0.12086752235493661	3
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	scvi	Mouse Brain	scVI	Integration	0.10258264820258055	3
+MouseBrainSerialSections	scry	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.0056786075230862085	3
+MouseBrainSerialSections	scry	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.012716018757955997	3
+MouseBrainSerialSections	scry	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.0016304078304780081	3
+MouseBrainSerialSections	scry	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.014803327266440685	3
+MouseBrainSerialSections	scry	2000	scvi	Mouse Brain	scVI	Alignment	0.24795436512374405	3
+MouseBrainSerialSections	scry	2000	scvi	Mouse Brain	scVI	Clustering	0.1054265475782231	3
+MouseBrainSerialSections	scry	2000	scvi	Mouse Brain	scVI	Core overall	0.054101144115747415	3
+MouseBrainSerialSections	scry	2000	scvi	Mouse Brain	scVI	Integration	0.015099342447240129	3
+MouseBrainSerialSections	scsegindex	500	cellcharter	Mouse Brain	CellCharter	Alignment	0.010222501378223071	3
+MouseBrainSerialSections	scsegindex	500	cellcharter	Mouse Brain	CellCharter	Clustering	0.01825399402713328	3
+MouseBrainSerialSections	scsegindex	500	cellcharter	Mouse Brain	CellCharter	Core overall	0.008898714023248653	3
+MouseBrainSerialSections	scsegindex	500	cellcharter	Mouse Brain	CellCharter	Integration	0.0025088665280699027	3
+MouseBrainSerialSections	scsegindex	500	scvi	Mouse Brain	scVI	Alignment	0.02015121851368571	3
+MouseBrainSerialSections	scsegindex	500	scvi	Mouse Brain	scVI	Clustering	0.03306485649840594	3
+MouseBrainSerialSections	scsegindex	500	scvi	Mouse Brain	scVI	Core overall	0.01705937440629733	3
+MouseBrainSerialSections	scsegindex	500	scvi	Mouse Brain	scVI	Integration	0.0016064706538610266	3
+MouseBrainSerialSections	seurat_disp	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.005798124672815538	3
+MouseBrainSerialSections	seurat_disp	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.004253810454117197	3
+MouseBrainSerialSections	seurat_disp	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.004909228708901269	3
+MouseBrainSerialSections	seurat_disp	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.01079379993759847	3
+MouseBrainSerialSections	seurat_disp	2000	scvi	Mouse Brain	scVI	Alignment	0.13379622374191644	3
+MouseBrainSerialSections	seurat_disp	2000	scvi	Mouse Brain	scVI	Clustering	0.1459034632707652	3
+MouseBrainSerialSections	seurat_disp	2000	scvi	Mouse Brain	scVI	Core overall	0.13157036280712373	3
+MouseBrainSerialSections	seurat_disp	2000	scvi	Mouse Brain	scVI	Integration	0.11785705112908071	3
+MouseBrainSerialSections	seurat_mvp	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.011502897575774062	3
+MouseBrainSerialSections	seurat_mvp	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.002245111679280762	3
+MouseBrainSerialSections	seurat_mvp	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.0065930889974471	3
+MouseBrainSerialSections	seurat_mvp	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.010941450017943772	3
+MouseBrainSerialSections	seurat_mvp	2000	scvi	Mouse Brain	scVI	Alignment	0.002095971327165584	3
+MouseBrainSerialSections	seurat_mvp	2000	scvi	Mouse Brain	scVI	Clustering	0.013640035988938704	3
+MouseBrainSerialSections	seurat_mvp	2000	scvi	Mouse Brain	scVI	Core overall	0.006943773934970203	3
+MouseBrainSerialSections	seurat_mvp	2000	scvi	Mouse Brain	scVI	Integration	0.009188399019402193	3
+MouseBrainSerialSections	seurat_sct	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.009956479431786657	3
+MouseBrainSerialSections	seurat_sct	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.0082522808662118	3
+MouseBrainSerialSections	seurat_sct	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.004963285358892418	3
+MouseBrainSerialSections	seurat_sct	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.0016796292596057427	3
+MouseBrainSerialSections	seurat_sct	2000	scvi	Mouse Brain	scVI	Alignment	0.11318496966820986	3
+MouseBrainSerialSections	seurat_sct	2000	scvi	Mouse Brain	scVI	Clustering	0.11315591354670054	3
+MouseBrainSerialSections	seurat_sct	2000	scvi	Mouse Brain	scVI	Core overall	0.09861810960163227	3
+MouseBrainSerialSections	seurat_sct	2000	scvi	Mouse Brain	scVI	Integration	0.08462245610047792	3
+MouseBrainSerialSections	seurat_vst	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.00868266977069913	3
+MouseBrainSerialSections	seurat_vst	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.00351747581960633	3
+MouseBrainSerialSections	seurat_vst	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.003220186863208164	3
+MouseBrainSerialSections	seurat_vst	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.0029289619405592692	3
+MouseBrainSerialSections	seurat_vst	2000	scvi	Mouse Brain	scVI	Alignment	0.036408525856964254	3
+MouseBrainSerialSections	seurat_vst	2000	scvi	Mouse Brain	scVI	Clustering	0.03550105743667413	3
+MouseBrainSerialSections	seurat_vst	2000	scvi	Mouse Brain	scVI	Core overall	0.061688718686861314	3
+MouseBrainSerialSections	seurat_vst	2000	scvi	Mouse Brain	scVI	Integration	0.09041823448944225	3
+MouseBrainSerialSections	singleCellHaystack	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.00966515627190843	3
+MouseBrainSerialSections	singleCellHaystack	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.02359466692656248	3
+MouseBrainSerialSections	singleCellHaystack	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.012685859970418448	3
+MouseBrainSerialSections	singleCellHaystack	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.003298765323911409	3
+MouseBrainSerialSections	singleCellHaystack	2000	scvi	Mouse Brain	scVI	Alignment	0.05804343967452549	3
+MouseBrainSerialSections	singleCellHaystack	2000	scvi	Mouse Brain	scVI	Clustering	0.08306309513770639	3
+MouseBrainSerialSections	singleCellHaystack	2000	scvi	Mouse Brain	scVI	Core overall	0.03817491427054752	3
+MouseBrainSerialSections	singleCellHaystack	2000	scvi	Mouse Brain	scVI	Integration	0.11386471296797279	3
+MouseBrainSerialSections	somde	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.003908801210982502	3
+MouseBrainSerialSections	somde	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.00946511895283275	3
+MouseBrainSerialSections	somde	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.009271788306895434	3
+MouseBrainSerialSections	somde	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.009482639309839771	3
+MouseBrainSerialSections	somde	2000	scvi	Mouse Brain	scVI	Alignment	0.04946055891415767	3
+MouseBrainSerialSections	somde	2000	scvi	Mouse Brain	scVI	Clustering	0.09449959426893914	3
+MouseBrainSerialSections	somde	2000	scvi	Mouse Brain	scVI	Core overall	0.07175389524787183	3
+MouseBrainSerialSections	somde	2000	scvi	Mouse Brain	scVI	Integration	0.05198248635934081	3
+MouseBrainSerialSections	sparkx	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.009066219116657509	3
+MouseBrainSerialSections	sparkx	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.01609234404737555	3
+MouseBrainSerialSections	sparkx	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.005984945735013543	3
+MouseBrainSerialSections	sparkx	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.005215793903843801	3
+MouseBrainSerialSections	sparkx	2000	scvi	Mouse Brain	scVI	Alignment	0.16394684991915645	3
+MouseBrainSerialSections	sparkx	2000	scvi	Mouse Brain	scVI	Clustering	0.12997353716637453	3
+MouseBrainSerialSections	sparkx	2000	scvi	Mouse Brain	scVI	Core overall	0.055442768986541505	3
+MouseBrainSerialSections	sparkx	2000	scvi	Mouse Brain	scVI	Integration	0.029483269613722402	3
+MouseBrainSerialSections	spatialde	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.010993138964091431	3
+MouseBrainSerialSections	spatialde	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.009798547482027289	3
+MouseBrainSerialSections	spatialde	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.006840600681656694	3
+MouseBrainSerialSections	spatialde	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.006677053745142892	3
+MouseBrainSerialSections	spatialde	2000	scvi	Mouse Brain	scVI	Alignment	0.10696339033947895	3
+MouseBrainSerialSections	spatialde	2000	scvi	Mouse Brain	scVI	Clustering	0.2095662084065554	3
+MouseBrainSerialSections	spatialde	2000	scvi	Mouse Brain	scVI	Core overall	0.17144079551136898	3
+MouseBrainSerialSections	spatialde	2000	scvi	Mouse Brain	scVI	Integration	0.13428451605349365	3
+MouseBrainSerialSections	statistic_mean	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.008115255835522837	3
+MouseBrainSerialSections	statistic_mean	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.02337190701434518	3
+MouseBrainSerialSections	statistic_mean	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.01581582844776081	3
+MouseBrainSerialSections	statistic_mean	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.015838851602885656	3
+MouseBrainSerialSections	statistic_mean	2000	scvi	Mouse Brain	scVI	Alignment	0.0919464166767597	3
+MouseBrainSerialSections	statistic_mean	2000	scvi	Mouse Brain	scVI	Clustering	0.10526640834760279	3
+MouseBrainSerialSections	statistic_mean	2000	scvi	Mouse Brain	scVI	Core overall	0.043981688198924146	3
+MouseBrainSerialSections	statistic_mean	2000	scvi	Mouse Brain	scVI	Integration	0.02093856406652322	3
+MouseBrainSerialSections	statistic_variance	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.00557515653729308	3
+MouseBrainSerialSections	statistic_variance	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.0015458578029010983	3
+MouseBrainSerialSections	statistic_variance	2000	cellcharter	Mouse Brain	CellCharter	Core overall	8.583407507675053e-4	3
+MouseBrainSerialSections	statistic_variance	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.0019193883952934663	3
+MouseBrainSerialSections	statistic_variance	2000	scvi	Mouse Brain	scVI	Alignment	0.0747564134167892	3
+MouseBrainSerialSections	statistic_variance	2000	scvi	Mouse Brain	scVI	Clustering	0.057498384287073157	3
+MouseBrainSerialSections	statistic_variance	2000	scvi	Mouse Brain	scVI	Core overall	0.035213735925319296	3
+MouseBrainSerialSections	statistic_variance	2000	scvi	Mouse Brain	scVI	Integration	0.04132740331595956	3
+MouseBrainSerialSections	triku	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.008877644858986145	3
+MouseBrainSerialSections	triku	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.007828263740238789	3
+MouseBrainSerialSections	triku	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.007719743406946803	3
+MouseBrainSerialSections	triku	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.007678299555000582	3
+MouseBrainSerialSections	triku	2000	scvi	Mouse Brain	scVI	Alignment	0.005488620174068056	3
+MouseBrainSerialSections	triku	2000	scvi	Mouse Brain	scVI	Clustering	0.03360431187916263	3
+MouseBrainSerialSections	triku	2000	scvi	Mouse Brain	scVI	Core overall	0.018467766641292106	3
+MouseBrainSerialSections	triku	2000	scvi	Mouse Brain	scVI	Integration	0.004317608200317048	3
+MouseBrainSerialSections	wilcoxon	2000	cellcharter	Mouse Brain	CellCharter	Alignment	0.006278342771238362	3
+MouseBrainSerialSections	wilcoxon	2000	cellcharter	Mouse Brain	CellCharter	Clustering	0.003433871562547857	3
+MouseBrainSerialSections	wilcoxon	2000	cellcharter	Mouse Brain	CellCharter	Core overall	0.0012726391373534573	3
+MouseBrainSerialSections	wilcoxon	2000	cellcharter	Mouse Brain	CellCharter	Integration	0.005650161631975255	3
+MouseBrainSerialSections	wilcoxon	2000	scvi	Mouse Brain	scVI	Alignment	0.043605922345297525	3
+MouseBrainSerialSections	wilcoxon	2000	scvi	Mouse Brain	scVI	Clustering	0.037177663804701055	3
+MouseBrainSerialSections	wilcoxon	2000	scvi	Mouse Brain	scVI	Core overall	0.03751042877701087	3
+MouseBrainSerialSections	wilcoxon	2000	scvi	Mouse Brain	scVI	Integration	0.03939429609282349	3
+STOmics0212	Brennecke	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.02555739207266438	3
+STOmics0212	Brennecke	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.008703538111984599	3
+STOmics0212	Brennecke	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.01246698683533275	3
+STOmics0212	Brennecke	2000	scvi	STOmics-0212	scVI	Clustering	0.021057155180786487	3
+STOmics0212	Brennecke	2000	scvi	STOmics-0212	scVI	Core overall	0.007763053081628544	3
+STOmics0212	Brennecke	2000	scvi	STOmics-0212	scVI	Integration	0.026222383253070743	3
+STOmics0212	TFs	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.01861550662804042	3
+STOmics0212	TFs	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.011863840937281756	3
+STOmics0212	TFs	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.0052397507220989115	3
+STOmics0212	TFs	2000	scvi	STOmics-0212	scVI	Clustering	0.01593878317398926	3
+STOmics0212	TFs	2000	scvi	STOmics-0212	scVI	Core overall	0.008944940490133006	3
+STOmics0212	TFs	2000	scvi	STOmics-0212	scVI	Integration	0.014942122935028734	3
+STOmics0212	all_features	all	cellcharter	STOmics-0212	CellCharter	Clustering	0.00860307530327509	3
+STOmics0212	all_features	all	cellcharter	STOmics-0212	CellCharter	Core overall	0.006710496069824446	3
+STOmics0212	all_features	all	cellcharter	STOmics-0212	CellCharter	Integration	0.005270763045137682	3
+STOmics0212	all_features	all	scvi	STOmics-0212	scVI	Clustering	0.007680847227070776	3
+STOmics0212	all_features	all	scvi	STOmics-0212	scVI	Core overall	0.010937514597524494	3
+STOmics0212	all_features	all	scvi	STOmics-0212	scVI	Integration	0.018898463885682823	3
+STOmics0212	anticor	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.041734695905053486	3
+STOmics0212	anticor	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.02581846723542184	3
+STOmics0212	anticor	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.011937963070052121	3
+STOmics0212	anticor	2000	scvi	STOmics-0212	scVI	Clustering	0.01019288535205525	3
+STOmics0212	anticor	2000	scvi	STOmics-0212	scVI	Core overall	0.00977021069007639	3
+STOmics0212	anticor	2000	scvi	STOmics-0212	scVI	Integration	0.009777896098328204	3
+STOmics0212	dubstepr	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.006586500383982531	3
+STOmics0212	dubstepr	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.006531006838587411	3
+STOmics0212	dubstepr	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.007471679103633657	3
+STOmics0212	dubstepr	2000	scvi	STOmics-0212	scVI	Clustering	0.03252666155130158	3
+STOmics0212	dubstepr	2000	scvi	STOmics-0212	scVI	Core overall	0.0013431689159636338	3
+STOmics0212	dubstepr	2000	scvi	STOmics-0212	scVI	Integration	0.030311871679140012	3
+STOmics0212	hotspot	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.021922624841689057	3
+STOmics0212	hotspot	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.007860793044245985	3
+STOmics0212	hotspot	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.010924708639434351	3
+STOmics0212	hotspot	2000	scvi	STOmics-0212	scVI	Clustering	0.016885976493942457	3
+STOmics0212	hotspot	2000	scvi	STOmics-0212	scVI	Core overall	0.007231953124431818	3
+STOmics0212	hotspot	2000	scvi	STOmics-0212	scVI	Integration	0.005748591520504634	3
+STOmics0212	morans_i	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.014068230945407358	3
+STOmics0212	morans_i	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.012612138078388659	3
+STOmics0212	morans_i	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.014187233899051447	3
+STOmics0212	morans_i	2000	scvi	STOmics-0212	scVI	Clustering	0.01852076205275417	3
+STOmics0212	morans_i	2000	scvi	STOmics-0212	scVI	Core overall	0.008565905684324554	3
+STOmics0212	morans_i	2000	scvi	STOmics-0212	scVI	Integration	0.0028285527478004	3
+STOmics0212	nbumi	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.011993661872665191	3
+STOmics0212	nbumi	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.0033785409980809427	3
+STOmics0212	nbumi	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.006856346463409729	3
+STOmics0212	nbumi	2000	scvi	STOmics-0212	scVI	Clustering	0.019841260578813653	3
+STOmics0212	nbumi	2000	scvi	STOmics-0212	scVI	Core overall	0.008805891493026945	3
+STOmics0212	nbumi	2000	scvi	STOmics-0212	scVI	Integration	0.0035104696594031658	3
+STOmics0212	nnsvg	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.015547714528941096	3
+STOmics0212	nnsvg	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.0050705479978470835	3
+STOmics0212	nnsvg	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.009218995720878698	3
+STOmics0212	nnsvg	2000	scvi	STOmics-0212	scVI	Clustering	0.017976109937349133	3
+STOmics0212	nnsvg	2000	scvi	STOmics-0212	scVI	Core overall	0.011480765105558005	3
+STOmics0212	nnsvg	2000	scvi	STOmics-0212	scVI	Integration	0.009874632185140548	3
+STOmics0212	osca	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.05435426519830557	3
+STOmics0212	osca	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.02378528558491595	3
+STOmics0212	osca	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.008915360440032879	3
+STOmics0212	osca	2000	scvi	STOmics-0212	scVI	Clustering	0.021806276668782522	3
+STOmics0212	osca	2000	scvi	STOmics-0212	scVI	Core overall	0.018562129700884063	3
+STOmics0212	osca	2000	scvi	STOmics-0212	scVI	Integration	0.015891706614188175	3
+STOmics0212	random	500	cellcharter	STOmics-0212	CellCharter	Clustering	0.014987400587784147	3
+STOmics0212	random	500	cellcharter	STOmics-0212	CellCharter	Core overall	0.02498366601051976	3
+STOmics0212	random	500	cellcharter	STOmics-0212	CellCharter	Integration	0.036543049557505765	3
+STOmics0212	random	500	scvi	STOmics-0212	scVI	Clustering	0.055292068301395395	3
+STOmics0212	random	500	scvi	STOmics-0212	scVI	Core overall	0.025906613711279447	3
+STOmics0212	random	500	scvi	STOmics-0212	scVI	Integration	0.06720737965720824	3
+STOmics0212	scPNMF	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.001565371476777843	3
+STOmics0212	scPNMF	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.011209400867238997	3
+STOmics0212	scPNMF	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.023912564534077238	3
+STOmics0212	scPNMF	2000	scvi	STOmics-0212	scVI	Clustering	0.018299684827498247	3
+STOmics0212	scPNMF	2000	scvi	STOmics-0212	scVI	Core overall	0.0058159226771213645	3
+STOmics0212	scPNMF	2000	scvi	STOmics-0212	scVI	Integration	0.02988465473946319	3
+STOmics0212	scanpy_cell_ranger	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.07248947557455004	3
+STOmics0212	scanpy_cell_ranger	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.035131945867855105	3
+STOmics0212	scanpy_cell_ranger	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.011630793438962419	3
+STOmics0212	scanpy_cell_ranger	2000	scvi	STOmics-0212	scVI	Clustering	0.0064390974006032576	3
+STOmics0212	scanpy_cell_ranger	2000	scvi	STOmics-0212	scVI	Core overall	0.006142397577690513	3
+STOmics0212	scanpy_cell_ranger	2000	scvi	STOmics-0212	scVI	Integration	0.008061959330059616	3
+STOmics0212	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.041624387499993865	3
+STOmics0212	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.02340508475126624	3
+STOmics0212	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.008993542622177126	3
+STOmics0212	scanpy_cell_ranger_batch	2000	scvi	STOmics-0212	scVI	Clustering	0.011541528065235963	3
+STOmics0212	scanpy_cell_ranger_batch	2000	scvi	STOmics-0212	scVI	Core overall	0.012896301631207389	3
+STOmics0212	scanpy_cell_ranger_batch	2000	scvi	STOmics-0212	scVI	Integration	0.014260691066321284	3
+STOmics0212	scanpy_pearson	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.005828922969395731	3
+STOmics0212	scanpy_pearson	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.007708469279940473	3
+STOmics0212	scanpy_pearson	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.013300431358503926	3
+STOmics0212	scanpy_pearson	2000	scvi	STOmics-0212	scVI	Clustering	0.01293203601557995	3
+STOmics0212	scanpy_pearson	2000	scvi	STOmics-0212	scVI	Core overall	0.004625419547753812	3
+STOmics0212	scanpy_pearson	2000	scvi	STOmics-0212	scVI	Integration	0.020251100216074486	3
+STOmics0212	scanpy_pearson_batch	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.027538648115617938	3
+STOmics0212	scanpy_pearson_batch	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.016894608696885725	3
+STOmics0212	scanpy_pearson_batch	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.007445434493403874	3
+STOmics0212	scanpy_pearson_batch	2000	scvi	STOmics-0212	scVI	Clustering	0.007199652921979955	3
+STOmics0212	scanpy_pearson_batch	2000	scvi	STOmics-0212	scVI	Core overall	9.625292445825426e-4	3
+STOmics0212	scanpy_pearson_batch	2000	scvi	STOmics-0212	scVI	Integration	0.008734148557864736	3
+STOmics0212	scanpy_seurat	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.048302029457058575	3
+STOmics0212	scanpy_seurat	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.024437828646855973	3
+STOmics0212	scanpy_seurat	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.008171650501593679	3
+STOmics0212	scanpy_seurat	2000	scvi	STOmics-0212	scVI	Clustering	0.015711886764958116	3
+STOmics0212	scanpy_seurat	2000	scvi	STOmics-0212	scVI	Core overall	0.009045135833393685	3
+STOmics0212	scanpy_seurat	2000	scvi	STOmics-0212	scVI	Integration	0.0027900232324117387	3
+STOmics0212	scanpy_seurat_batch	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.038879939192126636	3
+STOmics0212	scanpy_seurat_batch	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.013956239385137216	3
+STOmics0212	scanpy_seurat_batch	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.011638355701320467	3
+STOmics0212	scanpy_seurat_batch	2000	scvi	STOmics-0212	scVI	Clustering	0.009813138022454218	3
+STOmics0212	scanpy_seurat_batch	2000	scvi	STOmics-0212	scVI	Core overall	0.008605682490845474	3
+STOmics0212	scanpy_seurat_batch	2000	scvi	STOmics-0212	scVI	Integration	0.0260847315719318	3
+STOmics0212	scanpy_seurat_v3	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.015609972448397942	3
+STOmics0212	scanpy_seurat_v3	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.013241388381144545	3
+STOmics0212	scanpy_seurat_v3	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.023818601044946416	3
+STOmics0212	scanpy_seurat_v3	2000	scvi	STOmics-0212	scVI	Clustering	0.02096156398801702	3
+STOmics0212	scanpy_seurat_v3	2000	scvi	STOmics-0212	scVI	Core overall	0.015581834342785369	3
+STOmics0212	scanpy_seurat_v3	2000	scvi	STOmics-0212	scVI	Integration	0.03916855828652221	3
+STOmics0212	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.027744706503680463	3
+STOmics0212	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.012862059293773567	3
+STOmics0212	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.02426694890525951	3
+STOmics0212	scanpy_seurat_v3_batch	2000	scvi	STOmics-0212	scVI	Clustering	0.044964021077068365	3
+STOmics0212	scanpy_seurat_v3_batch	2000	scvi	STOmics-0212	scVI	Core overall	0.030251744369695438	3
+STOmics0212	scanpy_seurat_v3_batch	2000	scvi	STOmics-0212	scVI	Integration	0.01771380543635565	3
+STOmics0212	scry	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.006179263874447267	3
+STOmics0212	scry	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.006233929802223921	3
+STOmics0212	scry	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.013639590546868606	3
+STOmics0212	scry	2000	scvi	STOmics-0212	scVI	Clustering	0.0117415673284662	3
+STOmics0212	scry	2000	scvi	STOmics-0212	scVI	Core overall	0.008102823443604173	3
+STOmics0212	scry	2000	scvi	STOmics-0212	scVI	Integration	0.010587665332287713	3
+STOmics0212	scsegindex	500	cellcharter	STOmics-0212	CellCharter	Clustering	0.02426607868618424	3
+STOmics0212	scsegindex	500	cellcharter	STOmics-0212	CellCharter	Core overall	0.01045622498755788	3
+STOmics0212	scsegindex	500	cellcharter	STOmics-0212	CellCharter	Integration	0.00430869101169569	3
+STOmics0212	scsegindex	500	scvi	STOmics-0212	scVI	Clustering	0.00960398953496869	3
+STOmics0212	scsegindex	500	scvi	STOmics-0212	scVI	Core overall	0.012677936169279555	3
+STOmics0212	scsegindex	500	scvi	STOmics-0212	scVI	Integration	0.018130917029296527	3
+STOmics0212	seurat_disp	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.047896799085088	3
+STOmics0212	seurat_disp	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.02059698369888214	3
+STOmics0212	seurat_disp	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.013497965282310424	3
+STOmics0212	seurat_disp	2000	scvi	STOmics-0212	scVI	Clustering	0.005474350721122583	3
+STOmics0212	seurat_disp	2000	scvi	STOmics-0212	scVI	Core overall	0.011759289487648589	3
+STOmics0212	seurat_disp	2000	scvi	STOmics-0212	scVI	Integration	0.01843517148840922	3
+STOmics0212	seurat_mvp	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.01674842351253286	3
+STOmics0212	seurat_mvp	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.007863996817023523	3
+STOmics0212	seurat_mvp	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.007615507169122967	3
+STOmics0212	seurat_mvp	2000	scvi	STOmics-0212	scVI	Clustering	0.015165701954718103	3
+STOmics0212	seurat_mvp	2000	scvi	STOmics-0212	scVI	Core overall	0.011149841177289066	3
+STOmics0212	seurat_mvp	2000	scvi	STOmics-0212	scVI	Integration	0.007146934228275439	3
+STOmics0212	seurat_sct	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.008161442885416127	3
+STOmics0212	seurat_sct	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.003566008774779355	3
+STOmics0212	seurat_sct	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.008326233206267972	3
+STOmics0212	seurat_sct	2000	scvi	STOmics-0212	scVI	Clustering	0.021144052650587632	3
+STOmics0212	seurat_sct	2000	scvi	STOmics-0212	scVI	Core overall	0.01221365947532609	3
+STOmics0212	seurat_sct	2000	scvi	STOmics-0212	scVI	Integration	0.012757163277633668	3
+STOmics0212	seurat_vst	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.021798026764348107	3
+STOmics0212	seurat_vst	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.007477398532561377	3
+STOmics0212	seurat_vst	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.016024224362117003	3
+STOmics0212	seurat_vst	2000	scvi	STOmics-0212	scVI	Clustering	0.011459350411317982	3
+STOmics0212	seurat_vst	2000	scvi	STOmics-0212	scVI	Core overall	0.01609349798087135	3
+STOmics0212	seurat_vst	2000	scvi	STOmics-0212	scVI	Integration	0.03767023417818287	3
+STOmics0212	singleCellHaystack	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.03387449140945173	3
+STOmics0212	singleCellHaystack	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.02486782002199328	3
+STOmics0212	singleCellHaystack	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.016347039862852644	3
+STOmics0212	singleCellHaystack	2000	scvi	STOmics-0212	scVI	Clustering	0.011681247558142349	3
+STOmics0212	singleCellHaystack	2000	scvi	STOmics-0212	scVI	Core overall	0.013999356507551537	3
+STOmics0212	singleCellHaystack	2000	scvi	STOmics-0212	scVI	Integration	0.021321294886893553	3
+STOmics0212	somde	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.01084877615935375	3
+STOmics0212	somde	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.00867407971096852	3
+STOmics0212	somde	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.007171279733470727	3
+STOmics0212	somde	2000	scvi	STOmics-0212	scVI	Clustering	0.005395898078498914	3
+STOmics0212	somde	2000	scvi	STOmics-0212	scVI	Core overall	0.01612452064186826	3
+STOmics0212	somde	2000	scvi	STOmics-0212	scVI	Integration	0.03202177966823638	3
+STOmics0212	sparkx	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.010303267261159547	3
+STOmics0212	sparkx	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.004666918972452421	3
+STOmics0212	sparkx	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.004369725131096676	3
+STOmics0212	sparkx	2000	scvi	STOmics-0212	scVI	Clustering	0.0038412896517204683	3
+STOmics0212	sparkx	2000	scvi	STOmics-0212	scVI	Core overall	0.02279575702124968	3
+STOmics0212	sparkx	2000	scvi	STOmics-0212	scVI	Integration	0.04900417643812683	3
+STOmics0212	spatialde	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.018021151128747612	3
+STOmics0212	spatialde	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.00741831905957263	3
+STOmics0212	spatialde	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.004154754297080065	3
+STOmics0212	spatialde	2000	scvi	STOmics-0212	scVI	Clustering	0.01797039701325354	3
+STOmics0212	spatialde	2000	scvi	STOmics-0212	scVI	Core overall	0.023918605016361793	3
+STOmics0212	spatialde	2000	scvi	STOmics-0212	scVI	Integration	0.030298151135202872	3
+STOmics0212	statistic_mean	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.028540719090958698	3
+STOmics0212	statistic_mean	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.013220039189901351	3
+STOmics0212	statistic_mean	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.011668541342267504	3
+STOmics0212	statistic_mean	2000	scvi	STOmics-0212	scVI	Clustering	0.02723298329975616	3
+STOmics0212	statistic_mean	2000	scvi	STOmics-0212	scVI	Core overall	0.013024119275344866	3
+STOmics0212	statistic_mean	2000	scvi	STOmics-0212	scVI	Integration	0.019475197267765858	3
+STOmics0212	statistic_variance	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.02319690819540084	3
+STOmics0212	statistic_variance	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.0153336683144383	3
+STOmics0212	statistic_variance	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.007471962601730647	3
+STOmics0212	statistic_variance	2000	scvi	STOmics-0212	scVI	Clustering	0.012357671393703452	3
+STOmics0212	statistic_variance	2000	scvi	STOmics-0212	scVI	Core overall	0.006157643583963106	3
+STOmics0212	statistic_variance	2000	scvi	STOmics-0212	scVI	Integration	0.005455419897023345	3
+STOmics0212	triku	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.005942604970387369	3
+STOmics0212	triku	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.003785945681425398	3
+STOmics0212	triku	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.004039331410219414	3
+STOmics0212	triku	2000	scvi	STOmics-0212	scVI	Clustering	0.005658019974250744	3
+STOmics0212	triku	2000	scvi	STOmics-0212	scVI	Core overall	0.005585376853246323	3
+STOmics0212	triku	2000	scvi	STOmics-0212	scVI	Integration	0.009276788065635292	3
+STOmics0212	wilcoxon	2000	cellcharter	STOmics-0212	CellCharter	Clustering	0.03517944757476298	3
+STOmics0212	wilcoxon	2000	cellcharter	STOmics-0212	CellCharter	Core overall	0.02605245112228259	3
+STOmics0212	wilcoxon	2000	cellcharter	STOmics-0212	CellCharter	Integration	0.01728674791314271	3
+STOmics0212	wilcoxon	2000	scvi	STOmics-0212	scVI	Clustering	0.018535385810078023	3
+STOmics0212	wilcoxon	2000	scvi	STOmics-0212	scVI	Core overall	0.0022173165208524926	3
+STOmics0212	wilcoxon	2000	scvi	STOmics-0212	scVI	Integration	0.018265447351527662	3
+STOmics0218	Brennecke	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.008756489634777397	3
+STOmics0218	Brennecke	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.003526282038124736	3
+STOmics0218	Brennecke	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.010935480459424503	3
+STOmics0218	Brennecke	2000	scvi	STOmics-0218	scVI	Clustering	0.03273002457370622	3
+STOmics0218	Brennecke	2000	scvi	STOmics-0218	scVI	Core overall	0.011215893894416623	3
+STOmics0218	Brennecke	2000	scvi	STOmics-0218	scVI	Integration	0.010300718220267393	3
+STOmics0218	TFs	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.02359506058599023	3
+STOmics0218	TFs	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.012704639348120137	3
+STOmics0218	TFs	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.003441172894589697	3
+STOmics0218	TFs	2000	scvi	STOmics-0218	scVI	Clustering	0.01128738808885048	3
+STOmics0218	TFs	2000	scvi	STOmics-0218	scVI	Core overall	0.012561515309844786	3
+STOmics0218	TFs	2000	scvi	STOmics-0218	scVI	Integration	0.01638705606481734	3
+STOmics0218	all_features	all	cellcharter	STOmics-0218	CellCharter	Clustering	0.0123567725424995	3
+STOmics0218	all_features	all	cellcharter	STOmics-0218	CellCharter	Core overall	0.008227774920229447	3
+STOmics0218	all_features	all	cellcharter	STOmics-0218	CellCharter	Integration	0.004165735175668007	3
+STOmics0218	all_features	all	scvi	STOmics-0218	scVI	Clustering	0.1563066753812284	3
+STOmics0218	all_features	all	scvi	STOmics-0218	scVI	Core overall	0.13414154663932765	3
+STOmics0218	all_features	all	scvi	STOmics-0218	scVI	Integration	0.11334747332048907	3
+STOmics0218	anticor	2000	cellcharter	STOmics-0218	CellCharter	Clustering	5.836166213118685e-4	3
+STOmics0218	anticor	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.0033408526579144946	3
+STOmics0218	anticor	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.007262999270070757	3
+STOmics0218	anticor	2000	scvi	STOmics-0218	scVI	Clustering	0.00561275291650468	3
+STOmics0218	anticor	2000	scvi	STOmics-0218	scVI	Core overall	0.002697125450656634	3
+STOmics0218	anticor	2000	scvi	STOmics-0218	scVI	Integration	0.009365877296116185	3
+STOmics0218	dubstepr	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.010128040028646534	3
+STOmics0218	dubstepr	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.005833201200596698	3
+STOmics0218	dubstepr	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.0020143851432739106	3
+STOmics0218	dubstepr	2000	scvi	STOmics-0218	scVI	Clustering	0.0179532044603977	3
+STOmics0218	dubstepr	2000	scvi	STOmics-0218	scVI	Core overall	0.010276678277062915	3
+STOmics0218	dubstepr	2000	scvi	STOmics-0218	scVI	Integration	0.011133523152649412	3
+STOmics0218	hotspot	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.025412537233658168	3
+STOmics0218	hotspot	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.014257060910852428	3
+STOmics0218	hotspot	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.00310365219399403	3
+STOmics0218	hotspot	2000	scvi	STOmics-0218	scVI	Clustering	0.016006379653871118	3
+STOmics0218	hotspot	2000	scvi	STOmics-0218	scVI	Core overall	0.00564515205115674	3
+STOmics0218	hotspot	2000	scvi	STOmics-0218	scVI	Integration	0.009949669058485702	3
+STOmics0218	morans_i	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.0157816813883193	3
+STOmics0218	morans_i	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.00989588963939184	3
+STOmics0218	morans_i	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.005606623834915549	3
+STOmics0218	morans_i	2000	scvi	STOmics-0218	scVI	Clustering	0.014327669575341007	3
+STOmics0218	morans_i	2000	scvi	STOmics-0218	scVI	Core overall	0.007514133291299018	3
+STOmics0218	morans_i	2000	scvi	STOmics-0218	scVI	Integration	0.013818623956785625	3
+STOmics0218	nbumi	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.015434259754424542	3
+STOmics0218	nbumi	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.00782313465060351	3
+STOmics0218	nbumi	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.002953580057976589	3
+STOmics0218	nbumi	2000	scvi	STOmics-0218	scVI	Clustering	0.024301731359602174	3
+STOmics0218	nbumi	2000	scvi	STOmics-0218	scVI	Core overall	0.016215332774898283	3
+STOmics0218	nbumi	2000	scvi	STOmics-0218	scVI	Integration	0.01325638291316451	3
+STOmics0218	nnsvg	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.0213765964957954	3
+STOmics0218	nnsvg	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.009797610201411755	3
+STOmics0218	nnsvg	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.003943212258858483	3
+STOmics0218	nnsvg	2000	scvi	STOmics-0218	scVI	Clustering	0.007791545308435182	3
+STOmics0218	nnsvg	2000	scvi	STOmics-0218	scVI	Core overall	0.0036800664621439217	3
+STOmics0218	nnsvg	2000	scvi	STOmics-0218	scVI	Integration	0.01444015135746002	3
+STOmics0218	osca	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.008769652721577793	3
+STOmics0218	osca	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.008850697770020607	3
+STOmics0218	osca	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.009641909744568687	3
+STOmics0218	osca	2000	scvi	STOmics-0218	scVI	Clustering	0.014789460778949307	3
+STOmics0218	osca	2000	scvi	STOmics-0218	scVI	Core overall	0.004849971694551826	3
+STOmics0218	osca	2000	scvi	STOmics-0218	scVI	Integration	0.005327315715667506	3
+STOmics0218	random	500	cellcharter	STOmics-0218	CellCharter	Clustering	0.10530362536448208	3
+STOmics0218	random	500	cellcharter	STOmics-0218	CellCharter	Core overall	0.05501035648105795	3
+STOmics0218	random	500	cellcharter	STOmics-0218	CellCharter	Integration	0.004774601209522822	3
+STOmics0218	random	500	scvi	STOmics-0218	scVI	Clustering	0.03668094584840373	3
+STOmics0218	random	500	scvi	STOmics-0218	scVI	Core overall	0.02508831637016508	3
+STOmics0218	random	500	scvi	STOmics-0218	scVI	Integration	0.022521236524521024	3
+STOmics0218	scPNMF	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.011868763442378688	3
+STOmics0218	scPNMF	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.004408033820611536	3
+STOmics0218	scPNMF	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.009341494065440957	3
+STOmics0218	scPNMF	2000	scvi	STOmics-0218	scVI	Clustering	0.0043720339992434154	3
+STOmics0218	scPNMF	2000	scvi	STOmics-0218	scVI	Core overall	0.00808142591051054	3
+STOmics0218	scPNMF	2000	scvi	STOmics-0218	scVI	Integration	0.016162141020983383	3
+STOmics0218	scanpy_cell_ranger	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.0285737945943112	3
+STOmics0218	scanpy_cell_ranger	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.015285179023076044	3
+STOmics0218	scanpy_cell_ranger	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.0024711377786312324	3
+STOmics0218	scanpy_cell_ranger	2000	scvi	STOmics-0218	scVI	Clustering	0.04588520075403209	3
+STOmics0218	scanpy_cell_ranger	2000	scvi	STOmics-0218	scVI	Core overall	0.027956817023129254	3
+STOmics0218	scanpy_cell_ranger	2000	scvi	STOmics-0218	scVI	Integration	0.010298677057676623	3
+STOmics0218	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.0036176350472761827	3
+STOmics0218	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.004159494821922324	3
+STOmics0218	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.01163737588333214	3
+STOmics0218	scanpy_cell_ranger_batch	2000	scvi	STOmics-0218	scVI	Clustering	0.006001116757431637	3
+STOmics0218	scanpy_cell_ranger_batch	2000	scvi	STOmics-0218	scVI	Core overall	0.005559012493228038	3
+STOmics0218	scanpy_cell_ranger_batch	2000	scvi	STOmics-0218	scVI	Integration	0.007530855432292944	3
+STOmics0218	scanpy_pearson	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.005469856671841608	3
+STOmics0218	scanpy_pearson	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.007589338655302161	3
+STOmics0218	scanpy_pearson	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.011149378689013277	3
+STOmics0218	scanpy_pearson	2000	scvi	STOmics-0218	scVI	Clustering	0.015153038328299067	3
+STOmics0218	scanpy_pearson	2000	scvi	STOmics-0218	scVI	Core overall	0.003066598854695559	3
+STOmics0218	scanpy_pearson	2000	scvi	STOmics-0218	scVI	Integration	0.009597927090829742	3
+STOmics0218	scanpy_pearson_batch	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.022349978182481623	3
+STOmics0218	scanpy_pearson_batch	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.011935009155549143	3
+STOmics0218	scanpy_pearson_batch	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.0019251988938962436	3
+STOmics0218	scanpy_pearson_batch	2000	scvi	STOmics-0218	scVI	Clustering	0.01542044937501457	3
+STOmics0218	scanpy_pearson_batch	2000	scvi	STOmics-0218	scVI	Core overall	0.003588921841420508	3
+STOmics0218	scanpy_pearson_batch	2000	scvi	STOmics-0218	scVI	Integration	0.008796304512035434	3
+STOmics0218	scanpy_seurat	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.02044549531122607	3
+STOmics0218	scanpy_seurat	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.012543006280743224	3
+STOmics0218	scanpy_seurat	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.005505509023446	3
+STOmics0218	scanpy_seurat	2000	scvi	STOmics-0218	scVI	Clustering	0.017866487539000497	3
+STOmics0218	scanpy_seurat	2000	scvi	STOmics-0218	scVI	Core overall	0.014336263517393349	3
+STOmics0218	scanpy_seurat	2000	scvi	STOmics-0218	scVI	Integration	0.012208173986180794	3
+STOmics0218	scanpy_seurat_batch	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.016219645712100123	3
+STOmics0218	scanpy_seurat_batch	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.0064881173273242535	3
+STOmics0218	scanpy_seurat_batch	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.004145007010531971	3
+STOmics0218	scanpy_seurat_batch	2000	scvi	STOmics-0218	scVI	Clustering	0.0087763797155363	3
+STOmics0218	scanpy_seurat_batch	2000	scvi	STOmics-0218	scVI	Core overall	0.001733845595036872	3
+STOmics0218	scanpy_seurat_batch	2000	scvi	STOmics-0218	scVI	Integration	0.011594390410395904	3
+STOmics0218	scanpy_seurat_v3	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.027392927477839453	3
+STOmics0218	scanpy_seurat_v3	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.010884171309542409	3
+STOmics0218	scanpy_seurat_v3	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.008128050122924663	3
+STOmics0218	scanpy_seurat_v3	2000	scvi	STOmics-0218	scVI	Clustering	0.01234591431856926	3
+STOmics0218	scanpy_seurat_v3	2000	scvi	STOmics-0218	scVI	Core overall	0.006947102477094833	3
+STOmics0218	scanpy_seurat_v3	2000	scvi	STOmics-0218	scVI	Integration	0.016207632459522576	3
+STOmics0218	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.02368456310109361	3
+STOmics0218	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.009990456428430109	3
+STOmics0218	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.003822503233907462	3
+STOmics0218	scanpy_seurat_v3_batch	2000	scvi	STOmics-0218	scVI	Clustering	0.027350958607363605	3
+STOmics0218	scanpy_seurat_v3_batch	2000	scvi	STOmics-0218	scVI	Core overall	0.015196867396137055	3
+STOmics0218	scanpy_seurat_v3_batch	2000	scvi	STOmics-0218	scVI	Integration	0.006034842592419651	3
+STOmics0218	scry	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.020026568087653355	3
+STOmics0218	scry	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.009822369912814443	3
+STOmics0218	scry	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.004277201935552522	3
+STOmics0218	scry	2000	scvi	STOmics-0218	scVI	Clustering	0.00880014755538719	3
+STOmics0218	scry	2000	scvi	STOmics-0218	scVI	Core overall	0.007516408218924778	3
+STOmics0218	scry	2000	scvi	STOmics-0218	scVI	Integration	0.0062900000907152274	3
+STOmics0218	scsegindex	500	cellcharter	STOmics-0218	CellCharter	Clustering	0.08040525921172703	3
+STOmics0218	scsegindex	500	cellcharter	STOmics-0218	CellCharter	Core overall	0.040989253059721745	3
+STOmics0218	scsegindex	500	cellcharter	STOmics-0218	CellCharter	Integration	0.002276484255173999	3
+STOmics0218	scsegindex	500	scvi	STOmics-0218	scVI	Clustering	0.18315292181580287	3
+STOmics0218	scsegindex	500	scvi	STOmics-0218	scVI	Core overall	0.1355881154363825	3
+STOmics0218	scsegindex	500	scvi	STOmics-0218	scVI	Integration	0.08948125554147507	3
+STOmics0218	seurat_disp	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.007423540749178376	3
+STOmics0218	seurat_disp	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.0012279612382280292	3
+STOmics0218	seurat_disp	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.008683291871194853	3
+STOmics0218	seurat_disp	2000	scvi	STOmics-0218	scVI	Clustering	0.004578207096466565	3
+STOmics0218	seurat_disp	2000	scvi	STOmics-0218	scVI	Core overall	0.0028529116108926334	3
+STOmics0218	seurat_disp	2000	scvi	STOmics-0218	scVI	Integration	0.0033804436690853643	3
+STOmics0218	seurat_mvp	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.022216195631240998	3
+STOmics0218	seurat_mvp	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.014459433893153276	3
+STOmics0218	seurat_mvp	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.006855369329364245	3
+STOmics0218	seurat_mvp	2000	scvi	STOmics-0218	scVI	Clustering	0.014449253988449784	3
+STOmics0218	seurat_mvp	2000	scvi	STOmics-0218	scVI	Core overall	0.00643340530529316	3
+STOmics0218	seurat_mvp	2000	scvi	STOmics-0218	scVI	Integration	0.004840833540278471	3
+STOmics0218	seurat_sct	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.006970300095267744	3
+STOmics0218	seurat_sct	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.004749085100935584	3
+STOmics0218	seurat_sct	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.003683882807662512	3
+STOmics0218	seurat_sct	2000	scvi	STOmics-0218	scVI	Clustering	0.014513717904303712	3
+STOmics0218	seurat_sct	2000	scvi	STOmics-0218	scVI	Core overall	0.0030986119890328134	3
+STOmics0218	seurat_sct	2000	scvi	STOmics-0218	scVI	Integration	0.014546153030083293	3
+STOmics0218	seurat_vst	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.0262374386039664	3
+STOmics0218	seurat_vst	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.011425754648422791	3
+STOmics0218	seurat_vst	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.008136428659523454	3
+STOmics0218	seurat_vst	2000	scvi	STOmics-0218	scVI	Clustering	0.018987076588840305	3
+STOmics0218	seurat_vst	2000	scvi	STOmics-0218	scVI	Core overall	0.012094737597338711	3
+STOmics0218	seurat_vst	2000	scvi	STOmics-0218	scVI	Integration	0.007251549895105154	3
+STOmics0218	singleCellHaystack	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.014138202030029195	3
+STOmics0218	singleCellHaystack	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.005173265226772242	3
+STOmics0218	singleCellHaystack	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.005995862786064823	3
+STOmics0218	singleCellHaystack	2000	scvi	STOmics-0218	scVI	Clustering	0.035219030057967775	3
+STOmics0218	singleCellHaystack	2000	scvi	STOmics-0218	scVI	Core overall	0.021071027414299982	3
+STOmics0218	singleCellHaystack	2000	scvi	STOmics-0218	scVI	Integration	0.007416235096113552	3
+STOmics0218	somde	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.021699730747522163	3
+STOmics0218	somde	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.010139948793062934	3
+STOmics0218	somde	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.008134107863300316	3
+STOmics0218	somde	2000	scvi	STOmics-0218	scVI	Clustering	0.02962349305436864	3
+STOmics0218	somde	2000	scvi	STOmics-0218	scVI	Core overall	0.015438023394133363	3
+STOmics0218	somde	2000	scvi	STOmics-0218	scVI	Integration	0.0022881688691210214	3
+STOmics0218	sparkx	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.013699265888110952	3
+STOmics0218	sparkx	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.0058907815616345074	3
+STOmics0218	sparkx	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.002211753940651697	3
+STOmics0218	sparkx	2000	scvi	STOmics-0218	scVI	Clustering	0.012492794992263688	3
+STOmics0218	sparkx	2000	scvi	STOmics-0218	scVI	Core overall	0.011134768565327916	3
+STOmics0218	sparkx	2000	scvi	STOmics-0218	scVI	Integration	0.012484317036017423	3
+STOmics0218	spatialde	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.008947213306178167	3
+STOmics0218	spatialde	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.006636363856192913	3
+STOmics0218	spatialde	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.004388618941604309	3
+STOmics0218	spatialde	2000	scvi	STOmics-0218	scVI	Clustering	0.03037524728405	3
+STOmics0218	spatialde	2000	scvi	STOmics-0218	scVI	Core overall	0.013122387169294855	3
+STOmics0218	spatialde	2000	scvi	STOmics-0218	scVI	Integration	0.006327212171287526	3
+STOmics0218	statistic_mean	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.008904453417683962	3
+STOmics0218	statistic_mean	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.006915923630042767	3
+STOmics0218	statistic_mean	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.0052311306789816605	3
+STOmics0218	statistic_mean	2000	scvi	STOmics-0218	scVI	Clustering	0.00535994683530598	3
+STOmics0218	statistic_mean	2000	scvi	STOmics-0218	scVI	Core overall	0.0011471005406896442	3
+STOmics0218	statistic_mean	2000	scvi	STOmics-0218	scVI	Integration	0.005639773138672881	3
+STOmics0218	statistic_variance	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.01315346689639083	3
+STOmics0218	statistic_variance	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.003716973532264237	3
+STOmics0218	statistic_variance	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.005755048451474806	3
+STOmics0218	statistic_variance	2000	scvi	STOmics-0218	scVI	Clustering	0.03977439149793296	3
+STOmics0218	statistic_variance	2000	scvi	STOmics-0218	scVI	Core overall	0.015960387672169667	3
+STOmics0218	statistic_variance	2000	scvi	STOmics-0218	scVI	Integration	0.009040097078667177	3
+STOmics0218	triku	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.026915427570587666	3
+STOmics0218	triku	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.01089021290141918	3
+STOmics0218	triku	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.005783074686572916	3
+STOmics0218	triku	2000	scvi	STOmics-0218	scVI	Clustering	0.015180389509564029	3
+STOmics0218	triku	2000	scvi	STOmics-0218	scVI	Core overall	0.00866685192113833	3
+STOmics0218	triku	2000	scvi	STOmics-0218	scVI	Integration	0.005440069657790484	3
+STOmics0218	wilcoxon	2000	cellcharter	STOmics-0218	CellCharter	Clustering	0.011084021163412072	3
+STOmics0218	wilcoxon	2000	cellcharter	STOmics-0218	CellCharter	Core overall	0.006342254853743167	3
+STOmics0218	wilcoxon	2000	cellcharter	STOmics-0218	CellCharter	Integration	0.0045100838097501825	3
+STOmics0218	wilcoxon	2000	scvi	STOmics-0218	scVI	Clustering	0.022560521590330666	3
+STOmics0218	wilcoxon	2000	scvi	STOmics-0218	scVI	Core overall	0.006800540438610243	3
+STOmics0218	wilcoxon	2000	scvi	STOmics-0218	scVI	Integration	0.009882508217901756	3
+STOmics0224	Brennecke	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.053875528401807635	3
+STOmics0224	Brennecke	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.017467770744819398	3
+STOmics0224	Brennecke	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.021206839650716316	3
+STOmics0224	Brennecke	2000	scvi	STOmics-0224	scVI	Clustering	0.035016543801257204	3
+STOmics0224	Brennecke	2000	scvi	STOmics-0224	scVI	Core overall	0.02075367010578673	3
+STOmics0224	Brennecke	2000	scvi	STOmics-0224	scVI	Integration	0.017099102824673654	3
+STOmics0224	TFs	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.024016212597040766	3
+STOmics0224	TFs	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.011506737491749956	3
+STOmics0224	TFs	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.009913935372860776	3
+STOmics0224	TFs	2000	scvi	STOmics-0224	scVI	Clustering	0.02578607403507041	3
+STOmics0224	TFs	2000	scvi	STOmics-0224	scVI	Core overall	0.012966522361585546	3
+STOmics0224	TFs	2000	scvi	STOmics-0224	scVI	Integration	0.004698468186796765	3
+STOmics0224	all_features	all	cellcharter	STOmics-0224	CellCharter	Clustering	0.02838246652960046	3
+STOmics0224	all_features	all	cellcharter	STOmics-0224	CellCharter	Core overall	0.02268600839729671	3
+STOmics0224	all_features	all	cellcharter	STOmics-0224	CellCharter	Integration	0.02071179488306855	3
+STOmics0224	all_features	all	scvi	STOmics-0224	scVI	Clustering	0.019660570955556074	3
+STOmics0224	all_features	all	scvi	STOmics-0224	scVI	Core overall	0.012492480026591809	3
+STOmics0224	all_features	all	scvi	STOmics-0224	scVI	Integration	0.04463257059301449	3
+STOmics0224	anticor	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.020322960055177496	3
+STOmics0224	anticor	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.011107597646341436	3
+STOmics0224	anticor	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.005408166592406431	3
+STOmics0224	anticor	2000	scvi	STOmics-0224	scVI	Clustering	0.053896100655860764	3
+STOmics0224	anticor	2000	scvi	STOmics-0224	scVI	Core overall	0.030715192909295225	3
+STOmics0224	anticor	2000	scvi	STOmics-0224	scVI	Integration	0.008368620988274776	3
+STOmics0224	dubstepr	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.004205367523253137	3
+STOmics0224	dubstepr	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.0121275055842074	3
+STOmics0224	dubstepr	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.02100035813308464	3
+STOmics0224	dubstepr	2000	scvi	STOmics-0224	scVI	Clustering	0.010767038996898468	3
+STOmics0224	dubstepr	2000	scvi	STOmics-0224	scVI	Core overall	0.02738406021218833	3
+STOmics0224	dubstepr	2000	scvi	STOmics-0224	scVI	Integration	0.044064110564547586	3
+STOmics0224	hotspot	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.021794491101388532	3
+STOmics0224	hotspot	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.012032337282602789	3
+STOmics0224	hotspot	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.013185414524380358	3
+STOmics0224	hotspot	2000	scvi	STOmics-0224	scVI	Clustering	0.028781570962834235	3
+STOmics0224	hotspot	2000	scvi	STOmics-0224	scVI	Core overall	0.018890899050401734	3
+STOmics0224	hotspot	2000	scvi	STOmics-0224	scVI	Integration	0.009415882851241467	3
+STOmics0224	morans_i	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.016968430532674002	3
+STOmics0224	morans_i	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.017758226115974607	3
+STOmics0224	morans_i	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.021382644982436146	3
+STOmics0224	morans_i	2000	scvi	STOmics-0224	scVI	Clustering	0.024892263745070937	3
+STOmics0224	morans_i	2000	scvi	STOmics-0224	scVI	Core overall	0.028950738714704993	3
+STOmics0224	morans_i	2000	scvi	STOmics-0224	scVI	Integration	0.033384360951433496	3
+STOmics0224	nbumi	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.011924430370691583	3
+STOmics0224	nbumi	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.004074806686993653	3
+STOmics0224	nbumi	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.020064989754259757	3
+STOmics0224	nbumi	2000	scvi	STOmics-0224	scVI	Clustering	0.030017317548276693	3
+STOmics0224	nbumi	2000	scvi	STOmics-0224	scVI	Core overall	0.02655180749871673	3
+STOmics0224	nbumi	2000	scvi	STOmics-0224	scVI	Integration	0.031509890465733555	3
+STOmics0224	nnsvg	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.010284859735194597	3
+STOmics0224	nnsvg	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.0074870463440513315	3
+STOmics0224	nnsvg	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.01790072366139406	3
+STOmics0224	nnsvg	2000	scvi	STOmics-0224	scVI	Clustering	0.023539041934482956	3
+STOmics0224	nnsvg	2000	scvi	STOmics-0224	scVI	Core overall	0.011022508943935454	3
+STOmics0224	nnsvg	2000	scvi	STOmics-0224	scVI	Integration	0.030584247449852827	3
+STOmics0224	osca	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.016590669406239093	3
+STOmics0224	osca	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.01461004162857201	3
+STOmics0224	osca	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.022226531398209397	3
+STOmics0224	osca	2000	scvi	STOmics-0224	scVI	Clustering	0.021311005346733167	3
+STOmics0224	osca	2000	scvi	STOmics-0224	scVI	Core overall	0.011009584681429591	3
+STOmics0224	osca	2000	scvi	STOmics-0224	scVI	Integration	0.0019003469998617524	3
+STOmics0224	random	500	cellcharter	STOmics-0224	CellCharter	Clustering	0.09382784126404035	3
+STOmics0224	random	500	cellcharter	STOmics-0224	CellCharter	Core overall	0.0444399251738748	3
+STOmics0224	random	500	cellcharter	STOmics-0224	CellCharter	Integration	0.00850984381246111	3
+STOmics0224	random	500	scvi	STOmics-0224	scVI	Clustering	0.04250876373854619	3
+STOmics0224	random	500	scvi	STOmics-0224	scVI	Core overall	0.020174598176413715	3
+STOmics0224	random	500	scvi	STOmics-0224	scVI	Integration	0.006179853291163248	3
+STOmics0224	scPNMF	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.041613100276607876	3
+STOmics0224	scPNMF	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.02296185001292511	3
+STOmics0224	scPNMF	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.011924000708791065	3
+STOmics0224	scPNMF	2000	scvi	STOmics-0224	scVI	Clustering	0.022230323937136656	3
+STOmics0224	scPNMF	2000	scvi	STOmics-0224	scVI	Core overall	0.010423054657985275	3
+STOmics0224	scPNMF	2000	scvi	STOmics-0224	scVI	Integration	0.0039817414332369285	3
+STOmics0224	scanpy_cell_ranger	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.022311675614705827	3
+STOmics0224	scanpy_cell_ranger	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.01653544145182298	3
+STOmics0224	scanpy_cell_ranger	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.017051335602193796	3
+STOmics0224	scanpy_cell_ranger	2000	scvi	STOmics-0224	scVI	Clustering	0.027162463543140312	3
+STOmics0224	scanpy_cell_ranger	2000	scvi	STOmics-0224	scVI	Core overall	0.01016346479161125	3
+STOmics0224	scanpy_cell_ranger	2000	scvi	STOmics-0224	scVI	Integration	0.011549912358510906	3
+STOmics0224	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.022409818105065003	3
+STOmics0224	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.01030383994075492	3
+STOmics0224	scanpy_cell_ranger_batch	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.0024535444825361163	3
+STOmics0224	scanpy_cell_ranger_batch	2000	scvi	STOmics-0224	scVI	Clustering	0.044847066560766674	3
+STOmics0224	scanpy_cell_ranger_batch	2000	scvi	STOmics-0224	scVI	Core overall	0.023432795736292457	3
+STOmics0224	scanpy_cell_ranger_batch	2000	scvi	STOmics-0224	scVI	Integration	0.006389596691145365	3
+STOmics0224	scanpy_pearson	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.025139722530866396	3
+STOmics0224	scanpy_pearson	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.009159423257395846	3
+STOmics0224	scanpy_pearson	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.03190813322861793	3
+STOmics0224	scanpy_pearson	2000	scvi	STOmics-0224	scVI	Clustering	0.028838821165879387	3
+STOmics0224	scanpy_pearson	2000	scvi	STOmics-0224	scVI	Core overall	0.016515983691238197	3
+STOmics0224	scanpy_pearson	2000	scvi	STOmics-0224	scVI	Integration	0.018874750419798626	3
+STOmics0224	scanpy_pearson_batch	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.03433450391964707	3
+STOmics0224	scanpy_pearson_batch	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.016307702407948873	3
+STOmics0224	scanpy_pearson_batch	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.006010702694307397	3
+STOmics0224	scanpy_pearson_batch	2000	scvi	STOmics-0224	scVI	Clustering	0.018703864222213165	3
+STOmics0224	scanpy_pearson_batch	2000	scvi	STOmics-0224	scVI	Core overall	0.00748964438337263	3
+STOmics0224	scanpy_pearson_batch	2000	scvi	STOmics-0224	scVI	Integration	0.010714886924397123	3
+STOmics0224	scanpy_seurat	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.032949342113209025	3
+STOmics0224	scanpy_seurat	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.008125505136568532	3
+STOmics0224	scanpy_seurat	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.016727724543313654	3
+STOmics0224	scanpy_seurat	2000	scvi	STOmics-0224	scVI	Clustering	0.05353276392572368	3
+STOmics0224	scanpy_seurat	2000	scvi	STOmics-0224	scVI	Core overall	0.026442052227223324	3
+STOmics0224	scanpy_seurat	2000	scvi	STOmics-0224	scVI	Integration	0.009164782445185345	3
+STOmics0224	scanpy_seurat_batch	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.01191499506303386	3
+STOmics0224	scanpy_seurat_batch	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.012469989267439105	3
+STOmics0224	scanpy_seurat_batch	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.013027167724734147	3
+STOmics0224	scanpy_seurat_batch	2000	scvi	STOmics-0224	scVI	Clustering	0.02258774143307644	3
+STOmics0224	scanpy_seurat_batch	2000	scvi	STOmics-0224	scVI	Core overall	0.008225707331971251	3
+STOmics0224	scanpy_seurat_batch	2000	scvi	STOmics-0224	scVI	Integration	0.014247398030035007	3
+STOmics0224	scanpy_seurat_v3	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.04149789785941949	3
+STOmics0224	scanpy_seurat_v3	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.02204445376666564	3
+STOmics0224	scanpy_seurat_v3	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.004152449301730505	3
+STOmics0224	scanpy_seurat_v3	2000	scvi	STOmics-0224	scVI	Clustering	0.029645218824958193	3
+STOmics0224	scanpy_seurat_v3	2000	scvi	STOmics-0224	scVI	Core overall	0.01901731810511448	3
+STOmics0224	scanpy_seurat_v3	2000	scvi	STOmics-0224	scVI	Integration	0.06741569991638886	3
+STOmics0224	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.020494185370161587	3
+STOmics0224	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.013658515265557626	3
+STOmics0224	scanpy_seurat_v3_batch	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.010259863847940765	3
+STOmics0224	scanpy_seurat_v3_batch	2000	scvi	STOmics-0224	scVI	Clustering	0.036196672562912695	3
+STOmics0224	scanpy_seurat_v3_batch	2000	scvi	STOmics-0224	scVI	Core overall	0.01736700199706852	3
+STOmics0224	scanpy_seurat_v3_batch	2000	scvi	STOmics-0224	scVI	Integration	0.008627035831667839	3
+STOmics0224	scry	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.01764349602889977	3
+STOmics0224	scry	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.018461157791341123	3
+STOmics0224	scry	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.020173712588886467	3
+STOmics0224	scry	2000	scvi	STOmics-0224	scVI	Clustering	0.014517092052839551	3
+STOmics0224	scry	2000	scvi	STOmics-0224	scVI	Core overall	0.007666085744258185	3
+STOmics0224	scry	2000	scvi	STOmics-0224	scVI	Integration	0.00817020988381533	3
+STOmics0224	scsegindex	500	cellcharter	STOmics-0224	CellCharter	Clustering	0.014958069243958967	3
+STOmics0224	scsegindex	500	cellcharter	STOmics-0224	CellCharter	Core overall	0.006295276331278511	3
+STOmics0224	scsegindex	500	cellcharter	STOmics-0224	CellCharter	Integration	0.006595643663363963	3
+STOmics0224	scsegindex	500	scvi	STOmics-0224	scVI	Clustering	0.010211544435106544	3
+STOmics0224	scsegindex	500	scvi	STOmics-0224	scVI	Core overall	0.005029110417136522	3
+STOmics0224	scsegindex	500	scvi	STOmics-0224	scVI	Integration	2.2068690624735032e-4	3
+STOmics0224	seurat_disp	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.03761318014807428	3
+STOmics0224	seurat_disp	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.010138669384193211	3
+STOmics0224	seurat_disp	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.018352746942797007	3
+STOmics0224	seurat_disp	2000	scvi	STOmics-0224	scVI	Clustering	0.025695815616973677	3
+STOmics0224	seurat_disp	2000	scvi	STOmics-0224	scVI	Core overall	0.014810543927938307	3
+STOmics0224	seurat_disp	2000	scvi	STOmics-0224	scVI	Integration	0.019930388949788	3
+STOmics0224	seurat_mvp	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.02394883452321988	3
+STOmics0224	seurat_mvp	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.011317139184620116	3
+STOmics0224	seurat_mvp	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.010335487186717712	3
+STOmics0224	seurat_mvp	2000	scvi	STOmics-0224	scVI	Clustering	0.029035659027763682	3
+STOmics0224	seurat_mvp	2000	scvi	STOmics-0224	scVI	Core overall	0.012869539733892986	3
+STOmics0224	seurat_mvp	2000	scvi	STOmics-0224	scVI	Integration	0.0034917027905106398	3
+STOmics0224	seurat_sct	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.015276170930968789	3
+STOmics0224	seurat_sct	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.014387554977127842	3
+STOmics0224	seurat_sct	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.023435393893302164	3
+STOmics0224	seurat_sct	2000	scvi	STOmics-0224	scVI	Clustering	0.012843612319874121	3
+STOmics0224	seurat_sct	2000	scvi	STOmics-0224	scVI	Core overall	0.009187393895643055	3
+STOmics0224	seurat_sct	2000	scvi	STOmics-0224	scVI	Integration	0.006780340264757816	3
+STOmics0224	seurat_vst	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.0024919044869525183	3
+STOmics0224	seurat_vst	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.014166613108679636	3
+STOmics0224	seurat_vst	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.02628365402454983	3
+STOmics0224	seurat_vst	2000	scvi	STOmics-0224	scVI	Clustering	0.051396904405311916	3
+STOmics0224	seurat_vst	2000	scvi	STOmics-0224	scVI	Core overall	0.024779848431388807	3
+STOmics0224	seurat_vst	2000	scvi	STOmics-0224	scVI	Integration	0.06863261479086252	3
+STOmics0224	singleCellHaystack	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.021823225116910275	3
+STOmics0224	singleCellHaystack	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.012618030482103144	3
+STOmics0224	singleCellHaystack	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.005342754924327297	3
+STOmics0224	singleCellHaystack	2000	scvi	STOmics-0224	scVI	Clustering	0.015178710331563424	3
+STOmics0224	singleCellHaystack	2000	scvi	STOmics-0224	scVI	Core overall	0.01936212622863244	3
+STOmics0224	singleCellHaystack	2000	scvi	STOmics-0224	scVI	Integration	0.02740242528067779	3
+STOmics0224	somde	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.020509286719329025	3
+STOmics0224	somde	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.01804295248130535	3
+STOmics0224	somde	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.016333483601221076	3
+STOmics0224	somde	2000	scvi	STOmics-0224	scVI	Clustering	0.02407422008475765	3
+STOmics0224	somde	2000	scvi	STOmics-0224	scVI	Core overall	0.025758260229552705	3
+STOmics0224	somde	2000	scvi	STOmics-0224	scVI	Integration	0.03345207444570505	3
+STOmics0224	sparkx	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.030046492885459294	3
+STOmics0224	sparkx	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.014823224625497745	3
+STOmics0224	sparkx	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.004247517405572857	3
+STOmics0224	sparkx	2000	scvi	STOmics-0224	scVI	Clustering	0.0405648655518343	3
+STOmics0224	sparkx	2000	scvi	STOmics-0224	scVI	Core overall	0.00775164353769868	3
+STOmics0224	sparkx	2000	scvi	STOmics-0224	scVI	Integration	0.03508926173354951	3
+STOmics0224	spatialde	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.014636739294676085	3
+STOmics0224	spatialde	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.004843906918583841	3
+STOmics0224	spatialde	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.012570940090527808	3
+STOmics0224	spatialde	2000	scvi	STOmics-0224	scVI	Clustering	0.01809151482945134	3
+STOmics0224	spatialde	2000	scvi	STOmics-0224	scVI	Core overall	0.019966494994353455	3
+STOmics0224	spatialde	2000	scvi	STOmics-0224	scVI	Integration	0.02695856895138753	3
+STOmics0224	statistic_mean	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.026691735172502572	3
+STOmics0224	statistic_mean	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.01439584733892636	3
+STOmics0224	statistic_mean	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.011744513032885302	3
+STOmics0224	statistic_mean	2000	scvi	STOmics-0224	scVI	Clustering	0.024293298979976972	3
+STOmics0224	statistic_mean	2000	scvi	STOmics-0224	scVI	Core overall	0.008516655145895075	3
+STOmics0224	statistic_mean	2000	scvi	STOmics-0224	scVI	Integration	0.007978521230177298	3
+STOmics0224	statistic_variance	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.013438802734274514	3
+STOmics0224	statistic_variance	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.00669344211781761	3
+STOmics0224	statistic_variance	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.015382429857683864	3
+STOmics0224	statistic_variance	2000	scvi	STOmics-0224	scVI	Clustering	0.018546716331305	3
+STOmics0224	statistic_variance	2000	scvi	STOmics-0224	scVI	Core overall	0.0188274247151111	3
+STOmics0224	statistic_variance	2000	scvi	STOmics-0224	scVI	Integration	0.019431946763871142	3
+STOmics0224	triku	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.014387268302518992	3
+STOmics0224	triku	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.009002390908067991	3
+STOmics0224	triku	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.010658729458620729	3
+STOmics0224	triku	2000	scvi	STOmics-0224	scVI	Clustering	0.05564463026414797	3
+STOmics0224	triku	2000	scvi	STOmics-0224	scVI	Core overall	0.029969474639946148	3
+STOmics0224	triku	2000	scvi	STOmics-0224	scVI	Integration	0.005493732071738341	3
+STOmics0224	wilcoxon	2000	cellcharter	STOmics-0224	CellCharter	Clustering	0.028008944364148265	3
+STOmics0224	wilcoxon	2000	cellcharter	STOmics-0224	CellCharter	Core overall	0.014497196809928559	3
+STOmics0224	wilcoxon	2000	cellcharter	STOmics-0224	CellCharter	Integration	0.009773610799155449	3
+STOmics0224	wilcoxon	2000	scvi	STOmics-0224	scVI	Clustering	0.0920541836038411	3
+STOmics0224	wilcoxon	2000	scvi	STOmics-0224	scVI	Core overall	0.04277004272933472	3
+STOmics0224	wilcoxon	2000	scvi	STOmics-0224	scVI	Integration	0.007300302294424122	3

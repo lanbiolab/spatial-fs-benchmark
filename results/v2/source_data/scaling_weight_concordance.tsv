@@ -1,0 +1,33 @@
+integration_method	NScenarios	NMethods	KendallsW	Scenario1	Scenario2	SpearmanRho
+cellcharter	6	29	0.8842765744660447			
+cellcharter	2	29		integration_weight_0.4	integration_weight_0.6	0.8436578641812751
+cellcharter	2	29		integration_weight_0.4	labelled_datasets_only	0.8093419028213837
+cellcharter	2	29		integration_weight_0.4	observed_range	0.9519349562041066
+cellcharter	2	29		integration_weight_0.4	rank_percentile	0.9688232331780972
+cellcharter	2	29		integration_weight_0.4	z_score	0.9157623216038799
+cellcharter	2	29		integration_weight_0.6	labelled_datasets_only	0.8333339674600563
+cellcharter	2	29		integration_weight_0.6	observed_range	0.9457199399776154
+cellcharter	2	29		integration_weight_0.6	rank_percentile	0.784631288449497
+cellcharter	2	29		integration_weight_0.6	z_score	0.7462963872941849
+cellcharter	2	29		labelled_datasets_only	observed_range	0.8385904386397242
+cellcharter	2	29		labelled_datasets_only	rank_percentile	0.7432549027699696
+cellcharter	2	29		labelled_datasets_only	z_score	0.8535144136079212
+cellcharter	2	29		observed_range	rank_percentile	0.9039053906221229
+cellcharter	2	29		observed_range	z_score	0.8706537524538475
+cellcharter	2	29		rank_percentile	z_score	0.9074100284691844
+scvi	6	29	0.8116376889035034			
+scvi	2	29		integration_weight_0.4	integration_weight_0.6	0.4585233610573842
+scvi	2	29		integration_weight_0.4	labelled_datasets_only	0.760231755424063
+scvi	2	29		integration_weight_0.4	observed_range	0.9568540433925048
+scvi	2	29		integration_weight_0.4	rank_percentile	0.8953735603403403
+scvi	2	29		integration_weight_0.4	z_score	0.9233140250175562
+scvi	2	29		integration_weight_0.6	labelled_datasets_only	0.6121040352180027
+scvi	2	29		integration_weight_0.6	observed_range	0.6292370317736414
+scvi	2	29		integration_weight_0.6	rank_percentile	0.5736494281510514
+scvi	2	29		integration_weight_0.6	z_score	0.5255177674513717
+scvi	2	29		labelled_datasets_only	observed_range	0.8325936883629189
+scvi	2	29		labelled_datasets_only	rank_percentile	0.8309688478561655
+scvi	2	29		labelled_datasets_only	z_score	0.8293675318858459
+scvi	2	29		observed_range	rank_percentile	0.9017893554537066
+scvi	2	29		observed_range	z_score	0.9063000931905535
+scvi	2	29		rank_percentile	z_score	0.9740871376567067

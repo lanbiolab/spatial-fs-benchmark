@@ -1,0 +1,35 @@
+Method	DisplayName	MeanOverallRank
+scanpy_seurat_v3_batch	Scanpy Seurat v3, batch (N=2,000)	5.333333333333333
+scanpy_cell_ranger_batch	Scanpy Cell Ranger, batch (N=2,000)	8.666666666666666
+scanpy_pearson_batch	Scanpy Pearson, batch (N=2,000)	9.666666666666666
+seurat_sct	Seurat sctransform (N=2,000)	9.666666666666666
+wilcoxon	Wilcoxon (label-informed) (N=2,000)	9.666666666666666
+singleCellHaystack	singleCellHaystack (N=2,000)	10.333333333333334
+hotspot	Hotspot (N=2,000)	11.666666666666666
+dubstepr	DUBStepR (N=2,000)	12
+scPNMF	scPNMF (N=2,000)	13
+triku	triku (N=2,000)	13.333333333333334
+scanpy_pearson	Scanpy Pearson (N=2,000)	14
+seurat_vst	Seurat VST (N=2,000)	14
+nbumi	NBumi (N=2,000)	14.666666666666666
+scanpy_seurat_batch	Scanpy Seurat, batch (N=2,000)	15
+osca	OSCA (N=2,000)	15.333333333333334
+scry	scry (N=2,000)	16.333333333333332
+anticor	Anticor (N=2,000)	17.333333333333332
+scanpy_seurat_v3	Scanpy Seurat v3 (N=2,000)	17.333333333333332
+statistic_variance	Expression variance (N=2,000)	17.666666666666668
+somde	SOMDE (N=2,000)	18
+scanpy_cell_ranger	Scanpy Cell Ranger (N=2,000)	18.666666666666668
+statistic_mean	Mean expression (N=2,000)	18.666666666666668
+morans_i	Moran's I (N=2,000)	20.666666666666668
+spatialde	SpatialDE (N=2,000)	20.666666666666668
+TFs	Transcription factors (N=2,000)	22
+Brennecke	Brennecke (N=2,000)	23
+random	Random (N=500)	23
+seurat_disp	Seurat Dispersion (N=2,000)	23.333333333333332
+sparkx	SPARK-X (N=2,000)	23.666666666666668
+nnsvg	nnSVG (N=2,000)	24.333333333333332
+seurat_mvp	Seurat MVP (N=2,000)	26.333333333333332
+all_features	All features	28.666666666666668
+scanpy_seurat	Scanpy Seurat (N=2,000)	29.333333333333332
+scsegindex	scSEGIndex (N=500)	29.666666666666668

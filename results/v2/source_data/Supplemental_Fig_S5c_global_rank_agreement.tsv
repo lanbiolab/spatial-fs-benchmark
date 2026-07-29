@@ -1,0 +1,30 @@
+fs_method	MethodGroup	cellcharter	scvi	Method	Group	Label
+scanpy_seurat_v3	expression_driven	7.285714285714286	11.714285714285714	Scanpy Seurat v3	Expression-based	NA
+seurat_vst	expression_driven	7.285714285714286	11	Seurat VST	Expression-based	NA
+scanpy_seurat_v3_batch	expression_driven	7.857142857142857	14.285714285714286	Scanpy Seurat v3, batch	Expression-based	NA
+scanpy_cell_ranger_batch	expression_driven	8.571428571428571	13.142857142857142	Scanpy Cell Ranger, batch	Expression-based	NA
+nbumi	expression_driven	9.857142857142858	11.857142857142858	NBumi	Expression-based	NA
+triku	expression_driven	12.428571428571429	7.285714285714286	triku	Expression-based	NA
+singleCellHaystack	expression_driven	13.285714285714286	14	singleCellHaystack	Expression-based	NA
+seurat_mvp	expression_driven	13.857142857142858	19.571428571428573	Seurat MVP	Expression-based	NA
+scanpy_cell_ranger	expression_driven	14	15	Scanpy Cell Ranger	Expression-based	NA
+osca	expression_driven	14.142857142857142	11.142857142857142	OSCA	Expression-based	NA
+spatialde	spatially_informed	14.714285714285714	13.285714285714286	SpatialDE	Spatially informed	SpatialDE
+hotspot	expression_driven	15.571428571428571	14.857142857142858	Hotspot	Expression-based	NA
+scanpy_seurat	expression_driven	16.285714285714285	20.285714285714285	Scanpy Seurat	Expression-based	NA
+scanpy_pearson_batch	expression_driven	16.714285714285715	17.857142857142858	Scanpy Pearson, batch	Expression-based	NA
+morans_i	spatially_informed	17	15	Moran's I	Spatially informed	Moran's I
+somde	spatially_informed	17	10.714285714285714	SOMDE	Spatially informed	SOMDE
+anticor	expression_driven	17.142857142857142	14.428571428571429	Anticor	Expression-based	NA
+scanpy_seurat_batch	expression_driven	17.142857142857142	17.857142857142858	Scanpy Seurat, batch	Expression-based	NA
+dubstepr	expression_driven	17.714285714285715	12	DUBStepR	Expression-based	NA
+scanpy_pearson	expression_driven	17.714285714285715	12.142857142857142	Scanpy Pearson	Expression-based	NA
+Brennecke	expression_driven	17.857142857142858	22.714285714285715	Brennecke	Expression-based	NA
+nnsvg	spatially_informed	18.285714285714285	12.857142857142858	nnSVG	Spatially informed	nnSVG
+scry	expression_driven	20.714285714285715	21.428571428571427	scry	Expression-based	NA
+seurat_disp	expression_driven	20.714285714285715	18.142857142857142	Seurat Dispersion	Expression-based	NA
+seurat_sct	expression_driven	21.714285714285715	14.285714285714286	Seurat sctransform	Expression-based	NA
+statistic_variance	expression_driven	22.714285714285715	21.142857142857142	Expression variance	Expression-based	NA
+sparkx	spatially_informed	23.714285714285715	20.857142857142858	SPARK-X	Spatially informed	SPARK-X
+statistic_mean	expression_driven	24.857142857142858	25.428571428571427	Mean expression	Expression-based	NA
+scPNMF	expression_driven	25.571428571428573	17.857142857142858	scPNMF	Expression-based	NA

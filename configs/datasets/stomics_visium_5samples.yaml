@@ -8,6 +8,7 @@ label_key: clusters
 slice_class_key: slice
 coord_key: spatial
 preprocess:
+  count_layer: raw_count
   normalize_total: false
   log1p: false
   scale: false

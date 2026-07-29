@@ -1,0 +1,117 @@
+name: stomics_0212_immune_subset_non_spatial_feature_only_rebuild_v1
+output_dir: results/biological_subsets_rebuild_v1/stomics_0212_immune_subset
+datasets:
+- configs/datasets/stomics_0212_immune_subset.yaml
+feature_selection_methods:
+- name: all_features
+  n_features:
+  - 1
+- name: random
+  n_features:
+  - 500
+- name: TFs
+  n_features:
+  - 2000
+- name: scanpy_seurat
+  n_features:
+  - 2000
+- name: scanpy_seurat_batch
+  n_features:
+  - 2000
+- name: scanpy_seurat_v3
+  n_features:
+  - 2000
+- name: scanpy_seurat_v3_batch
+  n_features:
+  - 2000
+- name: scanpy_cell_ranger
+  n_features:
+  - 2000
+- name: scanpy_cell_ranger_batch
+  n_features:
+  - 2000
+- name: scanpy_pearson
+  n_features:
+  - 2000
+- name: scanpy_pearson_batch
+  n_features:
+  - 2000
+- name: seurat_vst
+  n_features:
+  - 2000
+- name: seurat_mvp
+  n_features:
+  - 2000
+- name: seurat_disp
+  n_features:
+  - 2000
+- name: seurat_sct
+  params:
+    max_cells: 3000
+  n_features:
+  - 2000
+- name: scsegindex
+  n_features:
+  - 500
+- name: dubstepr
+  params:
+    max_cells: 5000
+  n_features:
+  - 2000
+- name: nbumi
+  params:
+    max_cells: 5000
+  n_features:
+  - 2000
+- name: osca
+  n_features:
+  - 2000
+- name: scry
+  n_features:
+  - 2000
+- name: singleCellHaystack
+  params:
+    max_cells: 5000
+  n_features:
+  - 2000
+- name: Brennecke
+  n_features:
+  - 2000
+- name: scPNMF
+  params:
+    max_cells: 3000
+  n_features:
+  - 2000
+- name: triku
+  params:
+    max_cells: 5000
+  n_features:
+  - 2000
+- name: hotspot
+  params:
+    max_cells: 3000
+  n_features:
+  - 2000
+- name: anticor
+  params:
+    max_cells: 3000
+  n_features:
+  - 2000
+- name: statistic_mean
+  n_features:
+  - 2000
+- name: statistic_variance
+  n_features:
+  - 2000
+- name: wilcoxon
+  n_features:
+  - 2000
+integration_methods: []
+tasks: []
+n_features:
+- 2000
+seeds:
+- 0
+- 1
+- 2
+save_embeddings: false

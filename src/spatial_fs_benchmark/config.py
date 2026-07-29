@@ -11,6 +11,7 @@ import yaml
 class MethodConfig:
     name: str
     params: dict[str, Any] = field(default_factory=dict)
+    n_features: list[int] | None = None
 
 
 @dataclass(slots=True)
@@ -24,6 +25,7 @@ class DatasetConfig:
     label_key: str | None = None
     slice_class_key: str | None = None
     coord_key: str = "spatial"
+    alignment_pairs: list[list[str]] = field(default_factory=list)
     preprocess: dict[str, Any] = field(default_factory=dict)
 
 

@@ -8,6 +8,7 @@ from spatial_fs_benchmark.feature_selection.base import FeatureSelectionResult, 
 
 class RandomSelector(FeatureSelector):
     name = "random"
+    stochastic_selection = True
 
     def select(self, dataset: SpatialDataset, n_features: int, random_seed: int = 0) -> FeatureSelectionResult:
         rng = np.random.default_rng(random_seed)

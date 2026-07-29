@@ -1,0 +1,12 @@
+Check	Expected	Observed	Status
+input metric-key duplicates	0	0	PASS
+metric direction coverage	0	0	PASS
+frozen range rows	77	77	PASS
+finite setting metrics missing ranges	0	0	PASS
+setting metric means outside [0,1]	0	0	PASS
+setting scores missing CoreOverall	0	0	PASS
+alignment scores outside eligible datasets	0	0	PASS
+duplicate representative settings	0	0	PASS
+representative score coverage	472	472	PASS
+controls/oracles in competitive ranking	0	0	PASS
+constant frozen ranges	0	0	PASS

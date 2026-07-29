@@ -81,23 +81,80 @@ group_colors <- c(
 EXAMPLE_DATASET <- "DLPFC"
 
 # ── Load & compute baselines ──────────────────────────────────────────────────
-metrics_raw <- readr::read_tsv(
-    file.path(data_dir, "benchmark.tsv"), show_col_types = FALSE
-) |>
-    dplyr::filter(.data$Type %in% type_levels)
+frozen_settings_path <- file.path(data_dir, "setting_metric_seed_summary.tsv")
+use_frozen_scores <- file.exists(frozen_settings_path)
+
+if (use_frozen_scores) {
+    frozen_ranges_raw <- readr::read_tsv(
+        file.path(data_dir, "frozen_metric_ranges.tsv"),
+        show_col_types = FALSE
+    ) |>
+        dplyr::filter(.data$RangeStatus == "ok") |>
+        dplyr::transmute(
+            Dataset = .data$dataset,
+            MetricName = dplyr::recode(
+                .data$metric_name,
+                "ari" = "ARI",
+                "nmi" = "NMI",
+                "silhouette" = "Silhouette",
+                .default = .data$metric_name
+            ),
+            Type = dplyr::recode(
+                .data$task,
+                "integration_eval" = "Integration",
+                "clustering_eval" = "Clustering",
+                "alignment_eval" = "Alignment"
+            ),
+            Lower = .data$Lower,
+            Upper = .data$Upper
+        )
+
+    metrics_raw <- readr::read_tsv(frozen_settings_path, show_col_types = FALSE) |>
+        dplyr::transmute(
+            Dataset = .data$dataset,
+            Method = paste0(
+                .data$fs_method, "-N",
+                dplyr::if_else(.data$n_features == "all", "all", .data$n_features)
+            ),
+            MetricName = dplyr::recode(
+                .data$metric_name,
+                "ari" = "ARI",
+                "nmi" = "NMI",
+                "silhouette" = "Silhouette",
+                .default = .data$metric_name
+            ),
+            Type = dplyr::recode(
+                .data$task,
+                "integration_eval" = "Integration",
+                "clustering_eval" = "Clustering",
+                "alignment_eval" = "Alignment"
+            ),
+            Value = .data$OrientedMean
+        ) |>
+        dplyr::filter(.data$Type %in% type_levels)
+} else {
+    metrics_raw <- readr::read_tsv(
+        file.path(data_dir, "benchmark.tsv"), show_col_types = FALSE
+    ) |>
+        dplyr::filter(.data$Type %in% type_levels)
+}
 
 baselines <- metrics_raw |>
     dplyr::filter(.data$Method %in% baseline_methods_fixed, !is.na(.data$Value)) |>
     dplyr::group_by(.data$Dataset, .data$Method, .data$MetricName, .data$Type) |>
     dplyr::summarise(MeanValue = mean(.data$Value, na.rm = TRUE), .groups = "drop")
 
-baseline_ranges <- baselines |>
-    dplyr::group_by(.data$Dataset, .data$MetricName, .data$Type) |>
-    dplyr::summarise(
-        Lower = min(.data$MeanValue),
-        Upper = max(.data$MeanValue),
-        .groups = "drop"
-    )
+baseline_ranges <- if (use_frozen_scores) {
+    frozen_ranges_raw
+} else {
+    baselines |>
+        dplyr::group_by(.data$Dataset, .data$MetricName, .data$Type) |>
+        dplyr::summarise(
+            Lower = min(.data$MeanValue),
+            Upper = max(.data$MeanValue),
+            .groups = "drop"
+        )
+}
 
 # ── Panel a: grid baseline dot plot (Dataset × Type) ─────────────────────────
 # Order metrics by type (Integration → Clustering → Alignment) for grouped facet_wrap
@@ -136,7 +193,7 @@ panel_a <- ggplot2::ggplot(
 ) +
     ggplot2::geom_linerange(
         ggplot2::aes(xmin = .data$Lower, xmax = .data$Upper, colour = .data$Type),
-        linewidth = 3.0, alpha = 0.35
+        linewidth = 3.8, alpha = 0.58
     ) +
     ggplot2::geom_vline(xintercept = 0, colour = "grey60", linewidth = 0.25, linetype = "dashed") +
     ggplot2::geom_point(
@@ -174,7 +231,7 @@ panel_a <- ggplot2::ggplot(
             title.position = "top",
             order = 2,
             nrow = 1,
-            override.aes = list(linewidth = 3, alpha = 0.8, shape = NA)
+            override.aes = list(linewidth = 3.8, alpha = 0.75, shape = NA)
         )
     ) +
     theme_features_pub() +
@@ -189,7 +246,7 @@ panel_a <- ggplot2::ggplot(
         legend.box.margin  = ggplot2::margin(0, 0, 0, 0),
         legend.key.width   = ggplot2::unit(0.45, "cm"),
         axis.title.y       = ggplot2::element_blank(),
-        axis.text.y        = ggplot2::element_text(size = 5.5, face = "bold", colour = "black"),
+        axis.text.y        = ggplot2::element_text(size = 5.3, face = "plain", colour = "black"),
         axis.text.x        = ggplot2::element_text(size = 5),
         strip.text         = ggplot2::element_text(face = "bold", size = 6.5, colour = "white",
                                                     margin = ggplot2::margin(1, 0, 1, 0)),
@@ -210,6 +267,7 @@ ranked <- metrics_raw |>
     dplyr::filter(
         .data$Dataset == EXAMPLE_DATASET,
         !(.data$Method %in% baseline_methods_fixed),
+        !grepl("^wilcoxon-", .data$Method),
         !is.na(.data$Value)
     ) |>
     dplyr::group_by(.data$Method, .data$MetricName, .data$Type) |>
@@ -220,15 +278,45 @@ ranked <- metrics_raw |>
         (.data$Value - .data$Lower) / (.data$Upper - .data$Lower),
         NA_real_
     )) |>
+    dplyr::filter(.data$Type %in% c("Integration", "Clustering")) |>
+    dplyr::group_by(.data$Method, .data$Type) |>
+    dplyr::summarise(TypeMean = mean(.data$Scaled, na.rm = TRUE), .groups = "drop") |>
     dplyr::group_by(.data$Method) |>
-    dplyr::summarise(Score = mean(.data$Scaled, na.rm = TRUE), .groups = "drop") |>
+    dplyr::summarise(Score = mean(.data$TypeMean, na.rm = TRUE), .groups = "drop") |>
     dplyr::arrange(dplyr::desc(.data$Score))
 
-# Pick methods with scores in a moderate range for clean display
-n <- nrow(ranked)
-reasonable <- ranked |> dplyr::filter(.data$Score >= 0.3, .data$Score <= 1.2)
-best_method  <- if (nrow(reasonable) >= 2) reasonable$Method[1] else ranked$Method[max(1, round(n * 0.1))]
-worst_method <- if (nrow(reasonable) >= 2) reasonable$Method[nrow(reasonable)] else ranked$Method[min(n, round(n * 0.85))]
+# These are the actual top and bottom non-control, non-oracle settings under the
+# same CoreOverall definition illustrated in step 4.
+best_method <- ranked$Method[[1]]
+worst_method <- ranked$Method[[nrow(ranked)]]
+
+format_setting <- function(x) {
+    x |>
+        gsub("-N", " (N=", x = _) |>
+        paste0(")") |>
+        gsub("spatialde", "SpatialDE", x = _) |>
+        gsub("scsegindex", "scSEGIndex", x = _)
+}
+best_group_label <- paste0("Best: ", format_setting(best_method))
+worst_group_label <- paste0("Worst: ", format_setting(worst_method))
+group_order <- c(
+    best_group_label,
+    "All features", "Random (N=500)",
+    "Scanpy CellRanger (N=2000, batch)", "scSEGIndex (N=500)",
+    worst_group_label
+)
+group_colors <- c(
+    setNames("#27ae60", best_group_label),
+    "All features" = "#1b9e77",
+    "Random (N=500)" = "#d95f02",
+    "Scanpy CellRanger (N=2000, batch)" = "#7570b3",
+    "scSEGIndex (N=500)" = "#66a61e",
+    setNames("#c0392b", worst_group_label)
+)
+group_backgrounds <- tibble::tibble(
+    Group = factor(group_order, levels = group_order),
+    Background = c("#EFF3AE", rep("#BFEAE3", 4), "#F3A9D2")
+)
 
 make_method_rows <- function(method_str, group_label) {
     metrics_raw |>
@@ -244,9 +332,9 @@ baselines_ex <- baselines |>
     dplyr::mutate(Group = dplyr::recode(.data$Method, !!!baseline_labels))
 
 example_values <- dplyr::bind_rows(
-    make_method_rows(best_method,  '"Best" method'),
+    make_method_rows(best_method, best_group_label),
     baselines_ex |> dplyr::select("MetricName", "Type", "Value", "Group"),
-    make_method_rows(worst_method, '"Worst" method')
+    make_method_rows(worst_method, worst_group_label)
 ) |>
     dplyr::mutate(
         MetricName = factor(.data$MetricName, levels = metric_order),
@@ -271,6 +359,7 @@ example_means <- example_scaled |>
 
 # Step 4: overall score
 example_overall <- example_means |>
+    dplyr::filter(as.character(.data$Type) %in% c("Integration", "Clustering")) |>
     dplyr::group_by(.data$Group) |>
     dplyr::summarise(Overall = mean(.data$TypeMean, na.rm = TRUE), .groups = "drop") |>
     dplyr::mutate(Group = factor(.data$Group, levels = group_order))
@@ -294,6 +383,11 @@ step1 <- ggplot2::ggplot(
     example_values,
     ggplot2::aes(y = .data$Group, x = .data$Value, fill = .data$Type, group = .data$MetricName)
 ) +
+    ggplot2::geom_rect(
+        data = group_backgrounds,
+        ggplot2::aes(xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, fill = I(.data$Background)),
+        inherit.aes = FALSE, colour = NA
+    ) +
     ggplot2::geom_col(position = "dodge", width = 0.75) +
     ggplot2::geom_vline(xintercept = 0, colour = "grey40", linewidth = 0.3) +
     ggplot2::scale_x_continuous(
@@ -305,7 +399,7 @@ step1 <- ggplot2::ggplot(
     ggplot2::labs(title = "1  Measure metrics", x = "Value") +
     pipe_theme +
     ggplot2::theme(
-        axis.text.y   = ggplot2::element_text(size = 5.5, face = "bold"),
+        axis.text.y   = ggplot2::element_text(size = 5.2, face = "plain"),
         strip.text.x  = ggplot2::element_text(size = 5.5, face = "bold", colour = "white",
                                                margin = ggplot2::margin(1.5, 0, 1.5, 0)),
         strip.text.y  = ggplot2::element_blank(),
@@ -317,6 +411,11 @@ step2 <- ggplot2::ggplot(
     example_scaled,
     ggplot2::aes(y = .data$Group, x = .data$ScaledValue, fill = .data$Type, group = .data$MetricName)
 ) +
+    ggplot2::geom_rect(
+        data = group_backgrounds,
+        ggplot2::aes(xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, fill = I(.data$Background)),
+        inherit.aes = FALSE, colour = NA
+    ) +
     ggplot2::geom_col(position = "dodge", width = 0.75) +
     ggplot2::geom_vline(xintercept = 0, colour = "grey40", linewidth = 0.3) +
     ggplot2::scale_x_continuous(
@@ -327,7 +426,7 @@ step2 <- ggplot2::ggplot(
     ggplot2::coord_cartesian(xlim = c(-0.4, 1.35)) +
     ggplot2::scale_fill_manual(values = type_colors) +
     ggplot2::facet_grid(.data$Group ~ ., scales = "free_y", space = "free_y") +
-    ggplot2::labs(title = "2  Scale using baselines", x = "Scaled value") +
+    ggplot2::labs(title = "2  Scale using frozen observed ranges", x = "Scaled value") +
     pipe_theme +
     ggplot2::theme(axis.text.y = ggplot2::element_blank(), axis.ticks.y = ggplot2::element_blank())
 
@@ -335,6 +434,11 @@ step3 <- ggplot2::ggplot(
     example_means,
     ggplot2::aes(y = .data$Group, x = .data$TypeMean, fill = .data$Type)
 ) +
+    ggplot2::geom_rect(
+        data = group_backgrounds,
+        ggplot2::aes(xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, fill = I(.data$Background)),
+        inherit.aes = FALSE, colour = NA
+    ) +
     ggplot2::geom_col(position = "dodge", width = 0.7) +
     ggplot2::geom_vline(xintercept = 0, colour = "grey40", linewidth = 0.3) +
     ggplot2::scale_x_continuous(
@@ -353,6 +457,11 @@ step4 <- ggplot2::ggplot(
     example_overall,
     ggplot2::aes(y = .data$Group, x = .data$Overall, fill = .data$Group)
 ) +
+    ggplot2::geom_rect(
+        data = group_backgrounds,
+        ggplot2::aes(xmin = -Inf, xmax = Inf, ymin = -Inf, ymax = Inf, fill = I(.data$Background)),
+        inherit.aes = FALSE, colour = NA
+    ) +
     ggplot2::geom_col(width = 0.6) +
     ggplot2::geom_vline(xintercept = 0, colour = "grey40", linewidth = 0.3) +
     ggplot2::scale_x_continuous(
@@ -363,7 +472,7 @@ step4 <- ggplot2::ggplot(
     ggplot2::coord_cartesian(xlim = c(-0.1, 1.25)) +
     ggplot2::scale_fill_manual(values = group_colors) +
     ggplot2::facet_grid(.data$Group ~ ., scales = "free_y", space = "free_y") +
-    ggplot2::labs(title = "4  Overall score", x = "Overall score") +
+    ggplot2::labs(title = "4  CoreOverall score", x = "CoreOverall score") +
     pipe_theme +
     ggplot2::theme(axis.text.y = ggplot2::element_blank(), axis.ticks.y = ggplot2::element_blank())
 
@@ -374,18 +483,22 @@ panel_b <- patchwork::wrap_plots(
 
 # ── Overall score annotation for panel b ─────────────────────────────────────
 formula_note <- paste0(
-    "Overall = \u00bd \u00d7 Integration + \u00bd \u00d7 Clustering + \u00bd \u00d7 Alignment   ",
-    "  (example dataset: ", EXAMPLE_DATASET,
-    " | best: ", best_method, " | worst: ", worst_method, ")"
+    "CoreOverall = (Integration + Clustering) / 2; Alignment is reported separately   ",
+    "  (Example dataset: ", EXAMPLE_DATASET,
+    " | ", best_group_label, " | ", worst_group_label, ")"
 )
 
 # ── Combine ───────────────────────────────────────────────────────────────────
-figure <- (
-    (panel_a   + patchwork::plot_annotation(tag_levels = list(c("a")))) /
-    (panel_b   + patchwork::plot_annotation(tag_levels = list(c("b"))))
+panel_a_wrapped <- patchwork::wrap_elements(full = panel_a)
+panel_b_wrapped <- patchwork::wrap_elements(full = panel_b)
+
+figure <- patchwork::wrap_plots(
+    panel_a_wrapped,
+    panel_b_wrapped,
+    ncol = 1,
+    heights = c(1.6, 1)
 ) +
-    patchwork::plot_layout(heights = c(1.6, 1)) +
-    patchwork::plot_annotation(caption = formula_note) &
+    patchwork::plot_annotation(tag_levels = "a", caption = formula_note) &
     ggplot2::theme(
         plot.tag     = ggplot2::element_text(face = "bold", size = 10),
         plot.caption = ggplot2::element_text(size = 5.5, colour = "grey40",
@@ -393,11 +506,11 @@ figure <- (
     )
 
 # ── Save ──────────────────────────────────────────────────────────────────────
-panel_a_figure <- panel_a +
-    patchwork::plot_annotation(tag_levels = list(c("a"))) &
+panel_a_figure <- patchwork::wrap_plots(patchwork::wrap_elements(full = panel_a)) +
+    patchwork::plot_annotation(tag_levels = "a") &
     ggplot2::theme(plot.tag = ggplot2::element_text(face = "bold", size = 10))
 
-panel_b_figure <- panel_b +
+panel_b_figure <- patchwork::wrap_plots(patchwork::wrap_elements(full = panel_b)) +
     patchwork::plot_annotation(tag_levels = list(c("b"))) &
     ggplot2::theme(plot.tag = ggplot2::element_text(face = "bold", size = 10))
 
@@ -407,12 +520,14 @@ lower_png_path <- file.path(output_dir, "figure_baselines_lower.png")
 lower_pdf_path <- file.path(output_dir, "figure_baselines_lower.pdf")
 png_path <- file.path(output_dir, "figure_baselines.png")
 pdf_path <- file.path(output_dir, "figure_baselines.pdf")
+saveRDS(figure, file.path(output_dir, "figure_baselines.rds"))
 ggplot2::ggsave(upper_png_path, panel_a_figure, width = 8.5, height = 6.6, dpi = 600)
-ggplot2::ggsave(upper_pdf_path, panel_a_figure, width = 8.5, height = 6.6, device = grDevices::cairo_pdf)
+register_arial_pdf_font()
+ggplot2::ggsave(upper_pdf_path, panel_a_figure, width = 8.5, height = 6.6, device = grDevices::pdf, family = "Arial", useDingbats = FALSE)
 ggplot2::ggsave(lower_png_path, panel_b_figure, width = 11, height = 4.8, dpi = 600)
-ggplot2::ggsave(lower_pdf_path, panel_b_figure, width = 11, height = 4.8, device = grDevices::cairo_pdf)
+ggplot2::ggsave(lower_pdf_path, panel_b_figure, width = 11, height = 4.8, device = grDevices::pdf, family = "Arial", useDingbats = FALSE)
 ggplot2::ggsave(png_path, figure, width = 11, height = 13, dpi = 600)
-ggplot2::ggsave(pdf_path, figure, width = 11, height = 13, device = grDevices::cairo_pdf)
+ggplot2::ggsave(pdf_path, figure, width = 11, height = 13, device = grDevices::pdf, family = "Arial", useDingbats = FALSE)
 
 cat("Saved:", upper_png_path, "\n")
 cat("Saved:", lower_png_path, "\n")

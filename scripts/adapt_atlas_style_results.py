@@ -36,7 +36,7 @@ METRIC_METADATA = {
         "higher_better": False,
         "type": "SliceRepresentation",
     },
-    "silhouette": {"name": "Silhouette", "included": False, "higher_better": True, "type": "Clustering"},
+    "silhouette": {"name": "Silhouette", "included": True, "higher_better": True, "type": "Clustering"},
 }
 
 METHOD_METADATA = {

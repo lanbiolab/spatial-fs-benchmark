@@ -18,13 +18,21 @@ source(file.path("analysis", "atlas_style", "R", "spatial_summarisation.R"))
 
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
-metrics <- read_tsv(file.path(data_dir, "benchmark.tsv"), show_col_types = FALSE) |>
-    filter(.data$Type %in% c("Integration", "Clustering", "Alignment"))
+frozen_scores_path <- file.path(data_dir, "representative_task_scores.tsv")
+use_frozen_scores <- file.exists(frozen_scores_path)
 
-metric_ranges <- read_tsv(ranges_path, show_col_types = FALSE) |>
-    filter(.data$Type %in% c("Integration", "Clustering", "Alignment"))
-
-datasets_meta <- read_tsv(file.path(data_dir, "datasets-metadata.tsv"), show_col_types = FALSE)
+datasets_meta <- read_tsv(
+    file.path("results", "current_rank", "data", "datasets-metadata.tsv"),
+    show_col_types = FALSE
+) |>
+    mutate(Name = dplyr::recode(
+        .data$Dataset,
+        "MouseBrainSerialSections" = "Mouse Brain",
+        "STOmics0212" = "STOmics-0212",
+        "STOmics0218" = "STOmics-0218",
+        "STOmics0224" = "STOmics-0224",
+        .default = .data$Dataset
+    ))
 dataset_names <- datasets_meta$Name
 names(dataset_names) <- datasets_meta$Dataset
 
@@ -33,17 +41,44 @@ dataset_keep <- c(
     "MouseBrainSerialSections",
     "STOmics0212",
     "STOmics0218",
-    "STOmics0224",
-    "STOmicsVisium5Samples"
+    "STOmics0224"
 )
 
-metrics_summary <- summarise_spatial_metrics(
-    metrics,
-    metric_ranges,
-    type_weights = c("Integration" = 1/3, "Clustering" = 1/3, "Alignment" = 1/3),
-    require_types_for_overall = c("Integration", "Clustering", "Alignment")
-) |>
-    filter(.data$IntegrationLabel == "scVI", .data$Dataset %in% dataset_keep)
+if (use_frozen_scores) {
+    metrics_summary <- read_tsv(frozen_scores_path, show_col_types = FALSE) |>
+        transmute(
+            Dataset = .data$dataset,
+            Method = paste0(
+                .data$fs_method, "-N",
+                dplyr::if_else(.data$n_features == "all", "all", .data$n_features)
+            ),
+            IntegrationLabel = dplyr::recode(
+                .data$integration_method,
+                "scvi" = "scVI",
+                "cellcharter" = "CellCharter",
+                .default = .data$integration_method
+            ),
+            Overall = .data$CoreOverallMean,
+            Integration = .data$IntegrationMean,
+            Clustering = .data$ClusteringMean,
+            Alignment = .data$AlignmentMean
+        ) |>
+        filter(.data$IntegrationLabel == "scVI", .data$Dataset %in% dataset_keep)
+} else {
+    metrics <- read_tsv(file.path(data_dir, "benchmark.tsv"), show_col_types = FALSE) |>
+        filter(.data$Type %in% c("Integration", "Clustering", "Alignment"))
+
+    metric_ranges <- read_tsv(ranges_path, show_col_types = FALSE) |>
+        filter(.data$Type %in% c("Integration", "Clustering", "Alignment"))
+
+    metrics_summary <- summarise_spatial_metrics(
+        metrics,
+        metric_ranges,
+        type_weights = c("Integration" = 1/3, "Clustering" = 1/3, "Alignment" = 1/3),
+        require_types_for_overall = c("Integration", "Clustering", "Alignment")
+    ) |>
+        filter(.data$IntegrationLabel == "scVI", .data$Dataset %in% dataset_keep)
+}
 
 scanpy_pairs <- tribble(
     ~MethodBase, ~Standard, ~BatchAware, ~Label,
@@ -108,12 +143,12 @@ p <- ggplot(plotting, aes(x = .data$DatasetLabel, y = .data$Y, fill = .data$Diff
         labels = rev(method_order),
         expand = expansion(mult = c(0.03, 0.03))
     ) +
-    facet_grid(. ~ .data$Type) +
+    facet_grid(. ~ .data$Type, labeller = labeller(Type = c("Overall" = "CoreOverall"))) +
     labs(x = NULL, y = NULL) +
     theme_features_pub() +
     theme(
-        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, face = "bold"),
-        axis.text.y = element_text(face = "bold"),
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, face = "plain"),
+        axis.text.y = element_text(face = "plain"),
         panel.grid = element_blank(),
         strip.background = element_rect(fill = "black", colour = "black"),
         strip.text = element_text(colour = "white", face = "bold"),
@@ -123,5 +158,6 @@ p <- ggplot(plotting, aes(x = .data$DatasetLabel, y = .data$Y, fill = .data$Diff
         plot.margin = margin(0.08, 0.10, 0.08, 0.08, "cm")
     )
 
+saveRDS(p, file.path(output_dir, "figure_fig4e_panel_e.rds"))
 save_figure_files(p, file.path(output_dir, "figure_fig4e_panel_e"), width = 7.6, height = 2.35)
 write_tsv(plotting, file.path(output_dir, "fig4e_batch_aware_differences.tsv"))

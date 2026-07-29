@@ -1,0 +1,30 @@
+{
+  "alignment_eligible_overall": "equal mean of Integration, Clustering and Alignment",
+  "canonical_config_roots": [
+    "configs/rebuild_v1/downstream/canonical",
+    "configs/rebuild_v1/non_spatial_downstream/canonical"
+  ],
+  "core_overall": "equal mean of Integration and Clustering",
+  "created_at_utc": "2026-07-26T15:36:05.930175+00:00",
+  "input_results": "results/spatial_svg_rebuild_v1/merged_results.csv",
+  "input_sha256": "d5ce1f811cd112c5ba453056c9602a290114f13295616eb15497c232eaaf6ea5",
+  "range_source": "seed-averaged setting-level oriented metric values",
+  "scaling_unit": "Dataset x Metric",
+  "seed_scaled_values_clipped": false,
+  "tables": {
+    "dataset_competitive_ranks.tsv": 406,
+    "dataset_representative_ranks.tsv": 472,
+    "frozen_metric_ranges.tsv": 77,
+    "global_competitive_method_ranks.tsv": 58,
+    "global_method_ranks.tsv": 68,
+    "metric_directions.tsv": 13,
+    "representative_settings.tsv": 236,
+    "representative_task_scores.tsv": 472,
+    "scaled_seed_metrics.tsv": 43874,
+    "scaled_setting_metrics.tsv": 33474,
+    "scoring_audit.tsv": 11,
+    "seed_task_scores.tsv": 3982,
+    "setting_metric_seed_summary.tsv": 33474,
+    "setting_task_scores.tsv": 3038
+  }
+}

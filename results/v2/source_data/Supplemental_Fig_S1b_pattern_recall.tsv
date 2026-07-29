@@ -1,0 +1,133 @@
+method	stratum	MeanRecall	SDRecall	Method	Stratum
+all_features	domain	NA	NA	All features	Domain
+all_features	focal	NA	NA	All features	Focal
+all_features	gradient	NA	NA	All features	Gradient
+all_features	periodic	NA	NA	All features	Periodic
+anticor	domain	1	0	Anticor	Domain
+anticor	focal	0.967967967967968	0.027976590151471487	Anticor	Focal
+anticor	gradient	0.991340530814215	0.010883726573940771	Anticor	Gradient
+anticor	periodic	0.9984984984984985	0.0036779125267014765	Anticor	Periodic
+Brennecke	domain	0.8887764282501125	0.03083432003997897	Brennecke	Domain
+Brennecke	focal	0.8178178178178178	0.07646117823603497	Brennecke	Focal
+Brennecke	gradient	0.8984480431848854	0.05251336251296227	Brennecke	Gradient
+Brennecke	periodic	0.8863863863863863	0.05282568803223332	Brennecke	Periodic
+dubstepr	domain	0.9651372019793073	0.027009664848659045	DUBStepR	Domain
+dubstepr	focal	0.8224474474474475	0.05705853878272023	DUBStepR	Focal
+dubstepr	gradient	0.9244264507422402	0.057400156809789694	DUBStepR	Gradient
+dubstepr	periodic	0.9365615615615616	0.043210254976615826	DUBStepR	Periodic
+hotspot	domain	0.9970760233918129	0.004529805083283543	Hotspot	Domain
+hotspot	focal	0.9833583583583584	0.014545331614538104	Hotspot	Focal
+hotspot	gradient	0.9970760233918129	0.00716225070989231	Hotspot	Gradient
+hotspot	periodic	0.9984984984984985	0.0036779125267014765	Hotspot	Periodic
+morans_i	domain	0.9825686009896536	0.016574576984817978	Moran's I	Domain
+morans_i	focal	0.9269269269269269	0.02109952451311223	Moran's I	Focal
+morans_i	gradient	0.960863697705803	0.026400431372913903	Moran's I	Gradient
+morans_i	periodic	0.9547047047047047	0.035432466240272825	Moran's I	Periodic
+nbumi	domain	0.8713450292397661	0.039758804340558083	NBumi	Domain
+nbumi	focal	0.8144394394394394	0.06885398137094549	NBumi	Focal
+nbumi	gradient	0.8609986504723347	0.04464673195593325	NBumi	Gradient
+nbumi	periodic	0.8495995995995996	0.05616231170729494	NBumi	Periodic
+nnsvg	domain	0.9768331084120558	0.020879189117887914	nnSVG	Domain
+nnsvg	focal	0.9145395395395396	0.04243280612365884	nnSVG	Focal
+nnsvg	gradient	0.9523166891587944	0.012158238193198013	nnSVG	Gradient
+nnsvg	periodic	0.9593343343343343	0.03890719439617551	nnSVG	Periodic
+osca	domain	0.8656095366621682	0.037826315986314876	OSCA	Domain
+osca	focal	0.7905405405405406	0.08073415938112853	OSCA	Focal
+osca	gradient	0.8580746738641476	0.05342607143302404	OSCA	Gradient
+osca	periodic	0.8558558558558558	0.04134994469203243	OSCA	Periodic
+random	domain	0.14856050382366168	0.029385687310081596	Random	Domain
+random	focal	0.15465465465465464	0.05991912894665138	Random	Focal
+random	gradient	0.180161943319838	0.03318576063306733	Random	Gradient
+random	periodic	0.16303803803803799	0.04582019894951257	Random	Periodic
+scanpy_cell_ranger	domain	0.8450292397660819	0.05225768899623722	scanpy-CellRanger	Domain
+scanpy_cell_ranger	focal	0.7767767767767768	0.07041332341391271	scanpy-CellRanger	Focal
+scanpy_cell_ranger	gradient	0.8463787674313991	0.06932510174861621	scanpy-CellRanger	Gradient
+scanpy_cell_ranger	periodic	0.818943943943944	0.03247694874287139	scanpy-CellRanger	Periodic
+scanpy_cell_ranger_batch	domain	0.8538011695906433	0.040458080158480514	scanpy-CellRanger (batch)	Domain
+scanpy_cell_ranger_batch	focal	0.8104354354354355	0.0729237559406178	scanpy-CellRanger (batch)	Focal
+scanpy_cell_ranger_batch	gradient	0.8593117408906883	0.0675259601947268	scanpy-CellRanger (batch)	Gradient
+scanpy_cell_ranger_batch	periodic	0.8448448448448449	0.028487668964286176	scanpy-CellRanger (batch)	Periodic
+scanpy_pearson	domain	0.7893612235717499	0.04254420300496112	scanpy-Pearson	Domain
+scanpy_pearson	focal	0.6974474474474475	0.04869821002669347	scanpy-Pearson	Focal
+scanpy_pearson	gradient	0.8305218173639226	0.06484535433176701	scanpy-Pearson	Gradient
+scanpy_pearson	periodic	0.8074324324324325	0.06939755742049492	scanpy-Pearson	Periodic
+scanpy_pearson_batch	domain	0.7920602789023842	0.04512029586937487	scanpy-Pearson (batch)	Domain
+scanpy_pearson_batch	focal	0.6836836836836837	0.07568173307819209	scanpy-Pearson (batch)	Focal
+scanpy_pearson_batch	gradient	0.8133153396311291	0.057164352226568384	scanpy-Pearson (batch)	Gradient
+scanpy_pearson_batch	periodic	0.7951701701701702	0.06504191279775186	scanpy-Pearson (batch)	Periodic
+scanpy_seurat	domain	0.8389563652721548	0.07768834324131876	scanpy-Seurat	Domain
+scanpy_seurat	focal	0.7545045045045045	0.12409707800530251	scanpy-Seurat	Focal
+scanpy_seurat	gradient	0.8634727845254161	0.08550369867249151	scanpy-Seurat	Gradient
+scanpy_seurat	periodic	0.8547297297297297	0.07281237348021218	scanpy-Seurat	Periodic
+scanpy_seurat_batch	domain	0.8506522717049033	0.06191327404502503	scanpy-Seurat (batch)	Domain
+scanpy_seurat_batch	focal	0.7862862862862863	0.10163475743175907	scanpy-Seurat (batch)	Focal
+scanpy_seurat_batch	gradient	0.8764057579847054	0.08555879455458926	scanpy-Seurat (batch)	Gradient
+scanpy_seurat_batch	periodic	0.8684934934934935	0.08346568051077298	scanpy-Seurat (batch)	Periodic
+scanpy_seurat_v3	domain	0.8855150697255961	0.04768755445006387	scanpy-SeuratV3	Domain
+scanpy_seurat_v3	focal	0.781031031031031	0.08602262716795721	scanpy-SeuratV3	Focal
+scanpy_seurat_v3	gradient	0.8942869995501574	0.04307439193354672	scanpy-SeuratV3	Gradient
+scanpy_seurat_v3	periodic	0.8895145145145145	0.05629012113058607	scanpy-SeuratV3	Periodic
+scanpy_seurat_v3_batch	domain	0.8681961313540261	0.05261369755183822	scanpy-SeuratV3 (batch)	Domain
+scanpy_seurat_v3_batch	focal	0.7642642642642643	0.07889243822827631	scanpy-SeuratV3 (batch)	Focal
+scanpy_seurat_v3_batch	gradient	0.8639226270805218	0.05213207496165259	scanpy-SeuratV3 (batch)	Gradient
+scanpy_seurat_v3_batch	periodic	0.8604854854854855	0.05781544481098215	scanpy-SeuratV3 (batch)	Periodic
+scPNMF	domain	0.1575573549257759	0.060137699610422306	scPNMF	Domain
+scPNMF	focal	0.1735485485485485	0.040655538894630125	scPNMF	Focal
+scPNMF	gradient	0.1442869995501574	0.03054353103551022	scPNMF	Gradient
+scPNMF	periodic	0.10773273273273269	0.03685796264460654	scPNMF	Periodic
+scry	domain	0.15879442195231663	0.08588094067554755	scry	Domain
+scry	focal	0.14927427427427425	0.03169703692140709	scry	Focal
+scry	gradient	0.1634053081421502	0.03798486890282688	scry	Gradient
+scry	periodic	0.1536536536536536	0.061016533100512194	scry	Periodic
+scsegindex	domain	0.08951866846603684	0.020624680208131286	scSEGIndex	Domain
+scsegindex	focal	0.15578078078078075	0.05874066931860553	scSEGIndex	Focal
+scsegindex	gradient	0.09255510571300041	0.0761095517211502	scSEGIndex	Gradient
+scsegindex	periodic	0.09872372372372368	0.056725665570954785	scSEGIndex	Periodic
+seurat_disp	domain	0.7619208277103013	0.04339191406363167	Seurat-Dispersion	Domain
+seurat_disp	focal	0.6747997997997998	0.08186477099228037	Seurat-Dispersion	Focal
+seurat_disp	gradient	0.8018443544759334	0.05964647661564444	Seurat-Dispersion	Gradient
+seurat_disp	periodic	0.7830330330330331	0.06750414106788982	Seurat-Dispersion	Periodic
+seurat_mvp	domain	0.7306567701304544	0.08779651606686113	Seurat-MVP	Domain
+seurat_mvp	focal	0.5795795795795796	0.11377775621905485	Seurat-MVP	Focal
+seurat_mvp	gradient	0.7552856500224921	0.07684214160448671	Seurat-MVP	Gradient
+seurat_mvp	periodic	0.7251001001001001	0.05305086922054517	Seurat-MVP	Periodic
+seurat_sct	domain	0.8441295546558705	0.034105957779495925	Seurat-scTransform	Domain
+seurat_sct	focal	0.772022022022022	0.09064725938682895	Seurat-scTransform	Focal
+seurat_sct	gradient	0.856612685560054	0.055622399827312624	Seurat-scTransform	Gradient
+seurat_sct	periodic	0.8576076076076076	0.06769868270630304	Seurat-scTransform	Periodic
+seurat_vst	domain	0.8855150697255961	0.04768755445006387	Seurat-VST	Domain
+seurat_vst	focal	0.781031031031031	0.08602262716795721	Seurat-VST	Focal
+seurat_vst	gradient	0.8942869995501574	0.04307439193354672	Seurat-VST	Gradient
+seurat_vst	periodic	0.8895145145145145	0.05629012113058607	Seurat-VST	Periodic
+singleCellHaystack	domain	0.11426000899685106	0.029199945201868728	singleCellHaystack	Domain
+singleCellHaystack	focal	0.22047047047047044	0.07591373411418575	singleCellHaystack	Focal
+singleCellHaystack	gradient	0.12123256860098962	0.03553813126974528	singleCellHaystack	Gradient
+singleCellHaystack	periodic	0.10510510510510505	0.0531094474288614	singleCellHaystack	Periodic
+somde	domain	0.7503373819163293	0.28060052155666343	SOMDE	Domain
+somde	focal	0.3531031031031031	0.21211846570428985	SOMDE	Focal
+somde	gradient	0.7853126405757985	0.3351930117492065	SOMDE	Gradient
+somde	periodic	0.2887887887887888	0.058039717858457324	SOMDE	Periodic
+sparkx	domain	0.9768331084120558	0.011923797998633814	SPARK-X	Domain
+sparkx	focal	0.8875125125125125	0.017730543702543216	SPARK-X	Focal
+sparkx	gradient	0.9782950967161494	0.014335621900926306	SPARK-X	Gradient
+sparkx	periodic	0.8926426426426426	0.060843242010074496	SPARK-X	Periodic
+spatialde	domain	0.9941520467836258	0.009059610166567028	SpatialDE	Domain
+spatialde	focal	0.9465715715715716	0.024706050219449806	SpatialDE	Focal
+spatialde	gradient	0.979757085020243	0.01930815219053106	SpatialDE	Gradient
+spatialde	periodic	0.9533283283283284	0.04809123590817123	SpatialDE	Periodic
+statistic_mean	domain	0.17510121457489874	0.05133130314775212	Statistic mean	Domain
+statistic_mean	focal	0.18693693693693694	0.06651329651436472	Statistic mean	Focal
+statistic_mean	gradient	0.18184885290148442	0.04799795821167049	Statistic mean	Gradient
+statistic_mean	periodic	0.18268268268268265	0.0392339402154256	Statistic mean	Periodic
+statistic_variance	domain	0.7025416104363473	0.058027204959936685	Statistic variance	Domain
+statistic_variance	focal	0.6577827827827828	0.06751151606799237	Statistic variance	Focal
+statistic_variance	gradient	0.7109761583445794	0.06016633664189657	Statistic variance	Gradient
+statistic_variance	periodic	0.7213463463463463	0.04020104952163437	Statistic variance	Periodic
+triku	domain	0.911493477282951	0.043101337591971586	triku	Domain
+triku	focal	0.7386136136136137	0.04953684582499662	triku	Focal
+triku	gradient	0.9103688708951867	0.041814492787187095	triku	Gradient
+triku	periodic	0.8948948948948949	0.04797056440071135	triku	Periodic
+wilcoxon	domain	0.9813315339631129	0.018209457716683402	Wilcoxon (label-informed)	Domain
+wilcoxon	focal	0.46546546546546547	0.06543343018700984	Wilcoxon (label-informed)	Focal
+wilcoxon	gradient	0.971097615834458	0.009196777731054415	Wilcoxon (label-informed)	Gradient
+wilcoxon	periodic	0.09909909909909909	0.037875356774014275	Wilcoxon (label-informed)	Periodic

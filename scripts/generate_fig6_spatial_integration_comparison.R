@@ -18,7 +18,7 @@ output_dir <- if (length(args) >= 2) args[[2]] else file.path("results", "fig6_s
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
 type_names <- c(
-    "Overall" = "Overall",
+    "Overall" = "CoreOverall",
     "Integration" = "Integration",
     "Clustering" = "Clustering",
     "Alignment" = "Alignment"
@@ -26,10 +26,9 @@ type_names <- c(
 
 integration_labels <- c(
     "scvi" = "scVI",
-    "cellcharter" = "Cell\nCharter",
-    "gpsa" = "GPSA",
-    "staligner" = "STAligner"
+    "cellcharter" = "Cell\nCharter"
 )
+comparison_integrations <- setdiff(names(integration_labels), "scvi")
 
 safe_mean <- function(x) if (all(is.na(x))) NA_real_ else mean(x, na.rm = TRUE)
 safe_sd <- function(x) if (sum(!is.na(x)) <= 1) NA_real_ else sd(x, na.rm = TRUE)
@@ -39,6 +38,75 @@ score_direction <- function(metric_name) {
     ifelse(metric_name %in% lower_better, -1, 1)
 }
 
+use_frozen_scores <- grepl("representative_task_scores\\.tsv$", results_path)
+
+if (use_frozen_scores) {
+    summary_scores <- read_tsv(results_path, show_col_types = FALSE) |>
+        mutate(
+            MethodBaseLabel = dplyr::recode(
+                .data$fs_method,
+                "all_features" = "All features",
+                "random" = "Random",
+                "wilcoxon" = "Wilcoxon",
+                "TFs" = "Transcription factors",
+                "scsegindex" = "scSEGIndex",
+                "seurat_disp" = "Seurat-Dispersion",
+                "seurat_mvp" = "Seurat-MVP",
+                "seurat_sct" = "Seurat-scTransform",
+                "seurat_vst" = "Seurat-VST",
+                "scanpy_cell_ranger" = "scanpy-CellRanger",
+                "scanpy_cell_ranger_batch" = "scanpy-CellRanger (batch)",
+                "scanpy_pearson" = "scanpy-Pearson",
+                "scanpy_pearson_batch" = "scanpy-Pearson (batch)",
+                "scanpy_seurat" = "scanpy-Seurat",
+                "scanpy_seurat_batch" = "scanpy-Seurat (batch)",
+                "scanpy_seurat_v3" = "scanpy-SeuratV3",
+                "scanpy_seurat_v3_batch" = "scanpy-SeuratV3 (batch)",
+                "singleCellHaystack" = "singleCellHaystack",
+                "statistic_mean" = "Statistic mean",
+                "statistic_variance" = "Statistic variance",
+                "dubstepr" = "DUBStepR",
+                "hotspot" = "Hotspot",
+                "nbumi" = "NBumi",
+                "osca" = "OSCA",
+                "anticor" = "Anticor",
+                "scPNMF" = "scPNMF",
+                "morans_i" = "Moran's I",
+                "nnsvg" = "nnSVG",
+                "somde" = "SOMDE",
+                "sparkx" = "SPARK-X",
+                "spatialde" = "SpatialDE",
+                .default = .data$fs_method
+            ),
+            NLabel = vapply(
+                .data$n_features,
+                function(value) {
+                    if (value == "all") "all" else format(
+                        as.integer(value), big.mark = ",", scientific = FALSE, trim = TRUE
+                    )
+                },
+                character(1)
+            ),
+            Method = dplyr::if_else(
+                .data$fs_method == "all_features",
+                "All features",
+                paste0(.data$MethodBaseLabel, " (N=", .data$NLabel, ")")
+            ),
+            Dataset = .data$dataset,
+            IntegrationMethod = .data$integration_method,
+            Overall = .data$CoreOverallMean,
+            Integration = .data$IntegrationMean,
+            Clustering = .data$ClusteringMean,
+            Alignment = .data$AlignmentMean
+        ) |>
+        filter(.data$IntegrationMethod %in% names(integration_labels)) |>
+        select(.data$Dataset, .data$Method, .data$IntegrationMethod,
+               .data$Overall, .data$Integration, .data$Clustering, .data$Alignment) |>
+        pivot_longer(
+            cols = c("Overall", "Integration", "Clustering", "Alignment"),
+            names_to = "Type", values_to = "Value"
+        )
+} else {
 metrics <- read_csv(results_path, show_col_types = FALSE) |>
     transmute(
         Dataset = .data$dataset,
@@ -139,6 +207,7 @@ summary_scores <- summary_scores |>
         )
     ) |>
     pivot_longer(cols = c("Overall", "Integration", "Clustering", "Alignment"), names_to = "Type", values_to = "Value")
+}
 
 methods_order <- summary_scores |>
     filter(.data$IntegrationMethod == "scvi") |>
@@ -169,7 +238,7 @@ score_diffs <- summary_scores |>
             select(.data$Dataset, .data$Method, .data$Type, ScviValue = .data$Value),
         by = c("Dataset", "Method", "Type")
     ) |>
-    filter(.data$IntegrationMethod %in% c("cellcharter", "gpsa", "staligner")) |>
+    filter(.data$IntegrationMethod %in% comparison_integrations) |>
     mutate(Diff = .data$Value - .data$ScviValue) |>
     group_by(.data$Method, .data$IntegrationMethod, .data$Type) |>
     summarise(
@@ -179,7 +248,7 @@ score_diffs <- summary_scores |>
     ) |>
     mutate(
         Method = factor(.data$Method, levels = rev(methods_order)),
-        Integration = factor(.data$IntegrationMethod, levels = c("cellcharter", "gpsa", "staligner"), labels = integration_labels[c("cellcharter", "gpsa", "staligner")]),
+        Integration = factor(.data$IntegrationMethod, levels = comparison_integrations, labels = integration_labels[comparison_integrations]),
         Type = factor(.data$Type, levels = names(type_names), labels = type_names)
     ) |>
     select(-.data$IntegrationMethod)
@@ -210,7 +279,7 @@ rank_diffs <- rank_data |>
             select(.data$Dataset, .data$Method, .data$Type, ScviRank = .data$Rank),
         by = c("Dataset", "Method", "Type")
     ) |>
-    filter(.data$IntegrationMethod %in% c("cellcharter", "gpsa", "staligner")) |>
+    filter(.data$IntegrationMethod %in% comparison_integrations) |>
     mutate(Diff = .data$Rank - .data$ScviRank) |>
     group_by(.data$Method, .data$IntegrationMethod, .data$Type) |>
     summarise(
@@ -220,7 +289,7 @@ rank_diffs <- rank_data |>
     ) |>
     mutate(
         Method = factor(.data$Method, levels = rev(methods_order)),
-        Integration = factor(.data$IntegrationMethod, levels = c("cellcharter", "gpsa", "staligner"), labels = integration_labels[c("cellcharter", "gpsa", "staligner")]),
+        Integration = factor(.data$IntegrationMethod, levels = comparison_integrations, labels = integration_labels[comparison_integrations]),
         Type = factor(.data$Type, levels = names(type_names), labels = type_names)
     ) |>
     select(-.data$IntegrationMethod)
@@ -228,8 +297,8 @@ rank_diffs <- rank_data |>
 theme_integration <- theme_features_pub() +
     theme(
         axis.title = element_blank(),
-        axis.text.x = element_text(size = 5.2, angle = 90, hjust = 1, vjust = 0.5, face = "bold", colour = "black"),
-        axis.text.y = element_text(size = 5.4, face = "bold", colour = "black"),
+        axis.text.x = element_text(size = 5.0, angle = 90, hjust = 1, vjust = 0.5, face = "plain", colour = "black"),
+        axis.text.y = element_text(size = 5.1, face = "plain", colour = "black"),
         panel.grid = element_blank(),
         strip.background = element_rect(fill = "black", colour = "black"),
         strip.text = element_text(colour = "white", face = "bold")
@@ -238,7 +307,7 @@ theme_integration <- theme_features_pub() +
 plot_scores <- ggplot(summary_scores_means, aes(x = .data$Type, y = .data$Method, colour = .data$Mean, size = .data$SD)) +
     geom_point(shape = 15) +
     scale_colour_viridis_c(option = "magma", limits = c(min(0, min(summary_scores_means$Mean, na.rm = TRUE)), max(summary_scores_means$Mean, na.rm = TRUE)), na.value = "grey90") +
-    scale_size_continuous(trans = "reverse", range = c(0.5, 3.2)) +
+    scale_size_continuous(trans = "reverse", range = c(0.4, 2.45)) +
     facet_wrap(~ .data$Integration, nrow = 1) +
     labs(colour = "Mean score", size = "s.d.") +
     theme_integration
@@ -246,7 +315,7 @@ plot_scores <- ggplot(summary_scores_means, aes(x = .data$Type, y = .data$Method
 plot_score_diffs <- ggplot(score_diffs, aes(x = .data$Type, y = .data$Method, colour = .data$Mean, size = .data$SD)) +
     geom_point(shape = 15) +
     colorspace::scale_colour_continuous_diverging(palette = "Purple-Green", limits = c(-max(abs(score_diffs$Mean), na.rm = TRUE), max(abs(score_diffs$Mean), na.rm = TRUE)), na.value = "grey90") +
-    scale_size_continuous(trans = "reverse", range = c(0.5, 3.2)) +
+    scale_size_continuous(trans = "reverse", range = c(0.4, 2.45)) +
     facet_wrap(~ .data$Integration, nrow = 1) +
     labs(colour = "Mean difference", size = "s.d.") +
     theme_integration +
@@ -254,14 +323,14 @@ plot_score_diffs <- ggplot(score_diffs, aes(x = .data$Type, y = .data$Method, co
 
 plot_ranks <- ggplot(rank_means, aes(x = .data$Type, y = .data$Method, colour = .data$Type, alpha = .data$MeanRank, size = .data$SDRank)) +
     geom_point(shape = 15) +
-    scale_colour_manual(values = c("Overall" = "#f781bf", "Integration" = "#e41a1c", "Clustering" = "#377eb8", "Alignment" = "#4daf4a"), guide = "none") +
+    scale_colour_manual(values = c("CoreOverall" = "#f781bf", "Integration" = "#e41a1c", "Clustering" = "#377eb8", "Alignment" = "#4daf4a"), guide = "none") +
     scale_alpha_continuous(
         limits = c(max(rank_means$MeanRank, na.rm = TRUE), 1),
         range = c(0.18, 1.0),
         trans = "reverse",
         breaks = c(5, 10, 15, 20, 25)
     ) +
-    scale_size_continuous(trans = "reverse", range = c(0.5, 3.2)) +
+    scale_size_continuous(trans = "reverse", range = c(0.4, 2.45)) +
     facet_wrap(~ .data$Integration, nrow = 1) +
     labs(alpha = "Mean rank", size = "Rank s.d.") +
     theme_integration +
@@ -270,20 +339,21 @@ plot_ranks <- ggplot(rank_means, aes(x = .data$Type, y = .data$Method, colour = 
 plot_rank_diffs <- ggplot(rank_diffs, aes(x = .data$Type, y = .data$Method, colour = .data$Mean, size = .data$SD)) +
     geom_point(shape = 15) +
     colorspace::scale_colour_continuous_diverging(palette = "Tropic", rev = TRUE, limits = c(-max(abs(rank_diffs$Mean), na.rm = TRUE), max(abs(rank_diffs$Mean), na.rm = TRUE)), na.value = "grey90") +
-    scale_size_continuous(trans = "reverse", range = c(0.5, 3.2)) +
+    scale_size_continuous(trans = "reverse", range = c(0.4, 2.45)) +
     facet_wrap(~ .data$Integration, nrow = 1) +
     labs(colour = "Mean difference", size = "s.d.") +
     theme_integration +
     theme(axis.text.y = element_blank(), axis.ticks.y = element_blank())
 
 main_fig <- wrap_plots(
-    plot_scores + theme(legend.position = "none"),
-    plot_score_diffs + theme(legend.position = "none"),
-    plot_ranks + theme(legend.position = "none"),
-    plot_rank_diffs + theme(legend.position = "none"),
+    plot_scores + labs(tag = "a") + theme(legend.position = "none"),
+    plot_score_diffs + labs(tag = "b") + theme(legend.position = "none"),
+    plot_ranks + labs(tag = "c") + theme(legend.position = "none"),
+    plot_rank_diffs + labs(tag = "d") + theme(legend.position = "none"),
     nrow = 1,
     widths = c(3, 2, 3, 2)
-)
+) &
+    theme(plot.tag = element_text(face = "bold", size = 9))
 
 legend_common <- theme(
     legend.position = "bottom",
@@ -299,7 +369,7 @@ legend_common <- theme(
 legend_score_colour <- cowplot::get_legend(
     plot_scores +
         guides(
-            colour = guide_colourbar(title = "Mean score", barwidth = unit(1.5, "cm"), barheight = unit(0.22, "cm")),
+            colour = guide_colourbar(title = "Mean score", barwidth = unit(2.4, "cm"), barheight = unit(0.22, "cm")),
             size = "none"
         ) +
         legend_common
@@ -353,7 +423,7 @@ legend_rank_sd <- cowplot::get_legend(
 legend_rankdiff_colour <- cowplot::get_legend(
     plot_rank_diffs +
         guides(
-            colour = guide_colourbar(title = "Mean difference to scVI", barwidth = unit(2.1, "cm"), barheight = unit(0.22, "cm")),
+            colour = guide_colourbar(title = "Rank difference to scVI", barwidth = unit(2.1, "cm"), barheight = unit(0.22, "cm")),
             size = "none"
         ) +
         legend_common
@@ -397,9 +467,16 @@ fig <- wrap_plots(
         plot.margin = margin(2, 2, 2, 2)
     )
 
-write_tsv(summary_scores_means, file.path(output_dir, "fig6_scores_means.tsv"))
-write_tsv(score_diffs, file.path(output_dir, "fig6_score_diffs.tsv"))
-write_tsv(rank_means, file.path(output_dir, "fig6_rank_means.tsv"))
-write_tsv(rank_diffs, file.path(output_dir, "fig6_rank_diffs.tsv"))
+clean_table_labels <- function(tbl) {
+    tbl |>
+        mutate(across(where(is.factor), as.character)) |>
+        mutate(across(where(is.character), ~ gsub("[\r\n]+", "", .x)))
+}
 
-save_figure_files(fig, file.path(output_dir, "figure_fig6_spatial_integration"), width = 8.2, height = 4.8)
+write_tsv(clean_table_labels(summary_scores_means), file.path(output_dir, "fig6_scores_means.tsv"))
+write_tsv(clean_table_labels(score_diffs), file.path(output_dir, "fig6_score_diffs.tsv"))
+write_tsv(clean_table_labels(rank_means), file.path(output_dir, "fig6_rank_means.tsv"))
+write_tsv(clean_table_labels(rank_diffs), file.path(output_dir, "fig6_rank_diffs.tsv"))
+saveRDS(fig, file.path(output_dir, "figure_fig6_spatial_integration.rds"))
+
+save_figure_files(fig, file.path(output_dir, "figure_fig6_spatial_integration"), width = 8.2, height = 5.7)

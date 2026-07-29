@@ -1,0 +1,14 @@
+Metric	TaskGroup	Component	HigherBetter	DirectionMultiplier
+bASW	Integration	BatchMixing	True	1
+iLISI	Integration	BatchMixing	True	1
+dASW	Integration	BiologicalConservation	True	1
+dLISI	Integration	BiologicalConservation	True	1
+ILL	Integration	BiologicalConservation	True	1
+GC	Integration	BiologicalConservation	True	1
+silhouette	Clustering	LabelIndependentClustering	True	1
+CHAOS	Clustering	LabelIndependentClustering	False	-1
+PAS	Clustering	LabelIndependentClustering	False	-1
+ari	Clustering	LabelAgreement	True	1
+nmi	Clustering	LabelAgreement	True	1
+Accuracy	Alignment	Alignment	True	1
+Ratio	Alignment	Alignment	False	-1

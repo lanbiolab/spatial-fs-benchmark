@@ -29,6 +29,7 @@ def _sample_by_slice(slice_ids: np.ndarray, max_cells: int, random_seed: int) ->
 
 class ClusteringEvaluationTask(BenchmarkTask):
     name = "clustering_eval"
+    implementation_version = "v2_kmeans_slice_balanced_spatial_metrics"
 
     def __init__(
         self,

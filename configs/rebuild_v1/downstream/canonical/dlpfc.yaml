@@ -1,0 +1,60 @@
+name: dlpfc_svg_canonical_downstream
+output_dir: results/spatial_svg_rebuild_v1/dlpfc
+datasets:
+- configs/datasets/dlpfc.yaml
+feature_selection_methods:
+- name: morans_i
+  params:
+    n_neighbors: 8
+  n_features: &id001
+  - 2000
+- name: nnsvg
+  params:
+    n_threads: 4
+  n_features: *id001
+- name: spatialde
+  params:
+    max_cells_per_slice: 800
+  n_features: *id001
+- name: sparkx
+  params:
+    n_threads: 4
+  n_features: *id001
+- name: somde
+  params:
+    spots_per_node: 20
+  n_features: *id001
+integration_methods:
+- name: scvi
+  params:
+    n_latent: 30
+    max_epochs: 100
+    batch_size: 2048
+- name: cellcharter
+  params:
+    n_latent: 30
+    nhood_layers: 4
+    spatial_neighbors: 6
+    max_epochs: 100
+    batch_size: 2048
+tasks:
+- name: integration_eval
+  params:
+    n_neighbors: 15
+    max_eval_cells: 12000
+- name: clustering_eval
+  params:
+    n_clusters: 7
+    n_neighbors: 8
+    silhouette_sample_size: 10000
+    max_eval_cells: 12000
+- name: alignment_eval
+  params:
+    n_neighbors: 10
+    max_points_per_slice: 2500
+n_features: *id001
+seeds:
+- 0
+- 1
+- 2
+save_embeddings: true

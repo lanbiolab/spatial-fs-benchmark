@@ -19,7 +19,7 @@ from spatial_fs_benchmark.benchmark.experiment import (
 from spatial_fs_benchmark.benchmark.result_schema import MetricRecord, records_to_frame
 from spatial_fs_benchmark.config import BenchmarkConfig
 from spatial_fs_benchmark.data.io import load_dataset
-from spatial_fs_benchmark.data.preprocess import preprocess_dataset
+from spatial_fs_benchmark.data.preprocess import PREPROCESS_IMPLEMENTATION_VERSION, preprocess_dataset
 from spatial_fs_benchmark.feature_selection import build_feature_selector
 from spatial_fs_benchmark.integration import build_integrator
 from spatial_fs_benchmark.tasks import build_task
@@ -44,7 +44,10 @@ class BenchmarkRunner:
             "slice_key": dataset.slice_key,
             "label_key": dataset.label_key,
             "coord_key": dataset.coord_key,
+            "alignment_pairs": dataset.alignment_pairs,
             "preprocess": preprocess,
+            "preprocess_implementation_version": PREPROCESS_IMPLEMENTATION_VERSION,
+            "counts_source": dataset.adata.uns.get("spatial_fs_benchmark", {}).get("counts_source"),
         }
 
     def run(self) -> None:
@@ -69,8 +72,10 @@ class BenchmarkRunner:
                             exc,
                         )
                         continue
-                    for n_features in self.config.n_features:
-                        selection_dir = dataset_dir / "feature_selection" / selector_config.name / f"n{n_features}" / f"seed{seed}"
+                    selection_seed = seed if getattr(selector, "stochastic_selection", False) else 0
+                    selector_n_features = selector_config.n_features or self.config.n_features
+                    for n_features in selector_n_features:
+                        selection_dir = dataset_dir / "feature_selection" / selector_config.name / f"n{n_features}" / f"seed{selection_seed}"
                         selection_path = selection_dir / "selected_features.json"
                         selection_meta_path = selection_dir / "selected_features.meta.json"
                         selection_payload = {
@@ -78,8 +83,9 @@ class BenchmarkRunner:
                             "dataset": dataset_sig,
                             "selector_name": selector_config.name,
                             "selector_params": selector_config.params,
+                            "selector_implementation_version": getattr(selector, "implementation_version", None),
                             "n_features": int(n_features),
-                            "seed": int(seed),
+                            "seed": int(selection_seed),
                         }
                         selection_sig = cache_signature(selection_payload)
                         try:
@@ -92,7 +98,7 @@ class BenchmarkRunner:
                                 selection_runtime = 0.0
                             else:
                                 selection, selection_runtime = run_timed_block(
-                                    lambda selector=selector, n_features=n_features, seed=seed: selector.select(
+                                    lambda selector=selector, n_features=n_features, seed=selection_seed: selector.select(
                                         dataset,
                                         n_features=n_features,
                                         random_seed=seed,
@@ -205,30 +211,6 @@ class BenchmarkRunner:
                                 )
                                 continue
                             for task_config in self.config.tasks:
-                                task_records_path = combination_dir / f"{task_config.name}_records.json"
-                                task_meta_path = combination_dir / f"{task_config.name}_records.meta.json"
-                                task_payload = {
-                                    "stage": "task",
-                                    "dataset": dataset_sig,
-                                    "selector_name": selector_config.name,
-                                    "selector_params": selector_config.params,
-                                    "n_features": int(n_features),
-                                    "seed": int(seed),
-                                    "integrator_name": integrator_config.name,
-                                    "integrator_params": integrator_config.params,
-                                    "task_name": task_config.name,
-                                    "task_params": task_config.params,
-                                    "selection_feature_hash": selection.metadata.get("feature_name_hash", ""),
-                                    "integration_cache_signature": integration_sig,
-                                }
-                                task_sig = cache_signature(task_payload)
-                                task_cache_valid = False
-                                if task_records_path.exists() and task_meta_path.exists():
-                                    task_meta = read_json(task_meta_path)
-                                    task_cache_valid = task_meta.get("cache_signature") == task_sig
-                                if task_cache_valid:
-                                    all_records.extend(read_metric_records(task_records_path))
-                                    continue
                                 try:
                                     task = build_task(task_config.name, **task_config.params)
                                 except Exception as exc:
@@ -242,6 +224,31 @@ class BenchmarkRunner:
                                         seed,
                                         exc,
                                     )
+                                    continue
+                                task_records_path = combination_dir / f"{task_config.name}_records.json"
+                                task_meta_path = combination_dir / f"{task_config.name}_records.meta.json"
+                                task_payload = {
+                                    "stage": "task",
+                                    "dataset": dataset_sig,
+                                    "selector_name": selector_config.name,
+                                    "selector_params": selector_config.params,
+                                    "n_features": int(n_features),
+                                    "seed": int(seed),
+                                    "integrator_name": integrator_config.name,
+                                    "integrator_params": integrator_config.params,
+                                    "task_name": task_config.name,
+                                    "task_params": task_config.params,
+                                    "task_implementation_version": getattr(task, "implementation_version", None),
+                                    "selection_feature_hash": selection.metadata.get("feature_name_hash", ""),
+                                    "integration_cache_signature": integration_sig,
+                                }
+                                task_sig = cache_signature(task_payload)
+                                task_cache_valid = False
+                                if task_records_path.exists() and task_meta_path.exists():
+                                    task_meta = read_json(task_meta_path)
+                                    task_cache_valid = task_meta.get("cache_signature") == task_sig
+                                if task_cache_valid:
+                                    all_records.extend(read_metric_records(task_records_path))
                                     continue
                                 try:
                                     task_output, task_runtime = run_timed_block(

@@ -34,6 +34,7 @@ def _sample_by_slice(slice_ids: np.ndarray, max_cells: int, random_seed: int) ->
 
 class IntegrationEvaluationTask(BenchmarkTask):
     name = "integration_eval"
+    implementation_version = "v2_unlabelled_batch_asw"
 
     def __init__(self, n_neighbors: int = 15, max_eval_cells: int | None = None) -> None:
         self.n_neighbors = n_neighbors
@@ -58,7 +59,7 @@ class IntegrationEvaluationTask(BenchmarkTask):
             "bASW": scaled_silhouette_batch(
                 embedding,
                 slice_ids,
-                labels if labels is not None else slice_ids,
+                labels,
             ),
             "iLISI": scaled_lisi(
                 embedding,

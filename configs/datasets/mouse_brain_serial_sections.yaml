@@ -6,6 +6,8 @@ species: Mouse
 slice_key: sample_id
 label_key: graphclust
 coord_key: spatial
+alignment_pairs:
+  - ["section1", "section2"]
 preprocess:
   normalize_total: true
   target_sum: 10000.0

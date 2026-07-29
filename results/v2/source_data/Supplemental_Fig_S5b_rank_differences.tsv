@@ -1,0 +1,813 @@
+dataset	fs_method	n_features	MethodGroup	Dataset	Method	Task	Difference
+DLPFC	Brennecke	2000	expression_driven	DLPFC	Brennecke	Core overall	1
+DLPFC	Brennecke	2000	expression_driven	DLPFC	Brennecke	Integration	9
+DLPFC	Brennecke	2000	expression_driven	DLPFC	Brennecke	Clustering	0
+DLPFC	Brennecke	2000	expression_driven	DLPFC	Brennecke	Alignment	-1
+DLPFC	anticor	2000	expression_driven	DLPFC	Anticor	Core overall	-1
+DLPFC	anticor	2000	expression_driven	DLPFC	Anticor	Integration	3
+DLPFC	anticor	2000	expression_driven	DLPFC	Anticor	Clustering	0
+DLPFC	anticor	2000	expression_driven	DLPFC	Anticor	Alignment	4
+DLPFC	dubstepr	2000	expression_driven	DLPFC	DUBStepR	Core overall	4
+DLPFC	dubstepr	2000	expression_driven	DLPFC	DUBStepR	Integration	-3
+DLPFC	dubstepr	2000	expression_driven	DLPFC	DUBStepR	Clustering	8
+DLPFC	dubstepr	2000	expression_driven	DLPFC	DUBStepR	Alignment	-2
+DLPFC	hotspot	2000	expression_driven	DLPFC	Hotspot	Core overall	10
+DLPFC	hotspot	2000	expression_driven	DLPFC	Hotspot	Integration	15
+DLPFC	hotspot	2000	expression_driven	DLPFC	Hotspot	Clustering	9
+DLPFC	hotspot	2000	expression_driven	DLPFC	Hotspot	Alignment	1
+DLPFC	morans_i	2000	spatially_informed	DLPFC	Moran's I	Core overall	-13
+DLPFC	morans_i	2000	spatially_informed	DLPFC	Moran's I	Integration	-20
+DLPFC	morans_i	2000	spatially_informed	DLPFC	Moran's I	Clustering	-9
+DLPFC	morans_i	2000	spatially_informed	DLPFC	Moran's I	Alignment	-7
+DLPFC	nbumi	2000	expression_driven	DLPFC	NBumi	Core overall	2
+DLPFC	nbumi	2000	expression_driven	DLPFC	NBumi	Integration	1
+DLPFC	nbumi	2000	expression_driven	DLPFC	NBumi	Clustering	-4
+DLPFC	nbumi	2000	expression_driven	DLPFC	NBumi	Alignment	2
+DLPFC	nnsvg	2000	spatially_informed	DLPFC	nnSVG	Core overall	-4
+DLPFC	nnsvg	2000	spatially_informed	DLPFC	nnSVG	Integration	-14
+DLPFC	nnsvg	2000	spatially_informed	DLPFC	nnSVG	Clustering	4
+DLPFC	nnsvg	2000	spatially_informed	DLPFC	nnSVG	Alignment	-3
+DLPFC	osca	2000	expression_driven	DLPFC	OSCA	Core overall	1
+DLPFC	osca	2000	expression_driven	DLPFC	OSCA	Integration	3
+DLPFC	osca	2000	expression_driven	DLPFC	OSCA	Clustering	-3
+DLPFC	osca	2000	expression_driven	DLPFC	OSCA	Alignment	8
+DLPFC	scPNMF	2000	expression_driven	DLPFC	scPNMF	Core overall	6
+DLPFC	scPNMF	2000	expression_driven	DLPFC	scPNMF	Integration	6
+DLPFC	scPNMF	2000	expression_driven	DLPFC	scPNMF	Clustering	-4
+DLPFC	scPNMF	2000	expression_driven	DLPFC	scPNMF	Alignment	2
+DLPFC	scanpy_cell_ranger	2000	expression_driven	DLPFC	Scanpy Cell Ranger	Core overall	1
+DLPFC	scanpy_cell_ranger	2000	expression_driven	DLPFC	Scanpy Cell Ranger	Integration	15
+DLPFC	scanpy_cell_ranger	2000	expression_driven	DLPFC	Scanpy Cell Ranger	Clustering	-1
+DLPFC	scanpy_cell_ranger	2000	expression_driven	DLPFC	Scanpy Cell Ranger	Alignment	3
+DLPFC	scanpy_cell_ranger_batch	2000	expression_driven	DLPFC	Scanpy Cell Ranger, batch	Core overall	-8
+DLPFC	scanpy_cell_ranger_batch	2000	expression_driven	DLPFC	Scanpy Cell Ranger, batch	Integration	4
+DLPFC	scanpy_cell_ranger_batch	2000	expression_driven	DLPFC	Scanpy Cell Ranger, batch	Clustering	-1
+DLPFC	scanpy_cell_ranger_batch	2000	expression_driven	DLPFC	Scanpy Cell Ranger, batch	Alignment	2
+DLPFC	scanpy_pearson	2000	expression_driven	DLPFC	Scanpy Pearson	Core overall	6
+DLPFC	scanpy_pearson	2000	expression_driven	DLPFC	Scanpy Pearson	Integration	9
+DLPFC	scanpy_pearson	2000	expression_driven	DLPFC	Scanpy Pearson	Clustering	0
+DLPFC	scanpy_pearson	2000	expression_driven	DLPFC	Scanpy Pearson	Alignment	0
+DLPFC	scanpy_pearson_batch	2000	expression_driven	DLPFC	Scanpy Pearson, batch	Core overall	6
+DLPFC	scanpy_pearson_batch	2000	expression_driven	DLPFC	Scanpy Pearson, batch	Integration	5
+DLPFC	scanpy_pearson_batch	2000	expression_driven	DLPFC	Scanpy Pearson, batch	Clustering	2
+DLPFC	scanpy_pearson_batch	2000	expression_driven	DLPFC	Scanpy Pearson, batch	Alignment	3
+DLPFC	scanpy_seurat	2000	expression_driven	DLPFC	Scanpy Seurat	Core overall	0
+DLPFC	scanpy_seurat	2000	expression_driven	DLPFC	Scanpy Seurat	Integration	1
+DLPFC	scanpy_seurat	2000	expression_driven	DLPFC	Scanpy Seurat	Clustering	1
+DLPFC	scanpy_seurat	2000	expression_driven	DLPFC	Scanpy Seurat	Alignment	0
+DLPFC	scanpy_seurat_batch	2000	expression_driven	DLPFC	Scanpy Seurat, batch	Core overall	6
+DLPFC	scanpy_seurat_batch	2000	expression_driven	DLPFC	Scanpy Seurat, batch	Integration	11
+DLPFC	scanpy_seurat_batch	2000	expression_driven	DLPFC	Scanpy Seurat, batch	Clustering	0
+DLPFC	scanpy_seurat_batch	2000	expression_driven	DLPFC	Scanpy Seurat, batch	Alignment	4
+DLPFC	scanpy_seurat_v3	2000	expression_driven	DLPFC	Scanpy Seurat v3	Core overall	-12
+DLPFC	scanpy_seurat_v3	2000	expression_driven	DLPFC	Scanpy Seurat v3	Integration	-9
+DLPFC	scanpy_seurat_v3	2000	expression_driven	DLPFC	Scanpy Seurat v3	Clustering	-11
+DLPFC	scanpy_seurat_v3	2000	expression_driven	DLPFC	Scanpy Seurat v3	Alignment	-3
+DLPFC	scanpy_seurat_v3_batch	2000	expression_driven	DLPFC	Scanpy Seurat v3, batch	Core overall	-3
+DLPFC	scanpy_seurat_v3_batch	2000	expression_driven	DLPFC	Scanpy Seurat v3, batch	Integration	-4
+DLPFC	scanpy_seurat_v3_batch	2000	expression_driven	DLPFC	Scanpy Seurat v3, batch	Clustering	-3
+DLPFC	scanpy_seurat_v3_batch	2000	expression_driven	DLPFC	Scanpy Seurat v3, batch	Alignment	-8
+DLPFC	scry	2000	expression_driven	DLPFC	scry	Core overall	0
+DLPFC	scry	2000	expression_driven	DLPFC	scry	Integration	-11
+DLPFC	scry	2000	expression_driven	DLPFC	scry	Clustering	4
+DLPFC	scry	2000	expression_driven	DLPFC	scry	Alignment	-5
+DLPFC	seurat_disp	2000	expression_driven	DLPFC	Seurat Dispersion	Core overall	11
+DLPFC	seurat_disp	2000	expression_driven	DLPFC	Seurat Dispersion	Integration	14
+DLPFC	seurat_disp	2000	expression_driven	DLPFC	Seurat Dispersion	Clustering	3
+DLPFC	seurat_disp	2000	expression_driven	DLPFC	Seurat Dispersion	Alignment	0
+DLPFC	seurat_mvp	2000	expression_driven	DLPFC	Seurat MVP	Core overall	-4
+DLPFC	seurat_mvp	2000	expression_driven	DLPFC	Seurat MVP	Integration	4
+DLPFC	seurat_mvp	2000	expression_driven	DLPFC	Seurat MVP	Clustering	-4
+DLPFC	seurat_mvp	2000	expression_driven	DLPFC	Seurat MVP	Alignment	3
+DLPFC	seurat_sct	2000	expression_driven	DLPFC	Seurat sctransform	Core overall	12
+DLPFC	seurat_sct	2000	expression_driven	DLPFC	Seurat sctransform	Integration	0
+DLPFC	seurat_sct	2000	expression_driven	DLPFC	Seurat sctransform	Clustering	14
+DLPFC	seurat_sct	2000	expression_driven	DLPFC	Seurat sctransform	Alignment	3
+DLPFC	seurat_vst	2000	expression_driven	DLPFC	Seurat VST	Core overall	-9
+DLPFC	seurat_vst	2000	expression_driven	DLPFC	Seurat VST	Integration	-14
+DLPFC	seurat_vst	2000	expression_driven	DLPFC	Seurat VST	Clustering	-4
+DLPFC	seurat_vst	2000	expression_driven	DLPFC	Seurat VST	Alignment	-3
+DLPFC	singleCellHaystack	2000	expression_driven	DLPFC	singleCellHaystack	Core overall	7
+DLPFC	singleCellHaystack	2000	expression_driven	DLPFC	singleCellHaystack	Integration	2
+DLPFC	singleCellHaystack	2000	expression_driven	DLPFC	singleCellHaystack	Clustering	5
+DLPFC	singleCellHaystack	2000	expression_driven	DLPFC	singleCellHaystack	Alignment	4
+DLPFC	somde	2000	spatially_informed	DLPFC	SOMDE	Core overall	-1
+DLPFC	somde	2000	spatially_informed	DLPFC	SOMDE	Integration	7
+DLPFC	somde	2000	spatially_informed	DLPFC	SOMDE	Clustering	-7
+DLPFC	somde	2000	spatially_informed	DLPFC	SOMDE	Alignment	8
+DLPFC	sparkx	2000	spatially_informed	DLPFC	SPARK-X	Core overall	-4
+DLPFC	sparkx	2000	spatially_informed	DLPFC	SPARK-X	Integration	-19
+DLPFC	sparkx	2000	spatially_informed	DLPFC	SPARK-X	Clustering	2
+DLPFC	sparkx	2000	spatially_informed	DLPFC	SPARK-X	Alignment	0
+DLPFC	spatialde	2000	spatially_informed	DLPFC	SpatialDE	Core overall	-1
+DLPFC	spatialde	2000	spatially_informed	DLPFC	SpatialDE	Integration	0
+DLPFC	spatialde	2000	spatially_informed	DLPFC	SpatialDE	Clustering	1
+DLPFC	spatialde	2000	spatially_informed	DLPFC	SpatialDE	Alignment	3
+DLPFC	statistic_mean	2000	expression_driven	DLPFC	Mean expression	Core overall	-9
+DLPFC	statistic_mean	2000	expression_driven	DLPFC	Mean expression	Integration	-15
+DLPFC	statistic_mean	2000	expression_driven	DLPFC	Mean expression	Clustering	-3
+DLPFC	statistic_mean	2000	expression_driven	DLPFC	Mean expression	Alignment	-6
+DLPFC	statistic_variance	2000	expression_driven	DLPFC	Expression variance	Core overall	-3
+DLPFC	statistic_variance	2000	expression_driven	DLPFC	Expression variance	Integration	-12
+DLPFC	statistic_variance	2000	expression_driven	DLPFC	Expression variance	Clustering	3
+DLPFC	statistic_variance	2000	expression_driven	DLPFC	Expression variance	Alignment	-1
+DLPFC	triku	2000	expression_driven	DLPFC	triku	Core overall	-4
+DLPFC	triku	2000	expression_driven	DLPFC	triku	Integration	-4
+DLPFC	triku	2000	expression_driven	DLPFC	triku	Clustering	-4
+DLPFC	triku	2000	expression_driven	DLPFC	triku	Alignment	0
+E8p5Embryo	Brennecke	2000	expression_driven	E8.5 Embryo	Brennecke	Core overall	-24
+E8p5Embryo	Brennecke	2000	expression_driven	E8.5 Embryo	Brennecke	Integration	1
+E8p5Embryo	Brennecke	2000	expression_driven	E8.5 Embryo	Brennecke	Clustering	-10
+E8p5Embryo	Brennecke	2000	expression_driven	E8.5 Embryo	Brennecke	Alignment	NA
+E8p5Embryo	anticor	2000	expression_driven	E8.5 Embryo	Anticor	Core overall	0
+E8p5Embryo	anticor	2000	expression_driven	E8.5 Embryo	Anticor	Integration	-5
+E8p5Embryo	anticor	2000	expression_driven	E8.5 Embryo	Anticor	Clustering	5
+E8p5Embryo	anticor	2000	expression_driven	E8.5 Embryo	Anticor	Alignment	NA
+E8p5Embryo	dubstepr	2000	expression_driven	E8.5 Embryo	DUBStepR	Core overall	17
+E8p5Embryo	dubstepr	2000	expression_driven	E8.5 Embryo	DUBStepR	Integration	5
+E8p5Embryo	dubstepr	2000	expression_driven	E8.5 Embryo	DUBStepR	Clustering	4
+E8p5Embryo	dubstepr	2000	expression_driven	E8.5 Embryo	DUBStepR	Alignment	NA
+E8p5Embryo	hotspot	2000	expression_driven	E8.5 Embryo	Hotspot	Core overall	-1
+E8p5Embryo	hotspot	2000	expression_driven	E8.5 Embryo	Hotspot	Integration	-1
+E8p5Embryo	hotspot	2000	expression_driven	E8.5 Embryo	Hotspot	Clustering	-4
+E8p5Embryo	hotspot	2000	expression_driven	E8.5 Embryo	Hotspot	Alignment	NA
+E8p5Embryo	morans_i	2000	spatially_informed	E8.5 Embryo	Moran's I	Core overall	25
+E8p5Embryo	morans_i	2000	spatially_informed	E8.5 Embryo	Moran's I	Integration	4
+E8p5Embryo	morans_i	2000	spatially_informed	E8.5 Embryo	Moran's I	Clustering	15
+E8p5Embryo	morans_i	2000	spatially_informed	E8.5 Embryo	Moran's I	Alignment	NA
+E8p5Embryo	nbumi	2000	expression_driven	E8.5 Embryo	NBumi	Core overall	-3
+E8p5Embryo	nbumi	2000	expression_driven	E8.5 Embryo	NBumi	Integration	-3
+E8p5Embryo	nbumi	2000	expression_driven	E8.5 Embryo	NBumi	Clustering	-6
+E8p5Embryo	nbumi	2000	expression_driven	E8.5 Embryo	NBumi	Alignment	NA
+E8p5Embryo	nnsvg	2000	spatially_informed	E8.5 Embryo	nnSVG	Core overall	27
+E8p5Embryo	nnsvg	2000	spatially_informed	E8.5 Embryo	nnSVG	Integration	2
+E8p5Embryo	nnsvg	2000	spatially_informed	E8.5 Embryo	nnSVG	Clustering	15
+E8p5Embryo	nnsvg	2000	spatially_informed	E8.5 Embryo	nnSVG	Alignment	NA
+E8p5Embryo	osca	2000	expression_driven	E8.5 Embryo	OSCA	Core overall	10
+E8p5Embryo	osca	2000	expression_driven	E8.5 Embryo	OSCA	Integration	2
+E8p5Embryo	osca	2000	expression_driven	E8.5 Embryo	OSCA	Clustering	3
+E8p5Embryo	osca	2000	expression_driven	E8.5 Embryo	OSCA	Alignment	NA
+E8p5Embryo	scPNMF	2000	expression_driven	E8.5 Embryo	scPNMF	Core overall	8
+E8p5Embryo	scPNMF	2000	expression_driven	E8.5 Embryo	scPNMF	Integration	4
+E8p5Embryo	scPNMF	2000	expression_driven	E8.5 Embryo	scPNMF	Clustering	5
+E8p5Embryo	scPNMF	2000	expression_driven	E8.5 Embryo	scPNMF	Alignment	NA
+E8p5Embryo	scanpy_cell_ranger	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger	Core overall	4
+E8p5Embryo	scanpy_cell_ranger	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger	Integration	3
+E8p5Embryo	scanpy_cell_ranger	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger	Clustering	-7
+E8p5Embryo	scanpy_cell_ranger	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger	Alignment	NA
+E8p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger, batch	Core overall	0
+E8p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger, batch	Integration	3
+E8p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger, batch	Clustering	-12
+E8p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger, batch	Alignment	NA
+E8p5Embryo	scanpy_pearson	2000	expression_driven	E8.5 Embryo	Scanpy Pearson	Core overall	-2
+E8p5Embryo	scanpy_pearson	2000	expression_driven	E8.5 Embryo	Scanpy Pearson	Integration	3
+E8p5Embryo	scanpy_pearson	2000	expression_driven	E8.5 Embryo	Scanpy Pearson	Clustering	-5
+E8p5Embryo	scanpy_pearson	2000	expression_driven	E8.5 Embryo	Scanpy Pearson	Alignment	NA
+E8p5Embryo	scanpy_pearson_batch	2000	expression_driven	E8.5 Embryo	Scanpy Pearson, batch	Core overall	-19
+E8p5Embryo	scanpy_pearson_batch	2000	expression_driven	E8.5 Embryo	Scanpy Pearson, batch	Integration	-3
+E8p5Embryo	scanpy_pearson_batch	2000	expression_driven	E8.5 Embryo	Scanpy Pearson, batch	Clustering	-9
+E8p5Embryo	scanpy_pearson_batch	2000	expression_driven	E8.5 Embryo	Scanpy Pearson, batch	Alignment	NA
+E8p5Embryo	scanpy_seurat	2000	expression_driven	E8.5 Embryo	Scanpy Seurat	Core overall	-17
+E8p5Embryo	scanpy_seurat	2000	expression_driven	E8.5 Embryo	Scanpy Seurat	Integration	1
+E8p5Embryo	scanpy_seurat	2000	expression_driven	E8.5 Embryo	Scanpy Seurat	Clustering	-8
+E8p5Embryo	scanpy_seurat	2000	expression_driven	E8.5 Embryo	Scanpy Seurat	Alignment	NA
+E8p5Embryo	scanpy_seurat_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat, batch	Core overall	-24
+E8p5Embryo	scanpy_seurat_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat, batch	Integration	3
+E8p5Embryo	scanpy_seurat_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat, batch	Clustering	-11
+E8p5Embryo	scanpy_seurat_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat, batch	Alignment	NA
+E8p5Embryo	scanpy_seurat_v3	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3	Core overall	10
+E8p5Embryo	scanpy_seurat_v3	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3	Integration	5
+E8p5Embryo	scanpy_seurat_v3	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3	Clustering	-1
+E8p5Embryo	scanpy_seurat_v3	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3	Alignment	NA
+E8p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3, batch	Core overall	-7
+E8p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3, batch	Integration	5
+E8p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3, batch	Clustering	-11
+E8p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3, batch	Alignment	NA
+E8p5Embryo	scry	2000	expression_driven	E8.5 Embryo	scry	Core overall	6
+E8p5Embryo	scry	2000	expression_driven	E8.5 Embryo	scry	Integration	1
+E8p5Embryo	scry	2000	expression_driven	E8.5 Embryo	scry	Clustering	5
+E8p5Embryo	scry	2000	expression_driven	E8.5 Embryo	scry	Alignment	NA
+E8p5Embryo	seurat_disp	2000	expression_driven	E8.5 Embryo	Seurat Dispersion	Core overall	-14
+E8p5Embryo	seurat_disp	2000	expression_driven	E8.5 Embryo	Seurat Dispersion	Integration	0
+E8p5Embryo	seurat_disp	2000	expression_driven	E8.5 Embryo	Seurat Dispersion	Clustering	-3
+E8p5Embryo	seurat_disp	2000	expression_driven	E8.5 Embryo	Seurat Dispersion	Alignment	NA
+E8p5Embryo	seurat_mvp	2000	expression_driven	E8.5 Embryo	Seurat MVP	Core overall	-13
+E8p5Embryo	seurat_mvp	2000	expression_driven	E8.5 Embryo	Seurat MVP	Integration	1
+E8p5Embryo	seurat_mvp	2000	expression_driven	E8.5 Embryo	Seurat MVP	Clustering	-8
+E8p5Embryo	seurat_mvp	2000	expression_driven	E8.5 Embryo	Seurat MVP	Alignment	NA
+E8p5Embryo	seurat_sct	2000	expression_driven	E8.5 Embryo	Seurat sctransform	Core overall	0
+E8p5Embryo	seurat_sct	2000	expression_driven	E8.5 Embryo	Seurat sctransform	Integration	-18
+E8p5Embryo	seurat_sct	2000	expression_driven	E8.5 Embryo	Seurat sctransform	Clustering	2
+E8p5Embryo	seurat_sct	2000	expression_driven	E8.5 Embryo	Seurat sctransform	Alignment	NA
+E8p5Embryo	seurat_vst	2000	expression_driven	E8.5 Embryo	Seurat VST	Core overall	-1
+E8p5Embryo	seurat_vst	2000	expression_driven	E8.5 Embryo	Seurat VST	Integration	5
+E8p5Embryo	seurat_vst	2000	expression_driven	E8.5 Embryo	Seurat VST	Clustering	-4
+E8p5Embryo	seurat_vst	2000	expression_driven	E8.5 Embryo	Seurat VST	Alignment	NA
+E8p5Embryo	singleCellHaystack	2000	expression_driven	E8.5 Embryo	singleCellHaystack	Core overall	9
+E8p5Embryo	singleCellHaystack	2000	expression_driven	E8.5 Embryo	singleCellHaystack	Integration	7
+E8p5Embryo	singleCellHaystack	2000	expression_driven	E8.5 Embryo	singleCellHaystack	Clustering	-3
+E8p5Embryo	singleCellHaystack	2000	expression_driven	E8.5 Embryo	singleCellHaystack	Alignment	NA
+E8p5Embryo	somde	2000	spatially_informed	E8.5 Embryo	SOMDE	Core overall	15
+E8p5Embryo	somde	2000	spatially_informed	E8.5 Embryo	SOMDE	Integration	1
+E8p5Embryo	somde	2000	spatially_informed	E8.5 Embryo	SOMDE	Clustering	8
+E8p5Embryo	somde	2000	spatially_informed	E8.5 Embryo	SOMDE	Alignment	NA
+E8p5Embryo	sparkx	2000	spatially_informed	E8.5 Embryo	SPARK-X	Core overall	12
+E8p5Embryo	sparkx	2000	spatially_informed	E8.5 Embryo	SPARK-X	Integration	-3
+E8p5Embryo	sparkx	2000	spatially_informed	E8.5 Embryo	SPARK-X	Clustering	14
+E8p5Embryo	sparkx	2000	spatially_informed	E8.5 Embryo	SPARK-X	Alignment	NA
+E8p5Embryo	spatialde	2000	spatially_informed	E8.5 Embryo	SpatialDE	Core overall	11
+E8p5Embryo	spatialde	2000	spatially_informed	E8.5 Embryo	SpatialDE	Integration	-1
+E8p5Embryo	spatialde	2000	spatially_informed	E8.5 Embryo	SpatialDE	Clustering	12
+E8p5Embryo	spatialde	2000	spatially_informed	E8.5 Embryo	SpatialDE	Alignment	NA
+E8p5Embryo	statistic_mean	2000	expression_driven	E8.5 Embryo	Mean expression	Core overall	0
+E8p5Embryo	statistic_mean	2000	expression_driven	E8.5 Embryo	Mean expression	Integration	1
+E8p5Embryo	statistic_mean	2000	expression_driven	E8.5 Embryo	Mean expression	Clustering	3
+E8p5Embryo	statistic_mean	2000	expression_driven	E8.5 Embryo	Mean expression	Alignment	NA
+E8p5Embryo	statistic_variance	2000	expression_driven	E8.5 Embryo	Expression variance	Core overall	6
+E8p5Embryo	statistic_variance	2000	expression_driven	E8.5 Embryo	Expression variance	Integration	1
+E8p5Embryo	statistic_variance	2000	expression_driven	E8.5 Embryo	Expression variance	Clustering	6
+E8p5Embryo	statistic_variance	2000	expression_driven	E8.5 Embryo	Expression variance	Alignment	NA
+E8p5Embryo	triku	2000	expression_driven	E8.5 Embryo	triku	Core overall	5
+E8p5Embryo	triku	2000	expression_driven	E8.5 Embryo	triku	Integration	-4
+E8p5Embryo	triku	2000	expression_driven	E8.5 Embryo	triku	Clustering	2
+E8p5Embryo	triku	2000	expression_driven	E8.5 Embryo	triku	Alignment	NA
+E9p5Embryo	Brennecke	2000	expression_driven	E9.5 Embryo	Brennecke	Core overall	-2
+E9p5Embryo	Brennecke	2000	expression_driven	E9.5 Embryo	Brennecke	Integration	4
+E9p5Embryo	Brennecke	2000	expression_driven	E9.5 Embryo	Brennecke	Clustering	0
+E9p5Embryo	Brennecke	2000	expression_driven	E9.5 Embryo	Brennecke	Alignment	NA
+E9p5Embryo	anticor	2000	expression_driven	E9.5 Embryo	Anticor	Core overall	-7
+E9p5Embryo	anticor	2000	expression_driven	E9.5 Embryo	Anticor	Integration	-9
+E9p5Embryo	anticor	2000	expression_driven	E9.5 Embryo	Anticor	Clustering	0
+E9p5Embryo	anticor	2000	expression_driven	E9.5 Embryo	Anticor	Alignment	NA
+E9p5Embryo	dubstepr	2000	expression_driven	E9.5 Embryo	DUBStepR	Core overall	7
+E9p5Embryo	dubstepr	2000	expression_driven	E9.5 Embryo	DUBStepR	Integration	1
+E9p5Embryo	dubstepr	2000	expression_driven	E9.5 Embryo	DUBStepR	Clustering	0
+E9p5Embryo	dubstepr	2000	expression_driven	E9.5 Embryo	DUBStepR	Alignment	NA
+E9p5Embryo	hotspot	2000	expression_driven	E9.5 Embryo	Hotspot	Core overall	-3
+E9p5Embryo	hotspot	2000	expression_driven	E9.5 Embryo	Hotspot	Integration	5
+E9p5Embryo	hotspot	2000	expression_driven	E9.5 Embryo	Hotspot	Clustering	1
+E9p5Embryo	hotspot	2000	expression_driven	E9.5 Embryo	Hotspot	Alignment	NA
+E9p5Embryo	morans_i	2000	spatially_informed	E9.5 Embryo	Moran's I	Core overall	10
+E9p5Embryo	morans_i	2000	spatially_informed	E9.5 Embryo	Moran's I	Integration	2
+E9p5Embryo	morans_i	2000	spatially_informed	E9.5 Embryo	Moran's I	Clustering	7
+E9p5Embryo	morans_i	2000	spatially_informed	E9.5 Embryo	Moran's I	Alignment	NA
+E9p5Embryo	nbumi	2000	expression_driven	E9.5 Embryo	NBumi	Core overall	12
+E9p5Embryo	nbumi	2000	expression_driven	E9.5 Embryo	NBumi	Integration	-2
+E9p5Embryo	nbumi	2000	expression_driven	E9.5 Embryo	NBumi	Clustering	8
+E9p5Embryo	nbumi	2000	expression_driven	E9.5 Embryo	NBumi	Alignment	NA
+E9p5Embryo	nnsvg	2000	spatially_informed	E9.5 Embryo	nnSVG	Core overall	10
+E9p5Embryo	nnsvg	2000	spatially_informed	E9.5 Embryo	nnSVG	Integration	4
+E9p5Embryo	nnsvg	2000	spatially_informed	E9.5 Embryo	nnSVG	Clustering	1
+E9p5Embryo	nnsvg	2000	spatially_informed	E9.5 Embryo	nnSVG	Alignment	NA
+E9p5Embryo	osca	2000	expression_driven	E9.5 Embryo	OSCA	Core overall	9
+E9p5Embryo	osca	2000	expression_driven	E9.5 Embryo	OSCA	Integration	-4
+E9p5Embryo	osca	2000	expression_driven	E9.5 Embryo	OSCA	Clustering	6
+E9p5Embryo	osca	2000	expression_driven	E9.5 Embryo	OSCA	Alignment	NA
+E9p5Embryo	scPNMF	2000	expression_driven	E9.5 Embryo	scPNMF	Core overall	9
+E9p5Embryo	scPNMF	2000	expression_driven	E9.5 Embryo	scPNMF	Integration	4
+E9p5Embryo	scPNMF	2000	expression_driven	E9.5 Embryo	scPNMF	Clustering	2
+E9p5Embryo	scPNMF	2000	expression_driven	E9.5 Embryo	scPNMF	Alignment	NA
+E9p5Embryo	scanpy_cell_ranger	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger	Core overall	-7
+E9p5Embryo	scanpy_cell_ranger	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger	Integration	-2
+E9p5Embryo	scanpy_cell_ranger	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger	Clustering	-12
+E9p5Embryo	scanpy_cell_ranger	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger	Alignment	NA
+E9p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger, batch	Core overall	-13
+E9p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger, batch	Integration	1
+E9p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger, batch	Clustering	-13
+E9p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger, batch	Alignment	NA
+E9p5Embryo	scanpy_pearson	2000	expression_driven	E9.5 Embryo	Scanpy Pearson	Core overall	2
+E9p5Embryo	scanpy_pearson	2000	expression_driven	E9.5 Embryo	Scanpy Pearson	Integration	3
+E9p5Embryo	scanpy_pearson	2000	expression_driven	E9.5 Embryo	Scanpy Pearson	Clustering	-5
+E9p5Embryo	scanpy_pearson	2000	expression_driven	E9.5 Embryo	Scanpy Pearson	Alignment	NA
+E9p5Embryo	scanpy_pearson_batch	2000	expression_driven	E9.5 Embryo	Scanpy Pearson, batch	Core overall	-14
+E9p5Embryo	scanpy_pearson_batch	2000	expression_driven	E9.5 Embryo	Scanpy Pearson, batch	Integration	-5
+E9p5Embryo	scanpy_pearson_batch	2000	expression_driven	E9.5 Embryo	Scanpy Pearson, batch	Clustering	-10
+E9p5Embryo	scanpy_pearson_batch	2000	expression_driven	E9.5 Embryo	Scanpy Pearson, batch	Alignment	NA
+E9p5Embryo	scanpy_seurat	2000	expression_driven	E9.5 Embryo	Scanpy Seurat	Core overall	-12
+E9p5Embryo	scanpy_seurat	2000	expression_driven	E9.5 Embryo	Scanpy Seurat	Integration	-2
+E9p5Embryo	scanpy_seurat	2000	expression_driven	E9.5 Embryo	Scanpy Seurat	Clustering	-3
+E9p5Embryo	scanpy_seurat	2000	expression_driven	E9.5 Embryo	Scanpy Seurat	Alignment	NA
+E9p5Embryo	scanpy_seurat_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat, batch	Core overall	-8
+E9p5Embryo	scanpy_seurat_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat, batch	Integration	-2
+E9p5Embryo	scanpy_seurat_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat, batch	Clustering	2
+E9p5Embryo	scanpy_seurat_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat, batch	Alignment	NA
+E9p5Embryo	scanpy_seurat_v3	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3	Core overall	-2
+E9p5Embryo	scanpy_seurat_v3	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3	Integration	-4
+E9p5Embryo	scanpy_seurat_v3	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3	Clustering	-2
+E9p5Embryo	scanpy_seurat_v3	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3	Alignment	NA
+E9p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3, batch	Core overall	-16
+E9p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3, batch	Integration	-3
+E9p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3, batch	Clustering	-8
+E9p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3, batch	Alignment	NA
+E9p5Embryo	scry	2000	expression_driven	E9.5 Embryo	scry	Core overall	20
+E9p5Embryo	scry	2000	expression_driven	E9.5 Embryo	scry	Integration	1
+E9p5Embryo	scry	2000	expression_driven	E9.5 Embryo	scry	Clustering	2
+E9p5Embryo	scry	2000	expression_driven	E9.5 Embryo	scry	Alignment	NA
+E9p5Embryo	seurat_disp	2000	expression_driven	E9.5 Embryo	Seurat Dispersion	Core overall	-14
+E9p5Embryo	seurat_disp	2000	expression_driven	E9.5 Embryo	Seurat Dispersion	Integration	-5
+E9p5Embryo	seurat_disp	2000	expression_driven	E9.5 Embryo	Seurat Dispersion	Clustering	0
+E9p5Embryo	seurat_disp	2000	expression_driven	E9.5 Embryo	Seurat Dispersion	Alignment	NA
+E9p5Embryo	seurat_mvp	2000	expression_driven	E9.5 Embryo	Seurat MVP	Core overall	-14
+E9p5Embryo	seurat_mvp	2000	expression_driven	E9.5 Embryo	Seurat MVP	Integration	3
+E9p5Embryo	seurat_mvp	2000	expression_driven	E9.5 Embryo	Seurat MVP	Clustering	-5
+E9p5Embryo	seurat_mvp	2000	expression_driven	E9.5 Embryo	Seurat MVP	Alignment	NA
+E9p5Embryo	seurat_sct	2000	expression_driven	E9.5 Embryo	Seurat sctransform	Core overall	0
+E9p5Embryo	seurat_sct	2000	expression_driven	E9.5 Embryo	Seurat sctransform	Integration	-2
+E9p5Embryo	seurat_sct	2000	expression_driven	E9.5 Embryo	Seurat sctransform	Clustering	1
+E9p5Embryo	seurat_sct	2000	expression_driven	E9.5 Embryo	Seurat sctransform	Alignment	NA
+E9p5Embryo	seurat_vst	2000	expression_driven	E9.5 Embryo	Seurat VST	Core overall	-2
+E9p5Embryo	seurat_vst	2000	expression_driven	E9.5 Embryo	Seurat VST	Integration	-1
+E9p5Embryo	seurat_vst	2000	expression_driven	E9.5 Embryo	Seurat VST	Clustering	-3
+E9p5Embryo	seurat_vst	2000	expression_driven	E9.5 Embryo	Seurat VST	Alignment	NA
+E9p5Embryo	singleCellHaystack	2000	expression_driven	E9.5 Embryo	singleCellHaystack	Core overall	1
+E9p5Embryo	singleCellHaystack	2000	expression_driven	E9.5 Embryo	singleCellHaystack	Integration	2
+E9p5Embryo	singleCellHaystack	2000	expression_driven	E9.5 Embryo	singleCellHaystack	Clustering	-1
+E9p5Embryo	singleCellHaystack	2000	expression_driven	E9.5 Embryo	singleCellHaystack	Alignment	NA
+E9p5Embryo	somde	2000	spatially_informed	E9.5 Embryo	SOMDE	Core overall	17
+E9p5Embryo	somde	2000	spatially_informed	E9.5 Embryo	SOMDE	Integration	1
+E9p5Embryo	somde	2000	spatially_informed	E9.5 Embryo	SOMDE	Clustering	8
+E9p5Embryo	somde	2000	spatially_informed	E9.5 Embryo	SOMDE	Alignment	NA
+E9p5Embryo	sparkx	2000	spatially_informed	E9.5 Embryo	SPARK-X	Core overall	20
+E9p5Embryo	sparkx	2000	spatially_informed	E9.5 Embryo	SPARK-X	Integration	2
+E9p5Embryo	sparkx	2000	spatially_informed	E9.5 Embryo	SPARK-X	Clustering	10
+E9p5Embryo	sparkx	2000	spatially_informed	E9.5 Embryo	SPARK-X	Alignment	NA
+E9p5Embryo	spatialde	2000	spatially_informed	E9.5 Embryo	SpatialDE	Core overall	15
+E9p5Embryo	spatialde	2000	spatially_informed	E9.5 Embryo	SpatialDE	Integration	6
+E9p5Embryo	spatialde	2000	spatially_informed	E9.5 Embryo	SpatialDE	Clustering	8
+E9p5Embryo	spatialde	2000	spatially_informed	E9.5 Embryo	SpatialDE	Alignment	NA
+E9p5Embryo	statistic_mean	2000	expression_driven	E9.5 Embryo	Mean expression	Core overall	11
+E9p5Embryo	statistic_mean	2000	expression_driven	E9.5 Embryo	Mean expression	Integration	-1
+E9p5Embryo	statistic_mean	2000	expression_driven	E9.5 Embryo	Mean expression	Clustering	4
+E9p5Embryo	statistic_mean	2000	expression_driven	E9.5 Embryo	Mean expression	Alignment	NA
+E9p5Embryo	statistic_variance	2000	expression_driven	E9.5 Embryo	Expression variance	Core overall	16
+E9p5Embryo	statistic_variance	2000	expression_driven	E9.5 Embryo	Expression variance	Integration	1
+E9p5Embryo	statistic_variance	2000	expression_driven	E9.5 Embryo	Expression variance	Clustering	2
+E9p5Embryo	statistic_variance	2000	expression_driven	E9.5 Embryo	Expression variance	Alignment	NA
+E9p5Embryo	triku	2000	expression_driven	E9.5 Embryo	triku	Core overall	-3
+E9p5Embryo	triku	2000	expression_driven	E9.5 Embryo	triku	Integration	1
+E9p5Embryo	triku	2000	expression_driven	E9.5 Embryo	triku	Clustering	-1
+E9p5Embryo	triku	2000	expression_driven	E9.5 Embryo	triku	Alignment	NA
+MouseBrainSerialSections	Brennecke	2000	expression_driven	Mouse Brain	Brennecke	Core overall	-14
+MouseBrainSerialSections	Brennecke	2000	expression_driven	Mouse Brain	Brennecke	Integration	4
+MouseBrainSerialSections	Brennecke	2000	expression_driven	Mouse Brain	Brennecke	Clustering	-21
+MouseBrainSerialSections	Brennecke	2000	expression_driven	Mouse Brain	Brennecke	Alignment	2
+MouseBrainSerialSections	anticor	2000	expression_driven	Mouse Brain	Anticor	Core overall	-5
+MouseBrainSerialSections	anticor	2000	expression_driven	Mouse Brain	Anticor	Integration	2
+MouseBrainSerialSections	anticor	2000	expression_driven	Mouse Brain	Anticor	Clustering	-20
+MouseBrainSerialSections	anticor	2000	expression_driven	Mouse Brain	Anticor	Alignment	-9
+MouseBrainSerialSections	dubstepr	2000	expression_driven	Mouse Brain	DUBStepR	Core overall	-1
+MouseBrainSerialSections	dubstepr	2000	expression_driven	Mouse Brain	DUBStepR	Integration	0
+MouseBrainSerialSections	dubstepr	2000	expression_driven	Mouse Brain	DUBStepR	Clustering	-16
+MouseBrainSerialSections	dubstepr	2000	expression_driven	Mouse Brain	DUBStepR	Alignment	-2
+MouseBrainSerialSections	hotspot	2000	expression_driven	Mouse Brain	Hotspot	Core overall	-8
+MouseBrainSerialSections	hotspot	2000	expression_driven	Mouse Brain	Hotspot	Integration	-5
+MouseBrainSerialSections	hotspot	2000	expression_driven	Mouse Brain	Hotspot	Clustering	-15
+MouseBrainSerialSections	hotspot	2000	expression_driven	Mouse Brain	Hotspot	Alignment	-21
+MouseBrainSerialSections	morans_i	2000	spatially_informed	Mouse Brain	Moran's I	Core overall	-6
+MouseBrainSerialSections	morans_i	2000	spatially_informed	Mouse Brain	Moran's I	Integration	0
+MouseBrainSerialSections	morans_i	2000	spatially_informed	Mouse Brain	Moran's I	Clustering	-15
+MouseBrainSerialSections	morans_i	2000	spatially_informed	Mouse Brain	Moran's I	Alignment	-28
+MouseBrainSerialSections	nbumi	2000	expression_driven	Mouse Brain	NBumi	Core overall	4
+MouseBrainSerialSections	nbumi	2000	expression_driven	Mouse Brain	NBumi	Integration	2
+MouseBrainSerialSections	nbumi	2000	expression_driven	Mouse Brain	NBumi	Clustering	8
+MouseBrainSerialSections	nbumi	2000	expression_driven	Mouse Brain	NBumi	Alignment	3
+MouseBrainSerialSections	nnsvg	2000	spatially_informed	Mouse Brain	nnSVG	Core overall	0
+MouseBrainSerialSections	nnsvg	2000	spatially_informed	Mouse Brain	nnSVG	Integration	-2
+MouseBrainSerialSections	nnsvg	2000	spatially_informed	Mouse Brain	nnSVG	Clustering	7
+MouseBrainSerialSections	nnsvg	2000	spatially_informed	Mouse Brain	nnSVG	Alignment	-12
+MouseBrainSerialSections	osca	2000	expression_driven	Mouse Brain	OSCA	Core overall	-4
+MouseBrainSerialSections	osca	2000	expression_driven	Mouse Brain	OSCA	Integration	3
+MouseBrainSerialSections	osca	2000	expression_driven	Mouse Brain	OSCA	Clustering	-11
+MouseBrainSerialSections	osca	2000	expression_driven	Mouse Brain	OSCA	Alignment	-15
+MouseBrainSerialSections	scPNMF	2000	expression_driven	Mouse Brain	scPNMF	Core overall	7
+MouseBrainSerialSections	scPNMF	2000	expression_driven	Mouse Brain	scPNMF	Integration	1
+MouseBrainSerialSections	scPNMF	2000	expression_driven	Mouse Brain	scPNMF	Clustering	-3
+MouseBrainSerialSections	scPNMF	2000	expression_driven	Mouse Brain	scPNMF	Alignment	-10
+MouseBrainSerialSections	scanpy_cell_ranger	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger	Core overall	8
+MouseBrainSerialSections	scanpy_cell_ranger	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger	Integration	2
+MouseBrainSerialSections	scanpy_cell_ranger	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger	Clustering	29
+MouseBrainSerialSections	scanpy_cell_ranger	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger	Alignment	26
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger, batch	Core overall	1
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger, batch	Integration	0
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger, batch	Clustering	23
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger, batch	Alignment	24
+MouseBrainSerialSections	scanpy_pearson	2000	expression_driven	Mouse Brain	Scanpy Pearson	Core overall	5
+MouseBrainSerialSections	scanpy_pearson	2000	expression_driven	Mouse Brain	Scanpy Pearson	Integration	0
+MouseBrainSerialSections	scanpy_pearson	2000	expression_driven	Mouse Brain	Scanpy Pearson	Clustering	-10
+MouseBrainSerialSections	scanpy_pearson	2000	expression_driven	Mouse Brain	Scanpy Pearson	Alignment	-27
+MouseBrainSerialSections	scanpy_pearson_batch	2000	expression_driven	Mouse Brain	Scanpy Pearson, batch	Core overall	1
+MouseBrainSerialSections	scanpy_pearson_batch	2000	expression_driven	Mouse Brain	Scanpy Pearson, batch	Integration	4
+MouseBrainSerialSections	scanpy_pearson_batch	2000	expression_driven	Mouse Brain	Scanpy Pearson, batch	Clustering	-12
+MouseBrainSerialSections	scanpy_pearson_batch	2000	expression_driven	Mouse Brain	Scanpy Pearson, batch	Alignment	-17
+MouseBrainSerialSections	scanpy_seurat	2000	expression_driven	Mouse Brain	Scanpy Seurat	Core overall	6
+MouseBrainSerialSections	scanpy_seurat	2000	expression_driven	Mouse Brain	Scanpy Seurat	Integration	1
+MouseBrainSerialSections	scanpy_seurat	2000	expression_driven	Mouse Brain	Scanpy Seurat	Clustering	25
+MouseBrainSerialSections	scanpy_seurat	2000	expression_driven	Mouse Brain	Scanpy Seurat	Alignment	9
+MouseBrainSerialSections	scanpy_seurat_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat, batch	Core overall	21
+MouseBrainSerialSections	scanpy_seurat_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat, batch	Integration	18
+MouseBrainSerialSections	scanpy_seurat_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat, batch	Clustering	14
+MouseBrainSerialSections	scanpy_seurat_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat, batch	Alignment	-3
+MouseBrainSerialSections	scanpy_seurat_v3	2000	expression_driven	Mouse Brain	Scanpy Seurat v3	Core overall	0
+MouseBrainSerialSections	scanpy_seurat_v3	2000	expression_driven	Mouse Brain	Scanpy Seurat v3	Integration	0
+MouseBrainSerialSections	scanpy_seurat_v3	2000	expression_driven	Mouse Brain	Scanpy Seurat v3	Clustering	10
+MouseBrainSerialSections	scanpy_seurat_v3	2000	expression_driven	Mouse Brain	Scanpy Seurat v3	Alignment	23
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat v3, batch	Core overall	-4
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat v3, batch	Integration	-2
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat v3, batch	Clustering	-6
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat v3, batch	Alignment	6
+MouseBrainSerialSections	scry	2000	expression_driven	Mouse Brain	scry	Core overall	-29
+MouseBrainSerialSections	scry	2000	expression_driven	Mouse Brain	scry	Integration	-16
+MouseBrainSerialSections	scry	2000	expression_driven	Mouse Brain	scry	Clustering	-27
+MouseBrainSerialSections	scry	2000	expression_driven	Mouse Brain	scry	Alignment	-20
+MouseBrainSerialSections	seurat_disp	2000	expression_driven	Mouse Brain	Seurat Dispersion	Core overall	8
+MouseBrainSerialSections	seurat_disp	2000	expression_driven	Mouse Brain	Seurat Dispersion	Integration	-1
+MouseBrainSerialSections	seurat_disp	2000	expression_driven	Mouse Brain	Seurat Dispersion	Clustering	0
+MouseBrainSerialSections	seurat_disp	2000	expression_driven	Mouse Brain	Seurat Dispersion	Alignment	-20
+MouseBrainSerialSections	seurat_mvp	2000	expression_driven	Mouse Brain	Seurat MVP	Core overall	10
+MouseBrainSerialSections	seurat_mvp	2000	expression_driven	Mouse Brain	Seurat MVP	Integration	2
+MouseBrainSerialSections	seurat_mvp	2000	expression_driven	Mouse Brain	Seurat MVP	Clustering	22
+MouseBrainSerialSections	seurat_mvp	2000	expression_driven	Mouse Brain	Seurat MVP	Alignment	22
+MouseBrainSerialSections	seurat_sct	2000	expression_driven	Mouse Brain	Seurat sctransform	Core overall	9
+MouseBrainSerialSections	seurat_sct	2000	expression_driven	Mouse Brain	Seurat sctransform	Integration	1
+MouseBrainSerialSections	seurat_sct	2000	expression_driven	Mouse Brain	Seurat sctransform	Clustering	8
+MouseBrainSerialSections	seurat_sct	2000	expression_driven	Mouse Brain	Seurat sctransform	Alignment	-12
+MouseBrainSerialSections	seurat_vst	2000	expression_driven	Mouse Brain	Seurat VST	Core overall	-2
+MouseBrainSerialSections	seurat_vst	2000	expression_driven	Mouse Brain	Seurat VST	Integration	2
+MouseBrainSerialSections	seurat_vst	2000	expression_driven	Mouse Brain	Seurat VST	Clustering	7
+MouseBrainSerialSections	seurat_vst	2000	expression_driven	Mouse Brain	Seurat VST	Alignment	20
+MouseBrainSerialSections	singleCellHaystack	2000	expression_driven	Mouse Brain	singleCellHaystack	Core overall	3
+MouseBrainSerialSections	singleCellHaystack	2000	expression_driven	Mouse Brain	singleCellHaystack	Integration	4
+MouseBrainSerialSections	singleCellHaystack	2000	expression_driven	Mouse Brain	singleCellHaystack	Clustering	4
+MouseBrainSerialSections	singleCellHaystack	2000	expression_driven	Mouse Brain	singleCellHaystack	Alignment	9
+MouseBrainSerialSections	somde	2000	spatially_informed	Mouse Brain	SOMDE	Core overall	-3
+MouseBrainSerialSections	somde	2000	spatially_informed	Mouse Brain	SOMDE	Integration	2
+MouseBrainSerialSections	somde	2000	spatially_informed	Mouse Brain	SOMDE	Clustering	-16
+MouseBrainSerialSections	somde	2000	spatially_informed	Mouse Brain	SOMDE	Alignment	-2
+MouseBrainSerialSections	sparkx	2000	spatially_informed	Mouse Brain	SPARK-X	Core overall	-12
+MouseBrainSerialSections	sparkx	2000	spatially_informed	Mouse Brain	SPARK-X	Integration	-9
+MouseBrainSerialSections	sparkx	2000	spatially_informed	Mouse Brain	SPARK-X	Clustering	-13
+MouseBrainSerialSections	sparkx	2000	spatially_informed	Mouse Brain	SPARK-X	Alignment	-8
+MouseBrainSerialSections	spatialde	2000	spatially_informed	Mouse Brain	SpatialDE	Core overall	4
+MouseBrainSerialSections	spatialde	2000	spatially_informed	Mouse Brain	SpatialDE	Integration	-1
+MouseBrainSerialSections	spatialde	2000	spatially_informed	Mouse Brain	SpatialDE	Clustering	-4
+MouseBrainSerialSections	spatialde	2000	spatially_informed	Mouse Brain	SpatialDE	Alignment	-5
+MouseBrainSerialSections	statistic_mean	2000	expression_driven	Mouse Brain	Mean expression	Core overall	-10
+MouseBrainSerialSections	statistic_mean	2000	expression_driven	Mouse Brain	Mean expression	Integration	-8
+MouseBrainSerialSections	statistic_mean	2000	expression_driven	Mouse Brain	Mean expression	Clustering	-19
+MouseBrainSerialSections	statistic_mean	2000	expression_driven	Mouse Brain	Mean expression	Alignment	2
+MouseBrainSerialSections	statistic_variance	2000	expression_driven	Mouse Brain	Expression variance	Core overall	-9
+MouseBrainSerialSections	statistic_variance	2000	expression_driven	Mouse Brain	Expression variance	Integration	-21
+MouseBrainSerialSections	statistic_variance	2000	expression_driven	Mouse Brain	Expression variance	Clustering	11
+MouseBrainSerialSections	statistic_variance	2000	expression_driven	Mouse Brain	Expression variance	Alignment	-26
+MouseBrainSerialSections	triku	2000	expression_driven	Mouse Brain	triku	Core overall	1
+MouseBrainSerialSections	triku	2000	expression_driven	Mouse Brain	triku	Integration	3
+MouseBrainSerialSections	triku	2000	expression_driven	Mouse Brain	triku	Clustering	20
+MouseBrainSerialSections	triku	2000	expression_driven	Mouse Brain	triku	Alignment	20
+STOmics0212	Brennecke	2000	expression_driven	STOmics-0212	Brennecke	Core overall	8
+STOmics0212	Brennecke	2000	expression_driven	STOmics-0212	Brennecke	Integration	5
+STOmics0212	Brennecke	2000	expression_driven	STOmics-0212	Brennecke	Clustering	-8
+STOmics0212	Brennecke	2000	expression_driven	STOmics-0212	Brennecke	Alignment	NA
+STOmics0212	anticor	2000	expression_driven	STOmics-0212	Anticor	Core overall	-3
+STOmics0212	anticor	2000	expression_driven	STOmics-0212	Anticor	Integration	-11
+STOmics0212	anticor	2000	expression_driven	STOmics-0212	Anticor	Clustering	9
+STOmics0212	anticor	2000	expression_driven	STOmics-0212	Anticor	Alignment	NA
+STOmics0212	dubstepr	2000	expression_driven	STOmics-0212	DUBStepR	Core overall	8
+STOmics0212	dubstepr	2000	expression_driven	STOmics-0212	DUBStepR	Integration	11
+STOmics0212	dubstepr	2000	expression_driven	STOmics-0212	DUBStepR	Clustering	6
+STOmics0212	dubstepr	2000	expression_driven	STOmics-0212	DUBStepR	Alignment	NA
+STOmics0212	hotspot	2000	expression_driven	STOmics-0212	Hotspot	Core overall	1
+STOmics0212	hotspot	2000	expression_driven	STOmics-0212	Hotspot	Integration	-1
+STOmics0212	hotspot	2000	expression_driven	STOmics-0212	Hotspot	Clustering	2
+STOmics0212	hotspot	2000	expression_driven	STOmics-0212	Hotspot	Alignment	NA
+STOmics0212	morans_i	2000	spatially_informed	STOmics-0212	Moran's I	Core overall	-9
+STOmics0212	morans_i	2000	spatially_informed	STOmics-0212	Moran's I	Integration	5
+STOmics0212	morans_i	2000	spatially_informed	STOmics-0212	Moran's I	Clustering	-2
+STOmics0212	morans_i	2000	spatially_informed	STOmics-0212	Moran's I	Alignment	NA
+STOmics0212	nbumi	2000	expression_driven	STOmics-0212	NBumi	Core overall	-9
+STOmics0212	nbumi	2000	expression_driven	STOmics-0212	NBumi	Integration	-8
+STOmics0212	nbumi	2000	expression_driven	STOmics-0212	NBumi	Clustering	-1
+STOmics0212	nbumi	2000	expression_driven	STOmics-0212	NBumi	Alignment	NA
+STOmics0212	nnsvg	2000	spatially_informed	STOmics-0212	nnSVG	Core overall	-9
+STOmics0212	nnsvg	2000	spatially_informed	STOmics-0212	nnSVG	Integration	-6
+STOmics0212	nnsvg	2000	spatially_informed	STOmics-0212	nnSVG	Clustering	3
+STOmics0212	nnsvg	2000	spatially_informed	STOmics-0212	nnSVG	Alignment	NA
+STOmics0212	osca	2000	expression_driven	STOmics-0212	OSCA	Core overall	9
+STOmics0212	osca	2000	expression_driven	STOmics-0212	OSCA	Integration	5
+STOmics0212	osca	2000	expression_driven	STOmics-0212	OSCA	Clustering	6
+STOmics0212	osca	2000	expression_driven	STOmics-0212	OSCA	Alignment	NA
+STOmics0212	scPNMF	2000	expression_driven	STOmics-0212	scPNMF	Core overall	9
+STOmics0212	scPNMF	2000	expression_driven	STOmics-0212	scPNMF	Integration	3
+STOmics0212	scPNMF	2000	expression_driven	STOmics-0212	scPNMF	Clustering	8
+STOmics0212	scPNMF	2000	expression_driven	STOmics-0212	scPNMF	Alignment	NA
+STOmics0212	scanpy_cell_ranger	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger	Core overall	14
+STOmics0212	scanpy_cell_ranger	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger	Integration	20
+STOmics0212	scanpy_cell_ranger	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger	Clustering	-9
+STOmics0212	scanpy_cell_ranger	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger	Alignment	NA
+STOmics0212	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger, batch	Core overall	0
+STOmics0212	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger, batch	Integration	12
+STOmics0212	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger, batch	Clustering	-12
+STOmics0212	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger, batch	Alignment	NA
+STOmics0212	scanpy_pearson	2000	expression_driven	STOmics-0212	Scanpy Pearson	Core overall	5
+STOmics0212	scanpy_pearson	2000	expression_driven	STOmics-0212	Scanpy Pearson	Integration	6
+STOmics0212	scanpy_pearson	2000	expression_driven	STOmics-0212	Scanpy Pearson	Clustering	3
+STOmics0212	scanpy_pearson	2000	expression_driven	STOmics-0212	Scanpy Pearson	Alignment	NA
+STOmics0212	scanpy_pearson_batch	2000	expression_driven	STOmics-0212	Scanpy Pearson, batch	Core overall	9
+STOmics0212	scanpy_pearson_batch	2000	expression_driven	STOmics-0212	Scanpy Pearson, batch	Integration	3
+STOmics0212	scanpy_pearson_batch	2000	expression_driven	STOmics-0212	Scanpy Pearson, batch	Clustering	8
+STOmics0212	scanpy_pearson_batch	2000	expression_driven	STOmics-0212	Scanpy Pearson, batch	Alignment	NA
+STOmics0212	scanpy_seurat	2000	expression_driven	STOmics-0212	Scanpy Seurat	Core overall	2
+STOmics0212	scanpy_seurat	2000	expression_driven	STOmics-0212	Scanpy Seurat	Integration	3
+STOmics0212	scanpy_seurat	2000	expression_driven	STOmics-0212	Scanpy Seurat	Clustering	-13
+STOmics0212	scanpy_seurat	2000	expression_driven	STOmics-0212	Scanpy Seurat	Alignment	NA
+STOmics0212	scanpy_seurat_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat, batch	Core overall	11
+STOmics0212	scanpy_seurat_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat, batch	Integration	15
+STOmics0212	scanpy_seurat_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat, batch	Clustering	5
+STOmics0212	scanpy_seurat_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat, batch	Alignment	NA
+STOmics0212	scanpy_seurat_v3	2000	expression_driven	STOmics-0212	Scanpy Seurat v3	Core overall	-9
+STOmics0212	scanpy_seurat_v3	2000	expression_driven	STOmics-0212	Scanpy Seurat v3	Integration	3
+STOmics0212	scanpy_seurat_v3	2000	expression_driven	STOmics-0212	Scanpy Seurat v3	Clustering	0
+STOmics0212	scanpy_seurat_v3	2000	expression_driven	STOmics-0212	Scanpy Seurat v3	Alignment	NA
+STOmics0212	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat v3, batch	Core overall	2
+STOmics0212	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat v3, batch	Integration	8
+STOmics0212	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat v3, batch	Clustering	0
+STOmics0212	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat v3, batch	Alignment	NA
+STOmics0212	scry	2000	expression_driven	STOmics-0212	scry	Core overall	0
+STOmics0212	scry	2000	expression_driven	STOmics-0212	scry	Integration	4
+STOmics0212	scry	2000	expression_driven	STOmics-0212	scry	Clustering	0
+STOmics0212	scry	2000	expression_driven	STOmics-0212	scry	Alignment	NA
+STOmics0212	seurat_disp	2000	expression_driven	STOmics-0212	Seurat Dispersion	Core overall	3
+STOmics0212	seurat_disp	2000	expression_driven	STOmics-0212	Seurat Dispersion	Integration	-3
+STOmics0212	seurat_disp	2000	expression_driven	STOmics-0212	Seurat Dispersion	Clustering	-1
+STOmics0212	seurat_disp	2000	expression_driven	STOmics-0212	Seurat Dispersion	Alignment	NA
+STOmics0212	seurat_mvp	2000	expression_driven	STOmics-0212	Seurat MVP	Core overall	1
+STOmics0212	seurat_mvp	2000	expression_driven	STOmics-0212	Seurat MVP	Integration	6
+STOmics0212	seurat_mvp	2000	expression_driven	STOmics-0212	Seurat MVP	Clustering	-15
+STOmics0212	seurat_mvp	2000	expression_driven	STOmics-0212	Seurat MVP	Alignment	NA
+STOmics0212	seurat_sct	2000	expression_driven	STOmics-0212	Seurat sctransform	Core overall	8
+STOmics0212	seurat_sct	2000	expression_driven	STOmics-0212	Seurat sctransform	Integration	12
+STOmics0212	seurat_sct	2000	expression_driven	STOmics-0212	Seurat sctransform	Clustering	5
+STOmics0212	seurat_sct	2000	expression_driven	STOmics-0212	Seurat sctransform	Alignment	NA
+STOmics0212	seurat_vst	2000	expression_driven	STOmics-0212	Seurat VST	Core overall	-5
+STOmics0212	seurat_vst	2000	expression_driven	STOmics-0212	Seurat VST	Integration	5
+STOmics0212	seurat_vst	2000	expression_driven	STOmics-0212	Seurat VST	Clustering	0
+STOmics0212	seurat_vst	2000	expression_driven	STOmics-0212	Seurat VST	Alignment	NA
+STOmics0212	singleCellHaystack	2000	expression_driven	STOmics-0212	singleCellHaystack	Core overall	-18
+STOmics0212	singleCellHaystack	2000	expression_driven	STOmics-0212	singleCellHaystack	Integration	2
+STOmics0212	singleCellHaystack	2000	expression_driven	STOmics-0212	singleCellHaystack	Clustering	-15
+STOmics0212	singleCellHaystack	2000	expression_driven	STOmics-0212	singleCellHaystack	Alignment	NA
+STOmics0212	somde	2000	spatially_informed	STOmics-0212	SOMDE	Core overall	-3
+STOmics0212	somde	2000	spatially_informed	STOmics-0212	SOMDE	Integration	-1
+STOmics0212	somde	2000	spatially_informed	STOmics-0212	SOMDE	Clustering	2
+STOmics0212	somde	2000	spatially_informed	STOmics-0212	SOMDE	Alignment	NA
+STOmics0212	sparkx	2000	spatially_informed	STOmics-0212	SPARK-X	Core overall	-3
+STOmics0212	sparkx	2000	spatially_informed	STOmics-0212	SPARK-X	Integration	-27
+STOmics0212	sparkx	2000	spatially_informed	STOmics-0212	SPARK-X	Clustering	1
+STOmics0212	sparkx	2000	spatially_informed	STOmics-0212	SPARK-X	Alignment	NA
+STOmics0212	spatialde	2000	spatially_informed	STOmics-0212	SpatialDE	Core overall	0
+STOmics0212	spatialde	2000	spatially_informed	STOmics-0212	SpatialDE	Integration	-2
+STOmics0212	spatialde	2000	spatially_informed	STOmics-0212	SpatialDE	Clustering	8
+STOmics0212	spatialde	2000	spatially_informed	STOmics-0212	SpatialDE	Alignment	NA
+STOmics0212	statistic_mean	2000	expression_driven	STOmics-0212	Mean expression	Core overall	-3
+STOmics0212	statistic_mean	2000	expression_driven	STOmics-0212	Mean expression	Integration	3
+STOmics0212	statistic_mean	2000	expression_driven	STOmics-0212	Mean expression	Clustering	-2
+STOmics0212	statistic_mean	2000	expression_driven	STOmics-0212	Mean expression	Alignment	NA
+STOmics0212	statistic_variance	2000	expression_driven	STOmics-0212	Expression variance	Core overall	-6
+STOmics0212	statistic_variance	2000	expression_driven	STOmics-0212	Expression variance	Integration	-7
+STOmics0212	statistic_variance	2000	expression_driven	STOmics-0212	Expression variance	Clustering	-2
+STOmics0212	statistic_variance	2000	expression_driven	STOmics-0212	Expression variance	Alignment	NA
+STOmics0212	triku	2000	expression_driven	STOmics-0212	triku	Core overall	22
+STOmics0212	triku	2000	expression_driven	STOmics-0212	triku	Integration	18
+STOmics0212	triku	2000	expression_driven	STOmics-0212	triku	Clustering	6
+STOmics0212	triku	2000	expression_driven	STOmics-0212	triku	Alignment	NA
+STOmics0218	Brennecke	2000	expression_driven	STOmics-0218	Brennecke	Core overall	0
+STOmics0218	Brennecke	2000	expression_driven	STOmics-0218	Brennecke	Integration	10
+STOmics0218	Brennecke	2000	expression_driven	STOmics-0218	Brennecke	Clustering	-1
+STOmics0218	Brennecke	2000	expression_driven	STOmics-0218	Brennecke	Alignment	NA
+STOmics0218	anticor	2000	expression_driven	STOmics-0218	Anticor	Core overall	16
+STOmics0218	anticor	2000	expression_driven	STOmics-0218	Anticor	Integration	-3
+STOmics0218	anticor	2000	expression_driven	STOmics-0218	Anticor	Clustering	23
+STOmics0218	anticor	2000	expression_driven	STOmics-0218	Anticor	Alignment	NA
+STOmics0218	dubstepr	2000	expression_driven	STOmics-0218	DUBStepR	Core overall	13
+STOmics0218	dubstepr	2000	expression_driven	STOmics-0218	DUBStepR	Integration	3
+STOmics0218	dubstepr	2000	expression_driven	STOmics-0218	DUBStepR	Clustering	11
+STOmics0218	dubstepr	2000	expression_driven	STOmics-0218	DUBStepR	Alignment	NA
+STOmics0218	hotspot	2000	expression_driven	STOmics-0218	Hotspot	Core overall	-21
+STOmics0218	hotspot	2000	expression_driven	STOmics-0218	Hotspot	Integration	2
+STOmics0218	hotspot	2000	expression_driven	STOmics-0218	Hotspot	Clustering	-13
+STOmics0218	hotspot	2000	expression_driven	STOmics-0218	Hotspot	Alignment	NA
+STOmics0218	morans_i	2000	spatially_informed	STOmics-0218	Moran's I	Core overall	-2
+STOmics0218	morans_i	2000	spatially_informed	STOmics-0218	Moran's I	Integration	-6
+STOmics0218	morans_i	2000	spatially_informed	STOmics-0218	Moran's I	Clustering	2
+STOmics0218	morans_i	2000	spatially_informed	STOmics-0218	Moran's I	Alignment	NA
+STOmics0218	nbumi	2000	expression_driven	STOmics-0218	NBumi	Core overall	-2
+STOmics0218	nbumi	2000	expression_driven	STOmics-0218	NBumi	Integration	13
+STOmics0218	nbumi	2000	expression_driven	STOmics-0218	NBumi	Clustering	-12
+STOmics0218	nbumi	2000	expression_driven	STOmics-0218	NBumi	Alignment	NA
+STOmics0218	nnsvg	2000	spatially_informed	STOmics-0218	nnSVG	Core overall	9
+STOmics0218	nnsvg	2000	spatially_informed	STOmics-0218	nnSVG	Integration	-6
+STOmics0218	nnsvg	2000	spatially_informed	STOmics-0218	nnSVG	Clustering	6
+STOmics0218	nnsvg	2000	spatially_informed	STOmics-0218	nnSVG	Alignment	NA
+STOmics0218	osca	2000	expression_driven	STOmics-0218	OSCA	Core overall	-6
+STOmics0218	osca	2000	expression_driven	STOmics-0218	OSCA	Integration	-1
+STOmics0218	osca	2000	expression_driven	STOmics-0218	OSCA	Clustering	-12
+STOmics0218	osca	2000	expression_driven	STOmics-0218	OSCA	Alignment	NA
+STOmics0218	scPNMF	2000	expression_driven	STOmics-0218	scPNMF	Core overall	-3
+STOmics0218	scPNMF	2000	expression_driven	STOmics-0218	scPNMF	Integration	6
+STOmics0218	scPNMF	2000	expression_driven	STOmics-0218	scPNMF	Clustering	-4
+STOmics0218	scPNMF	2000	expression_driven	STOmics-0218	scPNMF	Alignment	NA
+STOmics0218	scanpy_cell_ranger	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger	Core overall	1
+STOmics0218	scanpy_cell_ranger	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger	Integration	6
+STOmics0218	scanpy_cell_ranger	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger	Clustering	-3
+STOmics0218	scanpy_cell_ranger	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger	Alignment	NA
+STOmics0218	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger, batch	Core overall	11
+STOmics0218	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger, batch	Integration	0
+STOmics0218	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger, batch	Clustering	11
+STOmics0218	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger, batch	Alignment	NA
+STOmics0218	scanpy_pearson	2000	expression_driven	STOmics-0218	Scanpy Pearson	Core overall	16
+STOmics0218	scanpy_pearson	2000	expression_driven	STOmics-0218	Scanpy Pearson	Integration	10
+STOmics0218	scanpy_pearson	2000	expression_driven	STOmics-0218	Scanpy Pearson	Clustering	13
+STOmics0218	scanpy_pearson	2000	expression_driven	STOmics-0218	Scanpy Pearson	Alignment	NA
+STOmics0218	scanpy_pearson_batch	2000	expression_driven	STOmics-0218	Scanpy Pearson, batch	Core overall	4
+STOmics0218	scanpy_pearson_batch	2000	expression_driven	STOmics-0218	Scanpy Pearson, batch	Integration	-4
+STOmics0218	scanpy_pearson_batch	2000	expression_driven	STOmics-0218	Scanpy Pearson, batch	Clustering	6
+STOmics0218	scanpy_pearson_batch	2000	expression_driven	STOmics-0218	Scanpy Pearson, batch	Alignment	NA
+STOmics0218	scanpy_seurat	2000	expression_driven	STOmics-0218	Scanpy Seurat	Core overall	4
+STOmics0218	scanpy_seurat	2000	expression_driven	STOmics-0218	Scanpy Seurat	Integration	23
+STOmics0218	scanpy_seurat	2000	expression_driven	STOmics-0218	Scanpy Seurat	Clustering	-7
+STOmics0218	scanpy_seurat	2000	expression_driven	STOmics-0218	Scanpy Seurat	Alignment	NA
+STOmics0218	scanpy_seurat_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat, batch	Core overall	-12
+STOmics0218	scanpy_seurat_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat, batch	Integration	-1
+STOmics0218	scanpy_seurat_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat, batch	Clustering	-12
+STOmics0218	scanpy_seurat_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat, batch	Alignment	NA
+STOmics0218	scanpy_seurat_v3	2000	expression_driven	STOmics-0218	Scanpy Seurat v3	Core overall	-6
+STOmics0218	scanpy_seurat_v3	2000	expression_driven	STOmics-0218	Scanpy Seurat v3	Integration	-7
+STOmics0218	scanpy_seurat_v3	2000	expression_driven	STOmics-0218	Scanpy Seurat v3	Clustering	-2
+STOmics0218	scanpy_seurat_v3	2000	expression_driven	STOmics-0218	Scanpy Seurat v3	Alignment	NA
+STOmics0218	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat v3, batch	Core overall	0
+STOmics0218	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat v3, batch	Integration	0
+STOmics0218	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat v3, batch	Clustering	6
+STOmics0218	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat v3, batch	Alignment	NA
+STOmics0218	scry	2000	expression_driven	STOmics-0218	scry	Core overall	-8
+STOmics0218	scry	2000	expression_driven	STOmics-0218	scry	Integration	-3
+STOmics0218	scry	2000	expression_driven	STOmics-0218	scry	Clustering	7
+STOmics0218	scry	2000	expression_driven	STOmics-0218	scry	Alignment	NA
+STOmics0218	seurat_disp	2000	expression_driven	STOmics-0218	Seurat Dispersion	Core overall	15
+STOmics0218	seurat_disp	2000	expression_driven	STOmics-0218	Seurat Dispersion	Integration	14
+STOmics0218	seurat_disp	2000	expression_driven	STOmics-0218	Seurat Dispersion	Clustering	6
+STOmics0218	seurat_disp	2000	expression_driven	STOmics-0218	Seurat Dispersion	Alignment	NA
+STOmics0218	seurat_mvp	2000	expression_driven	STOmics-0218	Seurat MVP	Core overall	-11
+STOmics0218	seurat_mvp	2000	expression_driven	STOmics-0218	Seurat MVP	Integration	19
+STOmics0218	seurat_mvp	2000	expression_driven	STOmics-0218	Seurat MVP	Clustering	-25
+STOmics0218	seurat_mvp	2000	expression_driven	STOmics-0218	Seurat MVP	Alignment	NA
+STOmics0218	seurat_sct	2000	expression_driven	STOmics-0218	Seurat sctransform	Core overall	15
+STOmics0218	seurat_sct	2000	expression_driven	STOmics-0218	Seurat sctransform	Integration	9
+STOmics0218	seurat_sct	2000	expression_driven	STOmics-0218	Seurat sctransform	Clustering	15
+STOmics0218	seurat_sct	2000	expression_driven	STOmics-0218	Seurat sctransform	Alignment	NA
+STOmics0218	seurat_vst	2000	expression_driven	STOmics-0218	Seurat VST	Core overall	1
+STOmics0218	seurat_vst	2000	expression_driven	STOmics-0218	Seurat VST	Integration	-1
+STOmics0218	seurat_vst	2000	expression_driven	STOmics-0218	Seurat VST	Clustering	2
+STOmics0218	seurat_vst	2000	expression_driven	STOmics-0218	Seurat VST	Alignment	NA
+STOmics0218	singleCellHaystack	2000	expression_driven	STOmics-0218	singleCellHaystack	Core overall	10
+STOmics0218	singleCellHaystack	2000	expression_driven	STOmics-0218	singleCellHaystack	Integration	-7
+STOmics0218	singleCellHaystack	2000	expression_driven	STOmics-0218	singleCellHaystack	Clustering	6
+STOmics0218	singleCellHaystack	2000	expression_driven	STOmics-0218	singleCellHaystack	Alignment	NA
+STOmics0218	somde	2000	spatially_informed	STOmics-0218	SOMDE	Core overall	-4
+STOmics0218	somde	2000	spatially_informed	STOmics-0218	SOMDE	Integration	-17
+STOmics0218	somde	2000	spatially_informed	STOmics-0218	SOMDE	Clustering	5
+STOmics0218	somde	2000	spatially_informed	STOmics-0218	SOMDE	Alignment	NA
+STOmics0218	sparkx	2000	spatially_informed	STOmics-0218	SPARK-X	Core overall	3
+STOmics0218	sparkx	2000	spatially_informed	STOmics-0218	SPARK-X	Integration	3
+STOmics0218	sparkx	2000	spatially_informed	STOmics-0218	SPARK-X	Clustering	1
+STOmics0218	sparkx	2000	spatially_informed	STOmics-0218	SPARK-X	Alignment	NA
+STOmics0218	spatialde	2000	spatially_informed	STOmics-0218	SpatialDE	Core overall	-18
+STOmics0218	spatialde	2000	spatially_informed	STOmics-0218	SpatialDE	Integration	-3
+STOmics0218	spatialde	2000	spatially_informed	STOmics-0218	SpatialDE	Clustering	-14
+STOmics0218	spatialde	2000	spatially_informed	STOmics-0218	SpatialDE	Alignment	NA
+STOmics0218	statistic_mean	2000	expression_driven	STOmics-0218	Mean expression	Core overall	5
+STOmics0218	statistic_mean	2000	expression_driven	STOmics-0218	Mean expression	Integration	12
+STOmics0218	statistic_mean	2000	expression_driven	STOmics-0218	Mean expression	Clustering	0
+STOmics0218	statistic_mean	2000	expression_driven	STOmics-0218	Mean expression	Alignment	NA
+STOmics0218	statistic_variance	2000	expression_driven	STOmics-0218	Expression variance	Core overall	12
+STOmics0218	statistic_variance	2000	expression_driven	STOmics-0218	Expression variance	Integration	9
+STOmics0218	statistic_variance	2000	expression_driven	STOmics-0218	Expression variance	Clustering	3
+STOmics0218	statistic_variance	2000	expression_driven	STOmics-0218	Expression variance	Alignment	NA
+STOmics0218	triku	2000	expression_driven	STOmics-0218	triku	Core overall	0
+STOmics0218	triku	2000	expression_driven	STOmics-0218	triku	Integration	-12
+STOmics0218	triku	2000	expression_driven	STOmics-0218	triku	Clustering	2
+STOmics0218	triku	2000	expression_driven	STOmics-0218	triku	Alignment	NA
+STOmics0224	Brennecke	2000	expression_driven	STOmics-0224	Brennecke	Core overall	-3
+STOmics0224	Brennecke	2000	expression_driven	STOmics-0224	Brennecke	Integration	19
+STOmics0224	Brennecke	2000	expression_driven	STOmics-0224	Brennecke	Clustering	-18
+STOmics0224	Brennecke	2000	expression_driven	STOmics-0224	Brennecke	Alignment	NA
+STOmics0224	anticor	2000	expression_driven	STOmics-0224	Anticor	Core overall	19
+STOmics0224	anticor	2000	expression_driven	STOmics-0224	Anticor	Integration	6
+STOmics0224	anticor	2000	expression_driven	STOmics-0224	Anticor	Clustering	13
+STOmics0224	anticor	2000	expression_driven	STOmics-0224	Anticor	Alignment	NA
+STOmics0224	dubstepr	2000	expression_driven	STOmics-0224	DUBStepR	Core overall	-8
+STOmics0224	dubstepr	2000	expression_driven	STOmics-0224	DUBStepR	Integration	-14
+STOmics0224	dubstepr	2000	expression_driven	STOmics-0224	DUBStepR	Clustering	15
+STOmics0224	dubstepr	2000	expression_driven	STOmics-0224	DUBStepR	Alignment	NA
+STOmics0224	hotspot	2000	expression_driven	STOmics-0224	Hotspot	Core overall	27
+STOmics0224	hotspot	2000	expression_driven	STOmics-0224	Hotspot	Integration	17
+STOmics0224	hotspot	2000	expression_driven	STOmics-0224	Hotspot	Clustering	19
+STOmics0224	hotspot	2000	expression_driven	STOmics-0224	Hotspot	Alignment	NA
+STOmics0224	morans_i	2000	spatially_informed	STOmics-0224	Moran's I	Core overall	9
+STOmics0224	morans_i	2000	spatially_informed	STOmics-0224	Moran's I	Integration	-8
+STOmics0224	morans_i	2000	spatially_informed	STOmics-0224	Moran's I	Clustering	15
+STOmics0224	morans_i	2000	spatially_informed	STOmics-0224	Moran's I	Alignment	NA
+STOmics0224	nbumi	2000	expression_driven	STOmics-0224	NBumi	Core overall	-18
+STOmics0224	nbumi	2000	expression_driven	STOmics-0224	NBumi	Integration	-24
+STOmics0224	nbumi	2000	expression_driven	STOmics-0224	NBumi	Clustering	-3
+STOmics0224	nbumi	2000	expression_driven	STOmics-0224	NBumi	Alignment	NA
+STOmics0224	nnsvg	2000	spatially_informed	STOmics-0224	nnSVG	Core overall	5
+STOmics0224	nnsvg	2000	spatially_informed	STOmics-0224	nnSVG	Integration	-5
+STOmics0224	nnsvg	2000	spatially_informed	STOmics-0224	nnSVG	Clustering	12
+STOmics0224	nnsvg	2000	spatially_informed	STOmics-0224	nnSVG	Alignment	NA
+STOmics0224	osca	2000	expression_driven	STOmics-0224	OSCA	Core overall	2
+STOmics0224	osca	2000	expression_driven	STOmics-0224	OSCA	Integration	11
+STOmics0224	osca	2000	expression_driven	STOmics-0224	OSCA	Clustering	-4
+STOmics0224	osca	2000	expression_driven	STOmics-0224	OSCA	Alignment	NA
+STOmics0224	scPNMF	2000	expression_driven	STOmics-0224	scPNMF	Core overall	18
+STOmics0224	scPNMF	2000	expression_driven	STOmics-0224	scPNMF	Integration	18
+STOmics0224	scPNMF	2000	expression_driven	STOmics-0224	scPNMF	Clustering	2
+STOmics0224	scPNMF	2000	expression_driven	STOmics-0224	scPNMF	Alignment	NA
+STOmics0224	scanpy_cell_ranger	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger	Core overall	-28
+STOmics0224	scanpy_cell_ranger	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger	Integration	6
+STOmics0224	scanpy_cell_ranger	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger	Clustering	-30
+STOmics0224	scanpy_cell_ranger	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger	Alignment	NA
+STOmics0224	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger, batch	Core overall	-23
+STOmics0224	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger, batch	Integration	2
+STOmics0224	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger, batch	Clustering	-4
+STOmics0224	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger, batch	Alignment	NA
+STOmics0224	scanpy_pearson	2000	expression_driven	STOmics-0224	Scanpy Pearson	Core overall	7
+STOmics0224	scanpy_pearson	2000	expression_driven	STOmics-0224	Scanpy Pearson	Integration	29
+STOmics0224	scanpy_pearson	2000	expression_driven	STOmics-0224	Scanpy Pearson	Clustering	-18
+STOmics0224	scanpy_pearson	2000	expression_driven	STOmics-0224	Scanpy Pearson	Alignment	NA
+STOmics0224	scanpy_pearson_batch	2000	expression_driven	STOmics-0224	Scanpy Pearson, batch	Core overall	5
+STOmics0224	scanpy_pearson_batch	2000	expression_driven	STOmics-0224	Scanpy Pearson, batch	Integration	10
+STOmics0224	scanpy_pearson_batch	2000	expression_driven	STOmics-0224	Scanpy Pearson, batch	Clustering	-12
+STOmics0224	scanpy_pearson_batch	2000	expression_driven	STOmics-0224	Scanpy Pearson, batch	Alignment	NA
+STOmics0224	scanpy_seurat	2000	expression_driven	STOmics-0224	Scanpy Seurat	Core overall	-11
+STOmics0224	scanpy_seurat	2000	expression_driven	STOmics-0224	Scanpy Seurat	Integration	8
+STOmics0224	scanpy_seurat	2000	expression_driven	STOmics-0224	Scanpy Seurat	Clustering	-19
+STOmics0224	scanpy_seurat	2000	expression_driven	STOmics-0224	Scanpy Seurat	Alignment	NA
+STOmics0224	scanpy_seurat_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat, batch	Core overall	1
+STOmics0224	scanpy_seurat_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat, batch	Integration	14
+STOmics0224	scanpy_seurat_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat, batch	Clustering	-14
+STOmics0224	scanpy_seurat_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat, batch	Alignment	NA
+STOmics0224	scanpy_seurat_v3	2000	expression_driven	STOmics-0224	Scanpy Seurat v3	Core overall	-12
+STOmics0224	scanpy_seurat_v3	2000	expression_driven	STOmics-0224	Scanpy Seurat v3	Integration	-16
+STOmics0224	scanpy_seurat_v3	2000	expression_driven	STOmics-0224	Scanpy Seurat v3	Clustering	2
+STOmics0224	scanpy_seurat_v3	2000	expression_driven	STOmics-0224	Scanpy Seurat v3	Alignment	NA
+STOmics0224	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat v3, batch	Core overall	-17
+STOmics0224	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat v3, batch	Integration	5
+STOmics0224	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat v3, batch	Clustering	-27
+STOmics0224	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat v3, batch	Alignment	NA
+STOmics0224	scry	2000	expression_driven	STOmics-0224	scry	Core overall	6
+STOmics0224	scry	2000	expression_driven	STOmics-0224	scry	Integration	-12
+STOmics0224	scry	2000	expression_driven	STOmics-0224	scry	Clustering	20
+STOmics0224	scry	2000	expression_driven	STOmics-0224	scry	Alignment	NA
+STOmics0224	seurat_disp	2000	expression_driven	STOmics-0224	Seurat Dispersion	Core overall	9
+STOmics0224	seurat_disp	2000	expression_driven	STOmics-0224	Seurat Dispersion	Integration	18
+STOmics0224	seurat_disp	2000	expression_driven	STOmics-0224	Seurat Dispersion	Clustering	-2
+STOmics0224	seurat_disp	2000	expression_driven	STOmics-0224	Seurat Dispersion	Alignment	NA
+STOmics0224	seurat_mvp	2000	expression_driven	STOmics-0224	Seurat MVP	Core overall	-9
+STOmics0224	seurat_mvp	2000	expression_driven	STOmics-0224	Seurat MVP	Integration	6
+STOmics0224	seurat_mvp	2000	expression_driven	STOmics-0224	Seurat MVP	Clustering	-18
+STOmics0224	seurat_mvp	2000	expression_driven	STOmics-0224	Seurat MVP	Alignment	NA
+STOmics0224	seurat_sct	2000	expression_driven	STOmics-0224	Seurat sctransform	Core overall	8
+STOmics0224	seurat_sct	2000	expression_driven	STOmics-0224	Seurat sctransform	Integration	13
+STOmics0224	seurat_sct	2000	expression_driven	STOmics-0224	Seurat sctransform	Clustering	2
+STOmics0224	seurat_sct	2000	expression_driven	STOmics-0224	Seurat sctransform	Alignment	NA
+STOmics0224	seurat_vst	2000	expression_driven	STOmics-0224	Seurat VST	Core overall	-8
+STOmics0224	seurat_vst	2000	expression_driven	STOmics-0224	Seurat VST	Integration	-16
+STOmics0224	seurat_vst	2000	expression_driven	STOmics-0224	Seurat VST	Clustering	7
+STOmics0224	seurat_vst	2000	expression_driven	STOmics-0224	Seurat VST	Alignment	NA
+STOmics0224	singleCellHaystack	2000	expression_driven	STOmics-0224	singleCellHaystack	Core overall	-17
+STOmics0224	singleCellHaystack	2000	expression_driven	STOmics-0224	singleCellHaystack	Integration	-28
+STOmics0224	singleCellHaystack	2000	expression_driven	STOmics-0224	singleCellHaystack	Clustering	6
+STOmics0224	singleCellHaystack	2000	expression_driven	STOmics-0224	singleCellHaystack	Alignment	NA
+STOmics0224	somde	2000	spatially_informed	STOmics-0224	SOMDE	Core overall	23
+STOmics0224	somde	2000	spatially_informed	STOmics-0224	SOMDE	Integration	9
+STOmics0224	somde	2000	spatially_informed	STOmics-0224	SOMDE	Clustering	20
+STOmics0224	somde	2000	spatially_informed	STOmics-0224	SOMDE	Alignment	NA
+STOmics0224	sparkx	2000	spatially_informed	STOmics-0224	SPARK-X	Core overall	4
+STOmics0224	sparkx	2000	spatially_informed	STOmics-0224	SPARK-X	Integration	-10
+STOmics0224	sparkx	2000	spatially_informed	STOmics-0224	SPARK-X	Clustering	24
+STOmics0224	sparkx	2000	spatially_informed	STOmics-0224	SPARK-X	Alignment	NA
+STOmics0224	spatialde	2000	spatially_informed	STOmics-0224	SpatialDE	Core overall	-1
+STOmics0224	spatialde	2000	spatially_informed	STOmics-0224	SpatialDE	Integration	-8
+STOmics0224	spatialde	2000	spatially_informed	STOmics-0224	SpatialDE	Clustering	1
+STOmics0224	spatialde	2000	spatially_informed	STOmics-0224	SpatialDE	Alignment	NA
+STOmics0224	statistic_mean	2000	expression_driven	STOmics-0224	Mean expression	Core overall	2
+STOmics0224	statistic_mean	2000	expression_driven	STOmics-0224	Mean expression	Integration	-11
+STOmics0224	statistic_mean	2000	expression_driven	STOmics-0224	Mean expression	Clustering	9
+STOmics0224	statistic_mean	2000	expression_driven	STOmics-0224	Mean expression	Alignment	NA
+STOmics0224	statistic_variance	2000	expression_driven	STOmics-0224	Expression variance	Core overall	-5
+STOmics0224	statistic_variance	2000	expression_driven	STOmics-0224	Expression variance	Integration	-4
+STOmics0224	statistic_variance	2000	expression_driven	STOmics-0224	Expression variance	Clustering	-2
+STOmics0224	statistic_variance	2000	expression_driven	STOmics-0224	Expression variance	Alignment	NA
+STOmics0224	triku	2000	expression_driven	STOmics-0224	triku	Core overall	15
+STOmics0224	triku	2000	expression_driven	STOmics-0224	triku	Integration	10
+STOmics0224	triku	2000	expression_driven	STOmics-0224	triku	Clustering	-3
+STOmics0224	triku	2000	expression_driven	STOmics-0224	triku	Alignment	NA

@@ -1,0 +1,33 @@
+kind: heldout_slice
+output_root: results/validation_v1/heldout_slice
+threads: 6
+n_features: 2000
+seed: 0
+folds:
+  - dataset_config: configs/datasets/dlpfc.yaml
+    heldout_slice: "151507"
+  - dataset_config: configs/datasets/dlpfc.yaml
+    heldout_slice: "151673"
+  - dataset_config: configs/datasets/mouse_brain_serial_sections.yaml
+    heldout_slice: section1
+  - dataset_config: configs/datasets/mouse_brain_serial_sections.yaml
+    heldout_slice: section2
+  - dataset_config: configs/datasets/stomics_0212_wilcoxon.yaml
+    heldout_slice: GSM5907080_AD_4_LS
+  - dataset_config: configs/datasets/stomics_0212_wilcoxon.yaml
+    heldout_slice: GSM5907093_HE_3
+methods:
+  - all_features
+  - random
+  - scanpy_seurat_v3_batch
+  - scanpy_cell_ranger_batch
+  - seurat_vst
+  - triku
+  - singleCellHaystack
+  - scsegindex
+  - morans_i
+  - sparkx
+  - nnsvg
+  - spatialde
+  - somde
+  - wilcoxon

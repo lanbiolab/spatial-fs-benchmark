@@ -27,20 +27,112 @@ types_palette <- c(
     "Alignment" = "#4daf4a"
 )
 
-metrics <- read_tsv(file.path(data_dir, "benchmark.tsv"), show_col_types = FALSE) |>
-    filter(.data$Type %in% c("Integration", "Clustering", "Alignment"))
+frozen_scores_path <- file.path(data_dir, "representative_task_scores.tsv")
+use_frozen_scores <- file.exists(frozen_scores_path)
 
-methods_meta_all <- read_tsv(file.path(data_dir, "methods-metadata.tsv"), show_col_types = FALSE)
+if (use_frozen_scores) {
+    method_label <- function(x) {
+        dplyr::recode(
+            x,
+            "TFs" = "Transcription factors",
+            "all_features" = "All features",
+            "random" = "Random",
+            "wilcoxon" = "Wilcoxon",
+            "anticor" = "Anticor",
+            "hotspot" = "Hotspot",
+            "osca" = "OSCA",
+            "scry" = "scry",
+            "triku" = "triku",
+            "scsegindex" = "scSEGIndex",
+            "seurat_disp" = "Seurat-Dispersion",
+            "seurat_mvp" = "Seurat-MVP",
+            "seurat_sct" = "Seurat-scTransform",
+            "seurat_vst" = "Seurat-VST",
+            "scanpy_cell_ranger" = "scanpy-CellRanger",
+            "scanpy_cell_ranger_batch" = "scanpy-CellRanger (batch)",
+            "scanpy_pearson" = "scanpy-Pearson",
+            "scanpy_pearson_batch" = "scanpy-Pearson (batch)",
+            "scanpy_seurat" = "scanpy-Seurat",
+            "scanpy_seurat_batch" = "scanpy-Seurat (batch)",
+            "scanpy_seurat_v3" = "scanpy-SeuratV3",
+            "scanpy_seurat_v3_batch" = "scanpy-SeuratV3 (batch)",
+            "singleCellHaystack" = "singleCellHaystack",
+            "statistic_mean" = "Statistic mean",
+            "statistic_variance" = "Statistic variance",
+            "dubstepr" = "DUBStepR",
+            "nbumi" = "NBumi",
+            "scPNMF" = "scPNMF",
+            "morans_i" = "Moran's I",
+            "nnsvg" = "nnSVG",
+            "somde" = "SOMDE",
+            "sparkx" = "SPARK-X",
+            "spatialde" = "SpatialDE",
+            .default = x
+        )
+    }
 
-metric_ranges <- read_tsv(ranges_path, show_col_types = FALSE) |>
-    filter(.data$Type %in% c("Integration", "Clustering", "Alignment"))
+    frozen_scores <- read_tsv(frozen_scores_path, show_col_types = FALSE) |>
+        mutate(
+            Method = paste0(
+                .data$fs_method,
+                "-N",
+                dplyr::if_else(.data$n_features == "all", "all", .data$n_features)
+            )
+        )
 
-metrics_summary_all <- summarise_spatial_metrics(
-    metrics,
-    metric_ranges,
-    type_weights = c("Integration" = 1/3, "Clustering" = 1/3, "Alignment" = 1/3),
-    require_types_for_overall = c("Integration", "Clustering", "Alignment")
-)
+    methods_meta_all <- frozen_scores |>
+        distinct(.data$Method, MethodBase = .data$fs_method, .data$n_features) |>
+        mutate(
+            NameBase = method_label(.data$MethodBase),
+            NLabel = vapply(
+                .data$n_features,
+                function(value) {
+                    if (value == "all") "all" else format(
+                        as.integer(value), big.mark = ",", scientific = FALSE, trim = TRUE
+                    )
+                },
+                character(1)
+            ),
+            Name = if_else(
+                .data$MethodBase == "all_features",
+                "All features",
+                paste0(.data$NameBase, " (N=", .data$NLabel, ")")
+            )
+        ) |>
+        select(.data$Method, .data$Name)
+
+    metrics_summary_all <- frozen_scores |>
+        transmute(
+            Dataset = .data$dataset,
+            MethodBase = .data$fs_method,
+            Method = .data$Method,
+            IntegrationLabel = dplyr::recode(
+                .data$integration_method,
+                "scvi" = "scVI",
+                "cellcharter" = "CellCharter",
+                .default = .data$integration_method
+            ),
+            Overall = .data$CoreOverallMean,
+            Integration = .data$IntegrationMean,
+            Clustering = .data$ClusteringMean,
+            Alignment = .data$AlignmentMean
+        )
+} else {
+    metrics <- read_tsv(file.path(data_dir, "benchmark.tsv"), show_col_types = FALSE) |>
+        filter(.data$Type %in% c("Integration", "Clustering", "Alignment"))
+
+    methods_meta_all <- read_tsv(file.path(data_dir, "methods-metadata.tsv"), show_col_types = FALSE)
+
+    metric_ranges <- read_tsv(ranges_path, show_col_types = FALSE) |>
+        filter(.data$Type %in% c("Integration", "Clustering", "Alignment"))
+
+    metrics_summary_all <- summarise_spatial_metrics(
+        metrics,
+        metric_ranges,
+        type_weights = c("Integration" = 1/3, "Clustering" = 1/3, "Alignment" = 1/3),
+        require_types_for_overall = c("Integration", "Clustering", "Alignment")
+    )
+}
 
 pick_representative_methods <- function(metrics_summary_all) {
     available <- metrics_summary_all |>
@@ -82,7 +174,7 @@ pick_representative_methods <- function(metrics_summary_all) {
                 "all_features-Nall",
                 "random-N500",
                 "scanpy_cell_ranger_batch-N2000",
-                "scsegindex-N2000"
+                "scsegindex-N500"
             )
         )
 
@@ -162,9 +254,16 @@ overall_values_figure <- ggplot(
         aes(fill = .data$Type),
         shape = 23, size = 2.15, colour = "white", stroke = 0.38
     ) +
-    scale_fill_manual(values = types_palette) +
+    scale_fill_manual(
+        values = types_palette,
+        labels = c("Overall" = "CoreOverall")
+    ) +
     scale_alpha_manual(values = c(`FALSE` = 0, `TRUE` = 0.25), guide = "none") +
-    facet_grid(. ~ .data$Type, scales = "free_x") +
+    facet_grid(
+        . ~ .data$Type,
+        scales = "free_x",
+        labeller = labeller(Type = c("Overall" = "CoreOverall"))
+    ) +
     labs(x = NULL, y = NULL) +
     theme_features_pub() +
     theme(
@@ -174,7 +273,7 @@ overall_values_figure <- ggplot(
         panel.grid.minor = element_blank(),
         strip.background = element_rect(fill = "black", colour = "black"),
         strip.text = element_text(colour = "white", face = "bold"),
-        axis.text.y = element_text(face = "bold", colour = "black", size = 5.1),
+        axis.text.y = element_text(face = "plain", colour = "black", size = 5.0),
         plot.margin = margin(0.2, 0.2, 0.2, 0.2, "cm")
     )
 
@@ -211,6 +310,7 @@ overall_ranks_figure <- ggplot(
         shape = 15
     ) +
     scale_y_discrete(drop = FALSE) +
+    scale_x_discrete(labels = c("Overall" = "CoreOverall")) +
     scale_colour_manual(values = types_palette, guide = "none") +
     scale_size_continuous(
         trans = "reverse",
@@ -275,5 +375,6 @@ figure <- wrap_plots(
 
 readr::write_tsv(metric_means, file.path(output_dir, "fig4a_metric_means.tsv"))
 readr::write_tsv(metric_ranks_means, file.path(output_dir, "fig4a_metric_ranks.tsv"))
+saveRDS(figure, file.path(output_dir, "figure_fig4a_spatial_benchmark.rds"))
 
 save_figure_files(figure, file.path(output_dir, "figure_fig4a_spatial_benchmark"), width = 8.3, height = 5.95)

@@ -1,0 +1,39 @@
+name: stomics_0212_epithelial_subset_svg_feature_only_rebuild_v1
+output_dir: results/biological_subsets_rebuild_v1/stomics_0212_epithelial_subset
+datasets:
+- configs/datasets/stomics_0212_epithelial_subset.yaml
+feature_selection_methods:
+- name: morans_i
+  params:
+    n_neighbors: 8
+  n_features:
+  - 2000
+- name: nnsvg
+  params:
+    n_threads: 4
+  n_features:
+  - 2000
+- name: spatialde
+  params:
+    max_cells_per_slice: 800
+  n_features:
+  - 2000
+- name: sparkx
+  params:
+    n_threads: 4
+  n_features:
+  - 2000
+- name: somde
+  params:
+    spots_per_node: 20
+  n_features:
+  - 2000
+integration_methods: []
+tasks: []
+n_features:
+- 2000
+seeds:
+- 0
+- 1
+- 2
+save_embeddings: false

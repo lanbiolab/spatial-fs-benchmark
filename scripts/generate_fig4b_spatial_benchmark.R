@@ -21,24 +21,113 @@ source(file.path("external", "atlas-feature-selection-benchmark", "analysis", "R
 
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
-dataset_dir_map <- c(
-    "DLPFC" = file.path(results_root, "dlpfc_spatial_main", "dlpfc"),
-    "E8p5Embryo" = file.path(results_root, "e8p5_embryo_region_spatial_main", "e8p5embryo"),
-    "E9p5Embryo" = file.path(results_root, "e9p5_embryo_region_spatial_main", "e9p5embryo"),
-    "MouseBrainSerialSections" = file.path(results_root, "mouse_brain_serial_sections_spatial_main", "mousebrainserialsections"),
-    "STOmics0212" = file.path(results_root, "stomics_0212_wilcoxon_spatial_main", "stomics0212"),
-    "STOmics0218" = file.path(results_root, "stomics_0218_wilcoxon_spatial_main", "stomics0218"),
-    "STOmics0224" = file.path(results_root, "stomics_0224_wilcoxon_spatial_main", "stomics0224"),
-    "STOmicsVisium5Samples" = file.path(results_root, "stomics_visium_5samples_spatial_main", "stomicsvisium5samples")
-)
+frozen_representative_path <- file.path(data_dir, "representative_settings.tsv")
+use_frozen_scores <- file.exists(frozen_representative_path)
 
-benchmark <- read_tsv(file.path(data_dir, "benchmark.tsv"), show_col_types = FALSE)
-methods_meta <- read_tsv(file.path(data_dir, "methods-metadata.tsv"), show_col_types = FALSE)
-datasets_meta <- read_tsv(file.path(data_dir, "datasets-metadata.tsv"), show_col_types = FALSE)
-selected_meta <- read_tsv(
-    file.path("results", "fig4a_spatial_benchmark", "figures", "representative_settings_selected.tsv"),
-    show_col_types = FALSE
-)
+if (use_frozen_scores) {
+    dataset_dir_map <- c(
+        "DLPFC" = file.path(results_root, "dlpfc", "dlpfc"),
+        "E8p5Embryo" = file.path(results_root, "e8p5_embryo", "e8p5embryo"),
+        "E9p5Embryo" = file.path(results_root, "e9p5_embryo", "e9p5embryo"),
+        "MouseBrainSerialSections" = file.path(results_root, "mouse_brain_serial_sections", "mousebrainserialsections"),
+        "STOmics0212" = file.path(results_root, "stomics_0212", "stomics0212"),
+        "STOmics0218" = file.path(results_root, "stomics_0218", "stomics0218"),
+        "STOmics0224" = file.path(results_root, "stomics_0224", "stomics0224")
+    )
+
+    method_label <- function(x) {
+        dplyr::recode(
+            x,
+            "TFs" = "Transcription factors",
+            "all_features" = "All features",
+            "random" = "Random",
+            "wilcoxon" = "Wilcoxon",
+            "anticor" = "Anticor",
+            "hotspot" = "Hotspot",
+            "osca" = "OSCA",
+            "scry" = "scry",
+            "triku" = "triku",
+            "scsegindex" = "scSEGIndex",
+            "seurat_disp" = "Seurat-Dispersion",
+            "seurat_mvp" = "Seurat-MVP",
+            "seurat_sct" = "Seurat-scTransform",
+            "seurat_vst" = "Seurat-VST",
+            "scanpy_cell_ranger" = "scanpy-CellRanger",
+            "scanpy_cell_ranger_batch" = "scanpy-CellRanger (batch)",
+            "scanpy_pearson" = "scanpy-Pearson",
+            "scanpy_pearson_batch" = "scanpy-Pearson (batch)",
+            "scanpy_seurat" = "scanpy-Seurat",
+            "scanpy_seurat_batch" = "scanpy-Seurat (batch)",
+            "scanpy_seurat_v3" = "scanpy-SeuratV3",
+            "scanpy_seurat_v3_batch" = "scanpy-SeuratV3 (batch)",
+            "singleCellHaystack" = "singleCellHaystack",
+            "statistic_mean" = "Statistic mean",
+            "statistic_variance" = "Statistic variance",
+            "dubstepr" = "DUBStepR",
+            "nbumi" = "NBumi",
+            "scPNMF" = "scPNMF",
+            "morans_i" = "Moran's I",
+            "nnsvg" = "nnSVG",
+            "somde" = "SOMDE",
+            "sparkx" = "SPARK-X",
+            "spatialde" = "SpatialDE",
+            .default = x
+        )
+    }
+
+    selected_meta_all <- read_tsv(frozen_representative_path, show_col_types = FALSE) |>
+        mutate(Method = paste0(
+            .data$fs_method, "-N",
+            dplyr::if_else(.data$n_features == "all", "all", .data$n_features)
+        )) |>
+        distinct(Dataset = .data$dataset, .data$fs_method, .data$Method)
+
+    benchmark <- selected_meta_all |>
+        select(.data$Dataset, .data$Method)
+
+    selected_meta <- selected_meta_all |>
+        distinct(.data$fs_method, .data$Method)
+
+    methods_meta <- selected_meta_all |>
+        distinct(.data$Method, .data$fs_method) |>
+        mutate(Name = method_label(.data$fs_method)) |>
+        select(.data$Method, .data$Name)
+
+    datasets_meta <- read_tsv(
+        file.path("results", "current_rank", "data", "datasets-metadata.tsv"),
+        show_col_types = FALSE
+    ) |>
+        filter(.data$Dataset %in% names(dataset_dir_map)) |>
+        mutate(Name = dplyr::recode(
+            .data$Dataset,
+            "E8p5Embryo" = "E8.5 Embryo",
+            "E9p5Embryo" = "E9.5 Embryo",
+            "MouseBrainSerialSections" = "Mouse Brain",
+            "STOmics0212" = "STOmics-0212",
+            "STOmics0218" = "STOmics-0218",
+            "STOmics0224" = "STOmics-0224",
+            .default = .data$Dataset
+        ))
+} else {
+    dataset_dir_map <- c(
+        "DLPFC" = file.path(results_root, "dlpfc_spatial_main", "dlpfc"),
+        "E8p5Embryo" = file.path(results_root, "e8p5_embryo_region_spatial_main", "e8p5embryo"),
+        "E9p5Embryo" = file.path(results_root, "e9p5_embryo_region_spatial_main", "e9p5embryo"),
+        "MouseBrainSerialSections" = file.path(results_root, "mouse_brain_serial_sections_spatial_main", "mousebrainserialsections"),
+        "STOmics0212" = file.path(results_root, "stomics_0212_wilcoxon_spatial_main", "stomics0212"),
+        "STOmics0218" = file.path(results_root, "stomics_0218_wilcoxon_spatial_main", "stomics0218"),
+        "STOmics0224" = file.path(results_root, "stomics_0224_wilcoxon_spatial_main", "stomics0224"),
+        "STOmicsVisium5Samples" = file.path(results_root, "stomics_visium_5samples_spatial_main", "stomicsvisium5samples")
+    )
+
+    benchmark <- read_tsv(file.path(data_dir, "benchmark.tsv"), show_col_types = FALSE)
+    methods_meta <- read_tsv(file.path(data_dir, "methods-metadata.tsv"), show_col_types = FALSE)
+    datasets_meta <- read_tsv(file.path(data_dir, "datasets-metadata.tsv"), show_col_types = FALSE)
+    selected_meta <- read_tsv(
+        file.path("results", "fig4a_spatial_benchmark", "figures", "representative_settings_selected.tsv"),
+        show_col_types = FALSE
+    )
+}
 
 dataset_names <- datasets_meta$Name
 names(dataset_names) <- datasets_meta$Dataset
@@ -107,7 +196,9 @@ overlaps <- map_dfr(names(selected_list), function(.dataset) {
     ) |>
         filter(
             str_detect(.data$method1, "^random", negate = TRUE),
-            str_detect(.data$method2, "^random", negate = TRUE)
+            str_detect(.data$method2, "^random", negate = TRUE),
+            str_detect(.data$method1, "^all_features", negate = TRUE),
+            str_detect(.data$method2, "^all_features", negate = TRUE)
         ) |>
         pmap_dfr(function(method1, method2) {
             selected1 <- selected[[method1]]
@@ -219,7 +310,7 @@ mean_overlaps_plot <- ggplot(
         legend.spacing.x = unit(0.16, "cm"),
         legend.box.spacing = unit(0.25, "cm"),
         axis.text.x = element_blank(),
-        axis.text.y = element_text(face = "bold"),
+        axis.text.y = element_text(face = "plain", size = 5.0),
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         panel.background = element_rect(fill = "#1A1024", colour = NA),
@@ -349,7 +440,7 @@ num_methods_plot <- ggplot(
     ) +
     theme_features_pub() +
     theme(
-        axis.text.y = element_text(face = "bold"),
+        axis.text.y = element_text(face = "plain"),
         axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
         axis.title.y = element_blank(),
         panel.grid.minor = element_blank()
@@ -429,37 +520,44 @@ write_tsv(num_selected, file.path(output_dir, "fig4b_num_selected.tsv"))
 write_tsv(cum_num_methods, file.path(output_dir, "fig4b_cum_num_methods.tsv"))
 write_tsv(tibble(Method = common_methods, Label = method_labels[common_methods]), file.path(output_dir, "fig4b_methods_used.tsv"))
 
+panel_b_final <- mean_overlaps_plot +
+    theme(
+        legend.position = "bottom",
+        legend.box = "horizontal",
+        legend.title.position = "top"
+    )
+panel_c_final <- num_methods_plot +
+    theme(
+        legend.position = "right",
+        legend.box = "vertical",
+        legend.title.position = "top"
+    )
+panel_d_final <- num_selected_plot +
+    theme(
+        legend.position = "right",
+        legend.box = "vertical",
+        legend.title.position = "top"
+    )
+saveRDS(panel_b_final, file.path(output_dir, "figure_fig4b_panel_b.rds"))
+saveRDS(panel_c_final, file.path(output_dir, "figure_fig4c_panel_c.rds"))
+saveRDS(panel_d_final, file.path(output_dir, "figure_fig4d_panel_d.rds"))
+
 save_figure_files(
-    mean_overlaps_plot +
-        theme(
-            legend.position = "bottom",
-            legend.box = "horizontal",
-            legend.title.position = "top"
-        ),
+    panel_b_final,
     file.path(output_dir, "figure_fig4b_panel_b"),
     width = 4.3,
     height = 4.2
 )
 
 save_figure_files(
-    num_methods_plot +
-        theme(
-            legend.position = "right",
-            legend.box = "vertical",
-            legend.title.position = "top"
-        ),
+    panel_c_final,
     file.path(output_dir, "figure_fig4c_panel_c"),
     width = 3.1,
     height = 3.6
 )
 
 save_figure_files(
-    num_selected_plot +
-        theme(
-            legend.position = "right",
-            legend.box = "vertical",
-            legend.title.position = "top"
-        ),
+    panel_d_final,
     file.path(output_dir, "figure_fig4d_panel_d"),
     width = 3.2,
     height = 3.6

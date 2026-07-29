@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import anndata as ad
@@ -20,6 +20,7 @@ class SpatialDataset:
     platform: str | None = None
     species: str | None = None
     source_path: str | None = None
+    alignment_pairs: list[tuple[str, str]] = field(default_factory=list)
 
     @property
     def n_obs(self) -> int:
@@ -71,6 +72,7 @@ class SpatialDataset:
             platform=self.platform,
             species=self.species,
             source_path=self.source_path,
+            alignment_pairs=list(self.alignment_pairs),
         )
 
     def copy(self) -> "SpatialDataset":
@@ -84,6 +86,7 @@ class SpatialDataset:
             platform=self.platform,
             species=self.species,
             source_path=self.source_path,
+            alignment_pairs=list(self.alignment_pairs),
         )
 
     def with_embedding(self, embedding: np.ndarray, key: str = "X_emb") -> "SpatialDataset":

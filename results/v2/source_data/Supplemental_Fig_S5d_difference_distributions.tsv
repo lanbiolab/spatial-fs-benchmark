@@ -1,0 +1,668 @@
+dataset	fs_method	n_features	MethodGroup	Dataset	Method	Task	Difference
+DLPFC	Brennecke	2000	expression_driven	DLPFC	Brennecke	Core overall	0.09227235770021591
+DLPFC	Brennecke	2000	expression_driven	DLPFC	Brennecke	Integration	-0.016102426162451944
+DLPFC	Brennecke	2000	expression_driven	DLPFC	Brennecke	Clustering	0.2006471415628837
+DLPFC	Brennecke	2000	expression_driven	DLPFC	Brennecke	Alignment	0.12647358792042718
+DLPFC	anticor	2000	expression_driven	DLPFC	Anticor	Core overall	0.056054099555507
+DLPFC	anticor	2000	expression_driven	DLPFC	Anticor	Integration	-0.0018645592822879031
+DLPFC	anticor	2000	expression_driven	DLPFC	Anticor	Clustering	0.1139727583933019
+DLPFC	anticor	2000	expression_driven	DLPFC	Anticor	Alignment	0.1184089015570926
+DLPFC	dubstepr	2000	expression_driven	DLPFC	DUBStepR	Core overall	0.03837794470587663
+DLPFC	dubstepr	2000	expression_driven	DLPFC	DUBStepR	Integration	-0.008809714991493744
+DLPFC	dubstepr	2000	expression_driven	DLPFC	DUBStepR	Clustering	0.0855656044032469
+DLPFC	dubstepr	2000	expression_driven	DLPFC	DUBStepR	Alignment	0.11547414648135057
+DLPFC	hotspot	2000	expression_driven	DLPFC	Hotspot	Core overall	0.020886047585875533
+DLPFC	hotspot	2000	expression_driven	DLPFC	Hotspot	Integration	-0.036402796015507
+DLPFC	hotspot	2000	expression_driven	DLPFC	Hotspot	Clustering	0.07817489118725829
+DLPFC	hotspot	2000	expression_driven	DLPFC	Hotspot	Alignment	0.11169902568643797
+DLPFC	morans_i	2000	spatially_informed	DLPFC	Moran's I	Core overall	0.11693070145960704
+DLPFC	morans_i	2000	spatially_informed	DLPFC	Moran's I	Integration	0.08566529734405981
+DLPFC	morans_i	2000	spatially_informed	DLPFC	Moran's I	Clustering	0.14819610557515417
+DLPFC	morans_i	2000	spatially_informed	DLPFC	Moran's I	Alignment	0.16166113446457675
+DLPFC	nbumi	2000	expression_driven	DLPFC	NBumi	Core overall	0.05872842404472067
+DLPFC	nbumi	2000	expression_driven	DLPFC	NBumi	Integration	-0.026167745641788698
+DLPFC	nbumi	2000	expression_driven	DLPFC	NBumi	Clustering	0.14362459373122993
+DLPFC	nbumi	2000	expression_driven	DLPFC	NBumi	Alignment	0.1146908936143547
+DLPFC	nnsvg	2000	spatially_informed	DLPFC	nnSVG	Core overall	0.0794618783451666
+DLPFC	nnsvg	2000	spatially_informed	DLPFC	nnSVG	Integration	0.06638835555559552
+DLPFC	nnsvg	2000	spatially_informed	DLPFC	nnSVG	Clustering	0.09253540113473768
+DLPFC	nnsvg	2000	spatially_informed	DLPFC	nnSVG	Alignment	0.14339273296764432
+DLPFC	osca	2000	expression_driven	DLPFC	OSCA	Core overall	0.04697419550465298
+DLPFC	osca	2000	expression_driven	DLPFC	OSCA	Integration	-0.02103754429485938
+DLPFC	osca	2000	expression_driven	DLPFC	OSCA	Clustering	0.11498593530416557
+DLPFC	osca	2000	expression_driven	DLPFC	OSCA	Alignment	0.11885469325739972
+DLPFC	scPNMF	2000	expression_driven	DLPFC	scPNMF	Core overall	0.06093839207319074
+DLPFC	scPNMF	2000	expression_driven	DLPFC	scPNMF	Integration	-0.013129160478192348
+DLPFC	scPNMF	2000	expression_driven	DLPFC	scPNMF	Clustering	0.13500594462457371
+DLPFC	scPNMF	2000	expression_driven	DLPFC	scPNMF	Alignment	0.13173078638415892
+DLPFC	scanpy_cell_ranger	2000	expression_driven	DLPFC	Scanpy Cell Ranger	Core overall	0.09968548448311987
+DLPFC	scanpy_cell_ranger	2000	expression_driven	DLPFC	Scanpy Cell Ranger	Integration	-0.04720830424572875
+DLPFC	scanpy_cell_ranger	2000	expression_driven	DLPFC	Scanpy Cell Ranger	Clustering	0.24657927321196843
+DLPFC	scanpy_cell_ranger	2000	expression_driven	DLPFC	Scanpy Cell Ranger	Alignment	0.10809558832094202
+DLPFC	scanpy_cell_ranger_batch	2000	expression_driven	DLPFC	Scanpy Cell Ranger, batch	Core overall	0.13015250477365836
+DLPFC	scanpy_cell_ranger_batch	2000	expression_driven	DLPFC	Scanpy Cell Ranger, batch	Integration	-0.0174684603119859
+DLPFC	scanpy_cell_ranger_batch	2000	expression_driven	DLPFC	Scanpy Cell Ranger, batch	Clustering	0.2777734698593029
+DLPFC	scanpy_cell_ranger_batch	2000	expression_driven	DLPFC	Scanpy Cell Ranger, batch	Alignment	0.11702298989940552
+DLPFC	scanpy_pearson	2000	expression_driven	DLPFC	Scanpy Pearson	Core overall	0.03494386237948066
+DLPFC	scanpy_pearson	2000	expression_driven	DLPFC	Scanpy Pearson	Integration	-0.036460793701132754
+DLPFC	scanpy_pearson	2000	expression_driven	DLPFC	Scanpy Pearson	Clustering	0.10634851846009397
+DLPFC	scanpy_pearson	2000	expression_driven	DLPFC	Scanpy Pearson	Alignment	0.1396102961965897
+DLPFC	scanpy_pearson_batch	2000	expression_driven	DLPFC	Scanpy Pearson, batch	Core overall	0.03910451055527586
+DLPFC	scanpy_pearson_batch	2000	expression_driven	DLPFC	Scanpy Pearson, batch	Integration	-0.024562865177547133
+DLPFC	scanpy_pearson_batch	2000	expression_driven	DLPFC	Scanpy Pearson, batch	Clustering	0.10277188628809886
+DLPFC	scanpy_pearson_batch	2000	expression_driven	DLPFC	Scanpy Pearson, batch	Alignment	0.13342742657996576
+DLPFC	scanpy_seurat	2000	expression_driven	DLPFC	Scanpy Seurat	Core overall	0.08442863742869233
+DLPFC	scanpy_seurat	2000	expression_driven	DLPFC	Scanpy Seurat	Integration	-0.004264749732345252
+DLPFC	scanpy_seurat	2000	expression_driven	DLPFC	Scanpy Seurat	Clustering	0.17312202458972997
+DLPFC	scanpy_seurat	2000	expression_driven	DLPFC	Scanpy Seurat	Alignment	0.13807979680059534
+DLPFC	scanpy_seurat_batch	2000	expression_driven	DLPFC	Scanpy Seurat, batch	Core overall	0.05085894726769691
+DLPFC	scanpy_seurat_batch	2000	expression_driven	DLPFC	Scanpy Seurat, batch	Integration	-0.03438584778655451
+DLPFC	scanpy_seurat_batch	2000	expression_driven	DLPFC	Scanpy Seurat, batch	Clustering	0.13610374232194822
+DLPFC	scanpy_seurat_batch	2000	expression_driven	DLPFC	Scanpy Seurat, batch	Alignment	0.12290039986850632
+DLPFC	scanpy_seurat_v3	2000	expression_driven	DLPFC	Scanpy Seurat v3	Core overall	0.09708863500183318
+DLPFC	scanpy_seurat_v3	2000	expression_driven	DLPFC	Scanpy Seurat v3	Integration	6.060922855173345e-4
+DLPFC	scanpy_seurat_v3	2000	expression_driven	DLPFC	Scanpy Seurat v3	Clustering	0.19357117771814936
+DLPFC	scanpy_seurat_v3	2000	expression_driven	DLPFC	Scanpy Seurat v3	Alignment	0.12677584030113387
+DLPFC	scanpy_seurat_v3_batch	2000	expression_driven	DLPFC	Scanpy Seurat v3, batch	Core overall	0.06956866689761143
+DLPFC	scanpy_seurat_v3_batch	2000	expression_driven	DLPFC	Scanpy Seurat v3, batch	Integration	-0.0048059466978278564
+DLPFC	scanpy_seurat_v3_batch	2000	expression_driven	DLPFC	Scanpy Seurat v3, batch	Clustering	0.14394328049305027
+DLPFC	scanpy_seurat_v3_batch	2000	expression_driven	DLPFC	Scanpy Seurat v3, batch	Alignment	0.15964970628791375
+DLPFC	scry	2000	expression_driven	DLPFC	scry	Core overall	0.08580768232647784
+DLPFC	scry	2000	expression_driven	DLPFC	scry	Integration	0.0772515681749919
+DLPFC	scry	2000	expression_driven	DLPFC	scry	Clustering	0.09436379647796378
+DLPFC	scry	2000	expression_driven	DLPFC	scry	Alignment	0.16480931650172348
+DLPFC	seurat_disp	2000	expression_driven	DLPFC	Seurat Dispersion	Core overall	0.02159801551928997
+DLPFC	seurat_disp	2000	expression_driven	DLPFC	Seurat Dispersion	Integration	-0.05650964208828413
+DLPFC	seurat_disp	2000	expression_driven	DLPFC	Seurat Dispersion	Clustering	0.09970567312686396
+DLPFC	seurat_disp	2000	expression_driven	DLPFC	Seurat Dispersion	Alignment	0.13586825360921628
+DLPFC	seurat_mvp	2000	expression_driven	DLPFC	Seurat MVP	Core overall	0.09443667687693902
+DLPFC	seurat_mvp	2000	expression_driven	DLPFC	Seurat MVP	Integration	-0.02234454608261749
+DLPFC	seurat_mvp	2000	expression_driven	DLPFC	Seurat MVP	Clustering	0.21121789983649575
+DLPFC	seurat_mvp	2000	expression_driven	DLPFC	Seurat MVP	Alignment	0.128516465382714
+DLPFC	seurat_sct	2000	expression_driven	DLPFC	Seurat sctransform	Core overall	0.023242824919731064
+DLPFC	seurat_sct	2000	expression_driven	DLPFC	Seurat sctransform	Integration	-0.015664713884278036
+DLPFC	seurat_sct	2000	expression_driven	DLPFC	Seurat sctransform	Clustering	0.062150363723740054
+DLPFC	seurat_sct	2000	expression_driven	DLPFC	Seurat sctransform	Alignment	0.12971302699080955
+DLPFC	seurat_vst	2000	expression_driven	DLPFC	Seurat VST	Core overall	0.08575421021963814
+DLPFC	seurat_vst	2000	expression_driven	DLPFC	Seurat VST	Integration	0.005849375339880392
+DLPFC	seurat_vst	2000	expression_driven	DLPFC	Seurat VST	Clustering	0.16565904509939577
+DLPFC	seurat_vst	2000	expression_driven	DLPFC	Seurat VST	Alignment	0.12666950742715477
+DLPFC	singleCellHaystack	2000	expression_driven	DLPFC	singleCellHaystack	Core overall	0.03619029165333698
+DLPFC	singleCellHaystack	2000	expression_driven	DLPFC	singleCellHaystack	Integration	-0.02540113204096839
+DLPFC	singleCellHaystack	2000	expression_driven	DLPFC	singleCellHaystack	Clustering	0.09778171534764235
+DLPFC	singleCellHaystack	2000	expression_driven	DLPFC	singleCellHaystack	Alignment	0.11009392913028793
+DLPFC	somde	2000	spatially_informed	DLPFC	SOMDE	Core overall	0.055521731746475345
+DLPFC	somde	2000	spatially_informed	DLPFC	SOMDE	Integration	-0.03402802133825489
+DLPFC	somde	2000	spatially_informed	DLPFC	SOMDE	Clustering	0.1450714848312059
+DLPFC	somde	2000	spatially_informed	DLPFC	SOMDE	Alignment	0.09151936062865307
+DLPFC	sparkx	2000	spatially_informed	DLPFC	SPARK-X	Core overall	0.09333832797657748
+DLPFC	sparkx	2000	spatially_informed	DLPFC	SPARK-X	Integration	0.08402212744490434
+DLPFC	sparkx	2000	spatially_informed	DLPFC	SPARK-X	Clustering	0.10265452850825074
+DLPFC	sparkx	2000	spatially_informed	DLPFC	SPARK-X	Alignment	0.14974979589165371
+DLPFC	spatialde	2000	spatially_informed	DLPFC	SpatialDE	Core overall	0.05819380692457643
+DLPFC	spatialde	2000	spatially_informed	DLPFC	SpatialDE	Integration	-0.010911419043842074
+DLPFC	spatialde	2000	spatially_informed	DLPFC	SpatialDE	Clustering	0.12729903289299493
+DLPFC	spatialde	2000	spatially_informed	DLPFC	SpatialDE	Alignment	0.11006917499809887
+DLPFC	statistic_mean	2000	expression_driven	DLPFC	Mean expression	Core overall	0.11928320753120036
+DLPFC	statistic_mean	2000	expression_driven	DLPFC	Mean expression	Integration	0.10555203120459511
+DLPFC	statistic_mean	2000	expression_driven	DLPFC	Mean expression	Clustering	0.1330143838578055
+DLPFC	statistic_mean	2000	expression_driven	DLPFC	Mean expression	Alignment	0.17279127152210982
+DLPFC	statistic_variance	2000	expression_driven	DLPFC	Expression variance	Core overall	0.060767289497485
+DLPFC	statistic_variance	2000	expression_driven	DLPFC	Expression variance	Integration	0.02296482587742643
+DLPFC	statistic_variance	2000	expression_driven	DLPFC	Expression variance	Clustering	0.09856975311754379
+DLPFC	statistic_variance	2000	expression_driven	DLPFC	Expression variance	Alignment	0.13375211000484222
+DLPFC	triku	2000	expression_driven	DLPFC	triku	Core overall	0.06964913037908782
+DLPFC	triku	2000	expression_driven	DLPFC	triku	Integration	-0.0015350720196999346
+DLPFC	triku	2000	expression_driven	DLPFC	triku	Clustering	0.1408333327778758
+DLPFC	triku	2000	expression_driven	DLPFC	triku	Alignment	0.11866614015079469
+E8p5Embryo	Brennecke	2000	expression_driven	E8.5 Embryo	Brennecke	Core overall	0.07395338985409305
+E8p5Embryo	Brennecke	2000	expression_driven	E8.5 Embryo	Brennecke	Integration	-0.22454405124102905
+E8p5Embryo	Brennecke	2000	expression_driven	E8.5 Embryo	Brennecke	Clustering	0.3724508309492153
+E8p5Embryo	anticor	2000	expression_driven	E8.5 Embryo	Anticor	Core overall	0.03715699842467002
+E8p5Embryo	anticor	2000	expression_driven	E8.5 Embryo	Anticor	Integration	-0.22678764989449673
+E8p5Embryo	anticor	2000	expression_driven	E8.5 Embryo	Anticor	Clustering	0.3011016467438367
+E8p5Embryo	dubstepr	2000	expression_driven	E8.5 Embryo	DUBStepR	Core overall	-0.017488192764563038
+E8p5Embryo	dubstepr	2000	expression_driven	E8.5 Embryo	DUBStepR	Integration	-0.28284082811469957
+E8p5Embryo	dubstepr	2000	expression_driven	E8.5 Embryo	DUBStepR	Clustering	0.24786444258557366
+E8p5Embryo	hotspot	2000	expression_driven	E8.5 Embryo	Hotspot	Core overall	0.031707309745535595
+E8p5Embryo	hotspot	2000	expression_driven	E8.5 Embryo	Hotspot	Integration	-0.2581858672503145
+E8p5Embryo	hotspot	2000	expression_driven	E8.5 Embryo	Hotspot	Clustering	0.3216004867413857
+E8p5Embryo	morans_i	2000	spatially_informed	E8.5 Embryo	Moran's I	Core overall	-0.02647880358884136
+E8p5Embryo	morans_i	2000	spatially_informed	E8.5 Embryo	Moran's I	Integration	-0.26776097429382556
+E8p5Embryo	morans_i	2000	spatially_informed	E8.5 Embryo	Moran's I	Clustering	0.21480336711614278
+E8p5Embryo	nbumi	2000	expression_driven	E8.5 Embryo	NBumi	Core overall	0.0376172832198195
+E8p5Embryo	nbumi	2000	expression_driven	E8.5 Embryo	NBumi	Integration	-0.25851159737200985
+E8p5Embryo	nbumi	2000	expression_driven	E8.5 Embryo	NBumi	Clustering	0.33374616381164907
+E8p5Embryo	nnsvg	2000	spatially_informed	E8.5 Embryo	nnSVG	Core overall	-0.03476726102651684
+E8p5Embryo	nnsvg	2000	spatially_informed	E8.5 Embryo	nnSVG	Integration	-0.25904733175023675
+E8p5Embryo	nnsvg	2000	spatially_informed	E8.5 Embryo	nnSVG	Clustering	0.1895128096972029
+E8p5Embryo	osca	2000	expression_driven	E8.5 Embryo	OSCA	Core overall	0.0036449389294874734
+E8p5Embryo	osca	2000	expression_driven	E8.5 Embryo	OSCA	Integration	-0.25730730867852813
+E8p5Embryo	osca	2000	expression_driven	E8.5 Embryo	OSCA	Clustering	0.26459718653750325
+E8p5Embryo	scPNMF	2000	expression_driven	E8.5 Embryo	scPNMF	Core overall	-0.009000234851835764
+E8p5Embryo	scPNMF	2000	expression_driven	E8.5 Embryo	scPNMF	Integration	-0.26678282290925837
+E8p5Embryo	scPNMF	2000	expression_driven	E8.5 Embryo	scPNMF	Clustering	0.24878235320558661
+E8p5Embryo	scanpy_cell_ranger	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger	Core overall	0.034650664278376264
+E8p5Embryo	scanpy_cell_ranger	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger	Integration	-0.26716128765500635
+E8p5Embryo	scanpy_cell_ranger	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger	Clustering	0.3364626162117587
+E8p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger, batch	Core overall	0.04056545765522035
+E8p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger, batch	Integration	-0.26801357351713917
+E8p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E8.5 Embryo	Scanpy Cell Ranger, batch	Clustering	0.34914448882757976
+E8p5Embryo	scanpy_pearson	2000	expression_driven	E8.5 Embryo	Scanpy Pearson	Core overall	0.04131435252483984
+E8p5Embryo	scanpy_pearson	2000	expression_driven	E8.5 Embryo	Scanpy Pearson	Integration	-0.2612735302466998
+E8p5Embryo	scanpy_pearson	2000	expression_driven	E8.5 Embryo	Scanpy Pearson	Clustering	0.3439022352963793
+E8p5Embryo	scanpy_pearson_batch	2000	expression_driven	E8.5 Embryo	Scanpy Pearson, batch	Core overall	0.07621176421464171
+E8p5Embryo	scanpy_pearson_batch	2000	expression_driven	E8.5 Embryo	Scanpy Pearson, batch	Integration	-0.22688049549692724
+E8p5Embryo	scanpy_pearson_batch	2000	expression_driven	E8.5 Embryo	Scanpy Pearson, batch	Clustering	0.3793040239262104
+E8p5Embryo	scanpy_seurat	2000	expression_driven	E8.5 Embryo	Scanpy Seurat	Core overall	0.0641766071588461
+E8p5Embryo	scanpy_seurat	2000	expression_driven	E8.5 Embryo	Scanpy Seurat	Integration	-0.22975112348588
+E8p5Embryo	scanpy_seurat	2000	expression_driven	E8.5 Embryo	Scanpy Seurat	Clustering	0.35810433780357237
+E8p5Embryo	scanpy_seurat_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat, batch	Core overall	0.07515624902672569
+E8p5Embryo	scanpy_seurat_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat, batch	Integration	-0.22713173793597885
+E8p5Embryo	scanpy_seurat_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat, batch	Clustering	0.37744423598943005
+E8p5Embryo	scanpy_seurat_v3	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3	Core overall	0.023259809338292747
+E8p5Embryo	scanpy_seurat_v3	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3	Integration	-0.2825245572265717
+E8p5Embryo	scanpy_seurat_v3	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3	Clustering	0.32904417590315743
+E8p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3, batch	Core overall	0.0468816039706087
+E8p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3, batch	Integration	-0.27385506108397956
+E8p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E8.5 Embryo	Scanpy Seurat v3, batch	Clustering	0.36761826902519695
+E8p5Embryo	scry	2000	expression_driven	E8.5 Embryo	scry	Core overall	-0.010922006801472595
+E8p5Embryo	scry	2000	expression_driven	E8.5 Embryo	scry	Integration	-0.2606982706382909
+E8p5Embryo	scry	2000	expression_driven	E8.5 Embryo	scry	Clustering	0.23885425703534563
+E8p5Embryo	seurat_disp	2000	expression_driven	E8.5 Embryo	Seurat Dispersion	Core overall	0.056127919573115026
+E8p5Embryo	seurat_disp	2000	expression_driven	E8.5 Embryo	Seurat Dispersion	Integration	-0.2189070509440798
+E8p5Embryo	seurat_disp	2000	expression_driven	E8.5 Embryo	Seurat Dispersion	Clustering	0.3311628900903098
+E8p5Embryo	seurat_mvp	2000	expression_driven	E8.5 Embryo	Seurat MVP	Core overall	0.05857091048659002
+E8p5Embryo	seurat_mvp	2000	expression_driven	E8.5 Embryo	Seurat MVP	Integration	-0.2375279711392546
+E8p5Embryo	seurat_mvp	2000	expression_driven	E8.5 Embryo	Seurat MVP	Clustering	0.3546697921124346
+E8p5Embryo	seurat_sct	2000	expression_driven	E8.5 Embryo	Seurat sctransform	Core overall	0.029586723482645072
+E8p5Embryo	seurat_sct	2000	expression_driven	E8.5 Embryo	Seurat sctransform	Integration	-0.038876326840071807
+E8p5Embryo	seurat_sct	2000	expression_driven	E8.5 Embryo	Seurat sctransform	Clustering	0.0980497738053621
+E8p5Embryo	seurat_vst	2000	expression_driven	E8.5 Embryo	Seurat VST	Core overall	0.029926944186346227
+E8p5Embryo	seurat_vst	2000	expression_driven	E8.5 Embryo	Seurat VST	Integration	-0.2823914003784434
+E8p5Embryo	seurat_vst	2000	expression_driven	E8.5 Embryo	Seurat VST	Clustering	0.34224528875113597
+E8p5Embryo	singleCellHaystack	2000	expression_driven	E8.5 Embryo	singleCellHaystack	Core overall	-0.0030973886401505224
+E8p5Embryo	singleCellHaystack	2000	expression_driven	E8.5 Embryo	singleCellHaystack	Integration	-0.29135733159057225
+E8p5Embryo	singleCellHaystack	2000	expression_driven	E8.5 Embryo	singleCellHaystack	Clustering	0.2851625543102715
+E8p5Embryo	somde	2000	spatially_informed	E8.5 Embryo	SOMDE	Core overall	0.003470018955008203
+E8p5Embryo	somde	2000	spatially_informed	E8.5 Embryo	SOMDE	Integration	-0.23957085670339218
+E8p5Embryo	somde	2000	spatially_informed	E8.5 Embryo	SOMDE	Clustering	0.24651089461340875
+E8p5Embryo	sparkx	2000	spatially_informed	E8.5 Embryo	SPARK-X	Core overall	-0.017382854250789115
+E8p5Embryo	sparkx	2000	spatially_informed	E8.5 Embryo	SPARK-X	Integration	-0.24122423342796356
+E8p5Embryo	sparkx	2000	spatially_informed	E8.5 Embryo	SPARK-X	Clustering	0.20645852492638567
+E8p5Embryo	spatialde	2000	spatially_informed	E8.5 Embryo	SpatialDE	Core overall	-0.008990801489146438
+E8p5Embryo	spatialde	2000	spatially_informed	E8.5 Embryo	SpatialDE	Integration	-0.23259633739580365
+E8p5Embryo	spatialde	2000	spatially_informed	E8.5 Embryo	SpatialDE	Clustering	0.21461473441751078
+E8p5Embryo	statistic_mean	2000	expression_driven	E8.5 Embryo	Mean expression	Core overall	0.003402457695809269
+E8p5Embryo	statistic_mean	2000	expression_driven	E8.5 Embryo	Mean expression	Integration	-0.2548935864210158
+E8p5Embryo	statistic_mean	2000	expression_driven	E8.5 Embryo	Mean expression	Clustering	0.2616985018126343
+E8p5Embryo	statistic_variance	2000	expression_driven	E8.5 Embryo	Expression variance	Core overall	-0.016356056729682655
+E8p5Embryo	statistic_variance	2000	expression_driven	E8.5 Embryo	Expression variance	Integration	-0.2614231016117148
+E8p5Embryo	statistic_variance	2000	expression_driven	E8.5 Embryo	Expression variance	Clustering	0.22871098815234953
+E8p5Embryo	triku	2000	expression_driven	E8.5 Embryo	triku	Core overall	0.024377512179824645
+E8p5Embryo	triku	2000	expression_driven	E8.5 Embryo	triku	Integration	-0.25312550961692887
+E8p5Embryo	triku	2000	expression_driven	E8.5 Embryo	triku	Clustering	0.3018805339765781
+E9p5Embryo	Brennecke	2000	expression_driven	E9.5 Embryo	Brennecke	Core overall	0.04079929648986136
+E9p5Embryo	Brennecke	2000	expression_driven	E9.5 Embryo	Brennecke	Integration	-0.25963114089400796
+E9p5Embryo	Brennecke	2000	expression_driven	E9.5 Embryo	Brennecke	Clustering	0.3412297338737308
+E9p5Embryo	anticor	2000	expression_driven	E9.5 Embryo	Anticor	Core overall	0.056421387494448805
+E9p5Embryo	anticor	2000	expression_driven	E9.5 Embryo	Anticor	Integration	-0.1561362652503121
+E9p5Embryo	anticor	2000	expression_driven	E9.5 Embryo	Anticor	Clustering	0.26897904023920943
+E9p5Embryo	dubstepr	2000	expression_driven	E9.5 Embryo	DUBStepR	Core overall	0.02776587086200677
+E9p5Embryo	dubstepr	2000	expression_driven	E9.5 Embryo	DUBStepR	Integration	-0.2072813367733366
+E9p5Embryo	dubstepr	2000	expression_driven	E9.5 Embryo	DUBStepR	Clustering	0.26281307849735003
+E9p5Embryo	hotspot	2000	expression_driven	E9.5 Embryo	Hotspot	Core overall	0.04619356226204696
+E9p5Embryo	hotspot	2000	expression_driven	E9.5 Embryo	Hotspot	Integration	-0.18416121217300901
+E9p5Embryo	hotspot	2000	expression_driven	E9.5 Embryo	Hotspot	Clustering	0.27654833669710305
+E9p5Embryo	morans_i	2000	spatially_informed	E9.5 Embryo	Moran's I	Core overall	0.02594113788684016
+E9p5Embryo	morans_i	2000	spatially_informed	E9.5 Embryo	Moran's I	Integration	-0.19195294087935233
+E9p5Embryo	morans_i	2000	spatially_informed	E9.5 Embryo	Moran's I	Clustering	0.24383521665303276
+E9p5Embryo	nbumi	2000	expression_driven	E9.5 Embryo	NBumi	Core overall	0.03418810109383996
+E9p5Embryo	nbumi	2000	expression_driven	E9.5 Embryo	NBumi	Integration	-0.16715905903221318
+E9p5Embryo	nbumi	2000	expression_driven	E9.5 Embryo	NBumi	Clustering	0.23553526121989316
+E9p5Embryo	nnsvg	2000	spatially_informed	E9.5 Embryo	nnSVG	Core overall	0.025691985076664703
+E9p5Embryo	nnsvg	2000	spatially_informed	E9.5 Embryo	nnSVG	Integration	-0.20317070896555445
+E9p5Embryo	nnsvg	2000	spatially_informed	E9.5 Embryo	nnSVG	Clustering	0.2545546791188839
+E9p5Embryo	osca	2000	expression_driven	E9.5 Embryo	OSCA	Core overall	0.03462663925809517
+E9p5Embryo	osca	2000	expression_driven	E9.5 Embryo	OSCA	Integration	-0.18156873492683645
+E9p5Embryo	osca	2000	expression_driven	E9.5 Embryo	OSCA	Clustering	0.25082201344302685
+E9p5Embryo	scPNMF	2000	expression_driven	E9.5 Embryo	scPNMF	Core overall	0.018651483038300443
+E9p5Embryo	scPNMF	2000	expression_driven	E9.5 Embryo	scPNMF	Integration	-0.20380310271015434
+E9p5Embryo	scPNMF	2000	expression_driven	E9.5 Embryo	scPNMF	Clustering	0.24110606878675517
+E9p5Embryo	scanpy_cell_ranger	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger	Core overall	0.07655034501948099
+E9p5Embryo	scanpy_cell_ranger	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger	Integration	-0.194293854929942
+E9p5Embryo	scanpy_cell_ranger	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger	Clustering	0.3473945449689041
+E9p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger, batch	Core overall	0.07622005108941177
+E9p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger, batch	Integration	-0.1978185059751585
+E9p5Embryo	scanpy_cell_ranger_batch	2000	expression_driven	E9.5 Embryo	Scanpy Cell Ranger, batch	Clustering	0.3502586081539817
+E9p5Embryo	scanpy_pearson	2000	expression_driven	E9.5 Embryo	Scanpy Pearson	Core overall	0.051816740870618716
+E9p5Embryo	scanpy_pearson	2000	expression_driven	E9.5 Embryo	Scanpy Pearson	Integration	-0.20042496412782074
+E9p5Embryo	scanpy_pearson	2000	expression_driven	E9.5 Embryo	Scanpy Pearson	Clustering	0.30405844586905834
+E9p5Embryo	scanpy_pearson_batch	2000	expression_driven	E9.5 Embryo	Scanpy Pearson, batch	Core overall	0.07275960184119978
+E9p5Embryo	scanpy_pearson_batch	2000	expression_driven	E9.5 Embryo	Scanpy Pearson, batch	Integration	-0.1786264439034152
+E9p5Embryo	scanpy_pearson_batch	2000	expression_driven	E9.5 Embryo	Scanpy Pearson, batch	Clustering	0.32414564758581493
+E9p5Embryo	scanpy_seurat	2000	expression_driven	E9.5 Embryo	Scanpy Seurat	Core overall	0.06917959445006217
+E9p5Embryo	scanpy_seurat	2000	expression_driven	E9.5 Embryo	Scanpy Seurat	Integration	-0.20286198118078003
+E9p5Embryo	scanpy_seurat	2000	expression_driven	E9.5 Embryo	Scanpy Seurat	Clustering	0.34122117008090436
+E9p5Embryo	scanpy_seurat_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat, batch	Core overall	0.05915365956779328
+E9p5Embryo	scanpy_seurat_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat, batch	Integration	-0.16955246133921065
+E9p5Embryo	scanpy_seurat_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat, batch	Clustering	0.28785978047479716
+E9p5Embryo	scanpy_seurat_v3	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3	Core overall	0.06752259263147908
+E9p5Embryo	scanpy_seurat_v3	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3	Integration	-0.1701436728515089
+E9p5Embryo	scanpy_seurat_v3	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3	Clustering	0.30518885811446705
+E9p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3, batch	Core overall	0.07343456507464452
+E9p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3, batch	Integration	-0.17558508017130048
+E9p5Embryo	scanpy_seurat_v3_batch	2000	expression_driven	E9.5 Embryo	Scanpy Seurat v3, batch	Clustering	0.32245421032058935
+E9p5Embryo	scry	2000	expression_driven	E9.5 Embryo	scry	Core overall	0.007883097345562362
+E9p5Embryo	scry	2000	expression_driven	E9.5 Embryo	scry	Integration	-0.20830244864532121
+E9p5Embryo	scry	2000	expression_driven	E9.5 Embryo	scry	Clustering	0.2240686433364461
+E9p5Embryo	seurat_disp	2000	expression_driven	E9.5 Embryo	Seurat Dispersion	Core overall	0.07006011444044735
+E9p5Embryo	seurat_disp	2000	expression_driven	E9.5 Embryo	Seurat Dispersion	Integration	-0.1453992352707386
+E9p5Embryo	seurat_disp	2000	expression_driven	E9.5 Embryo	Seurat Dispersion	Clustering	0.28551946415163354
+E9p5Embryo	seurat_mvp	2000	expression_driven	E9.5 Embryo	Seurat MVP	Core overall	0.06589856588694853
+E9p5Embryo	seurat_mvp	2000	expression_driven	E9.5 Embryo	Seurat MVP	Integration	-0.20347283179203146
+E9p5Embryo	seurat_mvp	2000	expression_driven	E9.5 Embryo	Seurat MVP	Clustering	0.3352699635659284
+E9p5Embryo	seurat_sct	2000	expression_driven	E9.5 Embryo	Seurat sctransform	Core overall	0.0019587595587800544
+E9p5Embryo	seurat_sct	2000	expression_driven	E9.5 Embryo	Seurat sctransform	Integration	-0.16755581055750468
+E9p5Embryo	seurat_sct	2000	expression_driven	E9.5 Embryo	Seurat sctransform	Clustering	0.1714733296750649
+E9p5Embryo	seurat_vst	2000	expression_driven	E9.5 Embryo	Seurat VST	Core overall	0.07042434210065607
+E9p5Embryo	seurat_vst	2000	expression_driven	E9.5 Embryo	Seurat VST	Integration	-0.17138444793279295
+E9p5Embryo	seurat_vst	2000	expression_driven	E9.5 Embryo	Seurat VST	Clustering	0.31223313213410503
+E9p5Embryo	singleCellHaystack	2000	expression_driven	E9.5 Embryo	singleCellHaystack	Core overall	0.036791605921089876
+E9p5Embryo	singleCellHaystack	2000	expression_driven	E9.5 Embryo	singleCellHaystack	Integration	-0.19208453681680193
+E9p5Embryo	singleCellHaystack	2000	expression_driven	E9.5 Embryo	singleCellHaystack	Clustering	0.2656677486589817
+E9p5Embryo	somde	2000	spatially_informed	E9.5 Embryo	SOMDE	Core overall	0.0219840023704988
+E9p5Embryo	somde	2000	spatially_informed	E9.5 Embryo	SOMDE	Integration	-0.1715823029601627
+E9p5Embryo	somde	2000	spatially_informed	E9.5 Embryo	SOMDE	Clustering	0.21555030770116018
+E9p5Embryo	sparkx	2000	spatially_informed	E9.5 Embryo	SPARK-X	Core overall	0.017468380166027475
+E9p5Embryo	sparkx	2000	spatially_informed	E9.5 Embryo	SPARK-X	Integration	-0.19516412783443093
+E9p5Embryo	sparkx	2000	spatially_informed	E9.5 Embryo	SPARK-X	Clustering	0.2301008881664856
+E9p5Embryo	spatialde	2000	spatially_informed	E9.5 Embryo	SpatialDE	Core overall	0.025649038298737104
+E9p5Embryo	spatialde	2000	spatially_informed	E9.5 Embryo	SpatialDE	Integration	-0.1879296949731014
+E9p5Embryo	spatialde	2000	spatially_informed	E9.5 Embryo	SpatialDE	Clustering	0.23922777157057534
+E9p5Embryo	statistic_mean	2000	expression_driven	E9.5 Embryo	Mean expression	Core overall	0.012623358236840021
+E9p5Embryo	statistic_mean	2000	expression_driven	E9.5 Embryo	Mean expression	Integration	-0.20382915924558398
+E9p5Embryo	statistic_mean	2000	expression_driven	E9.5 Embryo	Mean expression	Clustering	0.22907587571926386
+E9p5Embryo	statistic_variance	2000	expression_driven	E9.5 Embryo	Expression variance	Core overall	0.011526874018444766
+E9p5Embryo	statistic_variance	2000	expression_driven	E9.5 Embryo	Expression variance	Integration	-0.21082870647628638
+E9p5Embryo	statistic_variance	2000	expression_driven	E9.5 Embryo	Expression variance	Clustering	0.2338824545131758
+E9p5Embryo	triku	2000	expression_driven	E9.5 Embryo	triku	Core overall	0.058779499090140575
+E9p5Embryo	triku	2000	expression_driven	E9.5 Embryo	triku	Integration	-0.17632874647439878
+E9p5Embryo	triku	2000	expression_driven	E9.5 Embryo	triku	Clustering	0.29388774465467993
+MouseBrainSerialSections	Brennecke	2000	expression_driven	Mouse Brain	Brennecke	Core overall	0.21666453736292535
+MouseBrainSerialSections	Brennecke	2000	expression_driven	Mouse Brain	Brennecke	Integration	0.18402389210521486
+MouseBrainSerialSections	Brennecke	2000	expression_driven	Mouse Brain	Brennecke	Clustering	0.24930518262063572
+MouseBrainSerialSections	Brennecke	2000	expression_driven	Mouse Brain	Brennecke	Alignment	0.08238292616405885
+MouseBrainSerialSections	anticor	2000	expression_driven	Mouse Brain	Anticor	Core overall	0.25423274807331153
+MouseBrainSerialSections	anticor	2000	expression_driven	Mouse Brain	Anticor	Integration	0.24545224266376348
+MouseBrainSerialSections	anticor	2000	expression_driven	Mouse Brain	Anticor	Clustering	0.26301325348285987
+MouseBrainSerialSections	anticor	2000	expression_driven	Mouse Brain	Anticor	Alignment	0.3552269130936683
+MouseBrainSerialSections	dubstepr	2000	expression_driven	Mouse Brain	DUBStepR	Core overall	0.22440628358099046
+MouseBrainSerialSections	dubstepr	2000	expression_driven	Mouse Brain	DUBStepR	Integration	0.2037971185176446
+MouseBrainSerialSections	dubstepr	2000	expression_driven	Mouse Brain	DUBStepR	Clustering	0.24501544864433644
+MouseBrainSerialSections	dubstepr	2000	expression_driven	Mouse Brain	DUBStepR	Alignment	0.23318974255098146
+MouseBrainSerialSections	hotspot	2000	expression_driven	Mouse Brain	Hotspot	Core overall	0.3308890704590683
+MouseBrainSerialSections	hotspot	2000	expression_driven	Mouse Brain	Hotspot	Integration	0.32439666743556467
+MouseBrainSerialSections	hotspot	2000	expression_driven	Mouse Brain	Hotspot	Clustering	0.3373814734825721
+MouseBrainSerialSections	hotspot	2000	expression_driven	Mouse Brain	Hotspot	Alignment	0.28884647802087227
+MouseBrainSerialSections	morans_i	2000	spatially_informed	Mouse Brain	Moran's I	Core overall	0.25939195964312894
+MouseBrainSerialSections	morans_i	2000	spatially_informed	Mouse Brain	Moran's I	Integration	0.2874749528509011
+MouseBrainSerialSections	morans_i	2000	spatially_informed	Mouse Brain	Moran's I	Clustering	0.23130896643535703
+MouseBrainSerialSections	morans_i	2000	spatially_informed	Mouse Brain	Moran's I	Alignment	0.43189312579165096
+MouseBrainSerialSections	nbumi	2000	expression_driven	Mouse Brain	NBumi	Core overall	0.09203699292218648
+MouseBrainSerialSections	nbumi	2000	expression_driven	Mouse Brain	NBumi	Integration	0.10832078079548402
+MouseBrainSerialSections	nbumi	2000	expression_driven	Mouse Brain	NBumi	Clustering	0.07575320504888883
+MouseBrainSerialSections	nbumi	2000	expression_driven	Mouse Brain	NBumi	Alignment	0.06959000345674804
+MouseBrainSerialSections	nnsvg	2000	spatially_informed	Mouse Brain	nnSVG	Core overall	0.16914624358177544
+MouseBrainSerialSections	nnsvg	2000	spatially_informed	Mouse Brain	nnSVG	Integration	0.17185813192156418
+MouseBrainSerialSections	nnsvg	2000	spatially_informed	Mouse Brain	nnSVG	Clustering	0.16643435524198658
+MouseBrainSerialSections	nnsvg	2000	spatially_informed	Mouse Brain	nnSVG	Alignment	0.18308354047970787
+MouseBrainSerialSections	osca	2000	expression_driven	Mouse Brain	OSCA	Core overall	0.19589620355583204
+MouseBrainSerialSections	osca	2000	expression_driven	Mouse Brain	OSCA	Integration	0.2516816780513791
+MouseBrainSerialSections	osca	2000	expression_driven	Mouse Brain	OSCA	Clustering	0.1401107290602852
+MouseBrainSerialSections	osca	2000	expression_driven	Mouse Brain	OSCA	Alignment	0.30451896733317385
+MouseBrainSerialSections	scPNMF	2000	expression_driven	Mouse Brain	scPNMF	Core overall	0.2420168626076391
+MouseBrainSerialSections	scPNMF	2000	expression_driven	Mouse Brain	scPNMF	Integration	0.31570940754180216
+MouseBrainSerialSections	scPNMF	2000	expression_driven	Mouse Brain	scPNMF	Clustering	0.1683243176734761
+MouseBrainSerialSections	scPNMF	2000	expression_driven	Mouse Brain	scPNMF	Alignment	0.42215846917412714
+MouseBrainSerialSections	scanpy_cell_ranger	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger	Core overall	-0.03440051931695931
+MouseBrainSerialSections	scanpy_cell_ranger	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger	Integration	-0.008241507409744386
+MouseBrainSerialSections	scanpy_cell_ranger	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger	Clustering	-0.060559531224174346
+MouseBrainSerialSections	scanpy_cell_ranger	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger	Alignment	-0.007508419154689583
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger, batch	Core overall	-0.022017308664476598
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger, batch	Integration	5.491693529080521e-5
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger, batch	Clustering	-0.044089534264244
+MouseBrainSerialSections	scanpy_cell_ranger_batch	2000	expression_driven	Mouse Brain	Scanpy Cell Ranger, batch	Alignment	-0.007121943859872193
+MouseBrainSerialSections	scanpy_pearson	2000	expression_driven	Mouse Brain	Scanpy Pearson	Core overall	0.2491210265549607
+MouseBrainSerialSections	scanpy_pearson	2000	expression_driven	Mouse Brain	Scanpy Pearson	Integration	0.3284882998369222
+MouseBrainSerialSections	scanpy_pearson	2000	expression_driven	Mouse Brain	Scanpy Pearson	Clustering	0.1697537532729988
+MouseBrainSerialSections	scanpy_pearson	2000	expression_driven	Mouse Brain	Scanpy Pearson	Alignment	0.39275351436200545
+MouseBrainSerialSections	scanpy_pearson_batch	2000	expression_driven	Mouse Brain	Scanpy Pearson, batch	Core overall	0.28203115542105356
+MouseBrainSerialSections	scanpy_pearson_batch	2000	expression_driven	Mouse Brain	Scanpy Pearson, batch	Integration	0.30932738644804186
+MouseBrainSerialSections	scanpy_pearson_batch	2000	expression_driven	Mouse Brain	Scanpy Pearson, batch	Clustering	0.2547349243940653
+MouseBrainSerialSections	scanpy_pearson_batch	2000	expression_driven	Mouse Brain	Scanpy Pearson, batch	Alignment	0.26576856365220913
+MouseBrainSerialSections	scanpy_seurat	2000	expression_driven	Mouse Brain	Scanpy Seurat	Core overall	-0.013073031122697532
+MouseBrainSerialSections	scanpy_seurat	2000	expression_driven	Mouse Brain	Scanpy Seurat	Integration	0.0054857266819096084
+MouseBrainSerialSections	scanpy_seurat	2000	expression_driven	Mouse Brain	Scanpy Seurat	Clustering	-0.03163178892730456
+MouseBrainSerialSections	scanpy_seurat	2000	expression_driven	Mouse Brain	Scanpy Seurat	Alignment	0.013408790783819735
+MouseBrainSerialSections	scanpy_seurat_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat, batch	Core overall	0.0835717671857159
+MouseBrainSerialSections	scanpy_seurat_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat, batch	Integration	0.1183632347603818
+MouseBrainSerialSections	scanpy_seurat_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat, batch	Clustering	0.048780299611049904
+MouseBrainSerialSections	scanpy_seurat_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat, batch	Alignment	0.08776873138123475
+MouseBrainSerialSections	scanpy_seurat_v3	2000	expression_driven	Mouse Brain	Scanpy Seurat v3	Core overall	0.050974870189360644
+MouseBrainSerialSections	scanpy_seurat_v3	2000	expression_driven	Mouse Brain	Scanpy Seurat v3	Integration	0.05975190635402239
+MouseBrainSerialSections	scanpy_seurat_v3	2000	expression_driven	Mouse Brain	Scanpy Seurat v3	Clustering	0.04219783402469879
+MouseBrainSerialSections	scanpy_seurat_v3	2000	expression_driven	Mouse Brain	Scanpy Seurat v3	Alignment	0.02651347532554038
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat v3, batch	Core overall	0.1497012293104084
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat v3, batch	Integration	0.19462436074884815
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat v3, batch	Clustering	0.10477809787196879
+MouseBrainSerialSections	scanpy_seurat_v3_batch	2000	expression_driven	Mouse Brain	Scanpy Seurat v3, batch	Alignment	0.13916957907376226
+MouseBrainSerialSections	scry	2000	expression_driven	Mouse Brain	scry	Core overall	0.33184462911080265
+MouseBrainSerialSections	scry	2000	expression_driven	Mouse Brain	scry	Integration	0.3380707344365342
+MouseBrainSerialSections	scry	2000	expression_driven	Mouse Brain	scry	Clustering	0.3256185237850713
+MouseBrainSerialSections	scry	2000	expression_driven	Mouse Brain	scry	Alignment	0.3971961300620691
+MouseBrainSerialSections	seurat_disp	2000	expression_driven	Mouse Brain	Seurat Dispersion	Core overall	0.2225928477567849
+MouseBrainSerialSections	seurat_disp	2000	expression_driven	Mouse Brain	Seurat Dispersion	Integration	0.2471432907836847
+MouseBrainSerialSections	seurat_disp	2000	expression_driven	Mouse Brain	Seurat Dispersion	Clustering	0.198042404729885
+MouseBrainSerialSections	seurat_disp	2000	expression_driven	Mouse Brain	Seurat Dispersion	Alignment	0.2059123441222287
+MouseBrainSerialSections	seurat_mvp	2000	expression_driven	Mouse Brain	Seurat MVP	Core overall	-0.005043368959192773
+MouseBrainSerialSections	seurat_mvp	2000	expression_driven	Mouse Brain	Seurat MVP	Integration	0.0055082264530030844
+MouseBrainSerialSections	seurat_mvp	2000	expression_driven	Mouse Brain	Seurat MVP	Clustering	-0.015594964371388631
+MouseBrainSerialSections	seurat_mvp	2000	expression_driven	Mouse Brain	Seurat MVP	Alignment	0.008011935799874359
+MouseBrainSerialSections	seurat_sct	2000	expression_driven	Mouse Brain	Seurat sctransform	Core overall	0.13775130315679285
+MouseBrainSerialSections	seurat_sct	2000	expression_driven	Mouse Brain	Seurat sctransform	Integration	0.18276206832138842
+MouseBrainSerialSections	seurat_sct	2000	expression_driven	Mouse Brain	Seurat sctransform	Clustering	0.09274053799219739
+MouseBrainSerialSections	seurat_sct	2000	expression_driven	Mouse Brain	Seurat sctransform	Alignment	0.14969101621177927
+MouseBrainSerialSections	seurat_vst	2000	expression_driven	Mouse Brain	Seurat VST	Core overall	0.05146565033903372
+MouseBrainSerialSections	seurat_vst	2000	expression_driven	Mouse Brain	Seurat VST	Integration	0.052739321904263226
+MouseBrainSerialSections	seurat_vst	2000	expression_driven	Mouse Brain	Seurat VST	Clustering	0.050191978773804324
+MouseBrainSerialSections	seurat_vst	2000	expression_driven	Mouse Brain	Seurat VST	Alignment	0.02997191599052662
+MouseBrainSerialSections	singleCellHaystack	2000	expression_driven	Mouse Brain	singleCellHaystack	Core overall	0.09832417034189511
+MouseBrainSerialSections	singleCellHaystack	2000	expression_driven	Mouse Brain	singleCellHaystack	Integration	0.17709113705804347
+MouseBrainSerialSections	singleCellHaystack	2000	expression_driven	Mouse Brain	singleCellHaystack	Clustering	0.019557203625746533
+MouseBrainSerialSections	singleCellHaystack	2000	expression_driven	Mouse Brain	singleCellHaystack	Alignment	0.12887450027555802
+MouseBrainSerialSections	somde	2000	spatially_informed	Mouse Brain	SOMDE	Core overall	0.25536429379128645
+MouseBrainSerialSections	somde	2000	spatially_informed	Mouse Brain	SOMDE	Integration	0.2391181077654041
+MouseBrainSerialSections	somde	2000	spatially_informed	Mouse Brain	SOMDE	Clustering	0.2716104798171688
+MouseBrainSerialSections	somde	2000	spatially_informed	Mouse Brain	SOMDE	Alignment	0.1667153244141213
+MouseBrainSerialSections	sparkx	2000	spatially_informed	Mouse Brain	SPARK-X	Core overall	0.23741846922206888
+MouseBrainSerialSections	sparkx	2000	spatially_informed	Mouse Brain	SPARK-X	Integration	0.29267430614409295
+MouseBrainSerialSections	sparkx	2000	spatially_informed	Mouse Brain	SPARK-X	Clustering	0.1821626323000448
+MouseBrainSerialSections	sparkx	2000	spatially_informed	Mouse Brain	SPARK-X	Alignment	0.28382790076226216
+MouseBrainSerialSections	spatialde	2000	spatially_informed	Mouse Brain	SpatialDE	Core overall	0.233360492741432
+MouseBrainSerialSections	spatialde	2000	spatially_informed	Mouse Brain	SpatialDE	Integration	0.23429348772752906
+MouseBrainSerialSections	spatialde	2000	spatially_informed	Mouse Brain	SpatialDE	Clustering	0.232427497755335
+MouseBrainSerialSections	spatialde	2000	spatially_informed	Mouse Brain	SpatialDE	Alignment	0.19212042781994598
+MouseBrainSerialSections	statistic_mean	2000	expression_driven	Mouse Brain	Mean expression	Core overall	0.3345948460332494
+MouseBrainSerialSections	statistic_mean	2000	expression_driven	Mouse Brain	Mean expression	Integration	0.35051838068296365
+MouseBrainSerialSections	statistic_mean	2000	expression_driven	Mouse Brain	Mean expression	Clustering	0.31867131138353527
+MouseBrainSerialSections	statistic_mean	2000	expression_driven	Mouse Brain	Mean expression	Alignment	0.35460079816345347
+MouseBrainSerialSections	statistic_variance	2000	expression_driven	Mouse Brain	Expression variance	Core overall	0.2606444108273956
+MouseBrainSerialSections	statistic_variance	2000	expression_driven	Mouse Brain	Expression variance	Integration	0.42172729952995386
+MouseBrainSerialSections	statistic_variance	2000	expression_driven	Mouse Brain	Expression variance	Clustering	0.09956152212483738
+MouseBrainSerialSections	statistic_variance	2000	expression_driven	Mouse Brain	Expression variance	Alignment	0.5768374187527037
+MouseBrainSerialSections	triku	2000	expression_driven	Mouse Brain	triku	Core overall	-0.02257953086258646
+MouseBrainSerialSections	triku	2000	expression_driven	Mouse Brain	triku	Integration	-0.008766701839745372
+MouseBrainSerialSections	triku	2000	expression_driven	Mouse Brain	triku	Clustering	-0.036392359885428216
+MouseBrainSerialSections	triku	2000	expression_driven	Mouse Brain	triku	Alignment	-4.185643482154111e-4
+STOmics0212	Brennecke	2000	expression_driven	STOmics-0212	Brennecke	Core overall	0.025223730922469212
+STOmics0212	Brennecke	2000	expression_driven	STOmics-0212	Brennecke	Integration	-0.0832497524452801
+STOmics0212	Brennecke	2000	expression_driven	STOmics-0212	Brennecke	Clustering	0.13369721429021852
+STOmics0212	anticor	2000	expression_driven	STOmics-0212	Anticor	Core overall	0.03287013669794314
+STOmics0212	anticor	2000	expression_driven	STOmics-0212	Anticor	Integration	-0.023133084659840375
+STOmics0212	anticor	2000	expression_driven	STOmics-0212	Anticor	Clustering	0.08887335805572649
+STOmics0212	dubstepr	2000	expression_driven	STOmics-0212	DUBStepR	Core overall	0.008584593953303687
+STOmics0212	dubstepr	2000	expression_driven	STOmics-0212	DUBStepR	Integration	-0.07079933005382238
+STOmics0212	dubstepr	2000	expression_driven	STOmics-0212	DUBStepR	Clustering	0.0879685179604297
+STOmics0212	hotspot	2000	expression_driven	STOmics-0212	Hotspot	Core overall	0.028640262048643117
+STOmics0212	hotspot	2000	expression_driven	STOmics-0212	Hotspot	Integration	-0.04964979141534159
+STOmics0212	hotspot	2000	expression_driven	STOmics-0212	Hotspot	Clustering	0.10693031551262788
+STOmics0212	morans_i	2000	spatially_informed	STOmics-0212	Moran's I	Core overall	0.036727766662329575
+STOmics0212	morans_i	2000	spatially_informed	STOmics-0212	Moran's I	Integration	-0.04521518889088594
+STOmics0212	morans_i	2000	spatially_informed	STOmics-0212	Moran's I	Clustering	0.1186707222155452
+STOmics0212	nbumi	2000	expression_driven	STOmics-0212	NBumi	Core overall	0.05264565419075351
+STOmics0212	nbumi	2000	expression_driven	STOmics-0212	NBumi	Integration	-0.03794895605375592
+STOmics0212	nbumi	2000	expression_driven	STOmics-0212	NBumi	Clustering	0.14324026443526283
+STOmics0212	nnsvg	2000	spatially_informed	STOmics-0212	nnSVG	Core overall	0.03476217839717599
+STOmics0212	nnsvg	2000	spatially_informed	STOmics-0212	nnSVG	Integration	-0.022899042723652174
+STOmics0212	nnsvg	2000	spatially_informed	STOmics-0212	nnSVG	Clustering	0.09242339951800393
+STOmics0212	osca	2000	expression_driven	STOmics-0212	OSCA	Core overall	0.021269063397455823
+STOmics0212	osca	2000	expression_driven	STOmics-0212	OSCA	Integration	-0.06494858528859981
+STOmics0212	osca	2000	expression_driven	STOmics-0212	OSCA	Clustering	0.10748671208351135
+STOmics0212	scPNMF	2000	expression_driven	STOmics-0212	scPNMF	Core overall	0.017890556838987215
+STOmics0212	scPNMF	2000	expression_driven	STOmics-0212	scPNMF	Integration	-0.05405868170918815
+STOmics0212	scPNMF	2000	expression_driven	STOmics-0212	scPNMF	Clustering	0.08983979538716225
+STOmics0212	scanpy_cell_ranger	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger	Core overall	0.008692603810904753
+STOmics0212	scanpy_cell_ranger	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger	Integration	-0.1318790626945756
+STOmics0212	scanpy_cell_ranger	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger	Clustering	0.14926427031638534
+STOmics0212	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger, batch	Core overall	0.0424074387062946
+STOmics0212	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger, batch	Integration	-0.10566720108935351
+STOmics0212	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0212	Scanpy Cell Ranger, batch	Clustering	0.19048207850194265
+STOmics0212	scanpy_pearson	2000	expression_driven	STOmics-0212	Scanpy Pearson	Core overall	0.018071562800436425
+STOmics0212	scanpy_pearson	2000	expression_driven	STOmics-0212	Scanpy Pearson	Integration	-0.0819108298999831
+STOmics0212	scanpy_pearson	2000	expression_driven	STOmics-0212	Scanpy Pearson	Clustering	0.11805395550085607
+STOmics0212	scanpy_pearson_batch	2000	expression_driven	STOmics-0212	Scanpy Pearson, batch	Core overall	0.015221127813640267
+STOmics0212	scanpy_pearson_batch	2000	expression_driven	STOmics-0212	Scanpy Pearson, batch	Integration	-0.0615506375751837
+STOmics0212	scanpy_pearson_batch	2000	expression_driven	STOmics-0212	Scanpy Pearson, batch	Clustering	0.09199289320246418
+STOmics0212	scanpy_seurat	2000	expression_driven	STOmics-0212	Scanpy Seurat	Core overall	0.04541954618603827
+STOmics0212	scanpy_seurat	2000	expression_driven	STOmics-0212	Scanpy Seurat	Integration	-0.07698429608158464
+STOmics0212	scanpy_seurat	2000	expression_driven	STOmics-0212	Scanpy Seurat	Clustering	0.16782338845366107
+STOmics0212	scanpy_seurat_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat, batch	Core overall	0.009110496049576033
+STOmics0212	scanpy_seurat_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat, batch	Integration	-0.08735069761286185
+STOmics0212	scanpy_seurat_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat, batch	Clustering	0.10557168971201403
+STOmics0212	scanpy_seurat_v3	2000	expression_driven	STOmics-0212	Scanpy Seurat v3	Core overall	0.054077609353066713
+STOmics0212	scanpy_seurat_v3	2000	expression_driven	STOmics-0212	Scanpy Seurat v3	Integration	-0.08240429016750023
+STOmics0212	scanpy_seurat_v3	2000	expression_driven	STOmics-0212	Scanpy Seurat v3	Clustering	0.1905595088736336
+STOmics0212	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat v3, batch	Core overall	0.025756221242154376
+STOmics0212	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat v3, batch	Integration	-0.0870208520064672
+STOmics0212	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0212	Scanpy Seurat v3, batch	Clustering	0.138533294490776
+STOmics0212	scry	2000	expression_driven	STOmics-0212	scry	Core overall	0.028566274375026457
+STOmics0212	scry	2000	expression_driven	STOmics-0212	scry	Integration	-0.04052148002788375
+STOmics0212	scry	2000	expression_driven	STOmics-0212	scry	Clustering	0.09765402877793661
+STOmics0212	seurat_disp	2000	expression_driven	STOmics-0212	Seurat Dispersion	Core overall	0.03601262433901509
+STOmics0212	seurat_disp	2000	expression_driven	STOmics-0212	Seurat Dispersion	Integration	-0.04809054007864688
+STOmics0212	seurat_disp	2000	expression_driven	STOmics-0212	Seurat Dispersion	Clustering	0.12011578875667694
+STOmics0212	seurat_mvp	2000	expression_driven	STOmics-0212	Seurat MVP	Core overall	0.04154303638394563
+STOmics0212	seurat_mvp	2000	expression_driven	STOmics-0212	Seurat MVP	Integration	-0.09183406276356937
+STOmics0212	seurat_mvp	2000	expression_driven	STOmics-0212	Seurat MVP	Clustering	0.17492013553146046
+STOmics0212	seurat_sct	2000	expression_driven	STOmics-0212	Seurat sctransform	Core overall	0.007659063781979447
+STOmics0212	seurat_sct	2000	expression_driven	STOmics-0212	Seurat sctransform	Integration	-0.08484280736132493
+STOmics0212	seurat_sct	2000	expression_driven	STOmics-0212	Seurat sctransform	Clustering	0.10016093492528377
+STOmics0212	seurat_vst	2000	expression_driven	STOmics-0212	Seurat VST	Core overall	0.04642515531545888
+STOmics0212	seurat_vst	2000	expression_driven	STOmics-0212	Seurat VST	Integration	-0.08765014260846665
+STOmics0212	seurat_vst	2000	expression_driven	STOmics-0212	Seurat VST	Clustering	0.18050045323938424
+STOmics0212	singleCellHaystack	2000	expression_driven	STOmics-0212	singleCellHaystack	Core overall	0.06890163850182096
+STOmics0212	singleCellHaystack	2000	expression_driven	STOmics-0212	singleCellHaystack	Integration	-0.0585049690297223
+STOmics0212	singleCellHaystack	2000	expression_driven	STOmics-0212	singleCellHaystack	Clustering	0.19630824603336405
+STOmics0212	somde	2000	spatially_informed	STOmics-0212	SOMDE	Core overall	0.030581435782054744
+STOmics0212	somde	2000	spatially_informed	STOmics-0212	SOMDE	Integration	-0.0456657609243154
+STOmics0212	somde	2000	spatially_informed	STOmics-0212	SOMDE	Clustering	0.106828632488425
+STOmics0212	sparkx	2000	spatially_informed	STOmics-0212	SPARK-X	Core overall	0.06694795169523426
+STOmics0212	sparkx	2000	spatially_informed	STOmics-0212	SPARK-X	Integration	0.03765049586596747
+STOmics0212	sparkx	2000	spatially_informed	STOmics-0212	SPARK-X	Clustering	0.09624540752450128
+STOmics0212	spatialde	2000	spatially_informed	STOmics-0212	SpatialDE	Core overall	0.02757270401364953
+STOmics0212	spatialde	2000	spatially_informed	STOmics-0212	SpatialDE	Integration	-0.028532587369214046
+STOmics0212	spatialde	2000	spatially_informed	STOmics-0212	SpatialDE	Clustering	0.08367799539651277
+STOmics0212	statistic_mean	2000	expression_driven	STOmics-0212	Mean expression	Core overall	0.03887930647421434
+STOmics0212	statistic_mean	2000	expression_driven	STOmics-0212	Mean expression	Integration	-0.0439183589831178
+STOmics0212	statistic_mean	2000	expression_driven	STOmics-0212	Mean expression	Clustering	0.12167697193154625
+STOmics0212	statistic_variance	2000	expression_driven	STOmics-0212	Expression variance	Core overall	0.05334038602299329
+STOmics0212	statistic_variance	2000	expression_driven	STOmics-0212	Expression variance	Integration	-0.020980426975499622
+STOmics0212	statistic_variance	2000	expression_driven	STOmics-0212	Expression variance	Clustering	0.12766119902148632
+STOmics0212	triku	2000	expression_driven	STOmics-0212	triku	Core overall	-0.006316705306774084
+STOmics0212	triku	2000	expression_driven	STOmics-0212	triku	Integration	-0.10797225835129665
+STOmics0212	triku	2000	expression_driven	STOmics-0212	triku	Clustering	0.09533884773774826
+STOmics0218	Brennecke	2000	expression_driven	STOmics-0218	Brennecke	Core overall	0.006793225422651927
+STOmics0218	Brennecke	2000	expression_driven	STOmics-0218	Brennecke	Integration	-0.015479363791265688
+STOmics0218	Brennecke	2000	expression_driven	STOmics-0218	Brennecke	Clustering	0.02906581463656921
+STOmics0218	anticor	2000	expression_driven	STOmics-0218	Anticor	Core overall	-0.005424005132705689
+STOmics0218	anticor	2000	expression_driven	STOmics-0218	Anticor	Integration	-0.003060187721133145
+STOmics0218	anticor	2000	expression_driven	STOmics-0218	Anticor	Clustering	-0.0077878225442779
+STOmics0218	dubstepr	2000	expression_driven	STOmics-0218	DUBStepR	Core overall	-1.0817774671867397e-4
+STOmics0218	dubstepr	2000	expression_driven	STOmics-0218	DUBStepR	Integration	-0.006222702746598752
+STOmics0218	dubstepr	2000	expression_driven	STOmics-0218	DUBStepR	Clustering	0.006006347253161071
+STOmics0218	hotspot	2000	expression_driven	STOmics-0218	Hotspot	Core overall	0.02071230472011365
+STOmics0218	hotspot	2000	expression_driven	STOmics-0218	Hotspot	Integration	-0.0011670856953245323
+STOmics0218	hotspot	2000	expression_driven	STOmics-0218	Hotspot	Clustering	0.04259169513555172
+STOmics0218	morans_i	2000	spatially_informed	STOmics-0218	Moran's I	Core overall	0.0094135647680047
+STOmics0218	morans_i	2000	spatially_informed	STOmics-0218	Moran's I	Integration	4.1764662230348026e-4
+STOmics0218	morans_i	2000	spatially_informed	STOmics-0218	Moran's I	Clustering	0.01840948291370592
+STOmics0218	nbumi	2000	expression_driven	STOmics-0218	NBumi	Core overall	0.010296191375511188
+STOmics0218	nbumi	2000	expression_driven	STOmics-0218	NBumi	Integration	-0.0153114286861038
+STOmics0218	nbumi	2000	expression_driven	STOmics-0218	NBumi	Clustering	0.03590381143712629
+STOmics0218	nnsvg	2000	spatially_informed	STOmics-0218	nnSVG	Core overall	5.58125992475178e-4
+STOmics0218	nnsvg	2000	spatially_informed	STOmics-0218	nnSVG	Integration	-0.001367874264136093
+STOmics0218	nnsvg	2000	spatially_informed	STOmics-0218	nnSVG	Clustering	0.002484126249086893
+STOmics0218	osca	2000	expression_driven	STOmics-0218	OSCA	Core overall	0.015934304649614206
+STOmics0218	osca	2000	expression_driven	STOmics-0218	OSCA	Integration	-0.0077349318526968025
+STOmics0218	osca	2000	expression_driven	STOmics-0218	OSCA	Clustering	0.03960354115192555
+STOmics0218	scPNMF	2000	expression_driven	STOmics-0218	scPNMF	Core overall	0.009236534944939034
+STOmics0218	scPNMF	2000	expression_driven	STOmics-0218	scPNMF	Integration	-0.00995034304216913
+STOmics0218	scPNMF	2000	expression_driven	STOmics-0218	scPNMF	Clustering	0.02842341293204742
+STOmics0218	scanpy_cell_ranger	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger	Core overall	0.007273745975294066
+STOmics0218	scanpy_cell_ranger	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger	Integration	-0.01469900749651143
+STOmics0218	scanpy_cell_ranger	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger	Clustering	0.02924649944709956
+STOmics0218	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger, batch	Core overall	1.8341529625520714e-4
+STOmics0218	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger, batch	Integration	-0.011744915910114173
+STOmics0218	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0218	Scanpy Cell Ranger, batch	Clustering	0.01211174650262481
+STOmics0218	scanpy_pearson	2000	expression_driven	STOmics-0218	Scanpy Pearson	Core overall	-0.003098964526019099
+STOmics0218	scanpy_pearson	2000	expression_driven	STOmics-0218	Scanpy Pearson	Integration	-0.012790591078616576
+STOmics0218	scanpy_pearson	2000	expression_driven	STOmics-0218	Scanpy Pearson	Clustering	0.0065926620265782665
+STOmics0218	scanpy_pearson_batch	2000	expression_driven	STOmics-0218	Scanpy Pearson, batch	Core overall	0.004021951112998523
+STOmics0218	scanpy_pearson_batch	2000	expression_driven	STOmics-0218	Scanpy Pearson, batch	Integration	-0.004886426960371559
+STOmics0218	scanpy_pearson_batch	2000	expression_driven	STOmics-0218	Scanpy Pearson, batch	Clustering	0.012930329186368938
+STOmics0218	scanpy_seurat	2000	expression_driven	STOmics-0218	Scanpy Seurat	Core overall	0.004823307507940244
+STOmics0218	scanpy_seurat	2000	expression_driven	STOmics-0218	Scanpy Seurat	Integration	-0.03411998539259775
+STOmics0218	scanpy_seurat	2000	expression_driven	STOmics-0218	Scanpy Seurat	Clustering	0.04376660040847824
+STOmics0218	scanpy_seurat_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat, batch	Core overall	0.015668208483190504
+STOmics0218	scanpy_seurat_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat, batch	Integration	-0.0070887626395116365
+STOmics0218	scanpy_seurat_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat, batch	Clustering	0.03842517960589287
+STOmics0218	scanpy_seurat_v3	2000	expression_driven	STOmics-0218	Scanpy Seurat v3	Core overall	0.011674056211230188
+STOmics0218	scanpy_seurat_v3	2000	expression_driven	STOmics-0218	Scanpy Seurat v3	Integration	-0.0024764580123926017
+STOmics0218	scanpy_seurat_v3	2000	expression_driven	STOmics-0218	Scanpy Seurat v3	Clustering	0.025824570434852867
+STOmics0218	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat v3, batch	Core overall	0.006774342005874456
+STOmics0218	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat v3, batch	Integration	-0.006434258013627847
+STOmics0218	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0218	Scanpy Seurat v3, batch	Clustering	0.01998294202537676
+STOmics0218	scry	2000	expression_driven	STOmics-0218	scry	Core overall	0.011366790264079607
+STOmics0218	scry	2000	expression_driven	STOmics-0218	scry	Integration	0.010795794363066546
+STOmics0218	scry	2000	expression_driven	STOmics-0218	scry	Clustering	0.011937786165092001
+STOmics0218	seurat_disp	2000	expression_driven	STOmics-0218	Seurat Dispersion	Core overall	-7.918335402484766e-4
+STOmics0218	seurat_disp	2000	expression_driven	STOmics-0218	Seurat Dispersion	Integration	-0.018177079214687586
+STOmics0218	seurat_disp	2000	expression_driven	STOmics-0218	Seurat Dispersion	Clustering	0.01659341213419052
+STOmics0218	seurat_mvp	2000	expression_driven	STOmics-0218	Seurat MVP	Core overall	0.015390264003288134
+STOmics0218	seurat_mvp	2000	expression_driven	STOmics-0218	Seurat MVP	Integration	-0.029188236343903995
+STOmics0218	seurat_mvp	2000	expression_driven	STOmics-0218	Seurat MVP	Clustering	0.05996876435048015
+STOmics0218	seurat_sct	2000	expression_driven	STOmics-0218	Seurat sctransform	Core overall	-0.0029543804993084066
+STOmics0218	seurat_sct	2000	expression_driven	STOmics-0218	Seurat sctransform	Integration	-0.01568635416699815
+STOmics0218	seurat_sct	2000	expression_driven	STOmics-0218	Seurat sctransform	Clustering	0.009777593168381227
+STOmics0218	seurat_vst	2000	expression_driven	STOmics-0218	Seurat VST	Core overall	0.004543822495141514
+STOmics0218	seurat_vst	2000	expression_driven	STOmics-0218	Seurat VST	Integration	-0.006923753708400482
+STOmics0218	seurat_vst	2000	expression_driven	STOmics-0218	Seurat VST	Clustering	0.016011398698683288
+STOmics0218	singleCellHaystack	2000	expression_driven	STOmics-0218	singleCellHaystack	Core overall	-7.169392791361862e-5
+STOmics0218	singleCellHaystack	2000	expression_driven	STOmics-0218	singleCellHaystack	Integration	9.91771183430079e-4
+STOmics0218	singleCellHaystack	2000	expression_driven	STOmics-0218	singleCellHaystack	Clustering	-0.0011351590392573163
+STOmics0218	somde	2000	spatially_informed	STOmics-0218	SOMDE	Core overall	0.010718056932315756
+STOmics0218	somde	2000	spatially_informed	STOmics-0218	SOMDE	Integration	0.010226498939198914
+STOmics0218	somde	2000	spatially_informed	STOmics-0218	SOMDE	Clustering	0.01120961492543282
+STOmics0218	sparkx	2000	spatially_informed	STOmics-0218	SPARK-X	Core overall	0.016935879062227266
+STOmics0218	sparkx	2000	spatially_informed	STOmics-0218	SPARK-X	Integration	2.5312871247085145e-4
+STOmics0218	sparkx	2000	spatially_informed	STOmics-0218	SPARK-X	Clustering	0.03361862941198357
+STOmics0218	spatialde	2000	spatially_informed	STOmics-0218	SpatialDE	Core overall	0.017254069422419693
+STOmics0218	spatialde	2000	spatially_informed	STOmics-0218	SpatialDE	Integration	-0.003261246855148836
+STOmics0218	spatialde	2000	spatially_informed	STOmics-0218	SpatialDE	Clustering	0.037769385699988
+STOmics0218	statistic_mean	2000	expression_driven	STOmics-0218	Mean expression	Core overall	0.0010517838690868864
+STOmics0218	statistic_mean	2000	expression_driven	STOmics-0218	Mean expression	Integration	-0.020699902496791656
+STOmics0218	statistic_mean	2000	expression_driven	STOmics-0218	Mean expression	Clustering	0.022803470234965317
+STOmics0218	statistic_variance	2000	expression_driven	STOmics-0218	Expression variance	Core overall	-3.7151623490461194e-4
+STOmics0218	statistic_variance	2000	expression_driven	STOmics-0218	Expression variance	Integration	-0.01707437164853509
+STOmics0218	statistic_variance	2000	expression_driven	STOmics-0218	Expression variance	Clustering	0.016331339178725868
+STOmics0218	triku	2000	expression_driven	STOmics-0218	triku	Core overall	0.008343264540488615
+STOmics0218	triku	2000	expression_driven	STOmics-0218	triku	Integration	0.005380788999438724
+STOmics0218	triku	2000	expression_driven	STOmics-0218	triku	Clustering	0.011305740081538507
+STOmics0224	Brennecke	2000	expression_driven	STOmics-0224	Brennecke	Core overall	0.03097625542439264
+STOmics0224	Brennecke	2000	expression_driven	STOmics-0224	Brennecke	Integration	-0.1270358757443354
+STOmics0224	Brennecke	2000	expression_driven	STOmics-0224	Brennecke	Clustering	0.18898838659312056
+STOmics0224	anticor	2000	expression_driven	STOmics-0224	Anticor	Core overall	-0.01305310981435659
+STOmics0224	anticor	2000	expression_driven	STOmics-0224	Anticor	Integration	-0.08140248594556632
+STOmics0224	anticor	2000	expression_driven	STOmics-0224	Anticor	Clustering	0.05529626631685325
+STOmics0224	dubstepr	2000	expression_driven	STOmics-0224	DUBStepR	Core overall	0.06905620321485251
+STOmics0224	dubstepr	2000	expression_driven	STOmics-0224	DUBStepR	Integration	0.06453124910817232
+STOmics0224	dubstepr	2000	expression_driven	STOmics-0224	DUBStepR	Clustering	0.07358115732153259
+STOmics0224	hotspot	2000	expression_driven	STOmics-0224	Hotspot	Core overall	-0.044485803906368915
+STOmics0224	hotspot	2000	expression_driven	STOmics-0224	Hotspot	Integration	-0.1262072312388992
+STOmics0224	hotspot	2000	expression_driven	STOmics-0224	Hotspot	Clustering	0.03723562342616127
+STOmics0224	morans_i	2000	spatially_informed	STOmics-0224	Moran's I	Core overall	-0.0013965370949016176
+STOmics0224	morans_i	2000	spatially_informed	STOmics-0224	Moran's I	Integration	-0.049122432510936176
+STOmics0224	morans_i	2000	spatially_informed	STOmics-0224	Moran's I	Clustering	0.04632935832113283
+STOmics0224	nbumi	2000	expression_driven	STOmics-0224	NBumi	Core overall	0.08544058406349886
+STOmics0224	nbumi	2000	expression_driven	STOmics-0224	NBumi	Integration	0.049029715364079185
+STOmics0224	nbumi	2000	expression_driven	STOmics-0224	NBumi	Clustering	0.12185145276291842
+STOmics0224	nnsvg	2000	spatially_informed	STOmics-0224	nnSVG	Core overall	0.0343070921830132
+STOmics0224	nnsvg	2000	spatially_informed	STOmics-0224	nnSVG	Integration	-0.016829738935368987
+STOmics0224	nnsvg	2000	spatially_informed	STOmics-0224	nnSVG	Clustering	0.08544392330139527
+STOmics0224	osca	2000	expression_driven	STOmics-0224	OSCA	Core overall	0.007324730218747133
+STOmics0224	osca	2000	expression_driven	STOmics-0224	OSCA	Integration	-0.11120439638723578
+STOmics0224	osca	2000	expression_driven	STOmics-0224	OSCA	Clustering	0.12585385682473005
+STOmics0224	scPNMF	2000	expression_driven	STOmics-0224	scPNMF	Core overall	-0.006707956963051598
+STOmics0224	scPNMF	2000	expression_driven	STOmics-0224	scPNMF	Integration	-0.12616966633241
+STOmics0224	scPNMF	2000	expression_driven	STOmics-0224	scPNMF	Clustering	0.11275375240630692
+STOmics0224	scanpy_cell_ranger	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger	Core overall	0.16153019308448602
+STOmics0224	scanpy_cell_ranger	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger	Integration	-0.13343963050322705
+STOmics0224	scanpy_cell_ranger	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger	Clustering	0.4565000166721993
+STOmics0224	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger, batch	Core overall	0.1262848656875042
+STOmics0224	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger, batch	Integration	-0.10353352881350508
+STOmics0224	scanpy_cell_ranger_batch	2000	expression_driven	STOmics-0224	Scanpy Cell Ranger, batch	Clustering	0.3561032601885135
+STOmics0224	scanpy_pearson	2000	expression_driven	STOmics-0224	Scanpy Pearson	Core overall	0.010867705388506899
+STOmics0224	scanpy_pearson	2000	expression_driven	STOmics-0224	Scanpy Pearson	Integration	-0.16886790434493826
+STOmics0224	scanpy_pearson	2000	expression_driven	STOmics-0224	Scanpy Pearson	Clustering	0.19060331512195228
+STOmics0224	scanpy_pearson_batch	2000	expression_driven	STOmics-0224	Scanpy Pearson, batch	Core overall	0.04838645532459318
+STOmics0224	scanpy_pearson_batch	2000	expression_driven	STOmics-0224	Scanpy Pearson, batch	Integration	-0.09131452638060711
+STOmics0224	scanpy_pearson_batch	2000	expression_driven	STOmics-0224	Scanpy Pearson, batch	Clustering	0.18808743702979358
+STOmics0224	scanpy_seurat	2000	expression_driven	STOmics-0224	Scanpy Seurat	Core overall	0.056847565528509225
+STOmics0224	scanpy_seurat	2000	expression_driven	STOmics-0224	Scanpy Seurat	Integration	-0.10666760739846692
+STOmics0224	scanpy_seurat	2000	expression_driven	STOmics-0224	Scanpy Seurat	Clustering	0.22036273845548549
+STOmics0224	scanpy_seurat_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat, batch	Core overall	0.04139998153524149
+STOmics0224	scanpy_seurat_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat, batch	Integration	-0.12663937851250018
+STOmics0224	scanpy_seurat_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat, batch	Clustering	0.20943934158298289
+STOmics0224	scanpy_seurat_v3	2000	expression_driven	STOmics-0224	Scanpy Seurat v3	Core overall	0.06983259490282778
+STOmics0224	scanpy_seurat_v3	2000	expression_driven	STOmics-0224	Scanpy Seurat v3	Integration	0.01344208850291373
+STOmics0224	scanpy_seurat_v3	2000	expression_driven	STOmics-0224	Scanpy Seurat v3	Clustering	0.1262231013027415
+STOmics0224	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat v3, batch	Core overall	0.09043641888242171
+STOmics0224	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat v3, batch	Integration	-0.10114680218213234
+STOmics0224	scanpy_seurat_v3_batch	2000	expression_driven	STOmics-0224	Scanpy Seurat v3, batch	Clustering	0.2820196399469757
+STOmics0224	scry	2000	expression_driven	STOmics-0224	scry	Core overall	0.0364184559257571
+STOmics0224	scry	2000	expression_driven	STOmics-0224	scry	Integration	0.012412055784054576
+STOmics0224	scry	2000	expression_driven	STOmics-0224	scry	Clustering	0.06042485606745973
+STOmics0224	seurat_disp	2000	expression_driven	STOmics-0224	Seurat Dispersion	Core overall	-0.00373001962638575
+STOmics0224	seurat_disp	2000	expression_driven	STOmics-0224	Seurat Dispersion	Integration	-0.12398576029893504
+STOmics0224	seurat_disp	2000	expression_driven	STOmics-0224	Seurat Dispersion	Clustering	0.11652572104616354
+STOmics0224	seurat_mvp	2000	expression_driven	STOmics-0224	Seurat MVP	Core overall	0.05622479854595186
+STOmics0224	seurat_mvp	2000	expression_driven	STOmics-0224	Seurat MVP	Integration	-0.11020800155568256
+STOmics0224	seurat_mvp	2000	expression_driven	STOmics-0224	Seurat MVP	Clustering	0.22265759864758622
+STOmics0224	seurat_sct	2000	expression_driven	STOmics-0224	Seurat sctransform	Core overall	-0.006002729411261232
+STOmics0224	seurat_sct	2000	expression_driven	STOmics-0224	Seurat sctransform	Integration	-0.11656223447050884
+STOmics0224	seurat_sct	2000	expression_driven	STOmics-0224	Seurat sctransform	Clustering	0.10455677564798638
+STOmics0224	seurat_vst	2000	expression_driven	STOmics-0224	Seurat VST	Core overall	0.06257181012662283
+STOmics0224	seurat_vst	2000	expression_driven	STOmics-0224	Seurat VST	Integration	0.015546737413429379
+STOmics0224	seurat_vst	2000	expression_driven	STOmics-0224	Seurat VST	Clustering	0.10959688283981617
+STOmics0224	singleCellHaystack	2000	expression_driven	STOmics-0224	singleCellHaystack	Core overall	0.2187505745593195
+STOmics0224	singleCellHaystack	2000	expression_driven	STOmics-0224	singleCellHaystack	Integration	0.31496725989610336
+STOmics0224	singleCellHaystack	2000	expression_driven	STOmics-0224	singleCellHaystack	Clustering	0.12253388922253561
+STOmics0224	somde	2000	spatially_informed	STOmics-0224	SOMDE	Core overall	-0.02026555579474887
+STOmics0224	somde	2000	spatially_informed	STOmics-0224	SOMDE	Integration	-0.09252752033163458
+STOmics0224	somde	2000	spatially_informed	STOmics-0224	SOMDE	Clustering	0.051996408742136735
+STOmics0224	sparkx	2000	spatially_informed	STOmics-0224	SPARK-X	Core overall	0.053243383382247655
+STOmics0224	sparkx	2000	spatially_informed	STOmics-0224	SPARK-X	Integration	0.06596061509793394
+STOmics0224	sparkx	2000	spatially_informed	STOmics-0224	SPARK-X	Clustering	0.04052615166656126
+STOmics0224	spatialde	2000	spatially_informed	STOmics-0224	SpatialDE	Core overall	0.03341997049922463
+STOmics0224	spatialde	2000	spatially_informed	STOmics-0224	SpatialDE	Integration	-0.03917640014071133
+STOmics0224	spatialde	2000	spatially_informed	STOmics-0224	SpatialDE	Clustering	0.1060163411391607
+STOmics0224	statistic_mean	2000	expression_driven	STOmics-0224	Mean expression	Core overall	0.05025215609254785
+STOmics0224	statistic_mean	2000	expression_driven	STOmics-0224	Mean expression	Integration	0.006786069885702184
+STOmics0224	statistic_mean	2000	expression_driven	STOmics-0224	Mean expression	Clustering	0.0937182422993934
+STOmics0224	statistic_variance	2000	expression_driven	STOmics-0224	Expression variance	Core overall	0.06208386594728699
+STOmics0224	statistic_variance	2000	expression_driven	STOmics-0224	Expression variance	Integration	-0.009952829081275927
+STOmics0224	statistic_variance	2000	expression_driven	STOmics-0224	Expression variance	Clustering	0.1341205609758499
+STOmics0224	triku	2000	expression_driven	STOmics-0224	triku	Core overall	0.015722221349650622
+STOmics0224	triku	2000	expression_driven	STOmics-0224	triku	Integration	-0.09085766460681821
+STOmics0224	triku	2000	expression_driven	STOmics-0224	triku	Clustering	0.12230210730611946
