@@ -16,7 +16,7 @@ panel_a <- readRDS(file.path(root, "fig4a", "figure_fig4a_spatial_benchmark.rds"
 panel_b <- readRDS(file.path(root, "fig4bcd", "figure_fig4b_panel_b.rds"))
 panel_c <- readRDS(file.path(root, "fig4bcd", "figure_fig4c_panel_c.rds"))
 panel_d <- readRDS(file.path(root, "fig4bcd", "figure_fig4d_panel_d.rds"))
-panel_e <- readRDS(file.path(root, "fig4e", "figure_fig4e_panel_e.rds"))
+panel_e <- readRDS(file.path(root, "fig4e_hybrid", "figure_fig4e_hybrid_panel.rds"))
 
 panel_a <- wrap_elements(full = panel_a)
 panel_b <- wrap_elements(full = panel_b)
@@ -31,7 +31,7 @@ figure <- wrap_plots(
     middle,
     panel_e,
     ncol = 1,
-    heights = c(1.65, 1.0, 0.58)
+    heights = c(1.65, 1.0, 0.68)
 ) +
     plot_annotation(tag_levels = "a") &
     theme(
@@ -45,4 +45,14 @@ save_figure_files(
     file.path(output_dir, "figure4_complete_reference_aligned"),
     width = 8.2,
     height = 10.2
+)
+ggsave(
+    file.path(output_dir, "figure4_complete_reference_aligned.svg"), figure,
+    width = 8.2, height = 10.2,
+    device = svglite::svglite, bg = "white"
+)
+ggsave(
+    file.path(output_dir, "figure4_complete_reference_aligned.tiff"), figure,
+    width = 8.2, height = 10.2, dpi = 600,
+    device = ragg::agg_tiff, compression = "lzw", bg = "white"
 )
