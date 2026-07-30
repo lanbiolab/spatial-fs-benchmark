@@ -9,6 +9,8 @@ suppressPackageStartupMessages({
     library(tidyr)
 })
 
+source("external/atlas-feature-selection-benchmark/analysis/R/plotting.R")
+
 args <- commandArgs(trailingOnly = TRUE)
 input_dir <- if (length(args) >= 1) args[[1]] else "results/submission_validations_v1"
 output_dir <- if (length(args) >= 2) args[[2]] else file.path(input_dir, "figures")
@@ -32,16 +34,16 @@ method_labels <- c(
     "hybrid_hvg_svg_intersection" = "Exact HVG-SVG intersection"
 )
 
-base_theme <- theme_classic(base_size = 6.5, base_family = "Arial") +
+base_theme <- theme_features_pub() +
     theme(
-        axis.text = element_text(colour = "#222222"),
-        axis.line = element_line(linewidth = 0.3),
-        axis.ticks = element_line(linewidth = 0.3),
-        strip.background = element_rect(fill = "#F3F4F6", colour = NA),
-        strip.text = element_text(size = 6.2, face = "bold"),
-        plot.title = element_text(size = 7.2, face = "bold", hjust = 0),
-        legend.title = element_text(size = 6.2),
-        legend.text = element_text(size = 5.8),
+        axis.text = element_text(colour = "black"),
+        axis.line = element_line(linewidth = 0.25, colour = "black"),
+        axis.ticks = element_line(linewidth = 0.25, colour = "black"),
+        panel.grid = element_blank(),
+        strip.background = element_rect(fill = "black", colour = "black", linewidth = 0.3),
+        strip.text = element_text(size = 6.0, face = "bold", colour = "white"),
+        plot.tag = element_text(size = 9, face = "bold"),
+        plot.tag.position = c(0, 1),
         plot.margin = margin(2, 3, 2, 2)
     )
 
@@ -52,7 +54,11 @@ save_figure <- function(plot, filename, height_mm) {
     svglite::svglite(paste0(base, ".svg"), width = width_in, height = height_in)
     print(plot)
     dev.off()
-    grDevices::cairo_pdf(paste0(base, ".pdf"), width = width_in, height = height_in, family = "Arial")
+    register_arial_pdf_font()
+    grDevices::pdf(
+        paste0(base, ".pdf"), width = width_in, height = height_in,
+        family = "Arial", useDingbats = FALSE, bg = "white"
+    )
     print(plot)
     dev.off()
     ragg::agg_tiff(
@@ -89,15 +95,28 @@ held_summary <- held_summary |>
 held_values <- held_values |>
     mutate(Method = factor(.data$Method, levels = method_order))
 
-heatmap_panel <- function(metric, title, legend_title) {
-    frame <- filter(held_summary, .data$Metric == metric)
+heatmap_panel <- function(metric, strip_label, legend_title, panel_tag, show_y = TRUE) {
+    frame <- filter(held_summary, .data$Metric == metric) |>
+        mutate(
+            Panel = strip_label,
+            TextColour = if_else(.data$Mean < 0.45, "white", "black")
+        )
     ggplot(frame, aes(x = .data$Reference, y = .data$Method)) +
         geom_tile(aes(fill = .data$Mean), width = 0.86, height = 0.86, colour = "white", linewidth = 0.25) +
-        geom_text(aes(label = sprintf("%.2f", .data$Mean)), size = 1.7, colour = "#17202A") +
-        scale_fill_gradientn(colours = c("#F1F5F9", "#7DD3FC", "#0369A1"), limits = c(0, 1), name = legend_title) +
-        labs(title = title, x = NULL, y = NULL) +
+        geom_text(aes(label = sprintf("%.2f", .data$Mean), colour = .data$TextColour), size = 1.65) +
+        scale_colour_identity() +
+        scale_fill_viridis_c(option = "magma", limits = c(0, 1), name = legend_title) +
+        facet_wrap(~ .data$Panel, nrow = 1) +
+        labs(tag = panel_tag, x = NULL, y = NULL) +
         base_theme +
-        theme(axis.line = element_blank(), axis.ticks = element_blank(), legend.position = "right")
+        theme(
+            axis.line = element_blank(),
+            axis.ticks = element_blank(),
+            axis.text.y = if (show_y) element_text(size = 5.1) else element_blank(),
+            legend.position = "right",
+            legend.key.height = unit(0.78, "cm"),
+            legend.key.width = unit(0.22, "cm")
+        )
 }
 
 rank_frame <- held_summary |>
@@ -105,8 +124,8 @@ rank_frame <- held_summary |>
     group_by(.data$Reference, .data$Metric) |>
     mutate(Rank = rank(-.data$Mean, ties.method = "average")) |>
     ungroup() |>
-    select(.data$Method, .data$Reference, .data$Metric, .data$Rank) |>
-    pivot_wider(names_from = .data$Reference, values_from = .data$Rank)
+    select(Method, Reference, Metric, Rank) |>
+    pivot_wider(names_from = Reference, values_from = Rank)
 rho_labels <- held_concordance |>
     filter(.data$Metric %in% c("Jaccard", "MeanReferencePercentile", "RankSpearman")) |>
     transmute(
@@ -116,8 +135,8 @@ rho_labels <- held_concordance |>
         y = 12.5
     )
 panel_c <- ggplot(rank_frame, aes(x = .data[["Moran's I"]], y = .data$nnSVG)) +
-    geom_abline(slope = 1, intercept = 0, linetype = "dashed", linewidth = 0.35, colour = "#94A3B8") +
-    geom_point(shape = 21, fill = "#0EA5A4", colour = "white", stroke = 0.3, size = 1.8) +
+    geom_abline(slope = 1, intercept = 0, linetype = "dashed", linewidth = 0.35, colour = "grey65") +
+    geom_point(shape = 21, fill = "#f781bf", colour = "white", stroke = 0.3, size = 1.8) +
     geom_text(data = rho_labels, aes(x = .data$x, y = .data$y, label = .data$Label), inherit.aes = FALSE, hjust = 0, size = 2.1) +
     facet_wrap(~Metric, nrow = 1, labeller = as_labeller(c(
         "Jaccard" = "Top-N Jaccard",
@@ -126,7 +145,7 @@ panel_c <- ggplot(rank_frame, aes(x = .data[["Moran's I"]], y = .data$nnSVG)) +
     ))) +
     scale_x_continuous(limits = c(1, 13), breaks = c(1, 5, 9, 13)) +
     scale_y_continuous(limits = c(1, 13), breaks = c(1, 5, 9, 13)) +
-    labs(title = "c  Rankings agree across held-out statistics", x = "Rank using Moran's I reference", y = "Rank using nnSVG reference") +
+    labs(tag = "c", x = "Rank using Moran's I reference", y = "Rank using nnSVG reference") +
     base_theme
 
 association <- held_concordance |>
@@ -139,21 +158,25 @@ association <- held_concordance |>
             TRUE ~ "Full-ranking agreement"
         )
     )
-panel_d <- ggplot(association, aes(x = .data$SpearmanRho, y = .data$Measure, colour = .data$Reference)) +
-    geom_vline(xintercept = 0, linewidth = 0.3, colour = "#CBD5E1") +
-    geom_errorbarh(aes(xmin = .data$Lower95, xmax = .data$Upper95), height = 0.16, linewidth = 0.55, position = position_dodge(width = 0.38)) +
-    geom_point(size = 2, position = position_dodge(width = 0.38)) +
-    scale_colour_manual(values = c("Moran's I" = "#D97706", "nnSVG" = "#0284C7"), name = "Held-out reference") +
+panel_d <- ggplot(association, aes(x = .data$SpearmanRho, y = .data$Measure, colour = .data$Reference, shape = .data$Reference)) +
+    geom_vline(xintercept = 0, linewidth = 0.3, colour = "grey75") +
+    geom_errorbar(
+        aes(xmin = .data$Lower95, xmax = .data$Upper95),
+        orientation = "y", width = 0.16, linewidth = 0.5,
+        position = position_dodge(width = 0.38)
+    ) +
+    geom_point(size = 1.9, position = position_dodge(width = 0.38)) +
+    scale_colour_manual(values = c("Moran's I" = "#377eb8", "nnSVG" = "#4daf4a"), name = "Held-out reference") +
+    scale_shape_manual(values = c("Moran's I" = 16, "nnSVG" = 17), name = "Held-out reference") +
     scale_x_continuous(limits = c(-0.25, 0.72), breaks = c(-0.2, 0, 0.2, 0.4, 0.6)) +
-    labs(title = "d  Reproducibility only weakly tracks ARI", x = "Fold-bootstrap Spearman correlation with ARI", y = NULL) +
+    labs(tag = "d", x = "Fold-bootstrap Spearman correlation with ARI", y = NULL) +
     base_theme +
-    theme(legend.position = "bottom")
+    theme(legend.position = "bottom", legend.title.position = "top")
 
-panel_a <- heatmap_panel("MeanReferencePercentile", "a  Held-out reference percentile", "Mean\npercentile")
-panel_b <- heatmap_panel("Jaccard", "b  Held-out top-N overlap", "Mean\nJaccard")
+panel_a <- heatmap_panel("MeanReferencePercentile", "Held-out reference percentile", "Mean percentile", "a")
+panel_b <- heatmap_panel("Jaccard", "Held-out top-N overlap", "Mean Jaccard", "b", show_y = FALSE)
 figure_s7 <- (panel_a | panel_b) / (panel_c | panel_d) +
-    plot_layout(heights = c(1.28, 0.82), guides = "collect") &
-    theme(legend.position = "right")
+    plot_layout(heights = c(1.28, 0.82))
 save_figure(figure_s7, "Supplemental_Figure_S7", 170)
 
 # Supplemental Figure S8: hybrid controls.
@@ -192,26 +215,26 @@ hybrid_global <- read_tsv(
     )
 
 hybrid_palette <- c(
-    "Balanced HVG-SVG union" = "#0284C7",
-    "Exact HVG-SVG intersection" = "#D97706",
-    "Scanpy Seurat v3, batch" = "#7C3AED",
-    "Moran's I" = "#0F766E",
-    "triku" = "#475569",
-    "SOMDE" = "#64748B",
-    "Seurat VST" = "#94A3B8"
+    "Balanced HVG-SVG union" = "#f781bf",
+    "Exact HVG-SVG intersection" = "#377eb8",
+    "Scanpy Seurat v3, batch" = "#984ea3",
+    "Moran's I" = "#4daf4a",
+    "triku" = "#666666",
+    "SOMDE" = "#a6cee3",
+    "Seurat VST" = "#ff7f00"
 )
 
 panel_a8 <- ggplot(hybrid_effective, aes(x = .data$effective_n_features, y = reorder(.data$Dataset, .data$effective_n_features), colour = .data$Method)) +
-    geom_vline(xintercept = 2000, linetype = "dashed", linewidth = 0.35, colour = "#94A3B8") +
+    geom_vline(xintercept = 2000, linetype = "dashed", linewidth = 0.35, colour = "grey65") +
     geom_point(size = 2.2) +
     scale_colour_manual(
         values = hybrid_palette[c("Balanced HVG-SVG union", "Exact HVG-SVG intersection")],
         name = NULL
     ) +
     scale_x_continuous(limits = c(0, 2100), breaks = c(0, 500, 1000, 1500, 2000)) +
-    labs(title = "a  The exact intersection is a compact, variable-size set", x = "Effective number of selected genes", y = NULL) +
+    labs(tag = "a", x = "Effective number of selected genes", y = NULL) +
     base_theme +
-    theme(legend.position = "bottom")
+    theme(legend.position = "bottom", legend.title.position = "top")
 
 method_order8 <- c(
     "Balanced HVG-SVG union", "Exact HVG-SVG intersection",
@@ -224,11 +247,11 @@ panel_b8 <- ggplot(hybrid_comparison, aes(x = .data$CoreOverallMean, y = .data$M
     stat_summary(fun = mean, geom = "point", shape = 23, fill = "white", size = 2.4, stroke = 0.5) +
     facet_wrap(~Integrator, nrow = 1) +
     scale_colour_manual(values = hybrid_palette, guide = "none") +
-    labs(title = "b  Hybrid constructions differ downstream", x = "CoreOverall score", y = NULL) +
+    labs(tag = "b", x = "CoreOverall score", y = NULL) +
     base_theme
 
 panel_c8 <- ggplot(hybrid_diff, aes(x = .data$DifferenceFromBestParent, y = reorder(.data$Dataset, .data$DifferenceFromBestParent), colour = .data$Method)) +
-    geom_vline(xintercept = 0, linewidth = 0.35, colour = "#64748B") +
+    geom_vline(xintercept = 0, linewidth = 0.35, colour = "grey45") +
     geom_segment(aes(x = 0, xend = .data$DifferenceFromBestParent, yend = reorder(.data$Dataset, .data$DifferenceFromBestParent)), linewidth = 0.5) +
     geom_point(size = 1.8) +
     facet_wrap(~Integrator, nrow = 1) +
@@ -237,19 +260,19 @@ panel_c8 <- ggplot(hybrid_diff, aes(x = .data$DifferenceFromBestParent, y = reor
         name = NULL,
         guide = "none"
     ) +
-    labs(title = "c  Difference from the better parent selector", x = "CoreOverall difference from best parent", y = NULL) +
+    labs(tag = "c", x = "CoreOverall difference from best parent", y = NULL) +
     base_theme +
     theme(legend.position = "none")
 
 hybrid_global <- hybrid_global |>
     mutate(Method = factor(.data$Method, levels = rev(method_order8)))
 panel_d8 <- ggplot(hybrid_global, aes(x = .data$GlobalRankWithHybrids, y = .data$Method, colour = .data$Method)) +
-    geom_segment(aes(x = 1, xend = .data$GlobalRankWithHybrids, yend = .data$Method), colour = "#CBD5E1", linewidth = 0.45) +
+    geom_segment(aes(x = 1, xend = .data$GlobalRankWithHybrids, yend = .data$Method), colour = "grey80", linewidth = 0.45) +
     geom_point(size = 2) +
     facet_wrap(~Integrator, nrow = 1) +
     scale_colour_manual(values = hybrid_palette, guide = "none") +
     scale_x_continuous(limits = c(1, 31), breaks = c(1, 5, 10, 20, 30)) +
-    labs(title = "d  Global rank after adding the two hybrid controls", x = "Global rank (1 = best)", y = NULL) +
+    labs(tag = "d", x = "Global rank (1 = best)", y = NULL) +
     base_theme
 
 figure_s8 <- (panel_a8 | panel_b8) / (panel_c8 | panel_d8) +
