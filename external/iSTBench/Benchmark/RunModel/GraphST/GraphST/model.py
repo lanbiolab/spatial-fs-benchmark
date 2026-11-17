@@ -1,3 +1,8 @@
+# GraphST by Yahui Long and colleagues; obtained through iSTBench.
+# Upstream GraphST commit: d62b0b7b6cd38ee285f3ac8cd67b7341a10bcc74.
+# Benchmark adaptation: sparse graph/neighborhood operations; see MODIFICATIONS.md.
+# Modification notice added 2026-11-06; computational body retained verbatim.
+# This candidate follows the upstream AGPL-3.0 license text in LICENSE.md.
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

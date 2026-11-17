@@ -1,0 +1,11 @@
+{
+  "all_checks_passed": true,
+  "python_files_AST_unchanged": 138,
+  "original_release_checkout_clean": true,
+  "original_data_configs_figures_unchanged": true,
+  "plotting_helper_synced_to_actual_experiment_version": true,
+  "candidate_only": true,
+  "published": false,
+  "upstream_graphst_files_match_istbench_committed_baseline": 5,
+  "runtime_graphst_files_match_release": 5
+}

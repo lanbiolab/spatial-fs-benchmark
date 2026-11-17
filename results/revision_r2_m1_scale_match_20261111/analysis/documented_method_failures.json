@@ -1,0 +1,15 @@
+[
+  {
+    "arm": "pseudo_visium",
+    "method": "sparkx",
+    "stage": "feature selection",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "failure": "SPARK-X mixture cosine kernel 1: exactly singular crossprod of centred transformed coordinates (Lapack dgesv U[2,2]=0)",
+    "policy": "Original implementation and coordinates preserved; absent results are unavailable, never zero or a worst rank. Exclude SPARK-X from BOTH arms of paired rank analyses; preserve its fine-arm results separately.",
+    "log": "logs/accelerate__pseudo_visium__sparkx.log"
+  }
+]

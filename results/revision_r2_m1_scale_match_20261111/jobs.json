@@ -1,0 +1,436 @@
+[
+  {
+    "arm": "fine_footprint",
+    "method": "scanpy_seurat",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__scanpy_seurat.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/scanpy_seurat",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "scanpy_seurat_batch",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__scanpy_seurat_batch.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/scanpy_seurat_batch",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "scanpy_seurat_v3",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__scanpy_seurat_v3.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/scanpy_seurat_v3",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "scanpy_seurat_v3_batch",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__scanpy_seurat_v3_batch.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/scanpy_seurat_v3_batch",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "scanpy_cell_ranger",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__scanpy_cell_ranger.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/scanpy_cell_ranger",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "scanpy_cell_ranger_batch",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__scanpy_cell_ranger_batch.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/scanpy_cell_ranger_batch",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "scanpy_pearson",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__scanpy_pearson.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/scanpy_pearson",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "scanpy_pearson_batch",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__scanpy_pearson_batch.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/scanpy_pearson_batch",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "seurat_vst",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__seurat_vst.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/seurat_vst",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "seurat_mvp",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__seurat_mvp.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/seurat_mvp",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "seurat_disp",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__seurat_disp.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/seurat_disp",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "seurat_sct",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__seurat_sct.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/seurat_sct",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "dubstepr",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__dubstepr.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/dubstepr",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "nbumi",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__nbumi.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/nbumi",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "osca",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__osca.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/osca",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "scry",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__scry.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/scry",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "singleCellHaystack",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__singleCellHaystack.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/singleCellHaystack",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "Brennecke",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__Brennecke.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/Brennecke",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "scPNMF",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__scPNMF.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/scPNMF",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "triku",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__triku.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/triku",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "hotspot",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__hotspot.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/hotspot",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "anticor",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__anticor.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/anticor",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "statistic_mean",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__statistic_mean.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/statistic_mean",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "statistic_variance",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__statistic_variance.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/statistic_variance",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "morans_i",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__morans_i.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/morans_i",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "nnsvg",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__nnsvg.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/nnsvg",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "spatialde",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__spatialde.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/spatialde",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "sparkx",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__sparkx.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/sparkx",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "somde",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__somde.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/somde",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "random",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__random.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/random",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "fine_footprint",
+    "method": "all_features",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/fine_footprint__all_features.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/fine_footprint/all_features",
+    "dataset_name": "E95Scale_fine_footprint"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "scanpy_seurat",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__scanpy_seurat.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scanpy_seurat",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "scanpy_seurat_batch",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__scanpy_seurat_batch.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scanpy_seurat_batch",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "scanpy_seurat_v3",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__scanpy_seurat_v3.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scanpy_seurat_v3",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "scanpy_seurat_v3_batch",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__scanpy_seurat_v3_batch.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scanpy_seurat_v3_batch",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "scanpy_cell_ranger",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__scanpy_cell_ranger.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scanpy_cell_ranger",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "scanpy_cell_ranger_batch",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__scanpy_cell_ranger_batch.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scanpy_cell_ranger_batch",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "scanpy_pearson",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__scanpy_pearson.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scanpy_pearson",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "scanpy_pearson_batch",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__scanpy_pearson_batch.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scanpy_pearson_batch",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "seurat_vst",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__seurat_vst.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/seurat_vst",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "seurat_mvp",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__seurat_mvp.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/seurat_mvp",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "seurat_disp",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__seurat_disp.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/seurat_disp",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "seurat_sct",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__seurat_sct.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/seurat_sct",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "dubstepr",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__dubstepr.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/dubstepr",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "nbumi",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__nbumi.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/nbumi",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "osca",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__osca.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/osca",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "scry",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__scry.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scry",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "singleCellHaystack",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__singleCellHaystack.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/singleCellHaystack",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "Brennecke",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__Brennecke.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/Brennecke",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "scPNMF",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__scPNMF.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scPNMF",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "triku",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__triku.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/triku",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "hotspot",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__hotspot.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/hotspot",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "anticor",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__anticor.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/anticor",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "statistic_mean",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__statistic_mean.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/statistic_mean",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "statistic_variance",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__statistic_variance.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/statistic_variance",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "morans_i",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__morans_i.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/morans_i",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "nnsvg",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__nnsvg.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/nnsvg",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "spatialde",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__spatialde.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/spatialde",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "sparkx",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__sparkx.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/sparkx",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "somde",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__somde.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/somde",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "random",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__random.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/random",
+    "dataset_name": "E95Scale_pseudo_visium"
+  },
+  {
+    "arm": "pseudo_visium",
+    "method": "all_features",
+    "config": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/pseudo_visium__all_features.yaml",
+    "output_dir": "/home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/all_features",
+    "dataset_name": "E95Scale_pseudo_visium"
+  }
+]

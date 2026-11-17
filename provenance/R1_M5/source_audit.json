@@ -1,0 +1,77 @@
+{
+  "release_base_commit": "98feb759a666d02828a0a781354aa1238c0b7b23",
+  "candidate_path": "/home/xd/y/Benchmark/results/revision_major5_attribution_20261106/release_candidate",
+  "candidate_published": false,
+  "atlas_upstream_commit": "b89fc0f66747062e6e1b4b35bd392b27ad035295",
+  "istbench_upstream_commit": "e51f60e6127dbbdd953a6fb43351b8864d9e646a",
+  "istbench_publication_doi": "10.1186/s13059-025-03796-z",
+  "istbench_publication": "Dong et al., Genome Biology 26, 318 (2025)",
+  "distinct_benchmarkst_publication_doi": "10.1186/s13059-024-03361-0",
+  "graphst_upstream_commit": "d62b0b7b6cd38ee285f3ac8cd67b7341a10bcc74",
+  "graphst_explicit_license": "AGPL-3.0",
+  "graphst_setup_metadata": "MIT",
+  "graphst_license_metadata_conflict": true,
+  "istbench_license": "GPL-3.0",
+  "atlas_license": "MIT",
+  "candidate_combined_distribution_basis": "AGPL-3.0-only",
+  "prior_original_benchmark_MIT_grant_retained": true,
+  "graphst_files_checked": [
+    {
+      "file": "GraphST.py",
+      "official_sha256": "2d1e033e2d759b81109c4a10993b835783880ef8823d2acb9e563f8047597f18",
+      "istbench_commit_sha256": "2d1e033e2d759b81109c4a10993b835783880ef8823d2acb9e563f8047597f18",
+      "runtime_sha256": "e7a31600a8536c108bfc88ad501b265efc414a0bb49661bc9490b4edebe1f221",
+      "release_sha256": "e7a31600a8536c108bfc88ad501b265efc414a0bb49661bc9490b4edebe1f221",
+      "official_equals_istbench_before_adaptation": true,
+      "runtime_equals_release": true,
+      "local_adaptation": true
+    },
+    {
+      "file": "model.py",
+      "official_sha256": "014788892c21eccd7fdc939985079175898d7ba1e9fc90531598643b8ae88c95",
+      "istbench_commit_sha256": "014788892c21eccd7fdc939985079175898d7ba1e9fc90531598643b8ae88c95",
+      "runtime_sha256": "f61ae40a3558a9aec5c438610e1f2a4640a2db5c258c11ba633db00598b9bb51",
+      "release_sha256": "f61ae40a3558a9aec5c438610e1f2a4640a2db5c258c11ba633db00598b9bb51",
+      "official_equals_istbench_before_adaptation": true,
+      "runtime_equals_release": true,
+      "local_adaptation": true
+    },
+    {
+      "file": "preprocess.py",
+      "official_sha256": "5959887f0045fd545011b15c4ba3ddccab7b95fbd0a62ccc2d63ffb06ce4b321",
+      "istbench_commit_sha256": "5959887f0045fd545011b15c4ba3ddccab7b95fbd0a62ccc2d63ffb06ce4b321",
+      "runtime_sha256": "5959887f0045fd545011b15c4ba3ddccab7b95fbd0a62ccc2d63ffb06ce4b321",
+      "release_sha256": "5959887f0045fd545011b15c4ba3ddccab7b95fbd0a62ccc2d63ffb06ce4b321",
+      "official_equals_istbench_before_adaptation": true,
+      "runtime_equals_release": true,
+      "local_adaptation": false
+    },
+    {
+      "file": "utils.py",
+      "official_sha256": "3d2833cec32429c4c4cf9726130fb1d77c8a830793b5f3c7f7ed896ef70ff388",
+      "istbench_commit_sha256": "3d2833cec32429c4c4cf9726130fb1d77c8a830793b5f3c7f7ed896ef70ff388",
+      "runtime_sha256": "3d2833cec32429c4c4cf9726130fb1d77c8a830793b5f3c7f7ed896ef70ff388",
+      "release_sha256": "3d2833cec32429c4c4cf9726130fb1d77c8a830793b5f3c7f7ed896ef70ff388",
+      "official_equals_istbench_before_adaptation": true,
+      "runtime_equals_release": true,
+      "local_adaptation": false
+    },
+    {
+      "file": "__init__.py",
+      "official_sha256": "c5fe0e3d6d9f21b21117135b866f7504117b88c6dbc07007411efa7dcd3688b6",
+      "istbench_commit_sha256": "c5fe0e3d6d9f21b21117135b866f7504117b88c6dbc07007411efa7dcd3688b6",
+      "runtime_sha256": "c5fe0e3d6d9f21b21117135b866f7504117b88c6dbc07007411efa7dcd3688b6",
+      "release_sha256": "c5fe0e3d6d9f21b21117135b866f7504117b88c6dbc07007411efa7dcd3688b6",
+      "official_equals_istbench_before_adaptation": true,
+      "runtime_equals_release": true,
+      "local_adaptation": false
+    }
+  ],
+  "atlas_original_plotting_sha256": "af3ee53c80f51fc551e7d6d74ccc206dbd4cbc222714aa0aff6a555f1dba5ee3",
+  "atlas_adapted_plotting_sha256": "cb2cd2ae6e38503a0232f78198da4d83bea3eff0c47a10da3a805fbe574d9bd0",
+  "atlas_release_plotting_sha256": "af3ee53c80f51fc551e7d6d74ccc206dbd4cbc222714aa0aff6a555f1dba5ee3",
+  "atlas_release_matches_upstream": true,
+  "atlas_release_matches_runtime_before_candidate": false,
+  "upstream_license_sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+  "upstream_setup_sha256": "20a0c3234b2960c33fb14c8496379f6f89ced838a8697f7b6bda1e498c3b55a6"
+}

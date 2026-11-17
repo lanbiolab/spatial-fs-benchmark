@@ -1,0 +1,56 @@
+{
+  "source": "/home/xd/y/Benchmark/data/raw/E9.5 embryo/e9p5_embryo_multislice_region_q30_70.h5ad",
+  "source_sha256": "f8432a14717945513db2d8ca990890be3b183846cdc243e309790d8423ac0dc8",
+  "source_shape": [
+    24588,
+    20605
+  ],
+  "coordinate_multiplier": 0.65,
+  "coordinate_evidence": "Trunk_analysis_Fig2.Rmd original author commit 3d401f2e1cce973cbf89b219f279f5b3b36b03f0, line 710",
+  "coordinate_limit": "conditional author convention; not independently verified per puck; not applied to E8.5",
+  "scope": "paired scale-sensitivity on E9.5; five-dataset primary ranking unchanged",
+  "diameter_um_assumed": 55,
+  "pitch_um_assumed": 100,
+  "fine_shape": [
+    5604,
+    16946
+  ],
+  "coarse_shape": [
+    423,
+    16946
+  ],
+  "total_counts_per_arm": 8172880,
+  "counts_conserved_per_gene": true,
+  "primary_contrast": "same retained beads before versus after summation on non-overlapping pseudo-Visium spots",
+  "genes_filtered_once_before_aggregation": true,
+  "selectors": 29,
+  "references": [
+    "random_2000",
+    "all_features"
+  ],
+  "workflows": [
+    "scvi",
+    "cellcharter"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_clusters": 12,
+  "requested_budget": 2000,
+  "expected_jobs": 62,
+  "expected_embedding_runs": 372,
+  "interpretation": "label-free metric/rank sensitivity, not biological conservation or a technology causal effect",
+  "metric_policy": "bASW/iLISI and silhouette/CHAOS/PAS separately; no embryo CoreOverall; use pre-existing frozen E9.5 ranges only for descriptive components; raw metrics and within-arm ranks primary",
+  "planned_checks": [
+    "integer counts",
+    "per-gene exact count conservation",
+    "same feature universe and bead origin",
+    "all six pucks retained",
+    "minimum 13 spots per puck",
+    "actual output counts and matched eligible panel",
+    "complete metrics per workflow/seed",
+    "selection overlap and scale-specific ranks"
+  ]
+}

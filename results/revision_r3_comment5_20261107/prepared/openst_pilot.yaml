@@ -1,0 +1,28 @@
+name: r3c5_openst_pilot
+output_dir: /home/xd/y/Benchmark/results/revision_r3_comment5_20261107/openst_pilot
+datasets:
+- /home/xd/y/Benchmark/results/revision_r3_comment5_20261107/prepared/openst.yaml
+feature_selection_methods:
+- name: morans_i
+  params:
+    n_neighbors: 8
+  n_features:
+  - 2000
+integration_methods:
+- name: scvi
+  params:
+    n_latent: 30
+    max_epochs: 100
+    batch_size: 2048
+tasks:
+- name: clustering_eval
+  params:
+    n_clusters: 12
+    n_neighbors: 8
+    silhouette_sample_size: 10000
+    max_eval_cells: 12000
+n_features:
+- 2000
+seeds:
+- 0
+save_embeddings: true

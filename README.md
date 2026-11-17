@@ -1,85 +1,44 @@
 # Spatial Feature-Selection Benchmark
 
-This repository contains the audited workflow for benchmarking feature-selection objectives in spatial transcriptomics. It compares expression-driven selectors, spatially informed selectors, controls, and a label-informed oracle across integration, clustering, alignment, spatial-truth recovery, and held-out-slice validation.
+Code for **Feature selection objectives shape spatial signal recovery and downstream analysis in sequencing-based spatial transcriptomics**.
 
-## Benchmark design
+The benchmark separates spatial-signal recovery from downstream integration, clustering and eligible alignment. Feature-selection preferences depend on the task and consuming workflow.
 
-- Seven count-validated public datasets: DLPFC, Mouse Brain Serial Sections, STOmics0212, STOmics0218, STOmics0224, E8.5 embryo, and E9.5 embryo.
-- Thirty-four representative methods or reference settings, including five spatially informed selectors.
-- Feature budgets of 100, 200, 500, 1,000, 2,000, 5,000, and 10,000 genes where supported.
-- scVI and CellCharter as primary downstream representations, with a canonical GraphST sensitivity analysis.
-- Thirteen metrics grouped into integration, clustering, and alignment endpoints.
-- Semi-synthetic spatial truth, six held-out-slice folds, score sensitivity, dataset bootstrap, and exploratory HVG-SVG controls.
+## Revised analysis (2026-11-17)
 
-The frozen protocol and scoring definitions are documented in [`docs/rebuild_v1_protocol.md`](docs/rebuild_v1_protocol.md) and [`docs/rebuild_v1_scoring.md`](docs/rebuild_v1_scoring.md). Missing metrics are retained as missing and are never replaced by zero.
+- Five annotated Visium datasets define the primary downstream comparison. E8.5 and E9.5 embryos are reported separately using label-independent endpoints.
+- Random-2,000, actual-count matching, a 27-selector comparison at 2,000 genes, and a fixed 25-selector panel across budgets distinguish requested from realised feature counts.
+- External cortical markers, section-held-out evaluations and 21 individual-held-out folds provide complementary validation.
+- ST, Stereo-seq and Open-ST adult mouse-brain datasets are compared directly with the original Visium mouse-brain results. These extensions remain separate from the five-dataset primary ranking.
+- Paired E9.5 fine/pooled analyses examine spatial aggregation while preserving the underlying bead population and gene counts.
+- Task-specific guidance, runtime/memory profiling and final figure-rendering scripts accompany the analyses.
 
-## Repository layout
+See [CODE_INDEX.tsv](CODE_INDEX.tsv) for the experiment entry points and [docs/REVISION_20261117.md](docs/REVISION_20261117.md) for the revision map. Original run configurations are retained as provenance; seven-dataset aggregate descriptions in historical documents describe the earlier analysis, not the revised primary scope.
 
-```text
-configs/                 Dataset and frozen experiment configurations
-docs/                    Protocol, metric, scoring, and figure contracts
-external/                Provenance records and vendored method interfaces
-results/v2/              Frozen score summaries and manuscript source data
-scripts/                 Experiment, audit, summary, and R figure scripts
-src/spatial_fs_benchmark Reusable Python package
-tests/                   Unit and regression tests
-```
-
-Raw data and full embedding outputs are not tracked in Git. Dataset accessions and preprocessing contracts are recorded in the dataset configs and manuscript source-data tables.
-
-## Installation
+## Installation and execution
 
 ```bash
 conda env create -f environment.yml
 conda activate spatial-fs-benchmark
 pip install -e .
-pytest -q
 ```
 
-Several selectors use isolated R or method-specific environments. Their provenance and versions are listed in `external/svg-method-references/PROVENANCE.tsv` and the environment files at repository root.
+The core implementation is in `src/spatial_fs_benchmark/`; configuration and execution entry points are in `configs/`, `scripts/` and `CODE_INDEX.tsv`. Method-specific dependencies and provenance are documented under `external/`. Package snapshots under `environments/` record the executed environments and do not replace method-specific installation instructions.
 
-## Core workflow
+Obtain public input datasets from the accessions in the dataset configurations and manuscript. Configure input/output paths for your installation before running an experiment. Historical scripts preserve the paths, devices and concurrency settings used for the recorded experiments; adapt these settings before running queue scripts. Summary and plotting steps depend on preceding experiment outputs.
 
-Generate and run the rebuilt feature-selection and downstream configurations:
+## Figures and available materials
 
-```bash
-python scripts/generate_svg_rebuild_configs.py
-python scripts/generate_svg_downstream_configs.py
-python scripts/generate_nonspatial_downstream_configs.py
-spatial-fs-run --config configs/rebuild_v1/downstream/canonical/dlpfc.yaml
-```
+`publication/final_main/` and `publication/final_supplement/` contain the final typography and composition code. `Figure_Number_Map.tsv` maps historical plotting labels to the current supplemental numbering. Rendering uses Arial, Cairo/Pango and the documented fractional-text helper; proprietary fonts and compiled libraries are not redistributed. Windows composition uses PyMuPDF.
 
-Rebuild metric tables from immutable task records and construct the frozen scores:
+This update publishes source code, configurations, environment records and provenance. It does not add raw data, complete derived-result tables, embeddings or binary R plotting objects. Saved plotting objects are included in the submitted Supplemental Code archive where available; other required outputs must be generated by the corresponding experiment scripts or obtained from the authors. Numerical summaries and sample metadata are in Supplemental Material. Detailed machine-readable analysis records are available from the authors on request.
 
-```bash
-python scripts/rebuild_results_from_records.py \
-  --results-root results/spatial_svg_rebuild_v1 \
-  --include-glob '*' \
-  --merged-output results/spatial_svg_rebuild_v1/merged_results.csv
+## Attribution and licensing
 
-python scripts/build_frozen_scores.py
-```
+The scoring/plotting infrastructure builds on Zappia et al. (Nature Methods, 2025; doi:10.1038/s41592-025-02624-3). GraphST is used through the iSTBench implementation, with the original GraphST method also credited. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for component versions, retained notices and local modifications.
 
-Validation and sensitivity entry points include:
+The combined source distribution follows the explicit GraphST AGPL-3.0 license text. Component licenses remain in place, including iSTBench GPL-3.0 and the atlas-benchmark MIT notice. Previously granted MIT permissions for original benchmark contributions are retained in [LICENSES/MIT-original-benchmark.txt](LICENSES/MIT-original-benchmark.txt). The conflicting upstream GraphST packaging metadata is documented in the attribution audit.
 
-```bash
-python scripts/run_heldout_slice_validation.py --help
-python scripts/build_submission_robustness_tables.py
-python scripts/summarize_m3_m7_validations.py
-python scripts/summarize_graphst_canonical.py
-```
+## Authors and citation
 
-Publication figures are generated from saved TSV tables using the R scripts under `scripts/`. Each plotting script exports editable PDF/SVG, 600-dpi TIFF, and source-data tables.
-
-Dataset accessions and benchmark-level spot/gene counts are listed in
-[`results/v2/source_data/datasets_inventory.tsv`](results/v2/source_data/datasets_inventory.tsv).
-Raw data should be downloaded from the original public repositories and placed
-according to [`data/README.md`](data/README.md).
-
-## Citation
-
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). A versioned archival DOI will be added after the corresponding GitHub release is deposited with Zenodo.
-
-## License
-
-MIT. Third-party methods retain their original licenses; consult their repositories and the provenance table before redistribution.
+Wei Lan and Yang Yan contributed equally to the associated manuscript. Wei Lan is the corresponding author. Full author and ORCID information is in [CITATION.cff](CITATION.cff). Cite the manuscript and identify the repository commit used for your analysis. A GitHub commit is not an archival DOI deposition.

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this benchmark, please cite the associated manuscript and archived software release."
+message: "If you use this benchmark, please cite the associated manuscript and identify the repository commit used."
 title: "Spatial Feature-Selection Benchmark"
 type: software
 version: 0.2.0
@@ -23,4 +23,4 @@ authors:
     given-names: Yi
     orcid: "https://orcid.org/0000-0002-2766-3096"
 repository-code: "https://github.com/lanbiolab/spatial-fs-benchmark"
-license: MIT
+license: AGPL-3.0-only

@@ -1,0 +1,14 @@
+name: E95Scale_pseudo_visium
+path: /home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/data/pseudo_visium.h5ad
+platform: Slide-seqV2_pseudo_visium
+species: Mouse
+slice_key: sample_id
+coord_key: spatial
+preprocess:
+  normalize_total: true
+  target_sum: 10000.0
+  log1p: true
+  scale: false
+  min_cells_per_gene: 0
+  count_layer: counts
+  require_integer_counts: true

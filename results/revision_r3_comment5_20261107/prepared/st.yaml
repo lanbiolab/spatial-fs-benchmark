@@ -1,0 +1,16 @@
+name: STAdultBrain
+path: /home/xd/y/Benchmark/results/revision_r3_comment5_20261107/prepared/st_adult_brain_counts.h5ad
+platform: ST
+species: Mouse
+slice_key: sample_id
+label_key: annotation
+coord_key: spatial
+alignment_pairs: []
+preprocess:
+  normalize_total: true
+  target_sum: 10000.0
+  log1p: true
+  scale: false
+  min_cells_per_gene: 3
+  count_layer: X
+  require_integer_counts: true

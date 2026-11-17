@@ -1,0 +1,47 @@
+kind: semi_synthetic
+output_root: results/validation_v1/semi_synthetic
+threads: 6
+n_genes: 3000
+grid_size: 15
+n_slices: 3
+prevalence:
+  - 0.05
+  - 0.15
+seeds:
+  - 0
+  - 1
+  - 2
+methods:
+  - all_features
+  - random
+  - scanpy_seurat
+  - scanpy_seurat_batch
+  - scanpy_seurat_v3
+  - scanpy_seurat_v3_batch
+  - scanpy_cell_ranger
+  - scanpy_cell_ranger_batch
+  - scanpy_pearson
+  - scanpy_pearson_batch
+  - seurat_vst
+  - seurat_mvp
+  - seurat_disp
+  - seurat_sct
+  - scsegindex
+  - dubstepr
+  - nbumi
+  - osca
+  - scry
+  - triku
+  - hotspot
+  - singleCellHaystack
+  - Brennecke
+  - scPNMF
+  - anticor
+  - statistic_mean
+  - statistic_variance
+  - morans_i
+  - sparkx
+  - nnsvg
+  - spatialde
+  - somde
+  - wilcoxon

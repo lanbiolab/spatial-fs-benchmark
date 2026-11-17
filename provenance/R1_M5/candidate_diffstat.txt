@@ -1,0 +1,14 @@
+ CITATION.cff                                       |   2 +-
+ LICENSE                                            | 682 ++++++++++++++++++++-
+ LICENSES/MIT-original-benchmark.txt                |  21 +
+ README.md                                          |  15 +
+ THIRD_PARTY_NOTICES.md                             |  91 +++
+ docs/revision_major5_source_audit.json             |  77 +++
+ external/README.md                                 |  23 +-
+ .../analysis/R/plotting.R                          |  32 +-
+ .../Benchmark/RunModel/GraphST/GraphST/GraphST.py  |   5 +
+ .../Benchmark/RunModel/GraphST/GraphST/LICENSE.md  | 661 ++++++++++++++++++++
+ .../RunModel/GraphST/GraphST/MODIFICATIONS.md      |  23 +
+ .../Benchmark/RunModel/GraphST/GraphST/model.py    |   5 +
+ pyproject.toml                                     |   2 +-
+ 13 files changed, 1596 insertions(+), 43 deletions(-)

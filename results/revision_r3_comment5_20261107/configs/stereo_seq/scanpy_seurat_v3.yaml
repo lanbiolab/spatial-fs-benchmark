@@ -1,0 +1,42 @@
+name: r3c5_stereo_scanpy_seurat_v3
+output_dir: /home/xd/y/Benchmark/results/revision_r3_comment5_20261107/benchmark/stereo_seq/scanpy_seurat_v3
+datasets:
+- /home/xd/y/Benchmark/results/revision_r3_comment5_20261107/prepared/stereo_seq.yaml
+feature_selection_methods:
+- name: scanpy_seurat_v3
+  n_features:
+  - 2000
+integration_methods:
+- name: scvi
+  params:
+    n_latent: 30
+    max_epochs: 100
+    batch_size: 2048
+- name: cellcharter
+  params:
+    n_latent: 30
+    nhood_layers: 4
+    spatial_neighbors: 6
+    max_epochs: 100
+    batch_size: 2048
+- name: graphst
+  params:
+    epochs: 600
+    dim_output: 32
+    pca_components: 20
+    n_neighbors: 3
+    device: auto
+tasks:
+- name: clustering_eval
+  params:
+    n_clusters: 19
+    n_neighbors: 8
+    silhouette_sample_size: 10000
+    max_eval_cells: 12000
+n_features:
+- 2000
+seeds:
+- 0
+- 1
+- 2
+save_embeddings: true

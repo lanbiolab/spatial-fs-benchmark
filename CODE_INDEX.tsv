@@ -1,0 +1,20 @@
+analysis	purpose	entry_point	related_path
+Core benchmark	Original feature selection and downstream workflow	src/spatial_fs_benchmark	configs
+Frozen metrics and scoring	Metrics, scaling, aggregation and original validation	scripts	docs
+Five-dataset analysis / S2	Primary ranking, robustness, bootstrap	revision_r1_major1_five_20261105/analysis	revision_r1_major1_five_20261105/figures
+S5-S6 / assay metadata	Platform-stratified diagnostics	results/revision_r2_major1_20261106	results/revision_r2_minor1_20261107
+S7 / S8	Batch controls and separate embryo analyses	revision_r1_major1_five_20261105	revision_r1_major1_20261105
+Random-2000 / Tables S4 and S9	Budget-matched reference experiments	results/revision_major2_random2000_20261105	configs
+Table S10	Unranked-gene sensitivity	results/revision_major3_missing_ranks_20261105/scripts	
+S9-S10	Independent markers and section-held-out evaluation	results/revision_major4_independent_validation_20261106/scripts	
+S11-S12 / Table S18	Individual-held-out validation	results/revision_r2_major2_20261106/scripts/run_individual.py	results/revision_r2_major2_20261106/scripts/summarize_individual.py
+S13-S17 / Table S14	Adult mouse-brain platform extensions	results/revision_r3_comment5_20261107/scripts	results/revision_r3_comment5_20261107/configs
+S24 / Tables S11 and S12	Actual-count budget analysis	results/revision_r2_major6_20261107/code/analyze_counts.py	results/revision_minor1_3_20261106
+S25 / Table S13	Fixed-budget external target retention	results/revision_r2_major4_20261107/code/run_retention.py	results/revision_r2_major4_20261107/code/plot.R
+Table S8	Score composition	results/revision_r2_major5_20261107/code/audit_scores.py	
+Tables S3 and S17	Resource profiling	scripts	results/revision_r2_minor4_20261107
+Final figures	Original-source plotting and final readability exports	publication/render_all_final.R	publication/render_figure4_final.R
+Original plotting workflow	Figure and supplemental generation	analysis/manuscript_rebuild_v2	scripts
+Final main typography and composition	Arial rendering and assembled main figures	publication/final_main/render.R	publication/final_main/compose.py
+Final supplement typography	Arial rendering of supplemental panels	publication/final_supplement/render.R	publication/final_supplement/inputs
+S26-S28 / spatial aggregation	Paired E9.5 fine/pooled feature selection and downstream refits	results/revision_r2_m1_scale_match_20261111/scripts/prepare.py	results/revision_r2_m1_scale_match_20261111/README.txt

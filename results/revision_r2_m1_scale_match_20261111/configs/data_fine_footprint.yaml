@@ -1,0 +1,14 @@
+name: E95Scale_fine_footprint
+path: /home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/data/fine_footprint.h5ad
+platform: Slide-seqV2_fine_footprint
+species: Mouse
+slice_key: sample_id
+coord_key: spatial
+preprocess:
+  normalize_total: true
+  target_sum: 10000.0
+  log1p: true
+  scale: false
+  min_cells_per_gene: 0
+  count_layer: counts
+  require_integer_counts: true

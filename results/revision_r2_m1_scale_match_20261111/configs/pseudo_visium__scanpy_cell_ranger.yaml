@@ -1,0 +1,39 @@
+name: scale_match_pseudo_visium_scanpy_cell_ranger
+output_dir: /home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/runs/pseudo_visium/scanpy_cell_ranger
+datasets:
+- /home/xd/y/Benchmark/results/revision_r2_m1_scale_match_20261111/configs/data_pseudo_visium.yaml
+feature_selection_methods:
+- name: scanpy_cell_ranger
+  n_features:
+  - 2000
+integration_methods:
+- name: scvi
+  params:
+    n_latent: 30
+    max_epochs: 100
+    batch_size: 2048
+- name: cellcharter
+  params:
+    n_latent: 30
+    nhood_layers: 4
+    spatial_neighbors: 6
+    max_epochs: 100
+    batch_size: 2048
+tasks:
+- name: integration_eval
+  params:
+    n_neighbors: 15
+    max_eval_cells: 12000
+- name: clustering_eval
+  params:
+    n_clusters: 12
+    n_neighbors: 8
+    silhouette_sample_size: 10000
+    max_eval_cells: 12000
+n_features:
+- 2000
+seeds:
+- 0
+- 1
+- 2
+save_embeddings: true

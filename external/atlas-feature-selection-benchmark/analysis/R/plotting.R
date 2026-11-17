@@ -1,3 +1,7 @@
+# Adapted from Zappia et al. (2025), theislab/atlas-feature-selection-benchmark.
+# Upstream version: b89fc0f66747062e6e1b4b35bd392b27ad035295; upstream MIT notice is retained.
+# Local font/export and ggplot2 compatibility changes documented in THIRD_PARTY_NOTICES.md.
+# Attribution notice added 2026-11-06; existing plotting body retained verbatim.
 #' Plot metrics counts
 #'
 #' Plot a heatmap of the counts of metrics by integration, dataset, and method
@@ -223,20 +227,28 @@ theme_features <- function(...) {
 #'
 #' @return **{ggplot2}** `theme` object
 theme_features_pub <- function(...) {
-    theme_features(base_size = 7, ...) +
+    theme_features(base_size = 7, base_family = "Arial", ...) +
         theme(
+            text = element_text(family = "Arial", face = "plain"),
             plot.title = element_text(size = 7),
             plot.margin = margin(0.05, 0.05, 0.05, 0.05, "cm"),
             panel.spacing = unit(0.06, "cm"),
             strip.text = element_text(size = 6),
             axis.title = element_text(size = 6),
             axis.text = element_text(size = 5),
-            axis.ticks = element_line(size = 0.25),
+            axis.ticks = element_line(linewidth = 0.25),
             legend.title = element_text(size = 6),
             legend.text = element_text(size = 5),
             legend.key.size = unit(0.3, "cm"),
-            legend.ticks = element_line(size = 0.25)
+            legend.ticks = element_line(linewidth = 0.25)
         )
+}
+
+register_arial_pdf_font <- function() {
+    if (!"Arial" %in% names(grDevices::pdfFonts())) {
+        grDevices::pdfFonts(Arial = grDevices::pdfFonts("Helvetica")[[1]])
+    }
+    invisible(NULL)
 }
 
 #' Save figure files
@@ -256,10 +268,20 @@ save_figure_files <- function(figure, base_path, width = 8, height = 6) {
     }
 
     png_path <- fs::path_ext_set(base_path, "png")
-    ggsave(png_path, figure, width = width, height = height)
+    ggsave(
+        png_path, figure,
+        width = width, height = height, dpi = 300,
+        device = ragg::agg_png, bg = "white"
+    )
 
     pdf_path <- fs::path_ext_set(base_path, "pdf")
-    ggsave(pdf_path, figure, width = width, height = height)
+    register_arial_pdf_font()
+    ggsave(
+        pdf_path, figure,
+        width = width, height = height,
+        device = grDevices::pdf, family = "Arial",
+        useDingbats = FALSE, bg = "white"
+    )
 
     invisible(base_path)
 }
